@@ -1,6 +1,6 @@
 import os
-from data_processing.embed_data import process_and_embed_data
-from preprocessing import process_policy_files
+from src.data_processing.embed_data import process_and_embed_data
+from src.data_processing.preprocessing import process_policy_files
 
 
 def main():

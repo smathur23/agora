@@ -1,10 +1,10 @@
 import os
-from agent.graph import build_agent_graph
-from utils import get_secrets
+from src.agent.graph import build_agent_graph
+from src.utils import get_secrets
 
 if __name__ == "__main__":
     os.environ["GEMINI_API_KEY"] = get_secrets()["GEMINI_API_KEY"]
-    graph = build_agent_graph()
-    question = ""
-    result = graph.run({"question": question})
+    agent = build_agent_graph()
+    question = "When is the EU AI law passed?"
+    result = agent.invoke({"question": question})
     print(result["answer"])

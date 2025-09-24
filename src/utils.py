@@ -2,7 +2,7 @@ import json
 
 def get_secrets():
     try:
-        with open('../secrets.json', 'r') as f:
+        with open('./secrets.json', 'r') as f:
             data = json.load(f)
         return data
     except FileNotFoundError:
