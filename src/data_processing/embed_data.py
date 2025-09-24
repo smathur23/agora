@@ -146,11 +146,12 @@ def save_embeddings(embeddings: np.ndarray, labels: List[Dict], chunks: List[str
     
     return output_dir
 
-def create_embeddings_index(embeddings: np.ndarray, labels: List[Dict]) -> Dict:
+def create_embeddings_index(embeddings: np.ndarray, labels: List[Dict], chunks: List[str]) -> Dict:
     """Create an index for fast similarity search."""
     index = {
         'embeddings': embeddings,
         'labels': labels,
+        'chunks': chunks,
         'dimension': embeddings.shape[1] if embeddings.size > 0 else 0,
         'size': len(labels)
     }
@@ -201,7 +202,7 @@ def process_and_embed_data(processed_data: List[Dict], model_name: str = 'all-Mi
     output_path = save_embeddings(embeddings, labels, chunks, output_dir)
     
     print("Creating search index...")
-    index = create_embeddings_index(embeddings, labels)
+    index = create_embeddings_index(embeddings, labels, chunks)
     
     # Save index for agent use
     index_path = os.path.join(output_dir, 'search_index.pkl')
