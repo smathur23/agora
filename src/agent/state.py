@@ -5,3 +5,4 @@ class AgentState(TypedDict):
     question: str
     context: List[Document]
     answer: str
+    history: List[dict]
