@@ -1,7 +1,7 @@
 import os
 import torch
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_community.llms import HuggingFacePipeline
+from langchain_huggingface import HuggingFacePipeline
 from transformers import pipeline, AutoModelForCausalLM, MistralForCausalLM, AutoTokenizer
 
 def get_llm(provider: str = "hf", model_id: str = "mistralai/Mistral-7B-Instruct-v0.3", params: dict = {}):
@@ -12,19 +12,14 @@ def get_llm(provider: str = "hf", model_id: str = "mistralai/Mistral-7B-Instruct
             **params
         )
     elif provider == "hf":
-        if "mistral" in model_id:
-            tokenizer = AutoTokenizer.from_pretrained(model_id)
-            model = MistralForCausalLM.from_pretrained(
-                model_id,
-                dtype="auto",
-                device_map="auto"
-            )
-        else:
-            model = AutoModelForCausalLM.from_pretrained(
-                model_id,
-                torch_dtype=torch.bfloat16,  
-                device_map="auto"             
-            )
+        ModelForCausalLM = MistralForCausalLM if "mistral" in model_id else AutoModelForCausalLM    
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+        model = ModelForCausalLM.from_pretrained(
+            model_id,
+            dtype="auto",
+            device_map="auto"
+        )
+        
         pipe = pipeline(
             "text-generation",
             model=model,
