@@ -25,8 +25,9 @@ def search(query: str, index: Dict, model_name: str = "all-MiniLM-L6-v2", top_k:
     query_vec = model.encode([query])[0]
 
     embeddings = index["embeddings"]
-    labels = index["labels"]
-    chunks = index["chunks"]
+    chunks = index["texts"]
+    metadatas = index["metadatas"]
+
 
     # Compute similarities
     sims = [cosine_similarity(query_vec, emb) for emb in embeddings]
@@ -39,7 +40,7 @@ def search(query: str, index: Dict, model_name: str = "all-MiniLM-L6-v2", top_k:
     for idx, score in ranked[:top_k]:
         results.append((
             chunks[idx],
-            labels[idx],
+            metadatas[idx],
             score
         ))
     
