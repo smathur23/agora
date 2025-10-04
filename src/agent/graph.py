@@ -21,10 +21,10 @@ def build_agent_graph():
         results = search(state["question"], index)
         docs = [
             Document(
-                page_content=chunk_text,
+                page_content=text,
                 metadata={**metadata, "score": float(score)}
             )
-            for chunk_text, metadata, score in results
+            for text, metadata, score in results
         ]
     
         return {
