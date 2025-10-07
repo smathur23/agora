@@ -10,6 +10,64 @@ def build_agent_graph():
 
     graph = StateGraph(AgentState)
 
+    def retrieve(state):
+        """ Get relevant context from data given question """
+        index = load_index()
+        results = search(state["question"], index)
+        docs = [
+            Document(
+                page_content=chunk_text,
+                metadata={**metadata, "score": float(score)}
+            )
+            for chunk_text, metadata, score in results
+        ]
+    
+        return {
+            "question": state["question"],
+            "context": docs
+        }
+    
+    def answer(state):
+        """ Get llm answer to question given history and context """
+        question = state["question"]
+        docs = state["context"]
+        history = state.get("history", [])
+
+        context = "\n\n".join([d.page_content for d in docs])
+        history_text = "\n".join([f"User: {h['user']}\nAssistant: {h['assistant']}" for h in history])
+
+        prompt = basic_question_prompt(context, state["question"], history_text)
+        result = llm.invoke(prompt)
+        
+        # Extract content from response
+        answer_text = result.content if hasattr(result, 'content') else str(result)
+        
+        updated_history = history + [{"user": question, "assistant": answer_text}]
+
+        return {
+            "question": question,
+            "context": docs,
+            "answer": answer_text,
+            "history": updated_history
+        }
+
+    graph.add_node("retriever", retrieve)
+    graph.add_node("answer", answer)
+
+    graph.set_entry_point("retriever")
+    graph.add_edge("retriever", "answer")
+    graph.add_edge("answer", END)
+
+    agent = graph.compile()
+
+    return agent
+
+def build_terminal_agent_graph():
+    """Terminal version with interactive input loop"""
+    llm = get_llm()
+
+    graph = StateGraph(AgentState)
+
     def user_input(state):
         """ Get question from user """
         question = input("You: ")
@@ -43,13 +101,17 @@ def build_agent_graph():
 
         prompt = basic_question_prompt(context, state["question"], history_text)
         result = llm.invoke(prompt)
-        print("AI Assistant: \n" + result)
-        updated_history = history + [{"user": question, "assistant": result}]
+        
+        # Extract content from response
+        answer_text = result.content if hasattr(result, 'content') else str(result)
+        print("AI Assistant: \n" + answer_text)
+        
+        updated_history = history + [{"user": question, "assistant": answer_text}]
 
         return {
             "question": question,
             "context": docs,
-            "answer": result,
+            "answer": answer_text,
             "history": updated_history
         }
     
