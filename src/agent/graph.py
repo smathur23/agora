@@ -1,12 +1,13 @@
 from langgraph.graph import StateGraph, END
 from langchain.schema import Document
 from src.agent.state import AgentState
-from src.agent.prompts import basic_question_prompt
+from src.agent.prompts import basic_question_prompt, format_for_instruct
 from src.models.llm import get_llm
 from src.agent.retriever import load_index, search
 
 def build_agent_graph():
-    llm = get_llm()
+    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    llm = get_llm(model_id)
 
     graph = StateGraph(AgentState)
 
@@ -100,7 +101,8 @@ def build_terminal_agent_graph():
         history_text = "\n".join([f"User: {h['user']}\nAssistant: {h['assistant']}" for h in history])
 
         prompt = basic_question_prompt(context, state["question"], history_text)
-        result = llm.invoke(prompt)
+        instruct_prompt = format_for_instruct(prompt, model_id)
+        result = llm.invoke(instruct_prompt)
         
         # Extract content from response
         answer_text = result.content if hasattr(result, 'content') else str(result)

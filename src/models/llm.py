@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFacePipeline
 from transformers import pipeline, AutoModelForCausalLM, MistralForCausalLM, AutoTokenizer
 
-def get_llm(provider: str = "hf", model_id: str = "mistralai/Mistral-7B-Instruct-v0.3", params: dict = {}):
+def get_llm(model_id: str = "mistralai/Mistral-7B-Instruct-v0.3", provider: str = "hf", params: dict = {}):
     if provider == "gemini":
         return ChatGoogleGenerativeAI(
             model=model_id, 
