@@ -7,3 +7,8 @@ Updated the question variable in src/agent/main.py
 ```
 python -m src.agent.main
 ```
+
+# Run Streamlit App
+```
+streamlit run app.py
+```

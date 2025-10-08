@@ -3,8 +3,14 @@ import pickle
 import numpy as np
 from typing import List, Dict, Tuple
 
-def load_index(index_dir: str = "embeddings_output") -> Dict:
+def load_index(index_dir: str = None) -> Dict:
     """Load the saved search index from disk."""
+    if index_dir is None:
+        # Default to the embeddings output directory relative to project root
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(os.path.dirname(current_dir))
+        index_dir = os.path.join(project_root, "src", "data_processing", "embeddings_output")
+
     index_path = os.path.join(index_dir, "search_index.pkl")
     with open(index_path, "rb") as f:
         index = pickle.load(f)
