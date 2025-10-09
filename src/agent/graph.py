@@ -4,6 +4,7 @@ from src.agent.state import AgentState
 from src.agent.prompts import basic_question_prompt, format_for_instruct
 from src.models.llm import get_llm
 from src.agent.retriever import load_index, search
+from src.agent.colbert_retriever import build_retriever
 
 def build_agent_graph():
     model_id = "mistralai/Mistral-7B-Instruct-v0.3"
@@ -65,7 +66,8 @@ def build_agent_graph():
 
 def build_terminal_agent_graph():
     """Terminal version with interactive input loop"""
-    llm = get_llm()
+    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    llm = get_llm(model_id)
 
     graph = StateGraph(AgentState)
 
@@ -76,19 +78,13 @@ def build_terminal_agent_graph():
 
     def retrieve(state):
         """ Get relevant context from data given question """
-        index = load_index("embeddings_output")
-        results = search(state["question"], index)
-        docs = [
-            Document(
-                page_content=text,
-                metadata={**metadata, "score": float(score)}
-            )
-            for text, metadata, score in results
-        ]
+        retriever = build_retriever()
+
+        results = retriever(state["question"])
     
         return {
             "question": state["question"],
-            "context": docs
+            "context": results
         }
     
     def answer(state):
@@ -97,7 +93,7 @@ def build_terminal_agent_graph():
         docs = state["context"]
         history = state.get("history", [])
 
-        context = "\n\n".join([d.page_content for d in docs])
+        context = "\n\n".join([str(d) for d in docs])
         history_text = "\n".join([f"User: {h['user']}\nAssistant: {h['assistant']}" for h in history])
 
         prompt = basic_question_prompt(context, state["question"], history_text)
