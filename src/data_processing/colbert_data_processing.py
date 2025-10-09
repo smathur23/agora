@@ -1,8 +1,6 @@
+import math
 import pickle
-import faiss
-from colbert import Searcher, Indexer
-from colbert.data import Collection
-from colbert.infra import Run, RunConfig, ColBERTConfig
+from ragatouille import RAGPretrainedModel
 from typing import List, Dict, Tuple
 
 import os
@@ -88,7 +86,7 @@ def get_metadata_from_chunk(chunk: dict) -> dict:
     return out
 
 def get_relevant_data_from_chunk(chunk: dict) -> str:
-    out = f"{{id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}"
+    out = f"id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}"
     relevant_keys = ["casual_name",'short_summary',"summary",'authority','tags',]
     relevant_metadata = ['non_operative','not_ai_related','proposed_date','primarily_government','primarily_private']
     for key in relevant_keys:
@@ -97,64 +95,63 @@ def get_relevant_data_from_chunk(chunk: dict) -> str:
     for key in relevant_metadata:
         if key in chunk["metadata"] and chunk["metadata"][key] != "":
             out += f",\n{key}: {chunk["metadata"][key]}"
-    out += "}"
     return out
 
 
-def generate_colbert_embeddings(chunks: List[dict], model_name: str = "colbert-ir/colbertv2.0", output_dir="colbert_indexes"):
+def generate_colbert_embeddings(
+        chunks,
+        model_name: str = "colbert-ir/colbertv2.0",
+        index_name: str = "agora_index",
+    ):
     """
     Index documents with ColBERT instead of sentence-transformers.
     Returns the path to the ColBERT index.
     """
 
     texts = [get_relevant_data_from_chunk(chunk) for chunk in chunks]
-    docid_to_chunkid = []
-    #metadatas = [get_metadata_from_chunk(chunk) for chunk in chunks]
+    ids = [chunk["id"] for chunk in chunks]
+    metadatas = [get_metadata_from_chunk(chunk) for chunk in chunks]
 
-    # Step 1: Save texts as a collection file (ColBERT requires this format)
-    collection_path = os.path.join(output_dir, "collection.tsv")
-    os.makedirs(output_dir, exist_ok=True)
-    with open(collection_path, "w", encoding="utf-8") as f:
-        for i, text in enumerate(texts):
-            f.write(f"{i}\t{text.replace('\n', ' ')}\n") # Add numerical id for ColBert formating
-            docid_to_chunkid.append(chunks[i]["id"])
+    for t in texts:
+        if "id: " not in t:
+            print("id not in text")
+            print(t)
+        if "casual_name" not in t:
+            print("casual_name not in text")
+            print(t) 
 
-    # Save docid mapping and metadata for later recovery
-    mapping_path = os.path.join(output_dir, "docid_to_chunkid.pkl")
-    with open(mapping_path, "wb") as f:
-        pickle.dump(docid_to_chunkid, f)
+    RAG = RAGPretrainedModel.from_pretrained(model_name)
+
+    # Clean metadata to avoid errors from inf or NaN values
+    for i, m in enumerate(metadatas):
+        clean = {}
+        for k, v in m.items():
+            if isinstance(v, float) and (math.isnan(v) or math.isinf(v)):
+                #print(m)
+                clean[k] = None
+            else:
+                clean[k] = v
+        metadatas[i] = clean
+
+    RAG.index(
+        collection=texts,
+        document_ids=ids,
+        index_name=index_name,
+        document_metadatas=metadatas
+    )
     
-    metadata_map = {chunk['id']: chunk for chunk in chunks}
-    metadata_path = os.path.join(output_dir, "metadata.pkl")
-    with open(metadata_path, "wb") as f:
-        pickle.dump(metadata_map, f)
+    content_map = {chunks[i]['id']: texts[i] for i in range(len(chunks))}
+    map_path = os.path.join("chunk_content", "map.pkl")
+    os.makedirs("chunk_content", exist_ok=True)
+    with open(map_path, "wb") as f:
+        pickle.dump(content_map, f)
 
-    print("First lines of collection.tsv (sanity check):")
-    with open(collection_path, "r", encoding="utf-8") as f:
-        for _ in range(5):
-            line = f.readline()
-            if not line:
-                break
-            print(line.rstrip())
-
-    # Step 3: Index with ColBERT
-    with Run().context(RunConfig(nranks=1, experiment="agora")):
-        config = ColBERTConfig(
-            root=output_dir,
-            doc_maxlen=300,
-            query_maxlen=32,
-            nbits=2
-        )
-        # Use Indexer instead of Collection.index
-        indexer = Indexer(checkpoint=model_name, config=config)
-        indexer.index(name="agora_index", collection=collection_path, overwrite=True)
-
-    return "agora_index", metadata_path, mapping_path
+    return index_name, map_path
 
 def create_colbert_index():
     segments_df, documents_df = load_csv_data("./data/agora/segments.csv", "./data/agora/documents.csv")
     print("Chunking data...")
     chunks = create_document_chunks(segments_df, documents_df)
     print("Creating ColBERT index...")
-    index_name, metadata_path, id_path = generate_colbert_embeddings(chunks)
-    print(f"Done. Index {index_name} created. Metadata saved to {metadata_path}. Doc_id to chunk_id mapping saved to {id_path}")
+    index_name, map_path = generate_colbert_embeddings(chunks)
+    print(f"Done. Index {index_name} created. Full chunk texts are stored at {map_path}")

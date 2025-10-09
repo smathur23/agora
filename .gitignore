@@ -3,3 +3,4 @@ __pycache__/
 embeddings_output/
 colbert_indexes/
 indexes/
+chunk_content/

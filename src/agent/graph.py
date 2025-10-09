@@ -4,7 +4,7 @@ from src.agent.state import AgentState
 from src.agent.prompts import basic_question_prompt, format_for_instruct
 from src.models.llm import get_llm
 from src.agent.retriever import load_index, search
-from src.agent.colbert_retriever import build_retriever
+from src.agent.colbert_retriever import get_context
 
 def build_agent_graph():
     model_id = "mistralai/Mistral-7B-Instruct-v0.3"
@@ -78,9 +78,7 @@ def build_terminal_agent_graph():
 
     def retrieve(state):
         """ Get relevant context from data given question """
-        retriever = build_retriever()
-
-        results = retriever(state["question"])
+        results = get_context(state["question"])
     
         return {
             "question": state["question"],
