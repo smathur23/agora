@@ -30,23 +30,6 @@ if 'agent' not in st.session_state:
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
-# Sidebar with information
-# with st.sidebar:
-#     st.header("📚 About")
-#     st.write("This system uses RAG (Retrieval Augmented Generation) to answer questions about policy documents.")
-    
-#     st.header("💡 Example Questions")
-#     example_questions = [
-#         "What are the main policies discussed?",
-#         "What are the compliance requirements?", 
-#         "What are the key regulations mentioned?",
-#         "What are the enforcement mechanisms?",
-#         "Who are the stakeholders involved?"
-#     ]
-    
-#     for question in example_questions:
-#         if st.button(f"📝 {question}", key=f"example_{hash(question)}", use_container_width=True):
-#             st.session_state.current_question = question
 
 # Main chat interface
 st.header("💬 Ask a Question")
@@ -122,8 +105,9 @@ if st.session_state.chat_history:
             if chat.get('context'):
                 with st.expander(f"📚 View Top 3 Sources ({len(chat['context'])} found)"):
                     for j, doc in enumerate(chat['context'][:3]):  # Show top 3 sources
-                        score = doc.metadata.get('score', 0)
-                        st.markdown(f"**📄 Source {j+1}** (Relevance: {score:.1%})")
+                        # ColBERT doesn't use just cosine similarity for score
+                        # score = doc.metadata.get('score', 0)
+                        # st.markdown(f"**📄 Source {j+1}** (Relevance: {score:.1%})")
                         
                         # Show metadata if available
                         metadata = doc.metadata

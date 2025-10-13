@@ -13,21 +13,37 @@ def build_agent_graph():
     graph = StateGraph(AgentState)
 
     def retrieve(state):
-        """ Get relevant context from data given question """
-        index = load_index()
-        results = search(state["question"], index)
-        docs = [
-            Document(
-                page_content=chunk_text,
-                metadata={**metadata, "score": float(score)}
-            )
-            for chunk_text, metadata, score in results
-        ]
-    
-        return {
-            "question": state["question"],
-            "context": docs
-        }
+        results = get_context(state["question"])
+        
+        # Convert ColBERT results to LangChain Documents
+        docs = []
+        for result in results:
+            # Handle different result formats
+            if isinstance(result, dict):
+                # If it's already a dict with 'content' or 'text'
+                content = result.get('content') or result.get('text') or str(result)
+                metadata = result.get('metadata', {})
+                # Add score if available
+                if 'score' in result:
+                    metadata['score'] = float(result['score'])
+            elif isinstance(result, tuple) and len(result) >= 2:
+                # If it's (content, metadata) or (content, metadata, score)
+                content = result[0]
+                metadata = result[1] if len(result) > 1 else {}
+                if len(result) > 2:
+                    metadata['score'] = float(result[2])
+            else:
+                # Fallback: treat as string
+                content = str(result)
+                metadata = {}
+            
+            docs.append(Document(
+                page_content=content,
+                metadata=metadata
+            ))
+
+        return {**state, "context": docs}
+
     
     def answer(state):
         """ Get llm answer to question given history and context """
@@ -80,10 +96,7 @@ def build_terminal_agent_graph():
         """ Get relevant context from data given question """
         results = get_context(state["question"])
     
-        return {
-            "question": state["question"],
-            "context": results
-        }
+        return {**state, "context": results}
     
     def answer(state):
         """ Get llm answer to question given history and context """

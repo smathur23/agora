@@ -86,15 +86,15 @@ def get_metadata_from_chunk(chunk: dict) -> dict:
     return out
 
 def get_relevant_data_from_chunk(chunk: dict) -> str:
-    out = f"id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}"
+    out = f'id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}'
     relevant_keys = ["casual_name",'short_summary',"summary",'authority','tags',]
     relevant_metadata = ['non_operative','not_ai_related','proposed_date','primarily_government','primarily_private']
     for key in relevant_keys:
         if key in chunk and chunk[key] != "":
-            out += f",\n{key}: {chunk[key]}"
+            out += f',\n{key}: {chunk[key]}'
     for key in relevant_metadata:
         if key in chunk["metadata"] and chunk["metadata"][key] != "":
-            out += f",\n{key}: {chunk["metadata"][key]}"
+            out += f',\n{key}: {chunk["metadata"][key]}'
     return out
 
 
