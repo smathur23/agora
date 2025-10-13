@@ -2,6 +2,7 @@ import os
 from src.data_processing.embed_data import process_and_embed_data
 from src.data_processing.preprocessing import process_policy_files
 from src.data_processing.mahuli_data_processing import create_vector_database
+from src.data_processing.colbert_data_processing import create_colbert_index
 
 
 def main():
@@ -9,7 +10,8 @@ def main():
     #data_folder = "/".join(os.path.abspath(__file__).split("/")[:-3]) + "/data/agora"
     #processed_data = process_policy_files(data_folder)
     #embeddings_path = process_and_embed_data(processed_data)
-    create_vector_database()
+    #create_vector_database()
+    create_colbert_index()
 
 
 if __name__ == "__main__":

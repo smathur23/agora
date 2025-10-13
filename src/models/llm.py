@@ -3,12 +3,14 @@ import torch
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFacePipeline
 from transformers import pipeline, AutoModelForCausalLM, MistralForCausalLM, AutoTokenizer
+from dotenv import load_dotenv
 
 def get_llm(model_id: str = "mistralai/Mistral-7B-Instruct-v0.3", provider: str = "hf", params: dict = {}):
+    load_dotenv()
     if provider == "gemini":
         return ChatGoogleGenerativeAI(
             model=model_id, 
-            google_api_key=os.getenv("GEMINI_API_KEY"),
+            google_api_key=os.getenv("GEMINI_KEY"),
             **params
         )
     elif provider == "hf":
@@ -16,7 +18,6 @@ def get_llm(model_id: str = "mistralai/Mistral-7B-Instruct-v0.3", provider: str 
         tokenizer = AutoTokenizer.from_pretrained(model_id)
         model = ModelForCausalLM.from_pretrained(
             model_id,
-            dtype="auto",
             device_map="auto"
         )
         

@@ -4,6 +4,7 @@ from src.agent.state import AgentState
 from src.agent.prompts import basic_question_prompt, format_for_instruct
 from src.models.llm import get_llm
 from src.agent.retriever import load_index, search
+from src.agent.colbert_retriever import get_context
 
 def build_agent_graph():
     model_id = "mistralai/Mistral-7B-Instruct-v0.3"
@@ -12,21 +13,37 @@ def build_agent_graph():
     graph = StateGraph(AgentState)
 
     def retrieve(state):
-        """ Get relevant context from data given question """
-        index = load_index()
-        results = search(state["question"], index)
-        docs = [
-            Document(
-                page_content=chunk_text,
-                metadata={**metadata, "score": float(score)}
-            )
-            for chunk_text, metadata, score in results
-        ]
-    
-        return {
-            "question": state["question"],
-            "context": docs
-        }
+        results = get_context(state["question"])
+        
+        # Convert ColBERT results to LangChain Documents
+        docs = []
+        for result in results:
+            # Handle different result formats
+            if isinstance(result, dict):
+                # If it's already a dict with 'content' or 'text'
+                content = result.get('content') or result.get('text') or str(result)
+                metadata = result.get('metadata', {})
+                # Add score if available
+                if 'score' in result:
+                    metadata['score'] = float(result['score'])
+            elif isinstance(result, tuple) and len(result) >= 2:
+                # If it's (content, metadata) or (content, metadata, score)
+                content = result[0]
+                metadata = result[1] if len(result) > 1 else {}
+                if len(result) > 2:
+                    metadata['score'] = float(result[2])
+            else:
+                # Fallback: treat as string
+                content = str(result)
+                metadata = {}
+            
+            docs.append(Document(
+                page_content=content,
+                metadata=metadata
+            ))
+
+        return {**state, "context": docs}
+
     
     def answer(state):
         """ Get llm answer to question given history and context """
@@ -65,7 +82,8 @@ def build_agent_graph():
 
 def build_terminal_agent_graph():
     """Terminal version with interactive input loop"""
-    llm = get_llm()
+    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    llm = get_llm(model_id)
 
     graph = StateGraph(AgentState)
 
@@ -76,20 +94,9 @@ def build_terminal_agent_graph():
 
     def retrieve(state):
         """ Get relevant context from data given question """
-        index = load_index("embeddings_output")
-        results = search(state["question"], index)
-        docs = [
-            Document(
-                page_content=text,
-                metadata={**metadata, "score": float(score)}
-            )
-            for text, metadata, score in results
-        ]
+        results = get_context(state["question"])
     
-        return {
-            "question": state["question"],
-            "context": docs
-        }
+        return {**state, "context": results}
     
     def answer(state):
         """ Get llm answer to question given history and context """
@@ -97,7 +104,7 @@ def build_terminal_agent_graph():
         docs = state["context"]
         history = state.get("history", [])
 
-        context = "\n\n".join([d.page_content for d in docs])
+        context = "\n\n".join([str(d) for d in docs])
         history_text = "\n".join([f"User: {h['user']}\nAssistant: {h['assistant']}" for h in history])
 
         prompt = basic_question_prompt(context, state["question"], history_text)
