@@ -39,8 +39,30 @@ def create_document_chunks(segments_df, documents_df) -> List[Dict]:
                 'not_ai_related': row.get('Not AI-related', False),
                 'segment_annotated': row.get('Segment annotated', False),
                 'segment_validated': row.get('Segment validated', False)
-            }
+            },
+            "applications": "",
+            "harms": "",
+            "incentives": "",
+            "risk factors": "",
+            "strategies": "",
+
         }
+        for c in segments_df.columns:
+            if "Applications: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["applications"]) > 0: chunk["applications"] += ","
+                chunk["applications"] += c[14:]
+            if "Harms: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["harms"]) > 0: chunk["harms"] += ","
+                chunk["harms"] += c[7:]
+            if "Incentives: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["incentives"]) > 0: chunk["incentives"] += ","
+                chunk["incentives"] += c[12:]
+            if "Risk factors: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["risk factors"]) > 0: chunk["risk factors"] += ","
+                chunk["risk factors"] += c[14:]
+            if "Strategies: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["strategies"]) > 0: chunk["strategies"] += ","
+                chunk["strategies"] += c[12:]
         chunks.append(chunk)
 
     for idx, row in documents_df.iterrows():
@@ -63,8 +85,29 @@ def create_document_chunks(segments_df, documents_df) -> List[Dict]:
                 'proposed_date': row.get('Proposed date', ''),
                 'primarily_government': row.get('Primarily applies to the government', False),
                 'primarily_private': row.get('Primarily applies to the private sector', False)
-            }
+            },
+            "applications": "",
+            "harms": "",
+            "incentives": "",
+            "risk factors": "",
+            "strategies": "",
         }
+        for c in segments_df.columns:
+            if "Applications: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["applications"]) > 0: chunk["applications"] += ","
+                chunk["applications"] += c[14:]
+            if "Harms: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["harms"]) > 0: chunk["harms"] += ","
+                chunk["harms"] += c[7:]
+            if "Incentives: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["incentives"]) > 0: chunk["incentives"] += ","
+                chunk["incentives"] += c[12:]
+            if "Risk factors: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["risk factors"]) > 0: chunk["risk factors"] += ","
+                chunk["risk factors"] += c[14:]
+            if "Strategies: " in c and (row[c] == True or row[c] == "true" or row[c] == "True"):
+                if len(chunk["strategies"]) > 0: chunk["strategies"] += ","
+                chunk["strategies"] += c[12:]
         chunks.append(chunk)
 
     return chunks
@@ -87,7 +130,7 @@ def get_metadata_from_chunk(chunk: dict) -> dict:
 
 def get_relevant_data_from_chunk(chunk: dict) -> str:
     out = f'id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}'
-    relevant_keys = ["casual_name",'short_summary',"summary",'authority','tags',]
+    relevant_keys = ["casual_name",'short_summary',"summary",'authority','tags',"applications","harms","incentives","risk factors","strategies"]
     relevant_metadata = ['non_operative','not_ai_related','proposed_date','primarily_government','primarily_private']
     for key in relevant_keys:
         if key in chunk and chunk[key] != "":
