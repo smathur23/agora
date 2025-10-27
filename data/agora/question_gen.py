@@ -294,47 +294,6 @@ class QuestionGenerator:
             json.dump(results, f, indent=2)
         print(f"Also saved to {json_output}")
 
-    
-    def generate_dpo_dataset(self, questions_file: str = "generated_questions.jsonl",
-                           output_file: str = "dpo_dataset.jsonl") -> None:
-        """Convert generated questions into DPO training format.
-        
-        For DPO, we need: prompt, chosen response, rejected response.
-        This creates a base structure - you'll need to generate responses separately.
-        """
-        questions_path = Path(__file__).parent / questions_file
-        output_path = Path(__file__).parent / output_file
-        
-        if not questions_path.exists():
-            print(f"Questions file not found: {questions_path}")
-            return
-        
-        dpo_dataset = []
-        
-        with open(questions_path, 'r') as f:
-            for line in f:
-                item = json.loads(line)
-                
-                # Create DPO entry (responses to be filled later)
-                dpo_entry = {
-                    "prompt": item["question"],
-                    "document_id": item["document_id"],
-                    "policy_name": item["policy_name"],
-                    "chosen": "",  # To be filled with high-quality response
-                    "rejected": ""  # To be filled with low-quality response
-                }
-                dpo_dataset.append(dpo_entry)
-        
-        with open(output_path, 'w') as f:
-            for entry in dpo_dataset:
-                f.write(json.dumps(entry) + '\n')
-        
-        print(f"Created DPO dataset template with {len(dpo_dataset)} entries")
-        print(f"Saved to {output_path}")
-        print("\nNext steps:")
-        print("1. Use your RAG system to generate responses for each prompt")
-        print("2. Generate both high-quality (chosen) and low-quality (rejected) responses")
-        print("3. Fill in the 'chosen' and 'rejected' fields")
 
 
 def main():
@@ -351,8 +310,6 @@ def main():
                        help="Output file for questions")
     parser.add_argument("--model", type=str, default="gemini-2.0-flash",
                        help="Model to use for generation")
-    parser.add_argument("--create-dpo", action="store_true",
-                       help="Also create DPO dataset template")
     
     args = parser.parse_args()
     
@@ -364,11 +321,6 @@ def main():
         min_words=args.min_words,
         max_words=args.max_words
     )
-    
-    # Optionally create DPO template
-    if args.create_dpo:
-        generator.generate_dpo_dataset(questions_file=args.output)
-
 
 if __name__ == "__main__":
     main()
