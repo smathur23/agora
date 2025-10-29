@@ -2,11 +2,11 @@ import math
 import pickle
 from ragatouille import RAGPretrainedModel
 from typing import List, Dict, Tuple
-
 import os
 import pandas as pd
 import torch
 
+MAX_DOC_LEN = 2500
 
 def load_csv_data(segments_path: str, documents_path: str):
     print("Loading CSV data...")
@@ -19,84 +19,75 @@ def load_csv_data(segments_path: str, documents_path: str):
 
 def create_document_chunks(segments_df, documents_df) -> List[Dict]:
     chunks = []
-
-    for idx, row in segments_df.iterrows():
-        source_doc_df = documents_df.loc[documents_df["AGORA ID"] == row["Document ID"]]
-
-        source_doc = source_doc_df.iloc[0] if not source_doc_df.empty else None # Assuming AGORA_ID is a key for the documents table
-        chunk = {
-            'id': f"segment_{row['Document ID']}_{row['Segment position']}",
-            'type': 'segment',
-            'document_id': row['Document ID'],
-            'segment_position': row['Segment position'],
-            'official_name': str(source_doc['Official name']) if source_doc is not None else "",
-            "casual_name": str(source_doc['Casual name']) if source_doc is not None and pd.notna(source_doc['Casual name']) else "",
-            'text': str(row['Text']),
-            'summary': str(row['Summary']) if pd.notna(row['Summary']) else "",
-            'tags': str(row['Tags']) if pd.notna(row['Tags']) else "",
-            'metadata': {
-                'non_operative': row.get('Non-operative', False),
-                'not_ai_related': row.get('Not AI-related', False),
-                'segment_annotated': row.get('Segment annotated', False),
-                'segment_validated': row.get('Segment validated', False)
-            }
-        }
-        chunks.append(chunk)
-
     for idx, row in documents_df.iterrows():
-        chunk = {
-            'id': f"document_{row['AGORA ID']}",
+        id = row["AGORA ID"]
+        if not os.path.exists(f"data/agora/fulltext/{id}.txt"):
+            if pd.notna(row['Long summary']): text = row["Long summary"]
+            elif pd.notna(row['Short summary']): text = row["Short summary"]
+            else: text = ""
+        else:
+            with open(f"data/agora/fulltext/{id}.txt", "r") as f:
+                text = f.read()
+        if text == "":
+            print(f"No text for document {id} could be found.")
+        if len(text) > MAX_DOC_LEN:
+            chunks += create_segments_from_doc(segments_df, row)
+        else:
+            chunk = create_chunk_from_row(row, text)
+            chunks.append(chunk)
+    return chunks
+
+def create_chunk_from_row(row, text):
+    return {
+        'id': f"document_{row['AGORA ID']}",
+        "text": text,
+        "data": {
             'type': 'document',
-            'agora_id': row['AGORA ID'],
             'official_name': str(row['Official name']),
             'casual_name': str(row['Casual name']) if pd.notna(row['Casual name']) else "",
-            'text': f"{row['Official name']} - {row['Short summary']} - {row['Long summary']}",
-            'short_summary': str(row['Short summary']) if pd.notna(row['Short summary']) else "",
-            'long_summary': str(row['Long summary']) if pd.notna(row['Long summary']) else "",
-            'authority': str(row['Authority']) if pd.notna(row['Authority']) else "",
-            'link': str(row['Link to document']) if pd.notna(row['Link to document']) else "",
             'tags': str(row['Tags']) if pd.notna(row['Tags']) else "",
-            'metadata': {
-                'collections': row.get('Collections', ''),
-                'most_recent_activity': row.get('Most recent activity', ''),
-                'most_recent_activity_date': row.get('Most recent activity date', ''),
-                'proposed_date': row.get('Proposed date', ''),
-                'primarily_government': row.get('Primarily applies to the government', False),
-                'primarily_private': row.get('Primarily applies to the private sector', False)
-            }
+            'collections': row.get('Collections', ''),
+            'most_recent_activity': row.get('Most recent activity', ''),
+            'most_recent_activity_date': row.get('Most recent activity date', ''),
+            'proposed_date': row.get('Proposed date', ''),
+            'primarily_government': row.get('Primarily applies to the government', False),
+            'primarily_private': row.get('Primarily applies to the private sector', False),
+            'authority': str(row['Authority']) if pd.notna(row['Authority']) else "",
+        },
+        "metadata": {
+            'agora_id': row['AGORA ID'],
+            'link': str(row['Link to document']) if pd.notna(row['Link to document']) else "",
         }
+        
+    }
+
+def create_segments_from_doc(segments_df, doc):
+    segments = segments_df[segments_df["Document ID"] == doc["AGORA ID"]]
+    chunks = []
+    for idx, row in segments.iterrows():
+        chunk = create_chunk_from_row(doc, row["Text"])
+        chunk["id"] = f"segment_{row['Document ID']}_{row['Segment position']}"
+        chunk["data"]["non_operative"] = row.get('Non-operative', False)
+        chunk["data"]["not_ai_related"] = row.get("Not AI-related", False)
+        chunk["data"]["tags"] = str(row['Tags']) if pd.notna(row['Tags']) else ""
+        chunk["data"]["type"] = "segment"
+        chunk["metadata"]["segment_position"] = row["Segment position"]
+        chunk["metadata"]["segment_annotated"] = row.get('Segment annotated', False)
+        chunk["metadata"]["segment_validated"] = row.get('Segment validated', False)
+
         chunks.append(chunk)
 
     return chunks
 
-
-def get_metadata_from_chunk(chunk: dict) -> dict:
-    out = {
-        "id": chunk["id"],
-        "type": chunk["type"]
-    }
-    relevant_keys = ["link","agora_id","document_id","segment_position"]
-    relevant_metadata = ['collections','most_recent_activity','most_recent_activity_date','segment_annotated','segment_validated']
-    for key in relevant_keys:
-        if key in chunk and chunk[key] != "":
-            out[key] = chunk[key]
-    for key in relevant_metadata:
-        if key in chunk["metadata"] and chunk["metadata"][key] != "":
-            out[key] = chunk["metadata"][key]
+def format_chunk_data(data):
+    out = ""
+    for field in data:
+        if data[field] == None or data[field] == "":
+            continue
+        field_value = str(data[field]).replace("\n", " ")
+        out += field + ": " + field_value + "\n"
+    out += "\n\n"
     return out
-
-def get_relevant_data_from_chunk(chunk: dict) -> str:
-    out = f'id: {chunk["id"]},\nofficial_name: {chunk["official_name"]},\ntext: {chunk["text"]}'
-    relevant_keys = ["casual_name",'short_summary',"summary",'authority','tags',]
-    relevant_metadata = ['non_operative','not_ai_related','proposed_date','primarily_government','primarily_private']
-    for key in relevant_keys:
-        if key in chunk and chunk[key] != "":
-            out += f',\n{key}: {chunk[key]}'
-    for key in relevant_metadata:
-        if key in chunk["metadata"] and chunk["metadata"][key] != "":
-            out += f',\n{key}: {chunk["metadata"][key]}'
-    return out
-
 
 def generate_colbert_embeddings(
         chunks,
@@ -108,17 +99,9 @@ def generate_colbert_embeddings(
     Returns the path to the ColBERT index.
     """
 
-    texts = [get_relevant_data_from_chunk(chunk) for chunk in chunks]
+    texts = [format_chunk_data(chunk["data"]) + chunk["text"] for chunk in chunks]
     ids = [chunk["id"] for chunk in chunks]
-    metadatas = [get_metadata_from_chunk(chunk) for chunk in chunks]
-
-    for t in texts:
-        if "id: " not in t:
-            print("id not in text")
-            print(t)
-        if "casual_name" not in t:
-            print("casual_name not in text")
-            print(t) 
+    metadatas = [chunk["metadata"] for chunk in chunks]
 
     RAG = RAGPretrainedModel.from_pretrained(model_name)
 
