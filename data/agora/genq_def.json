@@ -1,0 +1,2046 @@
+[
+  {
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "What is the definition of 'machine-manipulated media' within the CONSENT Act, and how does its inclusion expand the scope of what constitutes a 'visual depiction' under this legislation?",
+    "category": "definitions",
+    "word_count": 847
+  },
+  {
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "How does the CONSENT Act clarify the application of 'sexually explicit conduct' and 'visual depiction' to individuals of all ages, diverging from their specific limitations in certain existing federal statutes?",
+    "category": "definitions",
+    "word_count": 847
+  },
+  {
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "Beyond traditional internet service providers, what types of entities are encompassed by the definition of 'third-party provider' in the CONSENT Act, and what are the implications for their liability?",
+    "category": "definitions",
+    "word_count": 847
+  },
+  {
+    "document_id": 2390,
+    "policy_name": "Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2025",
+    "question": "The Act defines 'redundant' as a regulation that 'duplicates, overlaps with, or serves the same purpose as another regulation, such that the elimination of the regulation would not result in a loss of essential information or regulatory function.' What are the potential challenges or ambiguities in applying this definition programmatically using an AI system, and how might this impact the identification of genuinely redundant regulations?",
+    "category": "definitions",
+    "word_count": 792
+  },
+  {
+    "document_id": 2390,
+    "policy_name": "Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2025",
+    "question": "Under the Act, an 'artificial intelligence system' is defined as a 'machine-based system that, for an explicit or implicit objective, infers how to generate outputs, such as predictions, content, recommendations, or decisions that can influence physical or virtual environments, from the input the system receives.' Given this broad definition, what types of AI methodologies are anticipated for use in identifying redundant or outdated regulations, and what are the implications for ensuring these systems adhere to the 'strict standards' for accuracy and transparency mentioned in Section 3(b)?",
+    "category": "definitions",
+    "word_count": 792
+  },
+  {
+    "document_id": 2390,
+    "policy_name": "Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2025",
+    "question": "The policy defines 'outdated' as a regulation that 'has been superseded by more recent legislation, technological advances, or regulatory developments, rendering the regulation inapplicable or unenforceable.' What specific criteria or data sources will the AI system likely rely on to ascertain if a regulation is 'superseded' or 'inapplicable,' and how will this definition be interpreted to avoid prematurely flagging regulations that may still hold residual value or influence?",
+    "category": "definitions",
+    "word_count": 792
+  },
+  {
+    "document_id": 1322,
+    "policy_name": "Fraudulent Misrepresentation of Campaign Authority",
+    "question": "What constitutes 'fraudulent misrepresentation' under 52 U.S.C. 30124 and 11 CFR 110.16, as clarified by this guidance, particularly when considering the use of AI-assisted media?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 1322,
+    "policy_name": "Fraudulent Misrepresentation of Campaign Authority",
+    "question": "How does the Federal Election Commission's (FEC) interpretation that 52 U.S.C. 30124 and 11 CFR 110.16 are 'technology neutral' impact the enforcement of prohibitions against fraudulent misrepresentation in political campaigns?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 1322,
+    "policy_name": "Fraudulent Misrepresentation of Campaign Authority",
+    "question": "What is the FEC's stated purpose in issuing this interpretive rule regarding AI and existing statutes on fraudulent misrepresentation, especially considering it does not create new rights or obligations?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 151,
+    "policy_name": "FY2021 NDAA, Division A, Title XCIV, Section 9414 (\"Study on Chinese policies and influence in the development of international standards for emerging technologies\")",
+    "question": "What specific criteria will the Director of the National Institute of Standards and Technology use to determine an 'appropriate entity with relevant expertise' for conducting the study on Chinese policies and influence in international standards development?",
+    "category": "definitions",
+    "word_count": 440
+  },
+  {
+    "document_id": 151,
+    "policy_name": "FY2021 NDAA, Division A, Title XCIV, Section 9414 (\"Study on Chinese policies and influence in the development of international standards for emerging technologies\")",
+    "question": "How will the study assess the 'quality or value' of the People's Republic of China's participation in international standards setting organizations, beyond just leadership roles in technical committees?",
+    "category": "definitions",
+    "word_count": 440
+  },
+  {
+    "document_id": 151,
+    "policy_name": "FY2021 NDAA, Division A, Title XCIV, Section 9414 (\"Study on Chinese policies and influence in the development of international standards for emerging technologies\")",
+    "question": "What specific emerging technologies, beyond advanced communication technologies and cloud computing/services, are considered critical for examining the potential consequences of China's engagement in international standardization activities like artificial intelligence and quantum information science?",
+    "category": "definitions",
+    "word_count": 440
+  },
+  {
+    "document_id": 1729,
+    "policy_name": "Massachusetts H 4885 (Firearm Laws), Section 148",
+    "question": "Under Section 148 of this policy, what are the specific characteristics that define a \"personalized firearm\", and how might this definition impact the classification of existing or future firearm designs?",
+    "category": "definitions",
+    "word_count": 456
+  },
+  {
+    "document_id": 1729,
+    "policy_name": "Massachusetts H 4885 (Firearm Laws), Section 148",
+    "question": "How does the policy define \"Microstamp\" in relation to firearm components and ammunition, and what is the intended mechanism by which this technology is to be transferred?",
+    "category": "definitions",
+    "word_count": 456
+  },
+  {
+    "document_id": 984,
+    "policy_name": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Duties of Institute\")",
+    "question": "What is the scope and intent of the \"e-governance framework developed under section 102\" as it relates to the Institute's responsibilities for promoting collaboration and assisting partner countries?",
+    "category": "definitions",
+    "word_count": 530
+  },
+  {
+    "document_id": 984,
+    "policy_name": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Duties of Institute\")",
+    "question": "How does the Institute define and operationalize \"emerging technologies, including artificial intelligence\" within its mandate to account for and incorporate them into e-governance systems?",
+    "category": "definitions",
+    "word_count": 530
+  },
+  {
+    "document_id": 984,
+    "policy_name": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Duties of Institute\")",
+    "question": "What are the criteria and considerations that guide the Institute in determining which countries, individuals, or entities are subject to the procurement restrictions outlined in Section 103(c) to protect citizen privacy and security?",
+    "category": "definitions",
+    "word_count": 530
+  },
+  {
+    "document_id": 1,
+    "policy_name": "FY2022 NDAA, Section 1531 (\"Digital development infrastructure plan and working group\")",
+    "question": "What specific 'critical technical issues' are anticipated within the scope of 'common interfaces, authentication, applications, platforms, software, hardware, and data infrastructure' as outlined in the Digital Development Infrastructure Plan, and how will the plan propose to address them?",
+    "category": "definitions",
+    "word_count": 649
+  },
+  {
+    "document_id": 1,
+    "policy_name": "FY2022 NDAA, Section 1531 (\"Digital development infrastructure plan and working group\")",
+    "question": "Regarding the 'minimum viable instantiations of prototypical development and platform environments' mentioned, what criteria will be used to define 'minimum viable' and what examples of these prototypes are envisioned within the plan?",
+    "category": "definitions",
+    "word_count": 649
+  },
+  {
+    "document_id": 1,
+    "policy_name": "FY2022 NDAA, Section 1531 (\"Digital development infrastructure plan and working group\")",
+    "question": "How will the 'enterprise data sets' assembled for areas like 'human resources,' 'budget and finance,' and 'acquisition' be structured and managed to ensure 'efficient access' for authorized users, as per the Strategic Data Node provision?",
+    "category": "definitions",
+    "word_count": 649
+  },
+  {
+    "document_id": 1526,
+    "policy_name": "New York SB 9678 (Materially Deceptive Media in Political Communications)",
+    "question": "What specific criteria define 'materially deceptive media' within the context of this election law amendment, and how might this definition be interpreted in practice?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 1526,
+    "policy_name": "New York SB 9678 (Materially Deceptive Media in Political Communications)",
+    "question": "How does the requirement for 'actual knowledge' that media is materially deceptive impact the burden of proof and accountability for those distributing political communications?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 1526,
+    "policy_name": "New York SB 9678 (Materially Deceptive Media in Political Communications)",
+    "question": "Under what conditions does 'initial dissemination' by a platform qualify for an exception to the disclosure requirements for materially deceptive media, and what constitutes a 'good faith effort' to verify authenticity?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 572,
+    "policy_name": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
+    "question": "Under the \"Novel, Advanced Spectrum and Communications Technology Networks Promotion Act,\" what specific \"common models, common methodologies, and common inputs\" is the Assistant Secretary of Commerce for Communications and Information directed to support for informing electromagnetic spectrum management decisions?",
+    "category": "definitions",
+    "word_count": 600
+  },
+  {
+    "document_id": 572,
+    "policy_name": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
+    "question": "Regarding the \"Novel, Advanced Spectrum and Communications Technology Networks Promotion Act,\" how does the bill define the role of the Institute for Telecommunication Sciences within the NTIA in relation to spectrum policy decisions?",
+    "category": "definitions",
+    "word_count": 600
+  },
+  {
+    "document_id": 572,
+    "policy_name": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
+    "question": "For the purposes of the \"Novel, Advanced Spectrum and Communications Technology Networks Promotion Act,\" what does \"spectrum clearing\" entail, and what is its stated priority in relation to federally assigned spectrum?",
+    "category": "definitions",
+    "word_count": 600
+  },
+  {
+    "document_id": 2269,
+    "policy_name": "New York City Council No. 1806-A (Reporting on Algorithmic Tools Used By City Agencies)",
+    "question": "How does the definition of 'algorithmic tool' in Section 3-119.5(a) of this local law distinguish between tools that materially impact public rights, liberties, or interests and those that do not, particularly concerning the exclusions for basic computerized processes and internal management affairs?",
+    "category": "definitions",
+    "word_count": 507
+  },
+  {
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "Under Mississippi SB 2577, how is 'digitization' defined, and what are the key criteria that distinguish it from other forms of media manipulation?",
+    "category": "definitions",
+    "word_count": 919
+  },
+  {
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "What are the specific circumstances and intent requirements that must be met for the dissemination of a 'digitization' to be considered a criminal offense according to this act?",
+    "category": "definitions",
+    "word_count": 919
+  },
+  {
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "Who are the parties explicitly identified as eligible to initiate a cause of action for injunctive relief against the dissemination of a 'digitization' under this legislation?",
+    "category": "definitions",
+    "word_count": 919
+  },
+  {
+    "document_id": 874,
+    "policy_name": "Generative AI Copyright Disclosure Act of 2024",
+    "question": "What constitutes a 'significant manner' when altering a training dataset, as defined by the Generative AI Copyright Disclosure Act of 2024, and what are the practical implications for AI developers regarding this threshold?",
+    "category": "definitions",
+    "word_count": 640
+  },
+  {
+    "document_id": 874,
+    "policy_name": "Generative AI Copyright Disclosure Act of 2024",
+    "question": "How does the Generative AI Copyright Disclosure Act of 2024 define 'expressive material' in the context of generative AI models, and what types of outputs are specifically encompassed by this definition?",
+    "category": "definitions",
+    "word_count": 640
+  },
+  {
+    "document_id": 874,
+    "policy_name": "Generative AI Copyright Disclosure Act of 2024",
+    "question": "Considering the Generative AI Copyright Disclosure Act of 2024, what is the functional distinction between a 'generative AI model' and a 'generative AI system,' and how does this difference impact the disclosure requirements for creators?",
+    "category": "definitions",
+    "word_count": 640
+  },
+  {
+    "document_id": 785,
+    "policy_name": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
+    "question": "What is the scope of 'frontier AI' as defined within these Commitments, and how does this definition shape the applicability of the safety obligations outlined?",
+    "category": "definitions",
+    "word_count": 920
+  },
+  {
+    "document_id": 785,
+    "policy_name": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
+    "question": "Clarify the role and definition of 'home governments' in relation to the organizations that have agreed to these Commitments, and how this designation influences their obligations and oversight.",
+    "category": "definitions",
+    "word_count": 920
+  },
+  {
+    "document_id": 785,
+    "policy_name": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
+    "question": "How are 'intolerable risk thresholds' intended to be defined and assessed according to these Commitments, and what are the implications for organizations if such thresholds are breached?",
+    "category": "definitions",
+    "word_count": 920
+  },
+  {
+    "document_id": 230,
+    "policy_name": "FY2023 NDAA, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
+    "question": "What specific types of facilities are encompassed by the definition of a 'covered camp' under Section 6504, and how does this definition relate to the People's Republic of China's own terminology for these sites?",
+    "category": "definitions",
+    "word_count": 414
+  },
+  {
+    "document_id": 230,
+    "policy_name": "FY2023 NDAA, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
+    "question": "Beyond the specified committees, who are the designated 'appropriate committees of Congress' to receive the annual report on Xinjiang's covered camps, and what is the implication of this specific designation?",
+    "category": "definitions",
+    "word_count": 414
+  },
+  {
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "What specific types of 'covered systems' are subject to the risk assessment process under the AWARE Act of 2024, and how does the definition of 'artificial intelligence' as referenced from the National Artificial Intelligence Initiative Act of 2020 inform this scope?",
+    "category": "definitions",
+    "word_count": 786
+  },
+  {
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "Beyond dependability and cybersecurity, what is the intended evaluation of 'bias towards escalation' for covered systems under the AWARE Act of 2024, and how will this specific risk be assessed within the broader risk assessment process?",
+    "category": "definitions",
+    "word_count": 786
+  },
+  {
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "The AWARE Act of 2024 defines 'covered system' to include weapon, targeting, and decision support systems. How will the risk assessment process differentiate the evaluation of these distinct categories, particularly concerning 'deployment span' when systems are used singularly versus in clusters or swarms?",
+    "category": "definitions",
+    "word_count": 786
+  },
+  {
+    "document_id": 308,
+    "policy_name": "Synthetic Media Disclosure Act",
+    "question": "Under the Synthetic Media Disclosure Act, what criteria define \"synthetic media\" as being indistinguishable from a natural person, and what are the practical implications of this definition for advertisers?",
+    "category": "definitions",
+    "word_count": 891
+  },
+  {
+    "document_id": 308,
+    "policy_name": "Synthetic Media Disclosure Act",
+    "question": "How does the Synthetic Media Disclosure Act's requirement for disclosing synthetic media, particularly when a natural person's likeness is used without consent, interact with existing civil rights protections in New York State?",
+    "category": "definitions",
+    "word_count": 891
+  },
+  {
+    "document_id": 308,
+    "policy_name": "Synthetic Media Disclosure Act",
+    "question": "What is the scope of 'commercial purpose' as it relates to the disclosure requirements for synthetic media in advertisements under this Act, and what does it mean for an advertiser to 'know or should have known' about the use of synthetic media?",
+    "category": "definitions",
+    "word_count": 891
+  },
+  {
+    "document_id": 159,
+    "policy_name": "FY2021 NDAA, Division A, Title XXXV, Section 3521 (\"Maritime security and domain awareness\")",
+    "question": "What is the scope and significance of the term \"IUU fishing\" as it is used within this maritime security and domain awareness policy?",
+    "category": "definitions",
+    "word_count": 799
+  },
+  {
+    "document_id": 159,
+    "policy_name": "FY2021 NDAA, Division A, Title XXXV, Section 3521 (\"Maritime security and domain awareness\")",
+    "question": "How does the definition of \"maritime domain awareness information\" within this policy guide the assessment of commercial solutions for information collection, sharing, and dissemination?",
+    "category": "definitions",
+    "word_count": 799
+  },
+  {
+    "document_id": 159,
+    "policy_name": "FY2021 NDAA, Division A, Title XXXV, Section 3521 (\"Maritime security and domain awareness\")",
+    "question": "Given the reference to the Maritime SAFE Act, how do the definitions of terms like \"shiprider agreements\" and \"priority flag states\" in that preceding legislation inform the implementation of counter-IUU fishing strategies outlined in this section?",
+    "category": "definitions",
+    "word_count": 799
+  },
+  {
+    "document_id": 529,
+    "policy_name": "Autonomous Vehicle Accessibility Act/AV Accessibility Act",
+    "question": "How does the 'ride-hail ADS-equipped vehicle' definition, specifically requiring 'driverless operation,' impact the scope of this Act's accessibility provisions?",
+    "category": "definitions",
+    "word_count": 364
+  },
+  {
+    "document_id": 529,
+    "policy_name": "Autonomous Vehicle Accessibility Act/AV Accessibility Act",
+    "question": "Considering the definition of 'disability' references title 42 of the U.S. Code, what are the key implications for how accessibility is assessed and implemented for ADS-equipped vehicles under this Act?",
+    "category": "definitions",
+    "word_count": 364
+  },
+  {
+    "document_id": 529,
+    "policy_name": "Autonomous Vehicle Accessibility Act/AV Accessibility Act",
+    "question": "Given that 'public transportation' is defined by reference to title 49 of the U.S. Code, how might this definition influence the relationship between ride-hail ADS-equipped services and existing public transit infrastructure as studied under Section 4?",
+    "category": "definitions",
+    "word_count": 364
+  },
+  {
+    "document_id": 660,
+    "policy_name": "Advancing Automation Research and Development in Agriculture Act",
+    "question": "Under the Advancing Automation Research and Development in Agriculture Act, what specific activities are encompassed by 'mechanization and automation' for specialty crops, and how do these activities aim to enhance grower competitiveness?",
+    "category": "definitions",
+    "word_count": 896
+  },
+  {
+    "document_id": 660,
+    "policy_name": "Advancing Automation Research and Development in Agriculture Act",
+    "question": "The Act mentions a 'specialty crops committee'; what is the defined role and advisory capacity of this committee in the grant review process, and how does its input influence the Secretary's decisions?",
+    "category": "definitions",
+    "word_count": 896
+  },
+  {
+    "document_id": 660,
+    "policy_name": "Advancing Automation Research and Development in Agriculture Act",
+    "question": "What are the implications of the 'non-Federal matching funds' requirement, including the minimum percentage and the allowance for in-kind support, for entities seeking grants under the mechanization and automation program for specialty crops?",
+    "category": "definitions",
+    "word_count": 896
+  },
+  {
+    "document_id": 432,
+    "policy_name": "AI Leadership Training Act",
+    "question": "Under the AI Leadership Training Act, what is the specific definition of a 'covered employee' and how might the Director's discretion in clause (2)(C)(i) influence who receives AI leadership training?",
+    "category": "definitions",
+    "word_count": 829
+  },
+  {
+    "document_id": 432,
+    "policy_name": "AI Leadership Training Act",
+    "question": "How does the AI Leadership Training Act define 'AI' by referencing the John S. McCain National Defense Authorization Act, and what are the implications of this specific definition for the scope of the training program?",
+    "category": "definitions",
+    "word_count": 829
+  },
+  {
+    "document_id": 432,
+    "policy_name": "AI Leadership Training Act",
+    "question": "What are the established meanings of 'management official' and 'supervisor' as used in the AI Leadership Training Act, and how do these definitions guide the selection of employees for the AI leadership training program?",
+    "category": "definitions",
+    "word_count": 829
+  },
+  {
+    "document_id": 1552,
+    "policy_name": "California AB 3030 (AI Health Care Services)",
+    "question": "Under this policy, what specific types of patient information are considered 'patient clinical information' that necessitate AI disclaimers, and how does the exclusion of 'administrative matters' impact the scope of this regulation?",
+    "category": "definitions",
+    "word_count": 528
+  },
+  {
+    "document_id": 1552,
+    "policy_name": "California AB 3030 (AI Health Care Services)",
+    "question": "The policy defines 'generative artificial intelligence' broadly. How does this definition differentiate it from other forms of artificial intelligence that might be used in healthcare settings, and why is this distinction crucial for the requirements of this chapter?",
+    "category": "definitions",
+    "word_count": 528
+  },
+  {
+    "document_id": 891,
+    "policy_name": "No AI Audits Act",
+    "question": "What specific \"explainability principles for artificial intelligence\" established by the Director of the National Institute of Standards and Technology must the IRS ensure its AI meets before initiating an audit or investigation?",
+    "category": "definitions",
+    "word_count": 348
+  },
+  {
+    "document_id": 891,
+    "policy_name": "No AI Audits Act",
+    "question": "How will the \"guidance issued by the Commissioner relating to the use of artificial intelligence\" be treated procedurally, given the explicit mention of bypassing certain requirements of section 553 of title 5, United States Code?",
+    "category": "definitions",
+    "word_count": 348
+  },
+  {
+    "document_id": 891,
+    "policy_name": "No AI Audits Act",
+    "question": "Beyond the IRS's internal use of AI for audit selection, what scope does the Comptroller General's \"cost-benefit analysis of such use of artificial intelligence\" encompass, particularly concerning \"adverse effects on taxpayer rights\"?",
+    "category": "definitions",
+    "word_count": 348
+  },
+  {
+    "document_id": 823,
+    "policy_name": "Atomic Energy Advancement Act, Sec. 123 (\"Nuclear Regulatory Oversight\")",
+    "question": "What specific activities are encompassed by the term \"licensee\" as defined in Section 123(d)(3) of this policy, and how does this definition influence the scope of regulatory oversight described in subsection (b)?",
+    "category": "definitions",
+    "word_count": 1009
+  },
+  {
+    "document_id": 823,
+    "policy_name": "Atomic Energy Advancement Act, Sec. 123 (\"Nuclear Regulatory Oversight\")",
+    "question": "According to Section 123(d)(1), which congressional committees are designated as the \"appropriate committees of Congress,\" and what are the implications of this designation for the reporting requirements outlined in subsections (a) and (b)?",
+    "category": "definitions",
+    "word_count": 1009
+  },
+  {
+    "document_id": 823,
+    "policy_name": "Atomic Energy Advancement Act, Sec. 123 (\"Nuclear Regulatory Oversight\")",
+    "question": "How does the definition of \"Commission\" in Section 123(d)(2) shape the understanding of who is responsible for implementing the lessons learned from the COVID-19 emergency and advancing efficient oversight as detailed in subsections (a) and (b)?",
+    "category": "definitions",
+    "word_count": 1009
+  },
+  {
+    "document_id": 2247,
+    "policy_name": "Kansas PPM 8200.00 (Gen AI Policy)",
+    "question": "The policy defines 'Restricted Use Information' by referencing ITEC Policy 7230A. What specific types of information are considered Restricted Use Information, and what are the implications for using them with generative AI tools?",
+    "category": "definitions",
+    "word_count": 803
+  },
+  {
+    "document_id": 2247,
+    "policy_name": "Kansas PPM 8200.00 (Gen AI Policy)",
+    "question": "The policy specifies that 'Entity' includes agencies, boards, commissions under the Governor's direction, and their agents and contractors. How does this broad definition impact the responsibilities of various groups within the Executive Branch when utilizing generative AI?",
+    "category": "definitions",
+    "word_count": 803
+  },
+  {
+    "document_id": 2247,
+    "policy_name": "Kansas PPM 8200.00 (Gen AI Policy)",
+    "question": "How does the definition of 'Generative artificial intelligence (AI)' in this policy distinguish it from other forms of AI, and what are the key technological characteristics that necessitate this specific policy?",
+    "category": "definitions",
+    "word_count": 803
+  },
+  {
+    "document_id": 208,
+    "policy_name": "California AB 302 (2023)",
+    "question": "Under this policy, what are the specific criteria that distinguish a 'high-risk automated decision system' from other automated decision systems, and what is the practical implication of this classification for state agencies?",
+    "category": "definitions",
+    "word_count": 561
+  },
+  {
+    "document_id": 208,
+    "policy_name": "California AB 302 (2023)",
+    "question": "Given the definition of 'state agency' in this legislation, which public entities are explicitly excluded from its purview, and what rationale might be behind these exclusions regarding the governance of automated decision systems?",
+    "category": "definitions",
+    "word_count": 561
+  },
+  {
+    "document_id": 208,
+    "policy_name": "California AB 302 (2023)",
+    "question": "How does the policy's definition of 'automated decision system' encompass both the technical nature of the system (e.g., machine learning) and its functional impact (e.g., assisting human decisions), and what is the significance of this dual focus for potential regulatory oversight?",
+    "category": "definitions",
+    "word_count": 561
+  },
+  {
+    "document_id": 1535,
+    "policy_name": "Utah SB 131 (Synthetic Media Disclosure and AI as Aggravating Factor)",
+    "question": "Under Section 20A-11-1104, how does the distinction between a 'creator' and a provider of technology for AI-generated synthetic media impact responsibilities and potential liabilities for different entities involved in content production?",
+    "category": "definitions",
+    "word_count": 735
+  },
+  {
+    "document_id": 1535,
+    "policy_name": "Utah SB 131 (Synthetic Media Disclosure and AI as Aggravating Factor)",
+    "question": "What specific types of 'digital content provenance' are mandated by this legislation, and how does the requirement for conformance to an 'open industry technical standard' aim to ensure the authenticity and traceability of synthetic media?",
+    "category": "definitions",
+    "word_count": 735
+  },
+  {
+    "document_id": 1535,
+    "policy_name": "Utah SB 131 (Synthetic Media Disclosure and AI as Aggravating Factor)",
+    "question": "Regarding the use of AI in criminal offenses, how will the courts or the Board of Pardons and Parole define 'material assistance' in the context of an AI system, and what evidence would be considered to establish this as an aggravating factor under Section 76-3-203.18?",
+    "category": "definitions",
+    "word_count": 735
+  },
+  {
+    "document_id": 64,
+    "policy_name": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 604 (\"Assessment of critical technology trends relating to artificial intelligence, microchips, and semiconductors and related supply chains\")",
+    "question": "What constitutes \"other artificial intelligence enabled technologies critical to United States supply chains\" as referenced in Section 604(b)(1)(A), and what specific criteria will be used to determine their criticality?",
+    "category": "definitions",
+    "word_count": 461
+  },
+  {
+    "document_id": 64,
+    "policy_name": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 604 (\"Assessment of critical technology trends relating to artificial intelligence, microchips, and semiconductors and related supply chains\")",
+    "question": "Beyond geopolitical shifts related to Taiwan, what other \"significant geopolitical shifts\" are envisioned in the analysis of potential effects on semiconductor supply chains under Section 604(b)(2)(B), and what are the implications of these shifts?",
+    "category": "definitions",
+    "word_count": 461
+  },
+  {
+    "document_id": 64,
+    "policy_name": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 604 (\"Assessment of critical technology trends relating to artificial intelligence, microchips, and semiconductors and related supply chains\")",
+    "question": "In the context of Section 604(b)(3), what specific metrics or indicators will be used to assess \"trends relating to computing power\" and its effect on global AI development and implementation?",
+    "category": "definitions",
+    "word_count": 461
+  },
+  {
+    "document_id": 2421,
+    "policy_name": "Copyright Office Part 3 Generative AI Training Pre-Publication Version 2025",
+    "question": "What is meant by 'ECL' in the context of AI training and copyright licensing, and under what conditions would the Office consider it a 'less intrusive approach' compared to other licensing regimes?",
+    "category": "definitions",
+    "word_count": 1005
+  },
+  {
+    "document_id": 2421,
+    "policy_name": "Copyright Office Part 3 Generative AI Training Pre-Publication Version 2025",
+    "question": "How does the policy define 'market failures' as they relate to AI training and copyright, and what types of 'targeted intervention' would be considered if such failures are identified for specific works or contexts?",
+    "category": "definitions",
+    "word_count": 1005
+  },
+  {
+    "document_id": 2421,
+    "policy_name": "Copyright Office Part 3 Generative AI Training Pre-Publication Version 2025",
+    "question": "What are the key distinctions the Office draws between licensing a 'music model that can produce rudimentary jingles' and licensing a 'state-of-the-art LLM' in terms of feasibility and licensing practices?",
+    "category": "definitions",
+    "word_count": 1005
+  },
+  {
+    "document_id": 802,
+    "policy_name": "Weather Act Reauthorization, Sec. 502 (\"National Integrated Drought Information System\")",
+    "question": "The policy amends Section 3(b)(1) of the National Integrated Drought Information System Act of 2006 to incorporate 'flash drought research and tools.' What specific types of flash drought research and tools are being prioritized, and how will their integration enhance timely response to drought events?",
+    "category": "definitions",
+    "word_count": 433
+  },
+  {
+    "document_id": 802,
+    "policy_name": "Weather Act Reauthorization, Sec. 502 (\"National Integrated Drought Information System\")",
+    "question": "Section 3(b)(7) mandates the advancement and deployment of 'next generation technologies related to drought.' What specific artificial intelligence, machine learning, and cloud technologies are envisioned for drought monitoring, preparedness, and forecasting, and what are the expected improvements over current capabilities?",
+    "category": "definitions",
+    "word_count": 433
+  },
+  {
+    "document_id": 802,
+    "policy_name": "Weather Act Reauthorization, Sec. 502 (\"National Integrated Drought Information System\")",
+    "question": "The policy introduces the concept of 'ecological drought' by amending Section 3(b)(6). How will the integration of ecological drought considerations alter the way drought indicators are refined and presented in decision-support products, especially in relation to other hydrological data?",
+    "category": "definitions",
+    "word_count": 433
+  },
+  {
+    "document_id": 1003,
+    "policy_name": "DOS Foreign Operations Appropriations Act, Title VII (\"General Provisions\"), Sec. 7032 (\"Democracy Programs\")",
+    "question": "What specifically constitutes \"democracy programs\" as defined in this Act, and what core activities are encompassed by this definition?",
+    "category": "definitions",
+    "word_count": 785
+  },
+  {
+    "document_id": 1003,
+    "policy_name": "DOS Foreign Operations Appropriations Act, Title VII (\"General Provisions\"), Sec. 7032 (\"Democracy Programs\")",
+    "question": "How does the Act's definition of \"democracy programs\" inform the types of activities that can receive funding, and what are the intended outcomes of these programs?",
+    "category": "definitions",
+    "word_count": 785
+  },
+  {
+    "document_id": 1003,
+    "policy_name": "DOS Foreign Operations Appropriations Act, Title VII (\"General Provisions\"), Sec. 7032 (\"Democracy Programs\")",
+    "question": "Beyond a general understanding, what are the key components and objectives of the \"democracy programs\" outlined in this legislation?",
+    "category": "definitions",
+    "word_count": 785
+  },
+  {
+    "document_id": 1348,
+    "policy_name": "Health Equity and Accountability Act of 2024, Sec 1013 (\"Task Force on Preventing Bias in AI and Algorithms\")",
+    "question": "What is the specific scope of 'health care service delivery process' that the Task Force on Preventing AI and Algorithmic Bias in Health Care is mandated to examine regarding the use of AI and algorithms?",
+    "category": "definitions",
+    "word_count": 745
+  },
+  {
+    "document_id": 1588,
+    "policy_name": "Washington SB 5460 (Recommendations of Autonomous Vehicle Work Group)",
+    "question": "What specific criteria does the policy define for an \"autonomous motor vehicle\" to be operated on public roadways for testing, and how does this align with the Society of Automotive Engineers International's standard J3016?",
+    "category": "definitions",
+    "word_count": 974
+  },
+  {
+    "document_id": 1588,
+    "policy_name": "Washington SB 5460 (Recommendations of Autonomous Vehicle Work Group)",
+    "question": "How does the policy define \"self-certifying entity\" and what responsibilities are associated with this designation for entities testing autonomous vehicles in Washington state?",
+    "category": "definitions",
+    "word_count": 974
+  },
+  {
+    "document_id": 1588,
+    "policy_name": "Washington SB 5460 (Recommendations of Autonomous Vehicle Work Group)",
+    "question": "What is the policy's definition of a \"moving violation\" in the context of autonomous vehicle testing, and how does this classification impact reporting requirements for testing entities?",
+    "category": "definitions",
+    "word_count": 974
+  },
+  {
+    "document_id": 225,
+    "policy_name": "FY2023 NDAA, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
+    "question": "What specific criteria will the Secretary of Defense use to identify technologies as 'critical' for inclusion in the strategy, beyond the listed examples like biotechnology and artificial intelligence?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 225,
+    "policy_name": "FY2023 NDAA, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
+    "question": "How will the definition of an 'appropriate United States company' ensure genuine innovation and competition, particularly for nontraditional defense contractors seeking to integrate critical technologies into weapon systems?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 225,
+    "policy_name": "FY2023 NDAA, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
+    "question": "Given the broad scope of 'critical technology' as defined in this section, what are the potential implications for small and medium-sized enterprises (SMEs) in the defense industrial base when seeking to engage with major weapon systems and programs of record?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 7,
+    "policy_name": "FY2023 NDAA, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
+    "question": "What specific types of artificial intelligence systems and applications are prioritized for cyber missions within the Department of Defense, and how are 'threats to, and from, artificial intelligence systems' defined in this context?",
+    "category": "definitions",
+    "word_count": 704
+  },
+  {
+    "document_id": 7,
+    "policy_name": "FY2023 NDAA, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
+    "question": "How does the policy define 'operator utility feedback' and what formalized process is established to capture and track lessons learned from wargaming or experimentation events to inform the development community?",
+    "category": "definitions",
+    "word_count": 704
+  },
+  {
+    "document_id": 7,
+    "policy_name": "FY2023 NDAA, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
+    "question": "What constitutes the 'maturity model' for desired cyber capabilities as described in the roadmap, and how are 'capability gaps' identified in relation to collaboration with commercial and government off-the-shelf developers?",
+    "category": "definitions",
+    "word_count": 704
+  },
+  {
+    "document_id": 316,
+    "policy_name": "SUPERSAFE Act",
+    "question": "What specific 'computational toxicology methods based on unique high-performance computing, artificial intelligence, machine learning, and precision measurements' does the SUPERSAFE Act intend for the Consortium to develop and validate for identifying toxic substances and safer alternatives?",
+    "category": "definitions",
+    "word_count": 455
+  },
+  {
+    "document_id": 316,
+    "policy_name": "SUPERSAFE Act",
+    "question": "Beyond National Laboratories, academic, and research institutions, what types of 'other entities' might the EPA Administrator determine are appropriate to include in the SUPERSAFE Consortium, and what criteria would guide such determinations?",
+    "category": "definitions",
+    "word_count": 455
+  },
+  {
+    "document_id": 316,
+    "policy_name": "SUPERSAFE Act",
+    "question": "How will the SUPERSAFE Act ensure that the 'information produced' by the Consortium, particularly 'model predictions' and 'supporting documentation,' is made available to the public in an 'accessible format' that facilitates its use by various stakeholders?",
+    "category": "definitions",
+    "word_count": 455
+  },
+  {
+    "document_id": 1261,
+    "policy_name": "A bill to require the Secretary of Defense to carry out a pilot program on using artificial intelligence-enabled software to optimize the workflow and operations of depots, shipyards, and other manufacturing facilities run by the Department of Defense, and for other purposes.",
+    "question": "What specific criteria will be used to define 'best in breed software platforms' when selecting AI-enabled software for the Department of Defense pilot program?",
+    "category": "definitions",
+    "word_count": 378
+  },
+  {
+    "document_id": 2257,
+    "policy_name": "Massachusetts EO 629 (AI Strategic Task Force)",
+    "question": "What are the specific criteria and limitations of the definition of 'Artificial Intelligence' and 'Generative Artificial Intelligence' as established in Executive Order No. 629, and how might these definitions influence the scope of the Task Force's investigations?",
+    "category": "definitions",
+    "word_count": 969
+  },
+  {
+    "document_id": 1920,
+    "policy_name": "Responsible AI Disclosure Act of 2024",
+    "question": "What specific criteria define a 'covered agency' under the Responsible AI Disclosure Act of 2024, and what is the rationale behind including these particular financial regulators?",
+    "category": "definitions",
+    "word_count": 711
+  },
+  {
+    "document_id": 1920,
+    "policy_name": "Responsible AI Disclosure Act of 2024",
+    "question": "How is the term 'regulated entity' defined in relation to each 'covered agency' within the Responsible AI Disclosure Act of 2024, and what are the implications of these definitions for different types of financial institutions?",
+    "category": "definitions",
+    "word_count": 711
+  },
+  {
+    "document_id": 1920,
+    "policy_name": "Responsible AI Disclosure Act of 2024",
+    "question": "What does the policy document mean by 'vendor-provided artificial intelligence systems,' and how does this definition distinguish them from internally developed AI within regulated entities?",
+    "category": "definitions",
+    "word_count": 711
+  },
+  {
+    "document_id": 1562,
+    "policy_name": "California AB 96 (Public Employment: Automated Vehicle Tech)",
+    "question": "Under Chapter 9.1 of the Government Code, what specific actions or communications would constitute a \"plan to acquire or deploy\" autonomous transit vehicle technology, triggering the notification requirements?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 1562,
+    "policy_name": "California AB 96 (Public Employment: Automated Vehicle Tech)",
+    "question": "How does the definition of \"autonomous transit vehicle technology\" in this chapter differentiate it from other forms of automation that might be present in public transit vehicles?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 1562,
+    "policy_name": "California AB 96 (Public Employment: Automated Vehicle Tech)",
+    "question": "What is the intended scope of \"public transit employer\" as defined in this chapter, and what types of local governmental agencies are explicitly included or excluded from this definition?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 191,
+    "policy_name": "FY2024 NDAA, Section 1507 (\"Review and plan relating to cyber red teams of Department of Defense\")",
+    "question": "What specific \"common gaps and shortfalls across cyber red teams of the military departments and Defense Agencies\" are expected to be identified in the annual reports, as per Section 1507(d)(3)?",
+    "category": "definitions",
+    "word_count": 580
+  },
+  {
+    "document_id": 191,
+    "policy_name": "FY2024 NDAA, Section 1507 (\"Review and plan relating to cyber red teams of Department of Defense\")",
+    "question": "How is the \"competition continuum\" defined and applied within the context of cyber red team operations and reporting under Section 1507(d)(2)?",
+    "category": "definitions",
+    "word_count": 580
+  },
+  {
+    "document_id": 191,
+    "policy_name": "FY2024 NDAA, Section 1507 (\"Review and plan relating to cyber red teams of Department of Defense\")",
+    "question": "What are the specific \"updated joint service standards and metrics\" that the plan must include to ensure sufficient capacity and capability for cyber red teams, as outlined in Section 1507(b)(1)(C)?",
+    "category": "definitions",
+    "word_count": 580
+  },
+  {
+    "document_id": 17,
+    "policy_name": "FY2023 NDAA, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
+    "question": "What is the comprehensive definition of 'unmanned aerial system swarm' that the Secretary of Defense is required to develop under this policy, and how will this definition shape the subsequent development and implementation of counter-swarm strategies?",
+    "category": "definitions",
+    "word_count": 439
+  },
+  {
+    "document_id": 1196,
+    "policy_name": "IDAIS-Oxford Statement (2023)",
+    "question": "What constitutes a 'certain capability threshold' for AI models that would trigger mandatory registration, and what criteria will be used to determine this threshold?",
+    "category": "definitions",
+    "word_count": 463
+  },
+  {
+    "document_id": 1196,
+    "policy_name": "IDAIS-Oxford Statement (2023)",
+    "question": "How will the concept of 'red lines' for AI systems be defined and operationalized, and what specific shutdown procedures are envisioned to ensure immediate termination?",
+    "category": "definitions",
+    "word_count": 463
+  },
+  {
+    "document_id": 1196,
+    "policy_name": "IDAIS-Oxford Statement (2023)",
+    "question": "What specific criteria define 'advanced AI systems' in the context of this statement, and how will these criteria be measured and verified for alignment, robustness, and human control?",
+    "category": "definitions",
+    "word_count": 463
+  },
+  {
+    "document_id": 520,
+    "policy_name": "Integrating New Technologies to Empower Law Enforcement at Our Borders Act",
+    "question": "What is the definition of 'situational awareness' as applied in this Act, and how does its reference to Section 1092(a) of the National Defense Authorization Act for Fiscal Year 2017 shape its application to border security?",
+    "category": "definitions",
+    "word_count": 789
+  },
+  {
+    "document_id": 389,
+    "policy_name": "Illinois Future of Work Act",
+    "question": "What specific 'new and emerging technologies' does the Illinois Future of Work Task Force have the duty to identify and assess, and what are the criteria for determining if a technology 'significantly affect[s] employment, wages, and skill requirements'?",
+    "category": "definitions",
+    "word_count": 1035
+  },
+  {
+    "document_id": 389,
+    "policy_name": "Illinois Future of Work Act",
+    "question": "Under the Illinois Future of Work Act, what constitutes a 'vibrant middle class' in the context of developing job standards and working conditions, and how will the Task Force measure its success in achieving this?",
+    "category": "definitions",
+    "word_count": 1035
+  },
+  {
+    "document_id": 389,
+    "policy_name": "Illinois Future of Work Act",
+    "question": "What is the intended scope and definition of 'work and workers' rights' for the three members appointed by the Governor to the Illinois Future of Work Task Force, given their specific area of professional expertise?",
+    "category": "definitions",
+    "word_count": 1035
+  },
+  {
+    "document_id": 1558,
+    "policy_name": "California AI Transparency Act (2024)",
+    "question": "How does the California AI Transparency Act define 'provenance data,' and what are the key distinctions between 'personal provenance data' and 'system provenance data' as outlined in the legislation?",
+    "category": "definitions",
+    "word_count": 1189
+  },
+  {
+    "document_id": 885,
+    "policy_name": "American Economic Independence Act of 2024",
+    "question": "What specific criteria will be used to define and identify 'priority sectors' within the American Economic Independence Act of 2024, and how does this definition influence the scope of the national security risk assessment regarding US-China economic integration?",
+    "category": "definitions",
+    "word_count": 922
+  },
+  {
+    "document_id": 885,
+    "policy_name": "American Economic Independence Act of 2024",
+    "question": "How will the 'state of economic integration' between the United States and the People's Republic of China be measured and assessed for each 'priority sector' as mandated by the American Economic Independence Act of 2024, and what are the implications of these measurement methods?",
+    "category": "definitions",
+    "word_count": 922
+  },
+  {
+    "document_id": 885,
+    "policy_name": "American Economic Independence Act of 2024",
+    "question": "What is the intended interpretation of 'risks that integration poses to the national security interests of the United States' within the context of the American Economic Independence Act of 2024, particularly concerning the specified elements like intellectual property theft and supply chain dependence?",
+    "category": "definitions",
+    "word_count": 922
+  },
+  {
+    "document_id": 1912,
+    "policy_name": "Enable Intelligence Community Partnerships Act of 2024",
+    "question": "What specific functions and responsibilities are implied for the 'congressional intelligence committees' and the 'intelligence community' as defined within this Act, and how do these definitions shape their roles in implementing its provisions?",
+    "category": "definitions",
+    "word_count": 808
+  },
+  {
+    "document_id": 149,
+    "policy_name": "FY2021 NDAA, Division A, Title XC, Section 9004 (\"Department of Homeland Security reports on digital content forgery technology\")",
+    "question": "Under Section 9004, what specific criteria define 'digital content forgery technology,' and how does this definition encompass the intent to mislead?",
+    "category": "definitions",
+    "word_count": 517
+  },
+  {
+    "document_id": 1499,
+    "policy_name": "Idaho HB 575 (Disclosing Explicit Synthetic Media)",
+    "question": "Under Idaho's new law, how does the definition of 'explicit synthetic media' distinguish between digitally altered content and traditional forms of artistic representation like drawings or cartoons?",
+    "category": "definitions",
+    "word_count": 897
+  },
+  {
+    "document_id": 1499,
+    "policy_name": "Idaho HB 575 (Disclosing Explicit Synthetic Media)",
+    "question": "The policy defines 'identifiable individual' based on recognizability through face, likeness, or distinguishing characteristics; what are the potential challenges in determining if an individual is 'identifiable' in synthetic media when their features are altered or obscured?",
+    "category": "definitions",
+    "word_count": 897
+  },
+  {
+    "document_id": 1499,
+    "policy_name": "Idaho HB 575 (Disclosing Explicit Synthetic Media)",
+    "question": "Given the exemption for 'matters of public interest' in the disclosure of explicit synthetic media, what criteria will be used to determine if the public interest element outweighs the potential for substantial emotional distress to an individual, especially when a public figure is involved?",
+    "category": "definitions",
+    "word_count": 897
+  },
+  {
+    "document_id": 1246,
+    "policy_name": "Small Business Artificial Intelligence Advancement Act",
+    "question": "What specific criteria define 'small business concerns' as referenced in the Act, and how do these criteria influence the development and applicability of the AI resources?",
+    "category": "definitions",
+    "word_count": 518
+  },
+  {
+    "document_id": 822,
+    "policy_name": "NTIA Reauthorization Act, Sec. 203 (\"Spectrum management improvements\")",
+    "question": "What are the specific 'common models, common methodologies, and common inputs' that the Under Secretary is tasked with developing and implementing for spectrum management decisions concerning Federal entities, and how will these be used to inform decisions?",
+    "category": "definitions",
+    "word_count": 338
+  },
+  {
+    "document_id": 822,
+    "policy_name": "NTIA Reauthorization Act, Sec. 203 (\"Spectrum management improvements\")",
+    "question": "How is the term 'dynamic spectrum access' specifically defined or understood within the context of Section 203, particularly in relation to 'local-to-the-radio and cognitive multidomain access'?",
+    "category": "definitions",
+    "word_count": 338
+  },
+  {
+    "document_id": 822,
+    "policy_name": "NTIA Reauthorization Act, Sec. 203 (\"Spectrum management improvements\")",
+    "question": "What are the anticipated roles and responsibilities of 'other relevant Federal agencies' in the 'coordination' and 'consultation' processes outlined for the development and implementation of spectrum management improvements?",
+    "category": "definitions",
+    "word_count": 338
+  },
+  {
+    "document_id": 2,
+    "policy_name": "FY2022 NDAA, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+    "question": "What specific 'skill gaps' are being identified within the Department of Defense concerning software development, data science, and artificial intelligence, and what are the implications of these identified gaps for personnel qualifications and talent management?",
+    "category": "definitions",
+    "word_count": 592
+  },
+  {
+    "document_id": 2,
+    "policy_name": "FY2022 NDAA, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+    "question": "Beyond general modernization, what specific 'artificial intelligence modernization activities' will the Department of Defense be assessing, and what is the intended purpose of establishing performance objectives and metrics for these activities?",
+    "category": "definitions",
+    "word_count": 592
+  },
+  {
+    "document_id": 2,
+    "policy_name": "FY2022 NDAA, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+    "question": "How is the 'integration of artificial intelligence' being defined and measured within the context of war-games, exercises, and experimentation, and what are the expected outcomes of assessing this integration?",
+    "category": "definitions",
+    "word_count": 592
+  },
+  {
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "What specific 'cutting-edge data fusion, analytics, and decision-making capabilities' does the BIS IT Modernization Act intend for the Bureau of Industry and Security to adopt, and how are these distinct from existing technologies?",
+    "category": "definitions",
+    "word_count": 622
+  },
+  {
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "The Act mentions 'supply chain illumination tools'; what are the expected functionalities of these tools within the context of export controls and identifying 'evasive trade patterns'?",
+    "category": "definitions",
+    "word_count": 622
+  },
+  {
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "How does the 'unified environment' described in Section 2(c)(1) aim to integrate 'case and customer relationship management information technology solutions' to streamline the export license adjudication process?",
+    "category": "definitions",
+    "word_count": 622
+  },
+  {
+    "document_id": 990,
+    "policy_name": "Countering Communist China Act, Title I (\"Trade, Investment, and Economic Relations\"), Sec. 102 (\"Sanctions for Chinese Military and Surveillance Companies\")",
+    "question": "What is the operational definition of 'knowingly' as it pertains to engaging in significant operations with Chinese defense or surveillance sectors, and how might this definition impact the burden of proof for imposing sanctions?",
+    "category": "definitions",
+    "word_count": 1016
+  },
+  {
+    "document_id": 990,
+    "policy_name": "Countering Communist China Act, Title I (\"Trade, Investment, and Economic Relations\"), Sec. 102 (\"Sanctions for Chinese Military and Surveillance Companies\")",
+    "question": "How does the policy define 'foreign person' in the context of this section, and what are the implications of this definition for entities with mixed international ownership or operations?",
+    "category": "definitions",
+    "word_count": 1016
+  },
+  {
+    "document_id": 990,
+    "policy_name": "Countering Communist China Act, Title I (\"Trade, Investment, and Economic Relations\"), Sec. 102 (\"Sanctions for Chinese Military and Surveillance Companies\")",
+    "question": "The document specifies 'appropriate congressional committees.' Could you clarify which specific committees are designated by this term and what their role is in the annual determination and reporting process?",
+    "category": "definitions",
+    "word_count": 1016
+  },
+  {
+    "document_id": 1894,
+    "policy_name": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",
+    "question": "How does the definition of 'covered Chinese entity' account for varying degrees of influence or control exerted by the Chinese government, and what are the implications of these distinctions for entities seeking to contract with the Department of Defense?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 1894,
+    "policy_name": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",
+    "question": "Considering the definition of 'material interest,' what specific criteria or benchmarks will the Secretary of Defense use to determine if an interest is significant enough to influence a decision or action, and how might this subjectivity impact contractual relationships?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 1894,
+    "policy_name": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",
+    "question": "What is the operational interpretation of 'substantially funds' and 'has a material interest in' as applied to research organizations in mainland China, and how will these terms be assessed to ensure consistent application of the prohibition on information technology contracts?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 217,
+    "policy_name": "FY2022 NDAA, Section 126 (\"Acquisition, modernization, and sustainment plan for carrier air wings\")",
+    "question": "What specific metrics are used to assess whether carrier air wings 'meet the requirements of the National Defense Strategy' as required by Section 126(b)(1)(A), and how will potential shortfalls in aerial refueling aircraft capacity and strike-fighter combat radius be addressed?",
+    "category": "definitions",
+    "word_count": 361
+  },
+  {
+    "document_id": 217,
+    "policy_name": "FY2022 NDAA, Section 126 (\"Acquisition, modernization, and sustainment plan for carrier air wings\")",
+    "question": "How does the plan define 'autonomous and remotely-piloted aircraft' and 'other potential capabilities and platforms' in Section 126(b)(4), and what is the anticipated impact of these on the composition and effectiveness of future carrier air wings?",
+    "category": "definitions",
+    "word_count": 361
+  },
+  {
+    "document_id": 217,
+    "policy_name": "FY2022 NDAA, Section 126 (\"Acquisition, modernization, and sustainment plan for carrier air wings\")",
+    "question": "What is the justification for the modification of F-35C aircraft squadrons from two squadrons of 10 to one squadron of 14 as detailed in Section 126(b)(8), and what are the implications of this change for carrier air wing composition and operational capability?",
+    "category": "definitions",
+    "word_count": 361
+  },
+  {
+    "document_id": 301,
+    "policy_name": "South Carolina Recommender System Act",
+    "question": "Under Section 63-5-380(C), how does the definition of 'automated decision system' encompass computational processes derived from machine learning, statistics, or other AI techniques, and what are the potential implications of this broad definition for social media operators?",
+    "category": "definitions",
+    "word_count": 544
+  },
+  {
+    "document_id": 301,
+    "policy_name": "South Carolina Recommender System Act",
+    "question": "What specific types of content placement are prohibited for users under eighteen by an 'automated decision system' as outlined in Section 63-5-380(A)(1), and how might this provision interact with evolving content delivery mechanisms on social media?",
+    "category": "definitions",
+    "word_count": 544
+  },
+  {
+    "document_id": 301,
+    "policy_name": "South Carolina Recommender System Act",
+    "question": "How does Section 63-5-380(A)(2) define 'age verification' for users eighteen and older, and what are the key distinctions and requirements of the third-party service versus the alternative internal protections (a) and (b)?",
+    "category": "definitions",
+    "word_count": 544
+  },
+  {
+    "document_id": 66,
+    "policy_name": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
+    "question": "How does the definition of 'smart manufacturing' within Section 6006 encompass advancements in artificial intelligence and analytics, and what are the implications of this broad definition for the scope of the national plan?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 999,
+    "policy_name": "Coast Guard Authorization Act, Title II (\"Coast Guard\"), Sec. 207 (\"unmanned systems capabilities office\")",
+    "question": "What is the scope of \"unmanned system\" and \"counter-unmanned system\" as defined in this section, and how might these definitions impact the types of technologies the Coast Guard considers for acquisition and development?",
+    "category": "definitions",
+    "word_count": 441
+  },
+  {
+    "document_id": 999,
+    "policy_name": "Coast Guard Authorization Act, Title II (\"Coast Guard\"), Sec. 207 (\"unmanned systems capabilities office\")",
+    "question": "Given the definition of \"counter-unmanned system,\" what are the potential legal and ethical considerations the Coast Guard must address when developing or acquiring technologies to \"lawfully and safely disabling, disrupting, or seizing control\" of unmanned systems?",
+    "category": "definitions",
+    "word_count": 441
+  },
+  {
+    "document_id": 999,
+    "policy_name": "Coast Guard Authorization Act, Title II (\"Coast Guard\"), Sec. 207 (\"unmanned systems capabilities office\")",
+    "question": "How do the definitions of \"unmanned system\" and \"counter-unmanned system\" align with or differ from existing definitions used by other agencies mentioned, such as the Department of Homeland Security and the Department of Defense, and what are the implications for inter-agency collaboration?",
+    "category": "definitions",
+    "word_count": 441
+  },
+  {
+    "document_id": 2070,
+    "policy_name": "New Jersey EO 346",
+    "question": "What is the scope of 'Executive Branch departments and agencies' as defined in Section 7 of this Order, and how might this broad definition impact the Task Force's ability to gather comprehensive information?",
+    "category": "definitions",
+    "word_count": 1116
+  },
+  {
+    "document_id": 2070,
+    "policy_name": "New Jersey EO 346",
+    "question": "How does the document define 'generative artificial intelligence technologies,' and what are the implications of this specific definition for the types of AI discussed by the Task Force?",
+    "category": "definitions",
+    "word_count": 1116
+  },
+  {
+    "document_id": 165,
+    "policy_name": "Infrastructure Investment and Jobs Act, Section 25017 (\"University Transportation Centers Program\")",
+    "question": "What specific \"matters described in subparagraphs (A) through (G) of section 6503(c)(1)\" are now explicitly included or emphasized for research within the University Transportation Centers Program as a result of these amendments?",
+    "category": "definitions",
+    "word_count": 378
+  },
+  {
+    "document_id": 165,
+    "policy_name": "Infrastructure Investment and Jobs Act, Section 25017 (\"University Transportation Centers Program\")",
+    "question": "How does the shift from 'annually' to 'biennially' in the review process (subsection (d)(2)) impact the oversight and reporting requirements for university transportation centers?",
+    "category": "definitions",
+    "word_count": 378
+  },
+  {
+    "document_id": 165,
+    "policy_name": "Infrastructure Investment and Jobs Act, Section 25017 (\"University Transportation Centers Program\")",
+    "question": "What are the implications of the amended language in subsection (b)(5)(B) for public accessibility and transparency regarding the research findings of the University Transportation Centers Program?",
+    "category": "definitions",
+    "word_count": 378
+  },
+  {
+    "document_id": 1730,
+    "policy_name": "Connecticut H 5524 (General Government And School Building Projects), Sec. 143-144",
+    "question": "The policy defines 'artificial intelligence' broadly. How might this broad definition impact the selection and implementation of AI tools beyond typical educational applications, and what are the potential implications for data privacy given the wide scope?",
+    "category": "definitions",
+    "word_count": 499
+  },
+  {
+    "document_id": 1730,
+    "policy_name": "Connecticut H 5524 (General Government And School Building Projects), Sec. 143-144",
+    "question": "Considering the definition of 'artificial intelligence' provided, what specific types of machine learning or algorithmic processes are anticipated for inclusion in the pilot program, and how does this definition inform the necessary professional development for educators?",
+    "category": "definitions",
+    "word_count": 499
+  },
+  {
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "What does 'AGI\u2014by which we mean highly autonomous systems that outperform humans at most economically valuable work' specifically imply for OpenAI's development priorities and potential economic implications for society?",
+    "category": "definitions",
+    "word_count": 422
+  },
+  {
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "How does the Charter define 'broadly distributed benefits' in the context of AGI deployment, and what mechanisms does OpenAI intend to employ to ensure this principle is upheld?",
+    "category": "definitions",
+    "word_count": 422
+  },
+  {
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "What specific 'value-aligned, safety-conscious project' criteria is implied by the Charter's commitment to 'stop competing with and start assisting' other AGI development efforts?",
+    "category": "definitions",
+    "word_count": 422
+  },
+  {
+    "document_id": 2014,
+    "policy_name": "Tempe Ethical AI Policy ",
+    "question": "Under the Tempe Ethical AI Policy, what constitutes 'AI functionality' when considering new tools for existing products or new products being considered for use, and why is this broad scope significant for departments?",
+    "category": "definitions",
+    "word_count": 1124
+  },
+  {
+    "document_id": 2014,
+    "policy_name": "Tempe Ethical AI Policy ",
+    "question": "The policy emphasizes a 'Human-Centered Approach.' How does this principle translate into specific actions or considerations for departments when designing, developing, or deploying AI technologies within Tempe?",
+    "category": "definitions",
+    "word_count": 1124
+  },
+  {
+    "document_id": 2014,
+    "policy_name": "Tempe Ethical AI Policy ",
+    "question": "Regarding 'Transparency and Explainability,' what are the expected levels of disclosure when individuals interact with AI or AI-generated content, and how will the city ensure this information is accessible to those affected by AI decisions?",
+    "category": "definitions",
+    "word_count": 1124
+  },
+  {
+    "document_id": 1234,
+    "policy_name": "Artificial Intelligence Acquisitions Act of 2024",
+    "question": "Under the \"Artificial Intelligence Acquisitions Act of 2024,\" how does the definition of 'foreign person of concern' extend beyond direct control to encompass indirect control or domicile within a listed country of concern, and what are the implications for companies operating in complex global supply chains?",
+    "category": "definitions",
+    "word_count": 1161
+  },
+  {
+    "document_id": 1234,
+    "policy_name": "Artificial Intelligence Acquisitions Act of 2024",
+    "question": "What specific criteria, beyond software or firmware development, are used to identify artificial intelligence products or services offered by a 'foreign person of concern' for inclusion on the national security risk list, and how is 'control' interpreted in this context?",
+    "category": "definitions",
+    "word_count": 1161
+  },
+  {
+    "document_id": 1234,
+    "policy_name": "Artificial Intelligence Acquisitions Act of 2024",
+    "question": "Considering the definition of 'country of concern' includes specific political entities like the 'Maduro Regime of Venezuela,' what is the rationale behind this particular naming convention, and how does it impact the classification of AI products and services originating from those regions?",
+    "category": "definitions",
+    "word_count": 1161
+  },
+  {
+    "document_id": 497,
+    "policy_name": "FinCEN Modernization Act of 2023",
+    "question": "What constitutes a 'transaction (other than a standard contract)' under the \"FinCEN Modernization Act of 2023\" that FinCEN may utilize for its research, development, and information sharing programs, and what are the criteria for its use?",
+    "category": "definitions",
+    "word_count": 702
+  },
+  {
+    "document_id": 497,
+    "policy_name": "FinCEN Modernization Act of 2023",
+    "question": "Under the \"FinCEN Modernization Act of 2023,\" how does FinCEN define 'contribution, provision of access, gift, or donation of tangible or intangible property or service' when accepting such items for its modernization efforts, and what limitations apply to their use?",
+    "category": "definitions",
+    "word_count": 702
+  },
+  {
+    "document_id": 497,
+    "policy_name": "FinCEN Modernization Act of 2023",
+    "question": "In the context of the \"FinCEN Modernization Act of 2023,\" what specific types of 'important technological advances and innovations' is FinCEN empowered to inform itself about, and how are these intended to safeguard financial systems?",
+    "category": "definitions",
+    "word_count": 702
+  },
+  {
+    "document_id": 1738,
+    "policy_name": "FY2025 NDAA, Section 6506 (\"Enhancement of authority for intelligence community public-private talent exchanges\")",
+    "question": "What specific types of \"trade secrets or proprietary information which is of commercial value or competitive advantage\" are private-sector employees detailed to the intelligence community prohibited from accessing under this section, and what mechanisms are in place to enforce this restriction?",
+    "category": "definitions",
+    "word_count": 590
+  },
+  {
+    "document_id": 1738,
+    "policy_name": "FY2025 NDAA, Section 6506 (\"Enhancement of authority for intelligence community public-private talent exchanges\")",
+    "question": "How does the policy define \"organizational conflict of interest\" in the context of these public-private talent exchanges, and what criteria will be used by intelligence community element heads to \"avoid, neutralize, or mitigate\" such conflicts when they arise due to specific individual participation?",
+    "category": "definitions",
+    "word_count": 590
+  },
+  {
+    "document_id": 1738,
+    "policy_name": "FY2025 NDAA, Section 6506 (\"Enhancement of authority for intelligence community public-private talent exchanges\")",
+    "question": "Beyond the explicitly listed fields like \"Artificial intelligence\" and \"Biotechnology,\" what is the process and justification for the Director of National Intelligence to designate \"any other technology or research field\" as relevant for these talent exchanges to meet evolving national security threats?",
+    "category": "definitions",
+    "word_count": 590
+  },
+  {
+    "document_id": 1501,
+    "policy_name": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act",
+    "question": "Under the Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act, how does the definition of 'private' apply to images obtained through means other than direct creation, such as theft or voyeurism, and what are the implications for establishing a violation?",
+    "category": "definitions",
+    "word_count": 1163
+  },
+  {
+    "document_id": 1501,
+    "policy_name": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act",
+    "question": "Considering the definition of 'identifiable' in the Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act, what are the key criteria for determining if a depicted individual can be recognized from an image or accompanying characteristics, and how might this be interpreted in practice with evolving digital technologies?",
+    "category": "definitions",
+    "word_count": 1163
+  },
+  {
+    "document_id": 1501,
+    "policy_name": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act",
+    "question": "The Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act defines 'harm' broadly to include emotional distress. What evidentiary standards are likely to be applied to demonstrate emotional distress under this Act, and how does this definition influence the potential damages available to a plaintiff?",
+    "category": "definitions",
+    "word_count": 1163
+  },
+  {
+    "document_id": 385,
+    "policy_name": "California SJR 6 (\"Artificial Intelligence\")",
+    "question": "What specific \"comprehensive artificial intelligence policy\" is the resolution urging the U.S. Congress to adopt, and what are the key components envisioned for the \"Artificial Intelligence Advisory Committee\"?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 385,
+    "policy_name": "California SJR 6 (\"Artificial Intelligence\")",
+    "question": "The resolution states that artificial intelligence \"has the potential to revolutionize the economy.\" What are the specific economic impacts or opportunities the resolution implies the federal government should plan for or promote?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 385,
+    "policy_name": "California SJR 6 (\"Artificial Intelligence\")",
+    "question": "Given the \"growing gap between technological change and regulatory response,\" what are the primary ethical principles the resolution suggests should inform the development and employment of artificial intelligence by American companies?",
+    "category": "definitions",
+    "word_count": 402
+  },
+  {
+    "document_id": 2037,
+    "policy_name": "Guidance on generative AI for City of St. Louis employees",
+    "question": "What constitutes 'sensitive, confidential, or personally identifiable information' as per this guidance, and what are the specific risks associated with its inclusion in generative AI tools?",
+    "category": "definitions",
+    "word_count": 350
+  },
+  {
+    "document_id": 2037,
+    "policy_name": "Guidance on generative AI for City of St. Louis employees",
+    "question": "How will the City's 'Information Technology Acceptable Use Policy' be applied to generative AI tools, considering the unique nature of this technology?",
+    "category": "definitions",
+    "word_count": 350
+  },
+  {
+    "document_id": 2037,
+    "policy_name": "Guidance on generative AI for City of St. Louis employees",
+    "question": "Can you elaborate on what 'appropriately attributed to its source' means in the context of content generated by AI systems, especially when the source is the AI itself?",
+    "category": "definitions",
+    "word_count": 350
+  },
+  {
+    "document_id": 818,
+    "policy_name": "Department of State Authorization Act, Sec. 941 (\"Reporting Related to AUKUS\")",
+    "question": "Under Section 941 of the Department of State Authorization Act, what specific types of documents are considered part of the 'text' of a non-binding instrument related to the AUKUS partnership, and how does the liberal construction of 'contemporaneously and in conjunction with' impact the scope of documents that must be reported?",
+    "category": "definitions",
+    "word_count": 716
+  },
+  {
+    "document_id": 818,
+    "policy_name": "Department of State Authorization Act, Sec. 941 (\"Reporting Related to AUKUS\")",
+    "question": "Beyond military capability gaps, what specific financial and strategic benefits of the AUKUS partnership must be detailed in the biennial report submitted to congressional committees, as outlined in Section 941(b)(2)(A)?",
+    "category": "definitions",
+    "word_count": 716
+  },
+  {
+    "document_id": 818,
+    "policy_name": "Department of State Authorization Act, Sec. 941 (\"Reporting Related to AUKUS\")",
+    "question": "What are the specific, measurable milestones and elements of progress for both Pillar One and Pillar Two of the AUKUS partnership that the Secretary is required to report on biennially under Section 941(b)(2)?",
+    "category": "definitions",
+    "word_count": 716
+  },
+  {
+    "document_id": 461,
+    "policy_name": "S. 2677 Small Business Broadband and Emerging Information Technology Enhancement Act of 2023",
+    "question": "Under the 'Small Business Broadband and Emerging Information Technology Enhancement Act of 2023', what specific technologies are encompassed by the term 'emerging information technology', and how might this broad definition impact the scope of the Small Business Administration's assistance programs?",
+    "category": "definitions",
+    "word_count": 1044
+  },
+  {
+    "document_id": 821,
+    "policy_name": "Pandemic Preparedness and Response Act, Sec. 407 (\"AI Threats to Health Security\")",
+    "question": "What specific 'potential vulnerabilities to health security' are envisioned by the policy's assessment of artificial intelligence, particularly concerning open-source models like large language models?",
+    "category": "definitions",
+    "word_count": 374
+  },
+  {
+    "document_id": 821,
+    "policy_name": "Pandemic Preparedness and Response Act, Sec. 407 (\"AI Threats to Health Security\")",
+    "question": "Beyond the Department of Health and Human Services, which 'other Federal departments and agencies' are anticipated to have roles and responsibilities in identifying and mitigating AI-related health security vulnerabilities as part of this study?",
+    "category": "definitions",
+    "word_count": 374
+  },
+  {
+    "document_id": 821,
+    "policy_name": "Pandemic Preparedness and Response Act, Sec. 407 (\"AI Threats to Health Security\")",
+    "question": "What are the key distinctions and timelines between the 'National Academies Report' and the subsequent 'HHS Report' mandated by this section, and what is the intended purpose of each?",
+    "category": "definitions",
+    "word_count": 374
+  },
+  {
+    "document_id": 468,
+    "policy_name": "DOE and USDA Interagency Research Act",
+    "question": "Under the \"DOE and USDA Interagency Research Act,\" what specific types of \"cross-cutting and collaborative research and development activities\" are envisioned for the joint advancement of the Department of Energy's and Department of Agriculture's mission requirements and priorities?",
+    "category": "definitions",
+    "word_count": 882
+  },
+  {
+    "document_id": 468,
+    "policy_name": "DOE and USDA Interagency Research Act",
+    "question": "The policy mandates a \"competitive, merit-reviewed process\" for selecting applications. What entities are explicitly permitted to apply for these joint research and development opportunities as outlined in the Act?",
+    "category": "definitions",
+    "word_count": 882
+  },
+  {
+    "document_id": 468,
+    "policy_name": "DOE and USDA Interagency Research Act",
+    "question": "The Act mentions \"long-term and high-risk technological barriers\" in the agriculture and energy sectors. What examples of such barriers does the policy identify, and in what manner is the development of solutions for these barriers to be pursued?",
+    "category": "definitions",
+    "word_count": 882
+  },
+  {
+    "document_id": 453,
+    "policy_name": "QUIET Act",
+    "question": "What specific criteria define a 'robocall' under the QUIET Act, particularly regarding the use of artificial intelligence to emulate a human, and what is the practical implication of the limitation excluding calls requiring 'substantial human intervention'?",
+    "category": "definitions",
+    "word_count": 668
+  },
+  {
+    "document_id": 453,
+    "policy_name": "QUIET Act",
+    "question": "How does the QUIET Act define 'text message' for the purposes of AI disclosure, and what types of electronic messages are explicitly excluded from this definition?",
+    "category": "definitions",
+    "word_count": 668
+  },
+  {
+    "document_id": 453,
+    "policy_name": "QUIET Act",
+    "question": "The bill mentions enhanced penalties for 'AI voice or text message impersonation.' What specific elements constitute such impersonation, and how does the intent requirement (to 'defraud, cause harm, or wrongfully obtain anything of value') influence the application of these penalties?",
+    "category": "definitions",
+    "word_count": 668
+  },
+  {
+    "document_id": 1774,
+    "policy_name": "Utah H 534\u00a0(Boards and Commissions Modifications), Section 55-56",
+    "question": "Under Section 53B-26-301, what specific types of 'deep technology' are explicitly enumerated, and how does the inclusion of 'other emerging technologies as determined by the advisory council board' provide flexibility in defining this scope?",
+    "category": "definitions",
+    "word_count": 767
+  },
+  {
+    "document_id": 1774,
+    "policy_name": "Utah H 534\u00a0(Boards and Commissions Modifications), Section 55-56",
+    "question": "How does the definition of 'institution of higher education' in Section 53B-26-301 determine which entities are eligible to participate in the deep technology initiative?",
+    "category": "definitions",
+    "word_count": 767
+  },
+  {
+    "document_id": 1774,
+    "policy_name": "Utah H 534\u00a0(Boards and Commissions Modifications), Section 55-56",
+    "question": "What are the key components that comprise the definition of 'deep technology' as outlined in Section 53B-26-301, and what is the role of scientific discovery and engineering innovation within this definition?",
+    "category": "definitions",
+    "word_count": 767
+  },
+  {
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "What specific 'disruptive' technologies, beyond those explicitly listed, are envisioned for inclusion in the border security plan, and how will their disruptive nature be assessed?",
+    "category": "definitions",
+    "word_count": 1155
+  },
+  {
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "Under the \"Emerging Innovative Border Technologies Act,\" what constitutes a 'capability gap' in border security operations that necessitates the deployment of new technologies?",
+    "category": "definitions",
+    "word_count": 1155
+  },
+  {
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "How does the \"Emerging Innovative Border Technologies Act\" define the scope and purpose of a 'CBP Innovation Team,' particularly concerning their mandate to 'adapt commercial technologies'?",
+    "category": "definitions",
+    "word_count": 1155
+  },
+  {
+    "document_id": 12,
+    "policy_name": "FY2023 NDAA, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
+    "question": "What constitutes 'emerging technologies' within the context of this report, particularly as they relate to artificial intelligence, and what specific types of commercial solutions are envisioned for adoption by the intelligence community?",
+    "category": "definitions",
+    "word_count": 319
+  },
+  {
+    "document_id": 12,
+    "policy_name": "FY2023 NDAA, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
+    "question": "Beyond the explicit mentions of 'software development' and 'systems integration,' what specific capabilities are encompassed by the 'acquisition' expertise sought for this technology cadre, and how will this expertise differ from current intelligence community acquisition practices?",
+    "category": "definitions",
+    "word_count": 319
+  },
+  {
+    "document_id": 12,
+    "policy_name": "FY2023 NDAA, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
+    "question": "How does the 'intelligence community' as a whole define the scope and mission of this proposed 'cadre of personnel,' and what are the distinct 'missions' that this cadre is intended to support through improved AI adoption?",
+    "category": "definitions",
+    "word_count": 319
+  },
+  {
+    "document_id": 1687,
+    "policy_name": "Next Generation Military Education Act",
+    "question": "What specific components comprise 'artificial intelligence literacy' as defined within the 'Next Generation Military Education Act', and how will achieving this literacy benefit members of the Armed Forces in their decision-making regarding AI products and services?",
+    "category": "definitions",
+    "word_count": 853
+  },
+  {
+    "document_id": 1687,
+    "policy_name": "Next Generation Military Education Act",
+    "question": "Beyond foundational concepts and ethical use, what other key areas will the new distance education courses developed under Section 2(d) of the 'Next Generation Military Education Act' aim to cover to enhance AI and machine learning education for DoD personnel?",
+    "category": "definitions",
+    "word_count": 853
+  },
+  {
+    "document_id": 1687,
+    "policy_name": "Next Generation Military Education Act",
+    "question": "Considering the 'Digital On-Demand Program' is defined as offering 'educational resources on artificial intelligence, emerging technologies, data literacy, and related topics', what is the intended scope of 'related topics' that personnel can expect to access?",
+    "category": "definitions",
+    "word_count": 853
+  },
+  {
+    "document_id": 1406,
+    "policy_name": "Delaware\u00a0 H 333\u00a0 (Artificial Intelligence Commission\u00a0)",
+    "question": "What is the definition of 'Generative AI' as outlined in this policy, and how does this definition distinguish it from other forms of AI that the Commission might address?",
+    "category": "definitions",
+    "word_count": 1099
+  },
+  {
+    "document_id": 1406,
+    "policy_name": "Delaware\u00a0 H 333\u00a0 (Artificial Intelligence Commission\u00a0)",
+    "question": "Considering the definition of 'Artificial Intelligence' provided, what is the scope of systems the Delaware AI Commission will examine and make recommendations on?",
+    "category": "definitions",
+    "word_count": 1099
+  },
+  {
+    "document_id": 1406,
+    "policy_name": "Delaware\u00a0 H 333\u00a0 (Artificial Intelligence Commission\u00a0)",
+    "question": "The policy defines 'Appointed member' in relation to Section 9043C. How does this definition encompass the diverse roles and appointment methods described for Commission membership?",
+    "category": "definitions",
+    "word_count": 1099
+  },
+  {
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "What is the significance of \"de facto standards (\u4e8b\u5b9e\u6807\u51c6)\" as described in this policy document, and what strategies will be employed to cultivate them for China's AI industry?",
+    "category": "definitions",
+    "word_count": 698
+  },
+  {
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "How does the policy define the role of the \"National Information Technology Standardization Technical Committee\u2019s AI Technical Subcommittee (SAC/TC 28/SC 42)\" in coordinating AI standardization efforts with other emerging technologies like IoT and cloud computing?",
+    "category": "definitions",
+    "word_count": 698
+  },
+  {
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "Can you elaborate on what is meant by \"Chinese wisdom\" in the context of international AI standardization, and how this policy aims to promote it globally?",
+    "category": "definitions",
+    "word_count": 698
+  },
+  {
+    "document_id": 2418,
+    "policy_name": "United States-Israel Defense Partnership Act of 2025, Sec. 6. \"United States-Israel Emerging Technology Capabilities Cooperation.\"",
+    "question": "What constitutes 'emerging technologies' as defined within the context of this policy for the purpose of defense collaboration with Israel, and how does this definition inform the scope of research, development, testing, and evaluation activities?",
+    "category": "definitions",
+    "word_count": 466
+  },
+  {
+    "document_id": 2418,
+    "policy_name": "United States-Israel Defense Partnership Act of 2025, Sec. 6. \"United States-Israel Emerging Technology Capabilities Cooperation.\"",
+    "question": "How does the policy delineate 'sensitive information' and 'national security interests' of both the United States and Israel in the context of joint emerging technology development programs?",
+    "category": "definitions",
+    "word_count": 466
+  },
+  {
+    "document_id": 2418,
+    "policy_name": "United States-Israel Defense Partnership Act of 2025, Sec. 6. \"United States-Israel Emerging Technology Capabilities Cooperation.\"",
+    "question": "What specific criteria define 'in-kind support' as it pertains to the sharing of research and development costs between the United States and Israel under the proposed memorandum of agreement?",
+    "category": "definitions",
+    "word_count": 466
+  },
+  {
+    "document_id": 2250,
+    "policy_name": "Virginia (2023) ED 5 (Recognizing the Risks and Seizing the Opportunities of Artificial Intelligence)",
+    "question": "What specific 'AI-specific issues' are anticipated to require updates or changes to existing laws and regulations concerning privacy and intellectual property, as directed by Section I.a. of the Executive Directive?",
+    "category": "definitions",
+    "word_count": 1114
+  },
+  {
+    "document_id": 2250,
+    "policy_name": "Virginia (2023) ED 5 (Recognizing the Risks and Seizing the Opportunities of Artificial Intelligence)",
+    "question": "Beyond general transparency and security, what specific types of 'sufficient safeguards' for protecting individual privacy rights are envisioned for the state government's use of AI, as outlined in Section I.b.?",
+    "category": "definitions",
+    "word_count": 1114
+  },
+  {
+    "document_id": 2250,
+    "policy_name": "Virginia (2023) ED 5 (Recognizing the Risks and Seizing the Opportunities of Artificial Intelligence)",
+    "question": "In the context of Section III.c. concerning ethical guidelines for AI in decision-making, what does 'accountability in AI algorithms and decision-making processes' practically entail for state agencies?",
+    "category": "definitions",
+    "word_count": 1114
+  },
+  {
+    "document_id": 189,
+    "policy_name": "FY2024 NDAA, Section 856 (\"Pilot program to analyze and monitor certain supply chains\")",
+    "question": "What specific criteria or process will be used to identify the \"covered weapons platforms\" mentioned in Section 856, given that the definition refers to another act's reporting requirements?",
+    "category": "definitions",
+    "word_count": 327
+  },
+  {
+    "document_id": 1625,
+    "policy_name": "New Jersey (2019) AJR 164 (Advanced Autonomous Vehicle Task Force)",
+    "question": "Under the \"New Jersey Advanced Autonomous Vehicle Task Force\" resolution, what specific driving automation levels of \"advanced autonomous vehicles\" are included by referencing the SAE J3016 standard, and how does this definition impact the scope of the task force's study?",
+    "category": "definitions",
+    "word_count": 855
+  },
+  {
+    "document_id": 1316,
+    "policy_name": "Modernizing Retrospective Regulatory Review Act",
+    "question": "Under the Modernizing Retrospective Regulatory Review Act, what is the specific purpose and scope of a 'retrospective review of a regulation of the agency' as defined in Section 2(a)(7)?",
+    "category": "definitions",
+    "word_count": 707
+  },
+  {
+    "document_id": 1316,
+    "policy_name": "Modernizing Retrospective Regulatory Review Act",
+    "question": "The Act refers to 'appropriate congressional committees' in Section 2(a)(4); what are these committees and what role do they play in the reporting and planning requirements outlined in the document?",
+    "category": "definitions",
+    "word_count": 707
+  },
+  {
+    "document_id": 1316,
+    "policy_name": "Modernizing Retrospective Regulatory Review Act",
+    "question": "According to Section 2(a)(6), what is the significance of a regulation being 'machine-readable' within the context of the Modernizing Retrospective Regulatory Review Act?",
+    "category": "definitions",
+    "word_count": 707
+  },
+  {
+    "document_id": 144,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 249 (\"Part-time and term employment of university faculty and students in the Defense science and technology enterprise\")",
+    "question": "What constitutes the 'Defense science and technology enterprise' as defined in this policy, and how might this broad definition impact the scope of research opportunities available to university faculty and students?",
+    "category": "definitions",
+    "word_count": 903
+  },
+  {
+    "document_id": 144,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 249 (\"Part-time and term employment of university faculty and students in the Defense science and technology enterprise\")",
+    "question": "How is 'faculty' specifically defined in the context of this program, and what are the implications of this definition for who can participate as a faculty member?",
+    "category": "definitions",
+    "word_count": 903
+  },
+  {
+    "document_id": 144,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 249 (\"Part-time and term employment of university faculty and students in the Defense science and technology enterprise\")",
+    "question": "What is the definition of 'institution of higher education' as used in this policy, and how does this alignment with existing legal definitions affect the recruitment pool for the program?",
+    "category": "definitions",
+    "word_count": 903
+  },
+  {
+    "document_id": 286,
+    "policy_name": "Automated Employment Decision Tools Amendment to NY Labor Law",
+    "question": "What specific types of systems are explicitly included under the definition of 'Automated Employment Decision Tool' in this amendment, and what is the rationale for excluding tools that do not 'materially impact natural persons'?",
+    "category": "definitions",
+    "word_count": 687
+  },
+  {
+    "document_id": 286,
+    "policy_name": "Automated Employment Decision Tools Amendment to NY Labor Law",
+    "question": "How does the policy's definition of 'Disparate Impact Analysis' align with or differ from the requirements outlined in the Uniform Guidelines on Employee Selection Procedures, and what are the key components of the analysis mandated for employers?",
+    "category": "definitions",
+    "word_count": 687
+  },
+  {
+    "document_id": 286,
+    "policy_name": "Automated Employment Decision Tools Amendment to NY Labor Law",
+    "question": "Considering the definition of 'Automated Employment Decision Tool,' what are the potential implications for employers who use AI-powered resume scoring systems or personality tests that rely on statistical theory or machine learning algorithms?",
+    "category": "definitions",
+    "word_count": 687
+  },
+  {
+    "document_id": 141,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 241 (\"Measuring and incentivizing programming proficiency\")",
+    "question": "What specific criteria will be used to 'measure an individual's competency in using machine learning tools' under this policy, and how will this measurement be comparable to the Defense Language Proficiency Test?",
+    "category": "definitions",
+    "word_count": 597
+  },
+  {
+    "document_id": 141,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 241 (\"Measuring and incentivizing programming proficiency\")",
+    "question": "How will the Department of Defense define and identify programming languages 'beneficial for national security interests' when determining eligibility for special pay under this section?",
+    "category": "definitions",
+    "word_count": 597
+  },
+  {
+    "document_id": 141,
+    "policy_name": "FY2021 NDAA, Division A, Title II, Section 241 (\"Measuring and incentivizing programming proficiency\")",
+    "question": "What does 'varying levels of quantified coding comprehension and skills' entail in the context of identifying personnel within the Department of Defense?",
+    "category": "definitions",
+    "word_count": 597
+  },
+  {
+    "document_id": 1728,
+    "policy_name": "Utah\u00a0S 84 (Governor\u2019s Office of Economic Opportunity), Part 13. Innovation in Artificial Intelligence Grant Pilot Program",
+    "question": "Under the Innovation in Artificial Intelligence Grant Pilot Program, how is 'business entity' defined, and what are the implications of including both for-profit and nonprofit organizations in this definition for potential grant recipients?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 1728,
+    "policy_name": "Utah\u00a0S 84 (Governor\u2019s Office of Economic Opportunity), Part 13. Innovation in Artificial Intelligence Grant Pilot Program",
+    "question": "The definition of 'student' in this pilot program specifies grades kindergarten through twelfth. What is the rationale behind this specific age range, and how does it shape the intended curriculum and target outcomes?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 1728,
+    "policy_name": "Utah\u00a0S 84 (Governor\u2019s Office of Economic Opportunity), Part 13. Innovation in Artificial Intelligence Grant Pilot Program",
+    "question": "The policy establishes a 'pilot program' for innovation in artificial intelligence grants. What specific characteristics define this program, and how might its designation as a 'pilot' program influence its scope and future development?",
+    "category": "definitions",
+    "word_count": 430
+  },
+  {
+    "document_id": 1761,
+    "policy_name": "New Mexico S 192 (Appropriations and Legislative Confidentiality), Section 9.",
+    "question": "What specific activities are encompassed by \"statewide projects\" as defined in Section 9.A, and what is the intended impact of each of these projects?",
+    "category": "definitions",
+    "word_count": 804
+  },
+  {
+    "document_id": 1761,
+    "policy_name": "New Mexico S 192 (Appropriations and Legislative Confidentiality), Section 9.",
+    "question": "How is the term \"at-risk populations\" interpreted within the context of Section 9.A(3) and 9.A(5), and what criteria are used to identify students who fall into this category for dropout prevention and re-engagement programs?",
+    "category": "definitions",
+    "word_count": 804
+  },
+  {
+    "document_id": 1761,
+    "policy_name": "New Mexico S 192 (Appropriations and Legislative Confidentiality), Section 9.",
+    "question": "What constitutes \"under-resourced families\" as described in Section 9.C(1), and what specific metrics or assessments are employed to determine eligibility for the enhanced summer and out-of-school-time programming?",
+    "category": "definitions",
+    "word_count": 804
+  },
+  {
+    "document_id": 593,
+    "policy_name": "United States-Israel Health Technologies Cooperation Act",
+    "question": "What specific criteria will the Secretary of Health and Human Services use to determine 'health technologies' for grant awards under the United States-Israel Health Technologies Cooperation Act, particularly concerning the emphasis on 'personalized medicine and data in relation to emerging infectious diseases'?",
+    "category": "definitions",
+    "word_count": 498
+  },
+  {
+    "document_id": 593,
+    "policy_name": "United States-Israel Health Technologies Cooperation Act",
+    "question": "How will the 'matching contribution from the Government of Israel' be defined and verified to ensure equitable partnership in the bilateral cooperative program for health technology development?",
+    "category": "definitions",
+    "word_count": 498
+  },
+  {
+    "document_id": 593,
+    "policy_name": "United States-Israel Health Technologies Cooperation Act",
+    "question": "What are the implications of the 'Agreement between the Government of the United States of America and the Government of the State of Israel on Cooperation in Science and Technology for Homeland Security Matters' for the establishment of a new bilateral health technology program under this Act?",
+    "category": "definitions",
+    "word_count": 498
+  },
+  {
+    "document_id": 2410,
+    "policy_name": "CORE Act of 2025, Section 2(b) (\"Report on transboundary hydrocarbon reservoirs\")",
+    "question": "What specific types of 'transboundary hydrocarbon reservoirs' are being identified and assessed in the report, and how does this definition extend beyond those currently covered by bilateral maritime boundary treaties and agreements?",
+    "category": "definitions",
+    "word_count": 584
+  },
+  {
+    "document_id": 2410,
+    "policy_name": "CORE Act of 2025, Section 2(b) (\"Report on transboundary hydrocarbon reservoirs\")",
+    "question": "How does the policy define 'equitable exploration, development, and production' within the context of transboundary hydrocarbon reservoirs, and what are the key considerations for assessing the adoption of such frameworks by counterparty nations?",
+    "category": "definitions",
+    "word_count": 584
+  },
+  {
+    "document_id": 2410,
+    "policy_name": "CORE Act of 2025, Section 2(b) (\"Report on transboundary hydrocarbon reservoirs\")",
+    "question": "What are the practical implications of the requirement to 'approximate the quantity and establish a peer-reviewed range of resources' for transboundary hydrocarbon reservoirs, particularly concerning the proposed methods for reducing the range of uncertainty?",
+    "category": "definitions",
+    "word_count": 584
+  },
+  {
+    "document_id": 214,
+    "policy_name": "FY2022 NDAA, Section 909 (\"Digital talent recruiting officer\")",
+    "question": "What specific civilian digital talent areas are prioritized by the Department of Defense, as defined in Section 909(b), and how will these priorities inform the Chief Digital Recruiting Officer's identification of needs and skills gaps?",
+    "category": "definitions",
+    "word_count": 443
+  },
+  {
+    "document_id": 1445,
+    "policy_name": "Tennessee Artificial Intelligence Advisory Council Act",
+    "question": "The \"Tennessee Artificial Intelligence Advisory Council Act\" defines \"Artificial intelligence\" as models and systems capable of performing functions generally associated with human intelligence, including reasoning and learning. How might this broad definition impact the scope of technologies and applications the council is tasked with advising on?",
+    "category": "definitions",
+    "word_count": 1130
+  },
+  {
+    "document_id": 1445,
+    "policy_name": "Tennessee Artificial Intelligence Advisory Council Act",
+    "question": "What are the implications of defining \"Advisory council\" solely as the \"Tennessee artificial intelligence advisory council\" in the context of potential future AI-related advisory bodies or initiatives within the state?",
+    "category": "definitions",
+    "word_count": 1130
+  },
+  {
+    "document_id": 1754,
+    "policy_name": "FY2025 NDAA, Section 233 (\"Management and utilization of digital data to enhance maintenance activities\")",
+    "question": "What constitutes 'digital data systems' as referenced in Section 233(a) for aircraft, ships, and ground vehicles, and how will the scope of data collection be defined to effectively inform maintenance activities?",
+    "category": "definitions",
+    "word_count": 356
+  },
+  {
+    "document_id": 1754,
+    "policy_name": "FY2025 NDAA, Section 233 (\"Management and utilization of digital data to enhance maintenance activities\")",
+    "question": "Under Section 233(b)(2), what are the anticipated challenges and proposed mechanisms for 'addressing and resolving limitations imposed by proprietary information and data' with vendors, and what are the implications of adopting 'open data and open mission systems approaches' for current vendor contracts?",
+    "category": "definitions",
+    "word_count": 356
+  },
+  {
+    "document_id": 1754,
+    "policy_name": "FY2025 NDAA, Section 233 (\"Management and utilization of digital data to enhance maintenance activities\")",
+    "question": "What specific criteria will be used to determine a 'compelling reason not to use' vendor-agnostic, government-owned tagging and interoperable systems, as outlined in Section 233(b)(5)?",
+    "category": "definitions",
+    "word_count": 356
+  },
+  {
+    "document_id": 58,
+    "policy_name": "Infrastructure Investment and Jobs Act, Title V, Subtitle C, Part II (\"Smart Manufacturing\")",
+    "question": "Under the \"Smart Manufacturing\" policy, how does the definition of 'small and medium manufacturers' specifically qualify firms based on industry classification, sales, employee count, and energy expenditures, and what are the implications of these specific thresholds?",
+    "category": "definitions",
+    "word_count": 1041
+  },
+  {
+    "document_id": 58,
+    "policy_name": "Infrastructure Investment and Jobs Act, Title V, Subtitle C, Part II (\"Smart Manufacturing\")",
+    "question": "What are the core components and technological advancements encompassed by the definition of 'smart manufacturing' as outlined in this policy, and how do these components aim to digitally transform production processes?",
+    "category": "definitions",
+    "word_count": 1041
+  },
+  {
+    "document_id": 58,
+    "policy_name": "Infrastructure Investment and Jobs Act, Title V, Subtitle C, Part II (\"Smart Manufacturing\")",
+    "question": "Could you elaborate on the definition of 'industrial research and assessment center' within this policy, detailing its institutional affiliations and the specific types of assessments and improvements it is mandated to provide to manufacturers?",
+    "category": "definitions",
+    "word_count": 1041
+  },
+  {
+    "document_id": 152,
+    "policy_name": "FY2021 NDAA, Division A, Title V, Section 589F (\"Study on cyberexploitation and online deception of members of the Armed Forces and their families\")",
+    "question": "Under Section 589F, how does the policy define 'cyberexploitation,' and what specific types of malicious digital activities does this definition encompass regarding service members and their families?",
+    "category": "definitions",
+    "word_count": 512
+  },
+  {
+    "document_id": 152,
+    "policy_name": "FY2021 NDAA, Division A, Title V, Section 589F (\"Study on cyberexploitation and online deception of members of the Armed Forces and their families\")",
+    "question": "What constitutes 'machine-manipulated media' according to Section 589F, and what are the implications of this definition in the context of information warfare targeting military personnel and their relatives?",
+    "category": "definitions",
+    "word_count": 512
+  },
+  {
+    "document_id": 1485,
+    "policy_name": "Arizona SB 1359 (Deepfakes in Election Communications)",
+    "question": "Under the \"Deepfakes; candidates; political parties; exemptions; violation; classification; definitions\" act, what are the specific criteria that would categorize synthetic media as a 'deceptive and fraudulent deepfake' of a candidate, considering the intent to injure reputation and mislead the public?",
+    "category": "definitions",
+    "word_count": 400
+  },
+  {
+    "document_id": 1485,
+    "policy_name": "Arizona SB 1359 (Deepfakes in Election Communications)",
+    "question": "How does the definition of 'creator' in Section 16-1023 of this act differentiate between an entity that actively generates synthetic media and a provider of the underlying technology used for its creation?",
+    "category": "definitions",
+    "word_count": 400
+  },
+  {
+    "document_id": 1485,
+    "policy_name": "Arizona SB 1359 (Deepfakes in Election Communications)",
+    "question": "What constitutes 'synthetic media' as defined in this legislation, and how does it encompass various forms of manipulated digital content beyond just video?",
+    "category": "definitions",
+    "word_count": 400
+  },
+  {
+    "document_id": 888,
+    "policy_name": "Targeting Online Sales of Fentanyl Act",
+    "question": "What is the definition of 'online illicit drug markets and providers' as referenced in Section 2(a)(2) of the Targeting Online Sales of Fentanyl Act, and how does this definition specifically impact the scope of the GAO's study concerning individuals aged 18 and younger?",
+    "category": "definitions",
+    "word_count": 489
+  },
+  {
+    "document_id": 11,
+    "policy_name": "FY2023 NDAA, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
+    "question": "What are the specific 'emerging technologies' that the report under Section 6723(b)(1) is required to focus on, beyond artificial intelligence, and why is their inclusion significant for the intelligence community's future capabilities?",
+    "category": "definitions",
+    "word_count": 503
+  },
+  {
+    "document_id": 11,
+    "policy_name": "FY2023 NDAA, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
+    "question": "How does the policy define 'primary duties involving the integration, maintenance, or use of artificial intelligence' for the purpose of identifying personnel for recruitment and retention plans under Section 6723(a)(1)?",
+    "category": "definitions",
+    "word_count": 503
+  },
+  {
+    "document_id": 11,
+    "policy_name": "FY2023 NDAA, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
+    "question": "What constitutes 'quality and sustainability of the talent pipeline' as assessed in Section 6723(b)(3), and what are the implications of this assessment for the long-term effectiveness of the intelligence community?",
+    "category": "definitions",
+    "word_count": 503
+  },
+  {
+    "document_id": 1770,
+    "policy_name": "G20 Ministerial Statement on Trade and Digital Economy (Sec I, Subsec 3 \"Human-centered Artificial Intelligence\")",
+    "question": "What does 'human-centered AI' specifically entail within the context of the G20's stated goals, and how does it differ from previous approaches to AI development?",
+    "category": "definitions",
+    "word_count": 408
+  },
+  {
+    "document_id": 1770,
+    "policy_name": "G20 Ministerial Statement on Trade and Digital Economy (Sec I, Subsec 3 \"Human-centered Artificial Intelligence\")",
+    "question": "The document mentions the G20 AI Principles drawn from the OECD Recommendation on AI. What are the core tenets of these non-binding principles, and how are they intended to guide policy-making for AI?",
+    "category": "definitions",
+    "word_count": 408
+  },
+  {
+    "document_id": 1770,
+    "policy_name": "G20 Ministerial Statement on Trade and Digital Economy (Sec I, Subsec 3 \"Human-centered Artificial Intelligence\")",
+    "question": "Paragraph 17 highlights the G20's aim to create an 'enabling environment' for human-centered AI. What specific actions or policy levers are implied by this concept, particularly concerning digital entrepreneurship and MSME adoption?",
+    "category": "definitions",
+    "word_count": 408
+  },
+  {
+    "document_id": 1929,
+    "policy_name": "Advancing Digital Freedom Act of 2024",
+    "question": "What specific activities and responsibilities fall under the purview of the 'Coordinator for Digital Freedom' as defined in Section 3 and elaborated in Section 4 of the Advancing Digital Freedom Act of 2024?",
+    "category": "definitions",
+    "word_count": 659
+  },
+  {
+    "document_id": 1929,
+    "policy_name": "Advancing Digital Freedom Act of 2024",
+    "question": "Beyond a general statement of policy, how does the 'Advancing Digital Freedom Act of 2024' operationalize the commitment to digital freedom as a cornerstone of United States foreign policy in Section 2?",
+    "category": "definitions",
+    "word_count": 659
+  },
+  {
+    "document_id": 1929,
+    "policy_name": "Advancing Digital Freedom Act of 2024",
+    "question": "Considering the definition of 'digital freedom' is not explicitly provided, what core principles or protections does the Act imply are encompassed by this term through its statement of policy and the duties of the Coordinator?",
+    "category": "definitions",
+    "word_count": 659
+  },
+  {
+    "document_id": 1126,
+    "policy_name": "Position Paper of the People\u2019s Republic of China on Regulating Military Applications of Artificial Intelligence",
+    "question": "What is the scope of 'military applications of AI' as understood within this policy, and how might this understanding influence the interpretation of regulatory measures?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 1126,
+    "policy_name": "Position Paper of the People\u2019s Republic of China on Regulating Military Applications of Artificial Intelligence",
+    "question": "How does this policy define 'common, comprehensive, cooperative and sustainable global security,' and what are the implications of this definition for regulating military AI?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 1126,
+    "policy_name": "Position Paper of the People\u2019s Republic of China on Regulating Military Applications of Artificial Intelligence",
+    "question": "Could you clarify the policy's interpretation of 'AI for good,' particularly in the context of military applications and ethical norms?",
+    "category": "definitions",
+    "word_count": 742
+  },
+  {
+    "document_id": 1538,
+    "policy_name": "Washington SB 5152 (Synthetic Media)",
+    "question": "What constitutes 'synthetic media' as defined in Section 2(1) of this act, and how does the policy distinguish between intentional manipulation and other forms of digital alteration in campaign communications?",
+    "category": "definitions",
+    "word_count": 867
+  },
+  {
+    "document_id": 1538,
+    "policy_name": "Washington SB 5152 (Synthetic Media)",
+    "question": "How does Section 3(3) of the act define an 'interactive computer service' and an 'information content provider', and what are the implications of these definitions for online platforms in the context of campaign synthetic media?",
+    "category": "definitions",
+    "word_count": 867
+  },
+  {
+    "document_id": 592,
+    "policy_name": "SAFE AI Research Grants",
+    "question": "What specific 'guiding principles and ethical considerations' will the National Academy of Sciences develop for the SAFE AI Research Grants program, and how will the public comment process influence their finalization?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 592,
+    "policy_name": "SAFE AI Research Grants",
+    "question": "Regarding the proposal for the grant program, what are the key elements expected in the discussion and evaluation of existing AI models' incorporation of 'safe AI' and their methods for assessing societal benefits and risks?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 592,
+    "policy_name": "SAFE AI Research Grants",
+    "question": "How will the Director of the National Academy of Sciences determine whether awardees of the SAFE AI Research Grants have achieved their 'promised outcomes' as stipulated in the proposal requirements?",
+    "category": "definitions",
+    "word_count": 522
+  },
+  {
+    "document_id": 2381,
+    "policy_name": "AI PLAN Act",
+    "question": "What specific types of \"financial crimes\" are explicitly mentioned or implied in the AI PLAN Act as being amplified by artificial intelligence, and how might these definitions evolve as AI capabilities change?",
+    "category": "definitions",
+    "word_count": 554
+  },
+  {
+    "document_id": 2381,
+    "policy_name": "AI PLAN Act",
+    "question": "Beyond the enumerated risks like \"deepfakes\" and \"synthetic identities,\" what other \"national and economic security risks\" are anticipated by the AI PLAN Act, and how are these risks being defined and measured for the purpose of strategy development?",
+    "category": "definitions",
+    "word_count": 554
+  },
+  {
+    "document_id": 2381,
+    "policy_name": "AI PLAN Act",
+    "question": "How does the AI PLAN Act define \"adversarial actors\" in the context of employing artificial intelligence for financial crimes, and what criteria will be used to identify and characterize these actors for the purpose of developing defensive strategies?",
+    "category": "definitions",
+    "word_count": 554
+  },
+  {
+    "document_id": 1225,
+    "policy_name": "AI Development Practices Act of 2024",
+    "question": "What is the definition of 'artificial intelligence red teaming' as outlined in the AI Development Practices Act of 2024, and how is it intended to be used in the assessment of AI systems?",
+    "category": "definitions",
+    "word_count": 903
+  },
+  {
+    "document_id": 1225,
+    "policy_name": "AI Development Practices Act of 2024",
+    "question": "How does the AI Development Practices Act of 2024 define 'artificial intelligence system' by referencing the Advancing American AI Act, and what are the implications of this definition for the scope of the NIST's guidance?",
+    "category": "definitions",
+    "word_count": 903
+  },
+  {
+    "document_id": 1579,
+    "policy_name": "California SB 1398 (Consumer notices of automated vehicles)",
+    "question": "How does the policy define 'partial driving automation feature,' and what specific SAE standard is referenced for this definition?",
+    "category": "definitions",
+    "word_count": 468
+  },
+  {
+    "document_id": 1579,
+    "policy_name": "California SB 1398 (Consumer notices of automated vehicles)",
+    "question": "What is the distinction made in this policy between a 'partial driving automation feature' and an 'autonomous vehicle,' as defined elsewhere?",
+    "category": "definitions",
+    "word_count": 468
+  },
+  {
+    "document_id": 1579,
+    "policy_name": "California SB 1398 (Consumer notices of automated vehicles)",
+    "question": "What specific type of advertising language is prohibited by this policy in relation to partial driving automation features, and what existing California law does this relate to?",
+    "category": "definitions",
+    "word_count": 468
+  },
+  {
+    "document_id": 323,
+    "policy_name": "Drone Safety and Efficiency Act",
+    "question": "What specific criteria will the FAA Administrator use to define 'substantially similar' when determining if a new waiver application can be streamlined based on previously approved waivers, as outlined in Section 2(e)?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 323,
+    "policy_name": "Drone Safety and Efficiency Act",
+    "question": "How will the Federal Aviation Administration's Administrator define and operationalize 'performance- and risk-based approach' for reviewing certificate of waiver requests under Section 2(a) of the Drone Safety and Efficiency Act?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 323,
+    "policy_name": "Drone Safety and Efficiency Act",
+    "question": "What constitutes 'proprietary information' that the Administrator must prevent from inappropriate disclosure when publishing issued certificates of waiver online, according to Section 2(d)(2)?",
+    "category": "definitions",
+    "word_count": 641
+  },
+  {
+    "document_id": 223,
+    "policy_name": "FY2023 NDAA, Section 557 (\"Study and report on professional military education\")",
+    "question": "What is the recommended definition for \"Professional Military Education\" (PME) and its stated purpose, as outlined in the report, and how do these align with the goal of improving readiness and fostering a culture of lifelong learning?",
+    "category": "definitions",
+    "word_count": 904
+  },
+  {
+    "document_id": 223,
+    "policy_name": "FY2023 NDAA, Section 557 (\"Study and report on professional military education\")",
+    "question": "Beyond Joint Professional Military Education (JPME), what are the legislative recommendations for establishing a statutory three-phase approach for other forms of PME, and how would this differ from the existing JPME structure?",
+    "category": "definitions",
+    "word_count": 904
+  },
+  {
+    "document_id": 223,
+    "policy_name": "FY2023 NDAA, Section 557 (\"Study and report on professional military education\")",
+    "question": "The document defines \"institutions of PME\" broadly. How might the inclusion of specific institutions like the Naval Postgraduate School or Air Force Institute of Technology in a prospective civilian-PME consortium necessitate legislative changes, according to the report?",
+    "category": "definitions",
+    "word_count": 904
+  }
+]

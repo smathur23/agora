@@ -1,9 +1,10 @@
 import os
 import json
+import random
 import pandas as pd
 from pathlib import Path
 from tqdm import tqdm
-from typing import List, Dict
+from typing import List, Dict, Optional
 import google.generativeai as genai
 import time
 from dotenv import load_dotenv
@@ -16,10 +17,10 @@ class QuestionGenerator:
     
     def __init__(self, model_name: str = "gemini-1.5-flash"):
         """Initialize the question generator with LLM."""
-        api_key = os.getenv("GOOGLE_API_KEY")
+        api_key = os.getenv("GEMINI_KEY")
         if not api_key:
-            raise ValueError("GOOGLE_API_KEY not found in environment variables")
-        
+            raise ValueError("GEMINI_KEY not found in environment variables")
+
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(model_name)
         self.prompt_template = self._load_prompt_template()
@@ -27,7 +28,7 @@ class QuestionGenerator:
         
     def _load_prompt_template(self) -> str:
         """Load the question generation prompt template."""
-        prompt_path = Path(__file__).parent / "prompt.txt"
+        prompt_path = Path(__file__).parent / "prompt_compl.txt"
         with open(prompt_path, 'r') as f:
             return f.read()
     
@@ -165,23 +166,25 @@ class QuestionGenerator:
             return False
         
         # Validate category value
-        if item["category"] != "stakeholder":
-            print(f"  category must be 'stakeholder', got '{item['category']}'")
+        if item["category"] != "compliance":
+            print(f"  category must be 'compliance', got '{item['category']}'")
             return False
         
         return True
 
     def process_all_documents(self, output_file: str = "generated_questions.jsonl", 
-                            max_docs: int = None,
+                            max_docs: Optional[int] = None,
                             min_words: int = 300,
-                            max_words: int = 1200) -> None:
+                            max_words: int = 1200,
+                            sample_seed: Optional[int] = None) -> None:
         """Process all documents and generate questions.
         
         Args:
             output_file: Output file path for generated questions
-            max_docs: Maximum number of documents to process (None for all)
+            max_docs: Maximum number of documents to process (None for all). If provided, a random sample of documents is selected.
             min_words: Minimum word count for documents to process
             max_words: Maximum word count for documents to process
+            sample_seed: Optional random seed for reproducible sampling of documents
         """
         # Load metadata
         metadata_df = self._load_metadata()
@@ -223,11 +226,17 @@ class QuestionGenerator:
         print(f"  Skipped (too long): {skipped_too_long}")
         
         if max_docs:
-            valid_doc_ids = valid_doc_ids[:max_docs]
-            print(f"  Limited to first {max_docs} valid documents")
+            if len(valid_doc_ids) > max_docs:
+                rng = random.Random(sample_seed)
+                sampled_doc_ids = rng.sample(valid_doc_ids, k=max_docs)
+                valid_doc_ids = sampled_doc_ids
+                seed_msg = f" with seed {sample_seed}" if sample_seed is not None else ""
+                print(f"  Randomly sampled {max_docs} out of {len(valid_doc_ids)} valid documents{seed_msg}")
+            else:
+                print(f"  Requested max_docs={max_docs}, but only {len(valid_doc_ids)} valid documents available")
         
         print(f"\nProcessing {len(valid_doc_ids)} documents...")
-        print(f"ℹ️  Rate limiting: Will pause for 60 seconds after every 15 generations\n")
+        print(f"Rate limiting: Will pause for 60 seconds after every 15 generations\n")
         
         results = []
         output_path = Path(__file__).parent / output_file
@@ -308,8 +317,10 @@ def main():
                        help="Maximum word count for documents (default: 1200)")
     parser.add_argument("--output", type=str, default="generated_questions.jsonl", 
                        help="Output file for questions")
-    parser.add_argument("--model", type=str, default="gemini-2.0-flash",
+    parser.add_argument("--model", type=str, default="gemini-2.5-flash-lite",
                        help="Model to use for generation")
+    parser.add_argument("--sample-seed", type=int, default=None,
+                       help="Optional random seed for reproducible sampling when --max-docs is set")
     
     args = parser.parse_args()
     
@@ -319,7 +330,8 @@ def main():
         output_file=args.output, 
         max_docs=args.max_docs,
         min_words=args.min_words,
-        max_words=args.max_words
+        max_words=args.max_words,
+        sample_seed=args.sample_seed
     )
 
 if __name__ == "__main__":
