@@ -7,7 +7,7 @@ The questions should follow the given format and match the category type.
 {{policy_text}}
 </context>
 
-Category: Definitions in Context
+Category: Definitions
 Example Format: "What does {term} mean under {policy_name}, and why is it significant?"
 
 Guidelines:

@@ -64,7 +64,7 @@ def build_model_and_tokenizer(model_id: str = "mistralai/Mistral-7B-Instruct-v0.
 	return tokenizer, model
 
 
-def make_pipeline(tokenizer, model, temperature: float, max_new_tokens: int = 512):
+def make_pipeline(tokenizer, model, temperature: float, top_p: float = 0.9, top_k: int = 40, max_new_tokens: int = 512):
 	"""Create a text-generation pipeline with specified temperature."""
 	return pipeline(
 		task="text-generation",
@@ -75,30 +75,35 @@ def make_pipeline(tokenizer, model, temperature: float, max_new_tokens: int = 51
 		max_new_tokens=max_new_tokens,
 		pad_token_id=tokenizer.eos_token_id,
 		return_full_text=False,
+		top_p=top_p,
+		top_k=top_k,
 	)
 
 
 def build_prompt(question: str, policy_name: Optional[str], context: str) -> str:
 	"""Build an instruction-style prompt for Mistral and include full document context."""
-	policy_line = f"Policy: {policy_name}\n" if policy_name else ""
-	# Use explicit instruction formatting compatible with instruct models
-	# return (
-	# 	f"[INST] You are an expert assistant answering questions about public policy and regulations.\n"
-	# 	f"Answer clearly and concisely, grounding your answer ONLY in the provided context.\n"
-	# 	f"If the context is insufficient to answer, state that explicitly without speculating.\n"
-	# 	f"{policy_line}"
-	# 	f"Context (verbatim document text):\n{context}\n\n"
-	# 	f"Question: {question}\n\n"
-	# 	f"Provide: (1) a direct answer grounded in the context, (2) brief reasoning. [/INST]"
-	# )
 	return (
-		"You are an expert assistant answering questions about public policy and regulations."
-        "Provide direct, factual information grounded in the context."
-        "Cite relevant sources or document IDs where applicable."
-        "If the context does not contain enough information, state that explicitly instead of speculating."
-        f"Context: {context}\n\n"
-        f"Question: {question}\n\n"
-        "Provide: a comprehensive answer with a direct answer to the question, and citations to relevant sources where necessary."
+		"You are an expert policy analyst tasked with answering questions about AI policy and regulations. "
+		"Provide direct, factual information grounded in the context. "
+		"Cite relevant sources or document IDs where applicable. "
+		"If the context does not contain enough information, state that explicitly instead of speculating. "
+		f"Context: {context}\n\n"
+		f"Question: {question}\n\n"
+		"Provide: a comprehensive answer with a direct answer to the question, and citations to relevant sources where necessary. "
+		"Answer: "
+	)
+
+
+def build_prompt_hot(question: str, policy_name: Optional[str], context: str) -> str:
+	"""Alternate instruction-style prompt for the second generator."""
+	return (
+		"You are a concise and formal assistant providing brief, factual answers about AI policy. "
+		"Answer directly based only on the given context. "
+		"If the context is insufficient, say so clearly without guessing. "
+		f"Context: {context}\n\n"
+		f"Question: {question}\n\n"
+		"Answer in 3-5 sentences citing document IDs where applicable. "
+		"Answer: "
 	)
 
 
@@ -121,15 +126,24 @@ def load_full_document(document_id: Any, fulltext_dir: Path) -> str:
 
 
 def generate_two_answers(
-	pipe_cold, pipe_hot, prompt: str, seed_cold: int = 42, seed_hot: int = 1234
+	pipe_cold,
+	pipe_hot,
+	prompt_cold: str,
+	prompt_hot: str,
+	seed_cold: int = 42,
+	seed_hot: int = 1234,
 ) -> Tuple[str, str]:
-	"""Generate two answers with different temperatures using two pipelines."""
+	"""Generate two answers using separate prompts and temperatures.
+
+	- pipe_cold uses prompt_cold and seed_cold
+	- pipe_hot uses prompt_hot and seed_hot
+	"""
 	# Set seeds for reproducibility (best-effort; sampling still stochastic)
 	torch.manual_seed(seed_cold)
-	out1 = pipe_cold(prompt)[0]["generated_text"].strip()
+	out1 = pipe_cold(prompt_cold)[0]["generated_text"].strip()
 
 	torch.manual_seed(seed_hot)
-	out2 = pipe_hot(prompt)[0]["generated_text"].strip()
+	out2 = pipe_hot(prompt_hot)[0]["generated_text"].strip()
 
 	return out1, out2
 
@@ -138,8 +152,8 @@ def process_questions(
 	input_json: Path,
 	output_json: Path,
 	model_id: str = "mistralai/Mistral-7B-Instruct-v0.3",
-	temp_cold: float = 0.4,
-	temp_hot: float = 0.7,
+	temp_cold: float = 0.2,
+	temp_hot: float = 0.9,
 	max_new_tokens: int = 512,
 	limit: Optional[int] = None,
 	max_context_chars: Optional[int] = None,
@@ -154,8 +168,8 @@ def process_questions(
 	tokenizer, model = build_model_and_tokenizer(model_id=model_id)
 	print("Model loaded.")
 
-	pipe_cold = make_pipeline(tokenizer, model, temperature=temp_cold, max_new_tokens=max_new_tokens)
-	pipe_hot = make_pipeline(tokenizer, model, temperature=temp_hot, max_new_tokens=max_new_tokens)
+	pipe_cold = make_pipeline(tokenizer, model, temperature=temp_cold, top_p=0.95, top_k=40, max_new_tokens=max_new_tokens)
+	pipe_hot = make_pipeline(tokenizer, model, temperature=temp_hot, top_p=0.6, top_k=20, max_new_tokens=max_new_tokens)
 	print(f"Pipelines ready (temps: cold={temp_cold}, hot={temp_hot}).")
 
 	results: List[Dict[str, Any]] = []
@@ -176,10 +190,17 @@ def process_questions(
 		if max_context_chars is not None and max_context_chars > 0:
 			context_text = context_text[:max_context_chars]
 
-		prompt = build_prompt(question, policy_name, context_text)
+		# Build prompts: use different in-code prompt builders for each generator
+		prompt_cold = build_prompt(question, policy_name, context_text)
+		prompt_hot = build_prompt_hot(question, policy_name, context_text)
 
 		try:
-			ans_cold, ans_hot = generate_two_answers(pipe_cold, pipe_hot, prompt)
+			ans_cold, ans_hot = generate_two_answers(
+				pipe_cold,
+				pipe_hot,
+				prompt_cold,
+				prompt_hot,
+			)
 		except Exception as e:
 			print(f"Error generating for idx {i} (doc {document_id}): {e}")
 			continue
@@ -218,23 +239,26 @@ def process_questions(
 if __name__ == "__main__":
 	import argparse
 	# Defaults for your repo structure
-	base_dir = Path(__file__).parent
-	input_path = base_dir / "generated_questions_impl.json"
-	output_path = base_dir / "dpo_pairs_impl_mistral.json"
 
 	parser = argparse.ArgumentParser(description="Generate questions for DPO fine-tuning")
 	parser.add_argument("--max_tokens", type=int, default=512,
 						help="Maximum tokens for generation (default: 512)")
-	parser.add_argument("--temp_cold", type=float, default=0.4,
-						help="Temperature for cold generation (default: 0.4)")
-	parser.add_argument("--temp_hot", type=float, default=0.7,
-						help="Temperature for hot generation (default: 0.7)")
+	parser.add_argument("--temp_cold", type=float, default=0.2,
+						help="Temperature for cold generation (default: 0.2)")
+	parser.add_argument("--temp_hot", type=float, default=0.9,
+						help="Temperature for hot generation (default: 0.9)")
 	parser.add_argument("--max_questions", type=int, default=None,
 						help="Maximum number of questions to process (default: None)")
 	parser.add_argument("--max_context_chars", type=int, default=None,
 						help="Optionally truncate document context to this many characters (default: None = full doc)")
+	parser.add_argument("--category", type=str, default="compl",
+						help="Category name for input/output files (default: compl)")
 
 	args = parser.parse_args()
+
+	base_dir = Path(__file__).parent
+	input_path = base_dir / f"genq_{args.category}.json"
+	output_path = base_dir / f"dpo_pairs_{args.category}.json"
 
 	# You can customize these via environment variables if desired
 	model_id = "mistralai/Mistral-7B-Instruct-v0.3"
