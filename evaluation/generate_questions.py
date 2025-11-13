@@ -2,7 +2,7 @@ import pandas as pd
 from evaluation.prompts import system_prompt
 from evaluation.llm import run_chat_completion
 
-prompts_df = pd.read_csv("evaluation/prompts.csv")
+prompts_df = pd.read_csv("evaluation/prompts2.csv")
 prompts = prompts_df["prompt"]
 relevant_ids = prompts_df["relevant_ids"]
 
@@ -29,4 +29,4 @@ for i, p in enumerate(prompts):
             "question": questions,
             "relevant_ids": relevant_ids[:len(questions)] 
         })
-        out.to_csv("./evaluation/questions.csv", index=False)
+        out.to_csv("./evaluation/questions2.csv", index=False)

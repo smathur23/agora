@@ -3,7 +3,7 @@ import json
 import re
 from sklearn.model_selection import train_test_split
 
-input_csv = "evaluation/questions_with_negatives.csv"
+input_csv = "evaluation/questions_with_negatives2.csv"
 test_jsonl = "evaluation/test.jsonl"
 
 # Helper to split id lists like "id1;id2"

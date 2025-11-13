@@ -422,13 +422,13 @@ def generate_trends_prompts(num):
 # Generate prompts                                         #
 # ======================================================== #
 
-#sd_prompts, sd_relevant_ids = generate_single_doc_prompts(SINGLE_DOC)
-#dc_prompts, dc_relevant_ids = generate_doc_comparison_prompts(DOC_COMP)
+sd_prompts, sd_relevant_ids = generate_single_doc_prompts(SINGLE_DOC)
+dc_prompts, dc_relevant_ids = generate_doc_comparison_prompts(DOC_COMP)
 ts_prompts, ts_relevant_ids = generate_tag_status_prompts(TAG_STATUS)
 ac_prompts, ac_relevant_ids = generate_authority_comparison_prompts(AUTHORITY_COMP)
 tt_prompts, tt_relevant_ids = generate_trends_prompts(TAG_TRENDS)
-prompts = ts_prompts + ac_prompts + tt_prompts
-relevant_ids = ts_relevant_ids + ac_relevant_ids + tt_relevant_ids
+prompts = sd_prompts + dc_prompts + ts_prompts + ac_prompts + tt_prompts
+relevant_ids = sd_relevant_ids + dc_relevant_ids + ts_relevant_ids + ac_relevant_ids + tt_relevant_ids
 if len(prompts) != len(relevant_ids):
     print("thats not right")
     exit(1)
@@ -437,5 +437,5 @@ prompts_df = pd.DataFrame({
     "prompt": prompts,
     "relevant_ids": relevant_ids
 })
-prompts_df.to_csv("evaluation/prompts.csv", index=False)
+prompts_df.to_csv("evaluation/prompts2.csv", index=False)
 print("prompts saved")

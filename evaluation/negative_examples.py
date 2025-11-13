@@ -63,6 +63,8 @@ def get_true_negatives(prompt_type, relevant_ids, tag=None, auth1=None, year=Non
         if tag is not None:
             bad_tag = str(tag_relations[tag_relations["tag"] == tag]["furthest"])
         bad_auths = get_furthest_auths(auth1, auth2)
+    elif prompt_type == "doc_comp" or prompt_type == "single_doc":
+        pass
     else:
         print("bad prompt type")
         return
@@ -208,6 +210,8 @@ def get_useful_negatives(prompt_type, relevant_ids, tag=None, auth1=None, year=N
         filter_df = filter_df[filter_df["Authority"].isin(bad_auths)]
         if tag is not None:
             filter_df = filter_df[filter_df["Tags"].apply(lambda tags: isinstance(tags, list) and tag in tags)]
+    elif prompt_type == "doc_comp" or prompt_type == "single_doc":
+        pass
     else:
         print("bad prompt type")
         return
@@ -275,7 +279,7 @@ def find_year(text):
         return
 
 def main():
-    questions_df = pd.read_csv("evaluation/questions_processed.csv")
+    questions_df = pd.read_csv("evaluation/questions_processed2.csv")
     all_true_negatives = []
     all_useful_negatives = []
     all_random_negatives = []
@@ -315,6 +319,10 @@ def main():
             if "relating to tag: " in prompt:
                 tag = find_tag(prompt)
                 if tag is None: return
+        elif "(start of document)" in prompt:
+            q_type = "single_doc"
+        elif "(start of document 1)" in prompt:
+            q_type = "doc_comp"
         else:
             print("unknown prompt")
             return
@@ -352,7 +360,7 @@ def main():
                 "combo_negatives": all_combo_negatives,
                 "random_negatives": all_random_negatives
             })
-            out.to_csv("evaluation/questions_with_negatives.csv", index=False)
+            out.to_csv("evaluation/questions_with_negatives2.csv", index=False)
 
 
 if __name__ == "__main__":

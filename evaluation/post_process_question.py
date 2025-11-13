@@ -1,6 +1,6 @@
 import pandas as pd
 
-questions = pd.read_csv("evaluation/questions.csv")
+questions = pd.read_csv("evaluation/questions2.csv")
 documents = pd.read_csv("data/agora/documents.csv")
 segments = pd.read_csv("data/agora/segments.csv")
 for idx, row in questions.iterrows():
@@ -27,4 +27,4 @@ for idx, row in questions.iterrows():
     all_ids = doc_ids + seg_ids
     row["relevant_ids"] = ";".join(all_ids)
 
-questions.to_csv("evaluation/questions_processed.csv", index=False)
+questions.to_csv("evaluation/questions_processed2.csv", index=False)

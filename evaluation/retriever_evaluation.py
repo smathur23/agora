@@ -1,8 +1,10 @@
 from ragatouille import RAGPretrainedModel
 import pandas as pd
+import json
 from src.agent.prompts import basic_question_prompt
 
-RAG = RAGPretrainedModel.from_index("./.ragatouille/colbert/indexes/agora_index")
+index_path = "./.ragatouille/colbert/indexes/mined_index"
+RAG = RAGPretrainedModel.from_index(index_path=index_path)
 
 def mrr(relevant_docs, retrieved_docs):
     for rank, doc_id in enumerate(retrieved_docs, start=1):
@@ -35,7 +37,14 @@ def retrieve_docs(query):
     return out
     
 if __name__ == "__main__":
-    questions = pd.read_csv("./evaluation/questions_processed.csv")
+    questions = []
+    relevant_chunks = []
+    with open("evaluation/test.jsonl", "r") as f:
+        for line in f:
+            sample = json.loads(line)
+            questions.append(sample["query"])
+            relevant_chunks.append(sample["positive_document_ids"])
+    n = len(questions)
     # naive prompting
     mrr_count = 0
     recall_5 = 0
@@ -44,11 +53,10 @@ if __name__ == "__main__":
     map_5 = 0
     map_10 = 0
     map_20 = 0
-    n = len(questions)
-    for index, row in questions.iterrows():
-        retrieved = retrieve_docs(row["questions"])
+    for i in range(n):
+        retrieved = retrieve_docs(questions[i])
 
-        relevant = row["relevant_ids"].split(";")
+        relevant = relevant_chunks[i]
         relevant = [i for i in relevant if "segment" in i]
 
         mrr_count += mrr(relevant, retrieved)

@@ -42,14 +42,15 @@ def finetune(name, input_file, output_dir, negs=True):
             mine_hard_negatives=True,
             data_out_path=f".ragatouille/data/{name}"
         )
-    trainer.train(
+    print(trainer.train(
         learning_rate=2e-5,
         batch_size=16,
         maxsteps=600,  
-    )
+    ))
 
 if __name__ == "__main__":
-    """print("Beginning finetuning naive")
+    """
+    print("Beginning finetuning naive")
     finetune("naive", "train_naive.jsonl", "naive_negatives")
     print("Beginning finetuning hard")
     finetune("hard", "train_true.jsonl", "hard_negatives")
@@ -57,7 +58,7 @@ if __name__ == "__main__":
     finetune("close", "train_close.jsonl", "close_negatives")
     print("Beginning finetuning combo")
     finetune("combo", "train_combo.jsonl", "combo_negatives")
-    print("Beginning finetuning mined")
     """
+    print("Beginning finetuning mined")
     finetune("mined", "train_combo.jsonl", "mined_negatives", negs=False)
     print("done")
