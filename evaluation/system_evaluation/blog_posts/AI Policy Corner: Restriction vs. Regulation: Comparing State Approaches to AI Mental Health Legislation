@@ -1,0 +1,24 @@
+Restriction vs. Regulation: Comparing State Approaches to AI Mental Health Legislation
+
+This past August, parents of California teen Adam Raine sued OpenAI, claiming ChatGPT failed to prevent his suicide despite signs in chat logs. Discussions surrounding unregulated AI increased in light of others affected, like Florida teen Sewell Setzer, who also tragically took his life after forming a relationship with an AI chatbot.
+
+State legislatures are responding by implementing frameworks surrounding AI in mental health-related discussions. For example, California passed legislation that enforces safeguards and protects the right to sue developers.
+
+This article compares two other recent bills: the Illinois HB 1806 Bill and the New York SB 3008 Bill.
+
+Comparison of the Frameworks
+The Illinois HB 1806, or the Wellness and Oversight for Psychological Resources Act, protects clients by requiring licensed professionals to approve AI-made decisions. The intention is to limit AI’s role as a mental health provider. It emphasizes proper licensing and strictly limits the role of AI in mental healthcare. 
+
+Without review or approval from a licensed professional, AI cannot make independent decisions or directly provide therapy to clients.
+AI cannot be used to detect emotions or mental states. 
+This bill doesn’t address measures AI must take in critical situations because it intends to block parasocial relationships entirely in a professional context. However, that is exactly the issue with this framework, because it doesn’t address AI use outside of professional therapy, which arguably applies to more individuals.
+
+The New York Senate Bill SB 3008 (2025) takes a more progressive approach to address the general AI use by forgoing strict limits. Instead, it enforces transparency and safety measures, implementing specific language of how AI must respond in critical situations.
+
+The “AI Companion”, defined as “a system using artificial intelligence, generative artificial intelligence, and/or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user”, must clearly stat at the beginning and once every three hours that it isn’t human.
+Developers must ensure AI refers users to necessary services, such as the 988 hotline, if users show self-harm ideations. 
+By generally defining “AI companions,” New York legislation combats parasocial relationships, regardless of whether AI acts as a professional therapist or as a casual chatbot character. Additionally, developers must demonstrate how they implement measures to refer users to professional help.
+
+The lack of language regarding AI in clinical settings is also a weakness in New York’s bill. These settings must be treated sensitively. Improper regulation regarding client confidentiality, consent, and involvement of licensed professionals could lead to disastrous situations. However, it’s important to note that New York’s legislation succeeds in adapting to rising AI use. It is unreasonable to assume that barring AI will protect mental health in any setting.
+
+New York legislation approaches it from the other side by requiring frequent, explicit message reminders that AI isn’t human and placing safeguards to refer users to professional services. This can prevent parasocial relationships. Understanding key differences in these frameworks can lead to better future legislation on navigating AI and mental health. 

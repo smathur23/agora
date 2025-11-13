@@ -1,0 +1,27 @@
+As AI systems and models continue to develop and advance, the question of how major AI labs communicate and share their safety decisions has become increasingly important, just as important as the decisions themselves. OpenAI’s Preparedness Framework and Anthropic’s Responsible Scaling Policy both dedicate a section of their documents to this very question of transparency, though comparing them reveals differences not only in language but also in approach. Looking at them side by side shows that transparency is shifting from being just about communication to becoming part of governance in its own right.
+
+1. The Purpose of Transparency 
+
+OpenAI starts off their subsection “Transparency and external participation” within the Building Trust section by highlighting an emphasis on public disclosures: “We will release information about our Preparedness Framework results in order to facilitate public awareness of the state of frontier AI capabilities for major deployments.”
+
+Anthropic, in their subsection “Transparency and External Input” within the broader Governance and Transparency section, starts off with a broader motivation: “To advance the public dialogue on the regulation of frontier AI model risks and to enable examination of our actions, we commit to the following,” before moving into more specific points such as public disclosures and other commitments.
+
+The language used by OpenAI in their Preparedness Framework focuses on sharing information about model capabilities and decisions around their deployment to, in their words, “facilitate public awareness.” On the other hand, Anthropic’s language in their Responsible Scaling Policy connects transparency more directly to advancing “public dialogue” and enabling “examination” of their actions.
+
+While both underscore the importance of transparency, OpenAI’s phrasing focuses more on awareness and communication, while Anthropic’s leans toward dialogue and engagement.
+
+2. External Input and Participation 
+
+Both labs also go on to extend their respective ideas of transparency into how external input and evaluation are built into their processes.
+
+OpenAI mentions that, when “a deployment warrants deeper testing” based on their evaluations, they will work with third parties to “independently evaluate models […] when available and feasible.” They extend similar logic to safeguards as well, stating that, when “a deployment warrants third-party stress testing of safeguards and if high-quality third-party testing is available, [OpenAI] may seek this out in particular for models that are over a High capability threshold.”
+
+They also note that their Safety Advisory Group (SAG), “an internal, cross-functional group of OpenAI leaders,” may “opt to get independent expert opinion on the evidence being produced to SAG,” and that “these opinions will form part of the analysis presented to SAG in making its decision on the safety of a deployment.”
+
+Anthropic integrates external input more formally. They state that the company will “solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments,” and that they “may also solicit external expert input prior to making final decisions on the capability and safeguards assessments.” In addition, Anthropic commits that “on approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.” They also note that they will “notify a relevant U.S. Government entity if a model requires stronger protections than the ASL-2 Standard.”
+
+Thus, although both labs place an emphasis on bringing in outside perspectives, there is a difference in how they frame it, with OpenAI’s approach leaning toward being more discretionary, while Anthropic’s is more institutionalized.
+
+3. Final Thoughts
+
+While this comparison only captures one part of a much larger picture, it underscores how the idea of transparency itself is changing, reflecting not just how institutions share information, but how transparency is increasingly tied to the way safety decisions are made and justified. Ultimately, these differences in how AI labs define and operationalize transparency shape how accountability is built into governance itself.

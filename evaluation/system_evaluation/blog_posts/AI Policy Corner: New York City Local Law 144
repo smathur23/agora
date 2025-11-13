@@ -1,0 +1,24 @@
+New York City Local Law 144
+The New York City Local Law 144 (LL144) addresses the growing use of artificial intelligence in employment decisions, specifically in hiring and promotion. This law was adopted on July 5, 2023. 
+
+An Automated Employment Decision Tool (AEDT) is a tool that substantially assists the hiring decision-making process. The tool must output a score, classification, or prediction that the computer identifies and weighs based on various inputs. LL144 considers any use of artificial intelligence, machine learning, data analytics, or statistical modeling as automation.
+
+The law requires two conditions for employers or employment agencies to use AEDTs:
+
+1.  Conduct Independent Bias Audits
+
+These audits require calculating selection rates, scoring rates, and impact ratios across race/ethnicity, sex, and their intersections. These three metrics measure the disparate impact of the Automated Employment Decision Tool. 
+
+2.  AEDT Transparency
+
+Notice must be provided to candidates for AEDT use at least 10 business days in advance, and audit results must be published. The results must be posted for six months after the latest use of an AEDT.
+
+Enforcement
+The NYC Department of Consumer and Worker Protection (DCWP) is tasked with enforcing LL144. Violations of LL144 are subject to civil penalties ranging from $500 for the first offence and up to $1500 for subsequent offences per day. However, LL144, by itself, does not penalize discrimination as it does not require any scoring thresholds to be met. These cases will be addressed with the Uniform Guidelines on Employee Selection Procedures (29 CFR § 1607), where adverse or disparate impact is defined by the four-fifths rule. Complaints of discrimination will be referred to the NYC Human Rights Commission, while the DCWP will only address violations of LL144 (the use of AEDT without the required notices).
+
+How Effective is the NYC Local Law 144?
+LL144 defines AEDTs as tools that substantially assist or completely replace human decision-making in the hiring process. The conditions to meet this definition are open to interpretation and at the employer’s discretion. Many human-in-the-loop systems would not fit this definition, thereby excluding many employers that use automated tools from the scope of LL144. The scope is further limited by only addressing race/ethnicity and sex, but not age, disability, or other protected classes. 
+
+Furthermore, LL144 only addresses users of the AEDTs, not the vendors or developers. Hence, the burden of correcting any disparate impact or bias then lies with the employers themselves. And without direct access to the AEDT, this may be unfeasible or ineffective. The combination of these factors, according to various auditors of these AEDTs, makes LL144 well-intentioned but ineffective.
+
+Despite these concerns, LL144 remains a significant step towards fair artificial intelligence systems. It showcases how governance strategies, such as public disclosures and audits, can mitigate the risks of bias, discrimination, and civil rights violations. It further demonstrates the merits of transparent AI, as it allows AEDTs to be held accountable to the same standards as humans when it comes to employment decisions.
