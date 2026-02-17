@@ -47,6 +47,7 @@ if __name__ == "__main__":
     """
     print("Beginning finetuning with only labeled negatives")
     finetune("labeled", "train.jsonl", "labeled_only")
+    """
     print("Beginning finetuning with only hard-mined negatives")
     finetune("hardmined", "train.jsonl", "hard_mined", negs=False)
     """
@@ -55,7 +56,6 @@ if __name__ == "__main__":
 
 
 
-    """
     print("Beginning finetuning naive")
     finetune("naive", "train_naive.jsonl", "naive_negatives")
     print("Beginning finetuning hard")
