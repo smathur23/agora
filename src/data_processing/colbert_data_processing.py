@@ -146,12 +146,14 @@ def format_chunk_data(data):
         field_value = str(data[field]).replace("\n", " ")
         out += field + ": " + field_value + "\n"
     out += "\n\n"
+    if "authority" not in out:
+        print(out)
     return out
 
 def generate_colbert_embeddings(
         chunks,
-        model_name: str = ".ragatouille/colbert/none/2025-10/31/9.50.31/checkpoints/colbert",
-        index_name: str = "naive_index",
+        model_name: str = ".ragatouille/colbert/none/2025-12/02/labeled_only/checkpoints/colbert",
+        index_name: str = "labeled_only_index",
     ):
     """
     Index documents with ColBERT instead of sentence-transformers.

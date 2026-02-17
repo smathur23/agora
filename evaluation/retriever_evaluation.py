@@ -3,7 +3,7 @@ import pandas as pd
 import json
 from src.agent.prompts import basic_question_prompt
 
-index_path = "./.ragatouille/colbert/indexes/mined_index"
+index_path = "./.ragatouille/colbert/indexes/both_index"
 RAG = RAGPretrainedModel.from_index(index_path=index_path)
 
 def mrr(relevant_docs, retrieved_docs):
@@ -39,11 +39,11 @@ def retrieve_docs(query):
 if __name__ == "__main__":
     questions = []
     relevant_chunks = []
-    with open("evaluation/test.jsonl", "r") as f:
+    with open("evaluation/manually_labeled_eval_questions_offline.jsonl", "r") as f:
         for line in f:
             sample = json.loads(line)
-            questions.append(sample["query"])
-            relevant_chunks.append(sample["positive_document_ids"])
+            questions.append(sample["question"])
+            relevant_chunks.append(list(set(sample["positive_ids"])))
     n = len(questions)
     # naive prompting
     mrr_count = 0
@@ -58,6 +58,10 @@ if __name__ == "__main__":
 
         relevant = relevant_chunks[i]
         relevant = [i for i in relevant if "segment" in i]
+        if i == 17:
+            print(questions[i])
+            print(relevant)
+            print(retrieved)
 
         mrr_count += mrr(relevant, retrieved)
         recall_5 += recall(relevant, retrieved, 5)
