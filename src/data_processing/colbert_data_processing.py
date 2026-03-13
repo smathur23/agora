@@ -6,8 +6,6 @@ import os
 import pandas as pd
 import torch
 
-MAX_DOC_LEN = -1
-
 def load_csv_data(segments_path: str, documents_path: str):
     print("Loading CSV data...")
     segments_df = pd.read_csv(segments_path)
@@ -16,65 +14,6 @@ def load_csv_data(segments_path: str, documents_path: str):
     print(f"Loaded {len(segments_df)} segments and {len(documents_df)} documents")
 
     return segments_df, documents_df
-
-def create_fixed_size_chunks(segments_df, documents_df, size, overlap):
-    chunks = []
-    for idx, row in documents_df.iterrows():
-        id = row["AGORA ID"]
-        count = 1
-        doc_data = {
-            'official_name': str(row['Official name']),
-            'casual_name': str(row['Casual name']) if pd.notna(row['Casual name']) else "",
-            'collections': row.get('Collections', ''),
-            'most_recent_activity': row.get('Most recent activity', ''),
-            'most_recent_activity_date': row.get('Most recent activity date', ''),
-            'proposed_date': row.get('Proposed date', ''),
-            'primarily_government': row.get('Primarily applies to the government', False),
-            'primarily_private': row.get('Primarily applies to the private sector', False),
-            'authority': str(row['Authority']) if pd.notna(row['Authority']) else "",
-            "tags": ""
-        }
-        doc_metadata = {
-            'agora_id': id,
-            'link': str(row['Link to document']) if pd.notna(row['Link to document']) else "",
-        }
-        curr_chunk = {
-            "id": f"chunk_{id}_{count}",
-            "text": "",
-            "data": {k: doc_data[k] for k in doc_data},
-            "metadata": {k: doc_metadata[k] for k in doc_metadata},
-        }
-        curr_chunk["metadata"]["segments"] = []
-        doc_segments = segments_df[segments_df["Document ID"] == id]
-        for idx, row in doc_segments.iterrows():
-            tags = str(row['Tags']) if pd.notna(row['Tags']) else ""
-            #ai_related = row["not_ai_related"]
-            #non_operative = row["non_operative"]
-            text = row["Text"].split(" ")
-            print(len(text))
-            return
-            curr_chunk["data"]["tags"] += tags if len(curr_chunk["data"]["tags"]) == 0 else ";" + tags
-            #curr_chunk["data"]["not_ai_related"] = ai_related
-            #curr_chunk["non_operative"] = non_operative
-
-            remaining_text_needed = size - len(curr_chunk["text"])
-            while remaining_text_needed < len(text):
-                curr_chunk["text"] += text[:remaining_text_needed]
-                text = text[remaining_text_needed:]
-                chunks.append(curr_chunk)
-                count += 1
-
-                curr_chunk = {
-                    "id": f"chunk_{id}_{count}",
-                    "text": "",
-                    "data": {k: doc_data[k] for k in doc_data},
-                    "metadata": {k: doc_metadata[k] for k in doc_metadata}
-                }
-                curr_chunk["data"]["tags"] = tags
-                remaining_text_needed = size
-            curr_chunk["text"] += text
-        print(chunks)
-        return
 
 def create_document_chunks(segments_df, documents_df) -> List[Dict]:
     chunks = []
@@ -89,13 +28,10 @@ def create_document_chunks(segments_df, documents_df) -> List[Dict]:
                 text = f.read()
         if text == "":
             print(f"No text for document {id} could be found.")
-        if len(text) > MAX_DOC_LEN:
-            chunks += create_segments_from_doc(segments_df, row)
-        else:
-            chunk = create_chunk_from_row(row, text)
-            chunks.append(chunk)
+        chunks += create_segments_from_doc(segments_df, row)
     return chunks
 
+# Can be used to create chunks that are whole documents - not used currently 
 def create_chunk_from_row(row, text):
     return {
         'id': f"document_{row['AGORA ID']}",
@@ -116,8 +52,7 @@ def create_chunk_from_row(row, text):
         "metadata": {
             'agora_id': row['AGORA ID'],
             'link': str(row['Link to document']) if pd.notna(row['Link to document']) else "",
-        }
-        
+        }  
     }
 
 def create_segments_from_doc(segments_df, doc):
@@ -152,8 +87,8 @@ def format_chunk_data(data):
 
 def generate_colbert_embeddings(
         chunks,
-        model_name: str = ".ragatouille/colbert/none/2025-12/02/labeled_only/checkpoints/colbert",
-        index_name: str = "labeled_only_index",
+        model_name: str = "colbert-ir/colbertv2.0",
+        index_name: str = "agora_index",
     ):
     """
     Index documents with ColBERT instead of sentence-transformers.
@@ -197,5 +132,5 @@ def create_colbert_index():
     print("Chunking data...")
     chunks = create_document_chunks(segments_df, documents_df)
     print("Creating ColBERT index...")
-    index_name, map_path = generate_colbert_embeddings(chunks)
+    index_name, map_path = generate_colbert_embeddings(chunks) # add arguments for fine-tuned model name and index name here
     print(f"Done. Index {index_name} created. Full chunk texts are stored at {map_path}")
