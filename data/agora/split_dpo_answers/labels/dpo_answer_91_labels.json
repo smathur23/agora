@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 91,
+    "item_index": 0,
+    "global_index": 1801,
+    "document_id": 1264,
+    "policy_name": "Federal Civilian Agency AI Testing and Certification Act",
+    "question": "How will the digital repository of real-world AI use cases be maintained to ensure it remains free of personally identifiable information while still being effective for training and testing AI systems across various Federal agencies?",
+    "answer_1": "The digital repository of real-world AI use cases will be maintained by ensuring that it does not contain personally identifiable information or can be used to identify any individuals (1d1). To achieve this, the repository may be anonymized or de-identified, meaning that any personal data is removed or replaced with artificial data. This process is commonly used in data science and machine learning to protect privacy while still allowing for effective training and testing of AI systems (e.g., K-anonymity, L-diversity, t-closeness, etc.) (2). Additionally, the repository may be subject to regular audits and reviews to ensure ongoing compliance with privacy regulations and to address any potential issues that may arise (1f1).\n\nSources:\n1. Text of the bill: H.R. 537, \"To provide for Federal civilian agency laboratory development for testing and certification of artificial intelligence for civilian agency use, and for other purposes.\"\n2. K-anonymity, L-diversity, t-closeness: N. S. Atlas, V. S. V. S. R. K. (2013). Privacy-preserving data publishing: Foundations, open problems, and new research directions. IEEE Transactions on Dependable and Secure Computing, 10(1), 4-21.",
+    "answer_2": "The digital repository of real-world AI use cases will be maintained by ensuring the removal of personally identifiable information or any data that could be used to identify individuals (section 1(d)(1)). Real-world use case data will be converted into training and testing applications uniquely suited for each Federal agency’s training and testing systems (section 1(d)(2)). Each Federal agency will utilize the information contained in such digital repository in a manner consistent with the intent of the act, allowing for training and testing of AI systems without compromising privacy (section 1(d)(5)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 1,
+    "global_index": 1802,
+    "document_id": 1264,
+    "policy_name": "Federal Civilian Agency AI Testing and Certification Act",
+    "question": "What specific reporting requirements will be imposed on Federal civilian agencies regarding adverse experiences with deployed AI systems, and what is the expected timeline for agencies to report and address these issues?",
+    "answer_1": "Federal civilian agencies will be required to report any adverse experiences encountered with deployed AI systems to the Secretary of Homeland Security. The head of each agency is expected to report these experiences to the Secretary of Homeland Security, and the report should include the steps taken to address these adverse experiences. There is no specific timeline for the initial report, but the Secretary of Homeland Security is required to submit a report to Congress every six months after the enactment of the bill, and these reports will include information on the implementation of the AI reporting requirements, including any challenges and resource needs (Sec. 1(f)(1)). Additionally, agencies are expected to continue reporting adverse experiences biannually thereafter (Sec. 1(f)(1)).",
+    "answer_2": "Federal civilian agencies will be required to report any adverse experiences encountered with deployed AI systems to the Secretary of Homeland Security. The head of each agency is expected to report these issues on an ongoing basis, and any steps taken to address these adverse experiences should also be included in the report. The timeline for reporting is not explicitly stated in the provided context, but the Secretary of Homeland Security is expected to submit a report to Congress every six months and biannually thereafter, starting six months after the enactment of the bill (Section f(1)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 2,
+    "global_index": 1803,
+    "document_id": 1243,
+    "policy_name": "Workforce for AI Trust Act",
+    "question": "What are the eligibility criteria for institutions of higher education to receive NSF awards for interdisciplinary AI fellowships focused on ethical and responsible AI practices?",
+    "answer_1": "To be eligible to receive NSF awards for interdisciplinary AI fellowships focused on ethical and responsible AI practices, an institution of higher education must ensure that recipients are citizens, nationals, or lawful permanent residents of the United States. Additionally, recipients must demonstrate a commitment to a career in advancing the topic of technology ethics, including trustworthy AI. For graduate fellowships, the recipients must be full-time students or students pursuing a degree on a less than full-time basis, but not less than half-time basis, in an eligible program at the institution of higher education. For postdoctoral fellowships, recipients must have a doctoral degree in an eligible program, have received such degree not earlier than five years before the date that such fellowship begins, and have a postdoctoral appointment at a host institution (15 U.S.C. 9451, subsection (e)(1)(iii)).\n\nCitation: 15 U.S.C. 9451, subsection (e)(1)(iii)",
+    "answer_2": "1. The institution of higher education must be a qualified institution. 2. Recipients of the awards must be citizens, nationals, or lawful permanent residents of the United States. 3. Recipients must demonstrate a commitment to a career in advancing technology ethics, including trustworthy AI. 4. For graduate fellowships, recipients must be full-time or part-time students in an eligible program at the institution of higher education, as determined by the Director. 5. For postdoctoral fellowships, recipients must have a doctoral degree in an eligible program, have received such degree not earlier than five years before the date that such fellowship begins, and have a postdoctoral appointment at a host institution.",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 3,
+    "global_index": 1804,
+    "document_id": 1243,
+    "policy_name": "Workforce for AI Trust Act",
+    "question": "How does the Act ensure that NSF peer review panels for AI research proposals incorporate diverse disciplinary perspectives, including social science, ethics, and linguistics?",
+    "answer_1": "The Act ensures that NSF peer review panels for AI research proposals incorporate diverse disciplinary perspectives, including social science, ethics, and linguistics, by amending Section 5401 of the National Artificial Intelligence Initiative Act of 2020. Specifically, the Act adds a new subsection (g) to this section, which requires the Director of the National Science Foundation to ensure that merit review panels convened to evaluate proposals related to AI systems research and related activities integrate perspectives from multiple and diverse research disciplines, including researchers from social science, technology ethics, normative ethics, legal, and linguistic disciplines (15 U.S.C. 9451). This amendment is found in subsection (a)(3) of the Act.\n\nSources:\n- National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9451)\n- Workforce for AI Trust Act (Public Law 117-160)",
+    "answer_2": "The Act ensures that NSF peer review panels for AI research proposals incorporate diverse disciplinary perspectives, including social science, ethics, and linguistics, by amending Section 5401 of the National Artificial Intelligence Initiative Act of 2020. Specifically, it requires that merit review panels integrate perspectives from multiple and diverse research disciplines, including researchers from social science, technology ethics, normative ethics, legal, and linguistic disciplines (Section 5401(g), redesignated as (h)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 4,
+    "global_index": 1805,
+    "document_id": 1243,
+    "policy_name": "Workforce for AI Trust Act",
+    "question": "What specific types of expenses are permissible for NSF graduate and postdoctoral fellowships awarded under the new interdisciplinary AI fellowship program?",
+    "answer_1": "The specific types of expenses permissible for NSF graduate and postdoctoral fellowships awarded under the new interdisciplinary AI fellowship program include tuition, education-related fees, and stipends for up to three academic years for graduate fellowships. For postdoctoral fellowships, permissible expenses include salaries, benefits, relocation costs, related conference travels, and research expenses for up to three years. Additionally, the Director of the National Science Foundation may determine additional such other expenses as appropriate (15 U.S.C. 9451(e)(1)(D)(ii)(I-III)).",
+    "answer_2": "1) Tuition, education-related fees, and stipends for up to three academic years for graduate fellowships. 2) Salaries, benefits, relocation costs, related conference travels, and research expenses for up to three years for postdoctoral fellowships. 3) Additional such other expenses the Director determines appropriate. (Section 2(a)(1)(A)(i)(II) and (III), National Artificial Intelligence Initiative Act of 2020)",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 5,
+    "global_index": 1806,
+    "document_id": 1716,
+    "policy_name": "Dyslexia Research Grant Program, Sec. 2.",
+    "question": "What specific procedures will the Department of Education implement to monitor that grant funds awarded under the Dyslexia Research Grant Program are solely utilized for researching AI-based writing assistance for individuals with dyslexia, as stipulated in subsection (4)?",
+    "answer_1": "The Department of Education will implement the following procedures to monitor that grant funds awarded under the Dyslexia Research Grant Program are solely utilized for researching AI-based writing assistance for individuals with dyslexia, as stipulated in subsection (4):\n\n1. Prescribe an application form for grant applicants (Sec. 2, subsection 3a).\n2. Award grants to eligible applicants, with the total amount of grants not exceeding five hundred thousand dollars (Sec. 2, subsection 3c).\n3. Specify that all grant money received under the Dyslexia Research Grant Program shall be used only for the purpose of researching the use of artificial intelligence-based writing assistance by individuals with dyslexia, with a focus on using aggregate writing analytics to identify writing errors and patterns that can be used by teachers to develop a comprehensive literacy plan for students with dyslexia (Sec. 2, subsection 4).\n4. Notify the Attorney General if any grant money is used in violation of subsection (4) (Sec. 2, subsection 5a).\n5. Authorize the Attorney General to bring a civil action in any court of competent jurisdiction to recoup any money spent in violation of subsection (4), with any collected money to be remitted to the State Treasurer for credit to the Education Future Fund (Sec. 2, subsection 5b).\n6. Adopt and promulgate rules and regulations to carry out this section, as authorized by the State Board of Education (Sec. 2, subsection 6).\n\nCitations: Nebraska Revised Statutes, Title 79, Chapter 10, Article 1, Sections 2 (https://nebraskalegislature.gov/laws/statutes.php?statute=79-1001,2021)",
+    "answer_2": "1) The Department of Education will prescribe an application form for grant applications under the Dyslexia Research Grant Program (Sec. 2, subsection 3a). 2) The department may award grants to eligible applicants, but the total amount of all grants shall not exceed five hundred thousand dollars (Sec. 2, subsection 3c). 3) Grant money can only be used for researching the use of AI-based writing assistance by individuals with dyslexia, focusing on using aggregate writing analytics to identify writing errors and patterns (Sec. 2, subsection 4). 4) If any grant money is used in violation of these stipulations, the department will notify the Attorney General, who can then bring a civil action to recoup the funds (Sec. 2, subsection 5). 5) The State Board of Education may adopt rules and regulations to carry out this section (Sec. 2, subsection 6).",
+    "preferred": 2
+  },
+  {
+    "file_index": 91,
+    "item_index": 6,
+    "global_index": 1807,
+    "document_id": 1716,
+    "policy_name": "Dyslexia Research Grant Program, Sec. 2.",
+    "question": "Under what circumstances would the Attorney General initiate a civil action to recoup grant money from an eligible applicant, as described in subsection (5), and what constitutes a 'violation of subsection (4)' in the context of the Dyslexia Research Grant Program?",
+    "answer_1": "The Attorney General would initiate a civil action to recoup grant money from an eligible applicant under the Dyslexia Research Grant Program if the grant money received under the program is used in violation of subsection (4) of this section. A violation of subsection (4) occurs when the grant money is used for purposes other than researching the use of artificial intelligence-based writing assistance by individuals with dyslexia, specifically, using aggregate writing analytics to identify writing errors and patterns that can be used by teachers to develop a comprehensive literacy plan for students with dyslexia. (Nebraska Revised Statutes, Sec. 2, Dyslexia Research Grant Program)",
+    "answer_2": "The Attorney General would initiate a civil action to recoup grant money from an eligible applicant if the grant money received under the Dyslexia Research Grant Program is used in violation of subsection (4) of this section. A violation of subsection (4) occurs when the grant money is used for purposes other than researching the use of artificial intelligence-based writing assistance by individuals with dyslexia, specifically not focused on using aggregate writing analytics to identify writing errors and patterns that can be used by teachers to develop a comprehensive literacy plan for students with dyslexia. (Citations: Document IDs 2(4), 5(a), 5(b))",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 7,
+    "global_index": 1808,
+    "document_id": 1716,
+    "policy_name": "Dyslexia Research Grant Program, Sec. 2.",
+    "question": "How will the Department of Education ensure that any privately owned business based in Nebraska seeking a grant is genuinely 'in the process of researching artificial-intelligence-based writing assistance' for individuals with dyslexia, aligning with the definition of an 'eligible applicant' in section (2)(b)?",
+    "answer_1": "The Department of Education will ensure that a privately owned business based in Nebraska seeking a grant under the Dyslexia Research Grant Program is genuinely 'in the process of researching artificial-intelligence-based writing assistance' for individuals with dyslexia by prescribing an application form that must be completed when applying for a grant (Sec. 2(3)(a)). The application form may include requirements for the business to provide evidence or documentation demonstrating their research activities in this area. Additionally, the State Board of Education may adopt and promulgate rules and regulations to carry out this section (Sec. 2(6)), which could include specific criteria for evaluating the eligibility of applicants based on their research activities.\n\nCitation: Nebraska Revised Statutes, Title 79, Education, Chapter 81, State Board of Education, Article 1, General Provisions, Section 2, Dyslexia Research Grant Program. (https://nebraskalegislature.gov/laws/statutes.php?statute=79-8102)",
+    "answer_2": "The Department of Education will ensure that an applicant is genuinely in the process of researching artificial-intelligence-based writing assistance for individuals with dyslexia by prescribing an application form (Sec. 2(3)(a)) that may include requirements for detailing the research plan and progress. The department's rules and regulations, which may be adopted and promulgated by the State Board of Education (Sec. 2(6)), could also provide guidelines for evaluating the eligibility of applicants based on their research focus and progress.",
+    "preferred": 2
+  },
+  {
+    "file_index": 91,
+    "item_index": 8,
+    "global_index": 1809,
+    "document_id": 320,
+    "policy_name": "Land Grant Research Prioritization Act of 2023",
+    "question": "Beyond the explicit inclusion of new research areas, what are the reporting or oversight requirements associated with the grants awarded under the Land Grant Research Prioritization Act of 2023 to ensure accountability and effective utilization of funds?",
+    "answer_1": "The Land Grant Research Prioritization Act of 2023 does not explicitly outline specific reporting or oversight requirements associated with the grants awarded under the Act. However, it is important to note that the existing framework for research and extension grants under the Food, Agriculture, Conservation, and Trade Act of 1990 (7 U.S.C. 5925) provides some guidance on accountability and effective utilization of funds.\n\nAccording to the Food, Agriculture, Conservation, and Trade Act of 1990, the Secretary of Agriculture is responsible for administering the grants and is required to establish procedures for the application, selection, and administration of grants (7 U.S.C. 5925(d)(1)). The Act also requires the Secretary to establish a system for monitoring and evaluating the progress of projects funded under the grants (7 U.S.C. 5925(d)(2)).\n\nMoreover, the National Agricultural Research, Extension, and Teaching Policy Act of 1977 (7 U.S.C. 3103) defines land-grant colleges and universities, which are the institutions eligible to receive grants under the Land Grant Research Prioritization Act of 2023. This Act requires land-grant institutions to submit annual reports to the Secretary of Agriculture on the activities and accomplishments of their research, extension, and teaching programs (7 U.S.C. 3105(b)).\n\nIn the absence of explicit reporting or oversight requirements in the Land Grant Research Prioritization Act of 2023, it is reasonable to assume that the existing framework for research and extension grants will apply, with a focus on the new research areas specified in the Act. However, it is essential to monitor future legislative developments for any potential amendments to the reporting or oversight requirements associated with the grants awarded under the Land Grant Research Prioritization Act of 2023.\n\nCitations:\n1. Food, Agriculture, Conservation, and Trade Act of 1990, 7 U.S.C. 5925.\n2. National Agricultural Research, Extension, and Teaching Policy Act of 1977, 7 U.S.C. 3103, 3105.",
+    "answer_2": "The Land Grant Research Prioritization Act of 2023 does not explicitly mention any specific reporting or oversight requirements associated with the grants awarded under the Act. However, it is common for federal grant programs to require regular progress reports, financial statements, and evaluations to ensure accountability and effective utilization of funds. These requirements may be outlined in separate regulations or guidelines issued by the U.S. Department of Agriculture (USDA) or other relevant agencies.",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 9,
+    "global_index": 1810,
+    "document_id": 320,
+    "policy_name": "Land Grant Research Prioritization Act of 2023",
+    "question": "What criteria or metrics will the Secretary use to evaluate the success and impact of research and extension initiatives funded by the Land Grant Research Prioritization Act of 2023, particularly in relation to the emphasized areas like specialty crop production?",
+    "answer_1": "The Land Grant Research Prioritization Act of 2023 does not explicitly specify the criteria or metrics that the Secretary will use to evaluate the success and impact of research and extension initiatives funded by the Act. However, it is reasonable to assume that the evaluation process will be based on the goals and objectives outlined in the Act itself.\n\nFor the emphasized areas like specialty crop production, the evaluation could potentially focus on factors such as increased yield, improved quality, reduced waste, and economic benefits. These factors are commonly used to assess the success of agricultural research and extension initiatives (USDA, 2019). Additionally, the Act mentions the development and evaluation of technologies and methods, which suggests that the evaluation process may also consider the technological feasibility, scalability, and sustainability of the solutions developed.\n\nReferences:\n- USDA (2019). Agricultural Research Service. Agricultural Research Service Strategic Plan FY 2019-2023. Retrieved from https://www.ars.usda.gov/ARSUserFiles/80400530/StrategicPlanFY2019-2023.pdf",
+    "answer_2": "The Secretary may use various criteria to evaluate the success and impact of research and extension initiatives funded by the Land Grant Research Prioritization Act of 2023. For the emphasized areas like specialty crop production, potential metrics could include yield improvements, reduced crop loss, increased efficiency in harvesting processes, and adoption rates of new technologies or AI applications by farmers. However, the Act does not explicitly specify the metrics to be used, and the Secretary may establish guidelines for evaluation on a case-by-case basis. (Section 1672(d) of the Food, Agriculture, Conservation, and Trade Act of 1990 as amended by the Land Grant Research Prioritization Act of 2023)",
+    "preferred": 2
+  },
+  {
+    "file_index": 91,
+    "item_index": 10,
+    "global_index": 1811,
+    "document_id": 320,
+    "policy_name": "Land Grant Research Prioritization Act of 2023",
+    "question": "How will the Land Grant Research Prioritization Act of 2023 ensure that research outcomes are effectively disseminated and adopted by agricultural stakeholders, and what compliance measures are in place to track this extension process?",
+    "answer_1": "The Land Grant Research Prioritization Act of 2023 does not explicitly outline specific measures for ensuring that research outcomes are effectively disseminated and adopted by agricultural stakeholders. However, it does emphasize the importance of extension services by including them as a research priority (Section 2(21), (22), (23), and (24)).\n\nThe National Agricultural Research, Extension, and Teaching Policy Act of 1977 (7 U.S.C. 3103) provides a framework for the extension services provided by land-grant colleges and universities. The act requires that land-grant institutions provide extension services to farmers, ranchers, and other agricultural stakeholders (7 U.S.C. 3105).\n\nTo ensure compliance and track the extension process, the National Agricultural Statistics Service (NASS) is responsible for collecting, analyzing, and disseminating agricultural data, including data on extension activities (7 U.S.C. 2204). Additionally, the Cooperative State Research, Education, and Extension Service (CSREES) is responsible for overseeing and coordinating the extension activities of the land-grant institutions (7 U.S.C. 3106).\n\nSources:\n- Food, Agriculture, Conservation, and Trade Act of 1990 (7 U.S.C. 5925(d))\n- National Agricultural Research, Extension, and Teaching Policy Act of 1977 (7 U.S.C. 3103)\n- National Agricultural Statistics Service (NASS) (7 U.S.C. 2204)\n- Cooperative State Research, Education, and Extension Service (CSREES) (7 U.S.C. 3106)",
+    "answer_2": "The Land Grant Research Prioritization Act of 2023 does not explicitly address the dissemination and adoption of research outcomes by agricultural stakeholders. However, it does emphasize the importance of extension initiatives by providing funding for research projects at land-grant colleges and universities (Section 2(21)-(24)). Compliance measures for tracking the extension process are not specified in the provided context.",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 11,
+    "global_index": 1812,
+    "document_id": 1246,
+    "policy_name": "Small Business Artificial Intelligence Advancement Act",
+    "question": "Given that the resources developed under this Act are to be voluntary, what oversight or reporting mechanisms are in place to gauge the actual adoption and effectiveness of these AI resources by small businesses, beyond the biennial review of the resources themselves?",
+    "answer_1": "The Act does not explicitly establish ongoing oversight mechanisms to gauge the actual adoption and effectiveness of the AI resources by small businesses beyond the biennial review of the resources themselves. However, the Director is required to submit a report to the Committee on Science, Space, and Technology of the House of Representatives and the Committee on Commerce, Science, and Transportation of the Senate four years after the date of enactment, which includes updates made, relevant feedback from recipients of such resources, and recommendations to Congress for further actions to help with the utilization of AI by small business concerns (SEC. 2(h)(6)(B) of the Small Business Artificial Intelligence Advancement Act). This report could potentially provide insights into the adoption and effectiveness of the resources.\n\nSources:\n- Small Business Artificial Intelligence Advancement Act (Public Law 117-115)\n- National Institute of Standards and Technology Act (15 U.S.C. 278h–1)",
+    "answer_2": "The report required by Section 2(6)(A) of the Act must be submitted to the Committee on Science, Space, and Technology of the House of Representatives and the Committee on Commerce, Science, and Transportation of the Senate every four years, which includes a list of the resources, relevant feedback from recipients, and recommendations to Congress for further actions. This report can serve as an oversight mechanism to gauge the adoption and effectiveness of these AI resources by small businesses. Additionally, the Director is required to coordinate with the Administrator of the Small Business Administration regarding the distribution and use of these resources through the resource partners of the Small Business Administration (Section 2(4)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 12,
+    "global_index": 1813,
+    "document_id": 1246,
+    "policy_name": "Small Business Artificial Intelligence Advancement Act",
+    "question": "How will the National Institute of Standards and Technology (NIST) ensure that the 'general applicability and usability' requirement for AI resources is met across the diverse spectrum of small business concerns, and what process exists for challenging the suitability of developed resources?",
+    "answer_1": "The National Institute of Standards and Technology (NIST) will ensure the general applicability and usability of AI resources for small businesses by developing or identifying resources that are applicable to a wide range of small businesses, as defined in section 3 of the Small Business Act (15 U.S.C. 632). The resources should include elements that promote basic understanding, identify proper use cases of AI, and provide case studies of practical applications across various business sizes and types (SEC. 2. RESOURCES FOR SMALL BUSINESSES TO UTILIZE ARTIFICIAL INTELLIGENCE.—(h)(2)(A)-(C)).\n\nTo meet the diverse needs of small businesses, the resources should be technology-neutral and relevant to technologies that are accessible and suitable for small businesses (SEC. 2. RESOURCES FOR SMALL BUSINESSES TO UTILIZE ARTIFICIAL INTELLIGENCE.—(h)(2)(D)). Additionally, the resources should be based on international voluntary standards as applicable and consistent with the Stevenson-Wydler Technology Innovation Act of 1980 (15 U.S.C. 3701 et seq.) (SEC. 2. RESOURCES FOR SMALL BUSINESSES TO UTILIZE ARTIFICIAL INTELLIGENCE.—(h)(2)(E)).\n\nThe process for challenging the suitability of developed resources is not explicitly stated in the provided context. However, it is mentioned that the Director shall review the resources every two years and update them as appropriate (SEC. 2. RESOURCES FOR SMALL BUSINESSES TO UTILIZE ARTIFICIAL INTELLIGENCE.—(h)(3)). The Director is also required to submit a report to Congress every four years, including updates made, relevant feedback from recipients of such resources, and recommendations for further actions (SEC. 2. RESOURCES FOR SMALL BUSINESSES TO UTILIZE ARTIFICIAL INTELLIGENCE.—(h)(6)(B)). This report could potentially serve as a platform for small businesses to voice their concerns or suggestions about the resources developed by NIST.",
+    "answer_2": "The National Institute of Standards and Technology (NIST) will ensure the 'general applicability and usability' requirement for AI resources by developing resources that are applicable to a wide range of small business concerns, include elements that promote basic understanding, identify proper use cases of AI, and are based on international voluntary standards as applicable (Section 22A(h)(2)(A)-(E) of the National Institute of Standards and Technology Act). The process for challenging the suitability of developed resources is not explicitly stated in the provided context.",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 13,
+    "global_index": 1814,
+    "document_id": 1246,
+    "policy_name": "Small Business Artificial Intelligence Advancement Act",
+    "question": "What specific criteria will the Director use to 'identify' AI resources, in addition to developing them, to ensure they align with the Act's requirements for small businesses and are consistent with international voluntary standards and the Stevenson-Wydler Technology Innovation Act of 1980?",
+    "answer_1": "The Director will identify AI resources that align with the Act's requirements for small businesses by ensuring they are generally applicable, usable by a wide range of small business concerns (15 U.S.C. 632), include elements that promote basic understanding, identify proper use cases of AI, include case studies of practical application across a range of business sizes and types, are technology-neutral and relevant to technologies that are accessible and suitable for small businesses, based on international voluntary standards as applicable, and consistent with the Stevenson-Wydler Technology Innovation Act of 1980 (15 U.S.C. 3701 et seq.). The resources should also include recommendations and references to existing Federal educational resources, including the risk management framework under subsection (c) and activities relating to the national cybersecurity awareness and education program under section 303 of the Cybersecurity Enhancement Act of 2014 (15 U.S.C. 7443). The resources identified should be considered voluntary. (15 U.S.C. 278h–1)",
+    "answer_2": "The Director will identify AI resources that are generally applicable and usable by a wide range of small businesses, include elements promoting basic understanding, proper use cases, case studies, and be technology-neutral, relevant to accessible and suitable technologies for small businesses. Additionally, the resources should be based on international voluntary standards as applicable, and consistent with the Stevenson-Wydler Technology Innovation Act of 1980 (15 U.S.C. 3701 et seq.).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 14,
+    "global_index": 1815,
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "To what extent does the 'CONSENT Act' hold third-party providers liable for transmitting unsolicited visual depictions of sexually explicit conduct, given the exceptions outlined for their role in routing communications?",
+    "answer_1": "The 'CONSENT Act' does not hold third-party providers liable for transmitting unsolicited visual depictions of sexually explicit conduct, given the exceptions outlined for their role in routing communications. Specifically, third-party providers are exempt from liability if they are transmitting, routing, or providing connections for electronic communications initiated by or at the direction of another person (Section 2(b)(1)(D)(i)).\n\nCitation: S. 3986, Section 2(b)(1)(D)(i)",
+    "answer_2": "The CONSENT Act does not hold third-party providers liable for transmitting unsolicited visual depictions of sexually explicit conduct, as long as they are only transmitting, routing, or providing connections for electronic communications initiated by or at the direction of another person (Section 2(b)(1)(D)(i)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 15,
+    "global_index": 1816,
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "What specific 'good faith' justifications, such as medical, educational, or law enforcement purposes, would exempt an individual from civil action under the 'CONSENT Act' for sending certain visual depictions?",
+    "answer_1": "An individual may be exempt from civil action under the 'CONSENT Act' for sending certain visual depictions if they do so for a good faith medical, educational, or law enforcement purpose. This exemption is specified in section 2(b)(1)(D)(ii) of S. 3986.\n\nCitation: S. 3986, 118th Cong. (2024).",
+    "answer_2": "An individual can be exempted from civil action under the 'CONSENT Act' for sending visual depictions if it is for a good faith medical, educational, or law enforcement purpose. This exemption is specified in Section 2(b)(1)(D)(ii) of the Act.",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 16,
+    "global_index": 1817,
+    "document_id": 887,
+    "policy_name": "CONSENT Act",
+    "question": "How does the 'CONSENT Act' define and address the legal implications of machine-manipulated media that falsely depicts an individual or an individual who does not exist within the context of sexually explicit conduct?",
+    "answer_1": "The CONSENT Act defines machine-manipulated media as a video, image, or audio recording generated or substantially modified using machine-learning techniques in order to falsely depict an event, the speech or conduct of an individual, or depict an individual who does not exist (Section 2(a)(B)). The Act establishes a private right of action against a person who knowingly sends an individual a visual depiction of sexually explicit conduct, including machine-manipulated media, without the recipient's consent (Section 2(b)(1)(A)). The Act does not limit the applicability of the terms \"sexually explicit conduct\" and \"visual depiction\" to minors for purposes of this section (Section 2(a)(2)). The Act also includes provisions for statutory damages, compensatory damages for emotional distress, reasonable attorney fees and costs, and temporary or permanent injunctions (Section 2(b)(2)). The Act does not apply to third-party providers that transmit, route, or provide connections of electronic communications initiated by or at the direction of another person, or to persons who send a visual depiction for a good faith medical, educational, or law enforcement purpose (Section 2(b)(1)(D)). (Citations: S. 3986)",
+    "answer_2": "The CONSENT Act defines machine-manipulated media as a video, image, or audio recording generated or substantially modified using machine-learning techniques to falsely depict an event, the speech or conduct of an individual, or an individual who does not exist. The Act establishes a private right of action for individuals who receive such media without their consent, allowing them to bring a civil action against the sender for relief, including statutory damages, compensatory damages for emotional distress, reasonable attorney fees and costs, and an injunction ordering the defendant to cease sending such media. (Referenced section: 2(a)(B), 2(b))",
+    "preferred": 1
+  },
+  {
+    "file_index": 91,
+    "item_index": 17,
+    "global_index": 1818,
+    "document_id": 287,
+    "policy_name": "New York AB A7859",
+    "question": "What are the specific requirements for employers and employment agencies regarding notification to candidates before utilizing an Automated Employment Decision Tool, and what are the implications if these notification requirements are not met?",
+    "answer_1": "1. Employers and employment agencies that use Automated Employment Decision Tools (AEDT) to screen candidates for employment are required to notify each such candidate of the following:\n   - That an AEDT will be used in connection with the assessment or evaluation of the candidate (Section 203-f(2)(A)(i)).\n   - The job qualifications and characteristics that the AEDT will use in the assessment of the candidate (Section 203-f(2)(A)(ii)).\n   - Information about the type of data collected for the AEDT, the source of such data, and the employer or employment agency's data retention policy (Section 203-f(2)(A)(iii)).\n\n2. The notification required by Section 203-f(2)(A) of this act shall be made no less than ten business days before the use of such AEDT and shall allow the candidate to request an alternative selection process or accommodation (Section 203-f(2)(A)(iv)).\n\n3. Failure to meet these notification requirements may not limit any right of a candidate for employment to bring a civil action in any court of competent jurisdiction, and it does not limit the authority of the Division of Human Rights to enforce the provisions of Article Fifteen of the Executive Law (Section 203-f(3)).\n\nSource: New York State Senate, \"An Act to amend the labor law, in relation to automated employment decision tools\" (2021), available at: https://www.nysenate.gov/legislation/bills/2021/S6145A",
+    "answer_2": "Employers or employment agencies using an Automated Employment Decision Tool to screen candidates must notify each candidate ten business days before the use of such tool. The notification must include information about the job qualifications and characteristics used by the tool, the type of data collected, the source of such data, and the employer or employment agency's data retention policy. Candidates must also be informed that they can request an alternative selection process or accommodation if they receive such a notification (Section 203-f, subdivision 2, paragraph A of the Labor Law in New York). Failure to meet these notification requirements may not limit a candidate's right to bring a civil action in court or the authority of the Division of Human Rights to enforce the provisions of Article Fifteen of the Executive Law. (Section 203-f, subdivision 3 of the Labor Law in New York)",
+    "preferred": 2
+  },
+  {
+    "file_index": 91,
+    "item_index": 18,
+    "global_index": 1819,
+    "document_id": 287,
+    "policy_name": "New York AB A7859",
+    "question": "How does this legislation impact the ability of candidates to seek legal recourse or engage with the Division of Human Rights if they believe an Automated Employment Decision Tool has led to discriminatory or unfair employment decisions?",
+    "answer_1": "This legislation allows candidates to maintain their right to bring a civil action in any court of competent jurisdiction if they believe an Automated Employment Decision Tool has led to discriminatory or unfair employment decisions (Section 203-f, Subsection 3). Additionally, it does not limit the authority of the Division of Human Rights to enforce the provisions of Article Fifteen of the Executive Law (Section 203-f, Subsection 3).\n\nCitation: New York State Senate, \"An Act to amend the labor law, in relation to automated employment decision tools,\" 2021, https://www.nysenate.gov/legislation/bills/2021/S6478",
+    "answer_2": "This legislation does not limit the right of candidates for employment to bring a civil action in any court of competent jurisdiction or to limit the authority of the Division of Human Rights to enforce the provisions of Article Fifteen of the Executive Law (Section 3, context provided).",
+    "preferred": 2
+  },
+  {
+    "file_index": 91,
+    "item_index": 19,
+    "global_index": 1820,
+    "document_id": 287,
+    "policy_name": "New York AB A7859",
+    "question": "What is the defined scope of 'Automated Employment Decision Tool' under this act, and what types of software or computational processes are explicitly excluded from this definition?",
+    "answer_1": "The defined scope of 'Automated Employment Decision Tool' under this act is any computational process, derived from machine learning, statistical modeling, data analytics, or artificial intelligence, that issues simplified output, including a score, classification, or recommendation, and is used to substantially assist or replace discretionary decision making for making employment decisions that impact natural persons. However, this definition does not include a tool that does not automate, support, substantially assist, or replace discretionary decision-making processes and that does not materially impact natural persons, such as a junk email filter, firewall, antivirus software, calculator, spreadsheet, database, data set, or other compilation of data (New York State, 2020).\n\nReference(s):\nNew York State (2020). AN ACT to amend the labor law, in relation to automated employment decision tools. Retrieved from https://www.nysenate.gov/legislation/bills/2019/S6576",
+    "answer_2": "According to the given context, an 'Automated Employment Decision Tool' is defined as any computational process, derived from machine learning, statistical modeling, data analytics, or artificial intelligence, that issues simplified output, including a score, classification, or recommendation, and is used to substantially assist or replace discretionary decision making for making employment decisions that impact natural persons. Excluded from this definition are tools that do not automate, support, substantially assist, or replace discretionary decision-making processes and that do not materially impact natural persons, such as a junk email filter, firewall, antivirus software, calculator, spreadsheet, database, data set, or other compilation of data. (Section 1, Subsection A of the act)",
+    "preferred": 2
+  }
+]

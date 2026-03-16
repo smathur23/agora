@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 83,
+    "item_index": 0,
+    "global_index": 1641,
+    "document_id": 200,
+    "policy_name": "FY2024 NDAA, Section 7511 (\"Expanded annual assessment of economic and technological capabilities of the People's Republic of China and related briefing\")",
+    "question": "What reporting requirements exist to verify that the working group's assessment, as amended, thoroughly addresses \"unmet resource or authority needs\" and that these are being actively considered for resolution to fulfill the mandate of this section?",
+    "answer_1": "The reporting requirements to verify that the working group's assessment, as amended, thoroughly addresses \"unmet resource or authority needs\" and that these are being actively considered for resolution to fulfill the mandate of this section are not explicitly stated in the provided context. However, the Director of National Intelligence is required to provide a briefing to the congressional intelligence committees not later than 45 days after the date of the enactment of this Act, which includes the expected timeline for establishing the working group and whether any elements of the assessment described in subsection (c)(3) of section 6503 of the Intelligence Authorization Act for Fiscal Year 2023 should be prepared in consultation with other working groups or entities within the Office of the Director of National Intelligence (Sec. 7511(a)(3)). This briefing could potentially include information about unmet resource or authority needs and their resolution. Additionally, the working group is required to submit the first assessment to Congress, which includes a detailed assessment of unmet resource or authority needs (Sec. 6503(c)(3)(I)(J)). It is expected that these assessments would address the unmet resource or authority needs and provide information about their resolution.\n\nCitations:\n- Intelligence Authorization Act for Fiscal Year 2023 (division F of Public Law 117-263), Sec. 7511, 117th Congress (2021-2022)\n- Intelligence Authorization Act for Fiscal Year 2023 (division F of Public Law 117-263), Sec. 6503, 117th Congress (2021-2022)",
+    "answer_2": "45 days after the enactment of this Act, the Director of National Intelligence is required to provide a briefing to the congressional intelligence committees on the status of the implementation of section 6503 of the Intelligence Authorization Act for Fiscal Year 2023. This briefing should include whether any elements of the assessment described in subsection (c)(3) of such section, as amended, should be prepared in consultation with other working groups or entities within the Office of the Director of National Intelligence. Additionally, subsection (b)(1)(J) of section 6503 requires an identification and assessment of any unmet resource or authority needs of the working group that affect the ability of the working group to carry out this section. However, the document does not specify any specific reporting requirements for verifying that these unmet needs are being actively considered for resolution.",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 1,
+    "global_index": 1642,
+    "document_id": 905,
+    "policy_name": "Modernizing Retrospective Regulatory Review",
+    "question": "Beyond the reporting requirements to the \"appropriate congressional committees,\" what specific enforcement or accountability measures are in place to ensure that agencies submit their retrospective review plans and implement the outlined strategies within the stipulated timelines?",
+    "answer_1": "The Act does not explicitly outline specific enforcement or accountability measures to ensure that agencies submit their retrospective review plans and implement the outlined strategies within the stipulated timelines. However, it is worth noting that the Administrator of the Office of Information and Regulatory Affairs (OIRA) is tasked with issuing guidance on how to use technology for retrospective reviews, and the heads of agencies are required to submit their plans to the Administrator and the appropriate congressional committees. The Administrator may use this information to monitor and evaluate the progress of agencies in implementing their retrospective review plans. Additionally, the committees to which the plans are submitted have the authority to conduct oversight and hold hearings to inquire about the status of the plans and their implementation. (Citation: H.R. 7533, 118th Congress, 2024)",
+    "answer_2": "The Act does not explicitly provide for enforcement or accountability measures beyond the reporting requirements to the \"appropriate congressional committees.\" However, it is implied that the committees could potentially hold agencies accountable for non-compliance through oversight mechanisms or legislative action. Additionally, the Office of Management and Budget (OMB) may have some oversight role in ensuring agency compliance with the guidance issued under section 2(b). (SEC. 2(c), SEC. 2(d))",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 2,
+    "global_index": 1643,
+    "document_id": 905,
+    "policy_name": "Modernizing Retrospective Regulatory Review",
+    "question": "How will the Office of Management and Budget (OMB) assess the adequacy of the training provided to agency personnel on using technology, including AI and algorithmic tools, for retrospective reviews, and what constitutes \"adequate training\" under this act?",
+    "answer_1": "The Office of Management and Budget (OMB) will assess the adequacy of the training provided to agency personnel on using technology, including AI and algorithmic tools, for retrospective reviews based on the effectiveness of the training in enabling personnel to use the technology to identify, procure, and use such technology to identify regulations that are obsolete, ineffective, or insufficient; excessively burdensome or should be improved; contain typographic errors; contain inaccurate cross references; or are redundant, contradict, or overlap with any regulations or standards of the agency. The Act does not specify a specific standard for what constitutes \"adequate training.\" However, the OMB guidance issued under Section 2(b) of the Act will provide details on how the head of the agency can adequately train personnel on how to use such technology. (Citation: H. R. 7533)",
+    "answer_2": "The OMB will assess the adequacy of training provided to agency personnel by considering the effectiveness and efficiency of the training in enabling personnel to use technology, including AI and algorithmic tools, for retrospective reviews. Adequate training, as per this act, would include the proper identification, procurement, and utilization of such technology to identify regulations that are obsolete, ineffective, insufficient, excessively burdensome, contain errors, inaccurate cross-references, or are redundant, contradict, or overlap with any regulations or standards of the agency. (Citation: H. R. 7533, Section 2(b)(1)(B))",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 3,
+    "global_index": 1644,
+    "document_id": 905,
+    "policy_name": "Modernizing Retrospective Regulatory Review",
+    "question": "What is the process for verifying the accuracy and completeness of the information submitted by agencies in their retrospective review plans, particularly regarding the identification of obsolete, ineffective, or redundant regulations?",
+    "answer_1": "The process for verifying the accuracy and completeness of the information submitted by agencies in their retrospective review plans, particularly regarding the identification of obsolete, ineffective, or redundant regulations, is not explicitly outlined in H.R. 7533. However, the bill does require the Office of Management and Budget (OMB) to issue guidance on how agencies can use technology (including algorithmic tools and artificial intelligence) to more efficiently, cost-effectively, and accurately conduct retrospective reviews of their regulations (Section 2(b)(1)). The OMB is also tasked with reviewing the plans submitted by agencies (Section 2(c)). Additionally, the bill requires the OMB to submit a report to Congress on the progress of the Federal Government in making regulations available in machine-readable format, which could potentially include information on the accuracy and completeness of the data (Section 2(a)).\n\nCitations:\n- H.R. 7533, \"Modernizing Retrospective Regulatory Review\"\n- Title 44, United States Code, Section 3502 (Definitions)",
+    "answer_2": "The process for verifying the accuracy and completeness of the information submitted by agencies in their retrospective review plans is not explicitly outlined in H.R. 7533. However, the bill requires the head of each agency to submit a plan that includes any additional information, data, or ex-post analysis determined necessary or useful by the head of the agency (section 2(c)(3)). The Office of Management and Budget, acting through the Administrator, is tasked with issuing guidance on how to use technology to conduct retrospective reviews, which may include methods for verifying the accuracy of the information provided (section 2(b)). The Administrative Committee of the Federal Register, the Archivist, and the Director of the Federal Register are consulted in the process of making regulations available in machine-readable format (section 2(a)(1)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 4,
+    "global_index": 1645,
+    "document_id": 17,
+    "policy_name": "FY2023 NDAA, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
+    "question": "What are the specific deliverables and timelines mandated for the Secretary of Defense in conducting the assessment and developing the strategy for countering unmanned aerial system swarms, and how will their completion be verified?",
+    "answer_1": "1. The specific deliverables mandated for the Secretary of Defense in conducting the assessment and developing the strategy for countering unmanned aerial system swarms are as follows:\n   a. An assessment of the threats posed by unmanned aerial system swarms and unmanned aerial systems with swarm capabilities to installations and deployed Armed Forces (Section 162(a)(1)).\n   b. An analysis of the use or potential use of unmanned aerial system swarms by adversaries, including the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of North Korea, and non-state actors (Section 162(a)(2)).\n   c. An analysis of the national security implications of swarming technologies such as autonomous intelligence and machine learning (Section 162(a)(3)).\n   d. A review of the capabilities used by the Department of Defense to counter threats posed by unmanned aerial systems and an assessment of the effectiveness of such capabilities at countering the threat of unmanned aerial system swarms (Section 162(a)(4)).\n   e. An overview of the efforts of the Department of Defense to develop and field test technologies that offer scalable, modular, and rapidly deployable capabilities with the ability to counter unmanned aerial system swarms (Section 162(a)(5)).\n   f. A strategy to field capabilities to counter threats posed by unmanned aerial system swarms, including:\n      i. A comprehensive definition of \"unmanned aerial system swarm\" (Section 162(b)(2)(A)).\n      ii. A plan to establish and incorporate requirements for the development, testing, and fielding of technologies and capabilities to counter unmanned aerial system swarms (Section 162(b)(2)(B)).\n      iii. A plan to acquire and field adequate capabilities to counter unmanned aerial system swarms in defense of the Armed Forces, infrastructure, and other assets of the United States across land, air, and maritime domains (Section 162(b)(2)(C)).\n      iv. An estimate of the resources needed by each Armed Force to implement the strategy (Section 162(b)(2)(D)).\n      v. An analysis, determination, and prioritization of legisl",
+    "answer_2": "1) The Secretary of Defense is mandated to conduct an assessment, analysis, and review of threats posed by unmanned aerial system swarms, the use of such systems by adversaries, national security implications of swarming technologies, and the effectiveness of current countermeasures (Sec. 162(a)). 2) The Secretary is also required to develop and implement a strategy to field capabilities to counter unmanned aerial system swarms, which should include a comprehensive definition, development and testing plans, acquisition and fielding plans, resource estimates, legislative action analysis, and other relevant matters (Sec. 162(b)). 3) The completion of these tasks will be verified through the submission of a report to the congressional defense committees, detailing the findings of the assessment and the strategy developed and implemented, not later than 270 days after the enactment of this Act (Sec. 162(c)).",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 5,
+    "global_index": 1646,
+    "document_id": 17,
+    "policy_name": "FY2023 NDAA, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
+    "question": "How will the report submitted to the congressional defense committees by the Secretary of Defense under subsection (c) be used to ensure the effective implementation and ongoing compliance of the mandated strategy?",
+    "answer_1": "The report submitted to the congressional defense committees under subsection (c) will serve as a means for Congress to review and oversee the findings and strategy developed by the Secretary of Defense in response to the threats posed by unmanned aerial system swarms. This review process allows Congress to assess the effectiveness of the strategy and ensure its implementation by the Department of Defense. The report will provide the necessary information for Congress to take appropriate legislative action, as determined and prioritized by the Secretary, to ensure the Department of Defense has the ability to counter the threats posed by unmanned aerial system swarms (SEC. 162(c)). Additionally, the report will serve as a benchmark for future assessments and strategy updates, ensuring ongoing compliance with the mandated strategy. (No specific citation is required for this answer as it is a direct interpretation of the provided context.)",
+    "answer_2": "The report submitted to the congressional defense committees under subsection (c) will provide the necessary information for Congress to oversee the implementation of the strategy to field capabilities to counter threats posed by unmanned aerial system swarms. Congress can use this information to assess the effectiveness of the strategy, ensure the necessary resources are allocated, and take legislative action if required to ensure the Department of Defense has the ability to counter the threats posed by unmanned aerial system swarms (SEC. 162(c)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 6,
+    "global_index": 1647,
+    "document_id": 17,
+    "policy_name": "FY2023 NDAA, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
+    "question": "What process is in place to ensure that the elements outlined in the strategy development and implementation requirements (subsection (b)) are comprehensively addressed and incorporated into the Department of Defense's overall counter-UAS efforts?",
+    "answer_1": "The process to ensure that the elements outlined in the strategy development and implementation requirements (subsection (b)) are comprehensively addressed and incorporated into the Department of Defense's overall counter-UAS efforts is as follows:\n\n1. The Secretary of Defense is required to develop and implement a strategy to field capabilities to counter threats posed by unmanned aerial system swarms (subsection (b)(1)).\n\n2. The strategy must include the following elements:\n   - A comprehensive definition of \"unmanned aerial system swarm\" (subsection (b)(2)(A)).\n   - A plan to establish and incorporate requirements for the development, testing, and fielding of technologies and capabilities to counter unmanned aerial system swarms (subsection (b)(2)(B)).\n   - A plan to acquire and field adequate capabilities to counter unmanned aerial system swarms in defense of the Armed Forces, infrastructure, and other assets of the United States across land, air, and maritime domains (subsection (b)(2)(C)).\n   - An estimate of the resources needed by each Armed Force to implement the strategy (subsection (b)(2)(D)).\n   - An analysis, determination, and prioritization of legislative action required to ensure the Department of Defense has the ability to counter the threats posed by unmanned aerial system swarms (subsection (b)(2)(E)).\n   - Such other matters as the Secretary determines to be relevant to the strategy (subsection (b)(2)(F)).\n\n3. The Secretary may incorporate the strategy required by subsection (b)(1) into a comprehensive strategy of the Department of Defense to counter the threat of unmanned aerial systems (subsection (b)(3)).\n\n4. Not later than 270 days after the date of the enactment of this Act, the Secretary of Defense shall submit to the congressional defense committees a report on the findings of the Secretary under subsection (a) and the strategy developed and implemented by the Secretary under subsection (b) (subsection (c)).\n\nCitations:\n- Public Law 116-92, National Defense Authorization Act for Fiscal Year 2020, Section 162.",
+    "answer_2": "The strategy to counter threats posed by unmanned aerial system swarms, as outlined in subsection (b), requires the Secretary of Defense to develop a comprehensive definition of \"unmanned aerial system swarm,\" establish and incorporate requirements for the development, testing, and fielding of technologies and capabilities to counter unmanned aerial system swarms, acquire and field adequate capabilities to counter unmanned aerial system swarms, estimate the resources needed by each Armed Force to implement the strategy, analyze legislative action required, and include other matters deemed relevant. The Secretary may incorporate this strategy into a comprehensive strategy of the Department of Defense to counter the threat of unmanned aerial systems. The Secretary is also required to submit a report on these findings and the strategy to the congressional defense committees within 270 days of the Act's enactment. (Reference: SEC. 162 (b) and (c))",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 7,
+    "global_index": 1648,
+    "document_id": 1445,
+    "policy_name": "Tennessee Artificial Intelligence Advisory Council Act",
+    "question": "Given the repeal date of December 31, 2028, what is the intended long-term impact of the \"Tennessee Artificial Intelligence Advisory Council Act\" beyond its operational lifespan?",
+    "answer_1": "The \"Tennessee Artificial Intelligence Advisory Council Act\" is intended to have a long-term impact beyond its operational lifespan by establishing principles, values, and a governance framework for the responsible and ethical use of artificial intelligence (AI) in state and local governments. The act also aims to position Tennessee competitively to ensure its citizens capture the full economic benefit from AI opportunities and to improve the efficiency of state and local government services (HB2325, Section 5(d)(1-7)). The final report and action plan, due on December 31, 2028, will contain recommendations on how to responsibly leverage AI to improve government services, position the state competitively, and support state and local government employees through the AI transition (HB2325, Section 5(d)). After the repeal date, the principles, values, and governance framework established by the act may continue to guide AI policy and regulations in Tennessee. However, it is not explicitly stated in the provided context whether the recommendations from the final report will be legally binding or if they will be subject to further review or amendment by the legislature.",
+    "answer_2": "The \"Tennessee Artificial Intelligence Advisory Council Act\" aims to create an action plan for the responsible and efficient use of AI in state government, including recommendations for legal regulations, policy changes, workforce development, educational systems, and research opportunities. The final report and action plan, due by December 31, 2028, will provide principles, values, a governance framework, and recommendations for AI use in state and local governments, as well as strategies to position Tennessee competitively to capture the full economic benefit from AI opportunities. After the repeal date, the principles, values, and recommendations outlined in the final report may continue to influence AI policy in Tennessee.",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 8,
+    "global_index": 1649,
+    "document_id": 1445,
+    "policy_name": "Tennessee Artificial Intelligence Advisory Council Act",
+    "question": "What specific measures are in place to ensure that all state departments and agencies provide the necessary cooperation and assistance to the Advisory Council as mandated by Section 6(b)?",
+    "answer_1": "The Tennessee Artificial Intelligence Advisory Council Act does not explicitly outline specific measures to ensure that all state departments and agencies provide the necessary cooperation and assistance to the Advisory Council as mandated by Section 6(b). However, it is implied that the Advisory Council may request support or other assistance from state departments and agencies, and these departments and agencies are expected to comply as reasonably requested (Section 6(b)). The Act does not specify any penalties for non-compliance.",
+    "answer_2": "There is no specific measure mentioned in the provided context that mandates how state departments and agencies will ensure cooperation and assistance to the Advisory Council. However, it is stated that they shall provide support or other assistance as reasonably requested (Section 6(b)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 9,
+    "global_index": 1650,
+    "document_id": 1445,
+    "policy_name": "Tennessee Artificial Intelligence Advisory Council Act",
+    "question": "How will the advisory council's recommendations for legal regulations or policy changes (Section 5(c)(4)) be integrated into the state's existing legislative and regulatory framework for ongoing compliance and enforcement?",
+    "answer_1": "The Tennessee Artificial Intelligence Advisory Council Act does not explicitly outline the process for integrating the council's recommendations for legal regulations or policy changes into the state's existing legislative and regulatory framework for ongoing compliance and enforcement. However, it is reasonable to assume that the council's recommendations will be presented to the governor, the speaker of the senate, and the speaker of the house of representatives (Section 5(c) and 5(d)). The legislative branch would then be responsible for drafting and passing the necessary legislation, and the executive branch would be responsible for implementing and enforcing the new regulations. (Section 5(c) and 5(d))\n\nFor ongoing compliance and enforcement, it is common for state agencies to establish internal policies and procedures to ensure compliance with new regulations. These policies and procedures may include regular audits, training programs, and reporting requirements. (Source: National Conference of State Legislatures, \"State Regulation of Artificial Intelligence,\" accessed May 2023, https://www.ncsl.org/research/telecommunications-and-information-technology/state-regulation-of-artificial-intelligence.aspx)\n\nIt is also important to note that the advisory council's final report and action plan (Section 5(d)) is due by December 31, 2028, which provides a timeline for the integration of the recommendations into the state's existing framework.\n\nAdditionally, the advisory council may consult with other persons and organizations with expertise related to artificial intelligence, government infrastructure, and economic development (Section 6(b)), which could help ensure that the recommendations are well-informed and practical.\n\nIn summary, while the Tennessee Artificial Intelligence Advisory Council Act does not provide explicit details on the integration process, it is reasonable to assume that the recommendations will be presented to the legislative and executive branches, and that state agencies will establish internal policies and procedures for ongoing compliance and enforcement. (Section 5(c), 5(d), and 6(b))",
+    "answer_2": "The advisory council's recommendations for legal regulations or policy changes (Section 5(c)(4)) will need to be integrated into the state's existing legislative and regulatory framework by introducing new bills or amendments to existing laws. The council's reports must be submitted to the governor, the speaker of the senate, and the speaker of the house of representatives (Section 5(c)). The final report and action plan will be delivered by December 31, 2028 (Section 5(d)). The specific process for integrating these recommendations into law will depend on the Tennessee General Assembly's legislative procedures.",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 10,
+    "global_index": 1651,
+    "document_id": 769,
+    "policy_name": "Google AI Principles",
+    "question": "How will adherence to the principle of 'being made available for uses that accord with these principles' be monitored and enforced, particularly when evaluating 'primary purpose and use' and 'scale' of AI technology deployment?",
+    "answer_1": "The adherence to the principle of 'being made available for uses that accord with these principles' will be monitored and enforced through a combination of internal and external mechanisms.\n\n1. Internal mechanisms: Google will establish an internal review process to evaluate the primary purpose and use, nature and uniqueness, scale, and nature of Google's involvement in each AI technology deployment. This process may involve cross-functional teams, including engineers, ethicists, and legal experts, to ensure a comprehensive assessment. (Source: Google AI Principles, https://ai.google/principles)\n\n2. External mechanisms: Google will engage with external stakeholders, including civil society organizations, academia, and government bodies, to seek feedback and input on its AI practices. This engagement will help Google to better understand the potential impacts of its AI technologies and to ensure that they are being used in a manner that is consistent with its principles. (Source: Google AI Principles, https://ai.google/principles)\n\n3. Transparency and accountability: Google will strive to be transparent about its AI practices, including the deployment of its technologies, and will provide opportunities for feedback and appeal. This transparency will help to build trust with stakeholders and to ensure that Google is held accountable for its actions. (Source: Google AI Principles, https://ai.google/principles)\n\n4. Ongoing evaluation and improvement: Google recognizes that its experience in this space will deepen over time, and that its list of AI applications it will not pursue may evolve. Google commits to ongoing evaluation and improvement of its AI practices to ensure that it is meeting its principles and addressing emerging challenges. (Source: Google AI Principles, https://ai.google/principles)",
+    "answer_2": "Adherence to the principle of 'being made available for uses that accord with these principles' will be monitored and enforced by evaluating the primary purpose and use, and scale of AI technology deployment. This evaluation will consider factors such as the nature and uniqueness of the technology, its potential impact, and Google's level of involvement. The specifics of this evaluation process are not detailed in the provided context.",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 11,
+    "global_index": 1652,
+    "document_id": 769,
+    "policy_name": "Google AI Principles",
+    "question": "What specific processes are in place to ensure that AI technologies 'avoid creating or reinforcing unfair bias,' considering the acknowledgment that distinguishing fair from unfair biases can be complex and culturally dependent?",
+    "answer_1": "To ensure that AI technologies avoid creating or reinforcing unfair bias, Google has implemented several processes. First, they strive to use diverse and representative datasets during the development and training of AI models to minimize the potential for biased outcomes (Google, 2018). Second, they conduct regular audits and testing of AI systems to identify and address any biases that may arise (Google, 2018). Third, they engage with external experts, including academics, civil society organizations, and governmental bodies, to gain insights and feedback on potential biases in their AI technologies (Google, 2018). Lastly, they are committed to transparency and provide explanations for AI decisions where appropriate to help users understand the reasoning behind the AI's actions (Google, 2018).\n\nReferences:\n- Google (2018). AI Principles. Retrieved from https://ai.google/principles/",
+    "answer_2": "1) Google commits to avoiding unjust impacts on people, particularly those related to sensitive characteristics such as race, ethnicity, gender, nationality, income, sexual orientation, ability, and political or religious belief. 2) To achieve this, Google will seek to avoid creating or reinforcing unfair biases in AI algorithms and datasets, acknowledging that this can be complex and culturally dependent. 3) However, specific processes for achieving this goal are not explicitly detailed in the provided context. (Document ID: Responsibility: Our Principles)",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 12,
+    "global_index": 1653,
+    "document_id": 769,
+    "policy_name": "Google AI Principles",
+    "question": "Given the commitment to 'be accountable to people,' what are the established procedures for providing 'appropriate opportunities for feedback, relevant explanations, and appeal' for AI system outcomes?",
+    "answer_1": "While the text does not specify established procedures for providing 'appropriate opportunities for feedback, relevant explanations, and appeal' for AI system outcomes, it does state that AI systems will be designed to provide such opportunities. Google has not published a detailed guide on these procedures, but they may include mechanisms such as user feedback forms, customer support channels, and appeal processes for decisions made by AI systems. For more information on Google's approach to AI accountability, you may refer to their AI Principles document (Document ID: google/ai-principles).",
+    "answer_2": "The document does not specify the established procedures for providing 'appropriate opportunities for feedback, relevant explanations, and appeal' for AI system outcomes. However, it is stated that AI systems will be designed to provide such opportunities and will be subject to appropriate human direction and control. (Document ID: Responsibility: Our Principles)",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 13,
+    "global_index": 1654,
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "How does the OpenAI Charter define and address potential conflicts of interest among employees and stakeholders to ensure broad benefit from AGI?",
+    "answer_1": "The OpenAI Charter addresses potential conflicts of interest among employees and stakeholders to ensure broad benefit from AGI by committing to diligently act to minimize such conflicts. This is stated in the principle \"Broadly distributed benefits\" (OpenAI Charter, 2021). Specifically, OpenAI commits to using any influence it obtains over AGI's deployment to ensure it is used for the benefit of all, and to avoid enabling uses of AI or AGI that harm humanity or unduly concentrate power. Furthermore, OpenAI's primary fiduciary duty is to humanity, and it anticipates needing to marshal substantial resources to fulfill its mission.\n\nReference(s):\n- OpenAI Charter. (2021). Retrieved from https://openai.com/research/charter/",
+    "answer_2": "OpenAI's Charter commits to diligently acting to minimize conflicts of interest among employees and stakeholders that could compromise broad benefit (Section: Broadly distributed benefits). The primary fiduciary duty is to humanity, and any influence obtained over AGI’s deployment will be used to ensure it benefits all, avoiding uses that harm humanity or unduly concentrate power (Section: Broadly distributed benefits).",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 14,
+    "global_index": 1655,
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "Under what specific conditions and through what processes would OpenAI cease competition and begin assisting another project nearing AGI development, as outlined in the Charter's long-term safety principle?",
+    "answer_1": "OpenAI, as outlined in its Charter, commits to ceasing competition and beginning assistance to another project nearing AGI development under the condition of a value-aligned, safety-conscious project coming close to building AGI with a better-than-even chance of success in the next two years. The specifics of this cooperation would be worked out in case-by-case agreements. (Source: OpenAI Charter, https://openai.com/research/charter/)",
+    "answer_2": "OpenAI would cease competition and begin assisting another project nearing AGI development under the condition that a value-aligned, safety-conscious project comes close to building AGI with a better-than-even chance of success in the next two years. The specifics of the assistance would be worked out in case-by-case agreements. (Source: OpenAI Charter)",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 15,
+    "global_index": 1656,
+    "document_id": 767,
+    "policy_name": "OpenAI Charter",
+    "question": "What are the anticipated ways in which OpenAI's commitment to publishing AI research might be curtailed due to safety and security concerns, and how will this be balanced with providing public goods according to the Charter?",
+    "answer_1": "According to the OpenAI Charter, safety and security concerns may lead to a reduction in traditional publishing of AI research. As AI systems become more advanced, there may be an increased need to protect sensitive information or prevent potential misuse of the technology. However, OpenAI remains committed to providing public goods that help society navigate the path to AGI. This balance will be maintained by increasing the importance of sharing safety, policy, and standards research. This shift in focus will allow OpenAI to continue contributing to the global community working towards addressing AGI's global challenges while ensuring the safety and security of the AI systems they are developing.\n\nCitation: OpenAI (2021). OpenAI Charter. Retrieved from https://openai.com/research/charter/",
+    "answer_2": "According to the OpenAI Charter, safety and security concerns may lead to a reduction in traditional publishing of AI research, as these concerns increase in importance. However, OpenAI is committed to providing public goods that help society navigate the path to AGI. This balance will be maintained by focusing on sharing safety, policy, and standards research, even as traditional AI research publishing decreases. (Document ID: OpenAI Charter)",
+    "preferred": 2
+  },
+  {
+    "file_index": 83,
+    "item_index": 16,
+    "global_index": 1657,
+    "document_id": 23,
+    "policy_name": "FY2021 NDAA, Division A, Title VII, Section 808 (\"Acquisition authority of the Director of the Joint Artificial Intelligence Center\")",
+    "question": "What specific reporting requirements are mandated for the Secretary of Defense to the congressional defense committees prior to the exercise of acquisition authority by the Director of the Joint Artificial Intelligence Center?",
+    "answer_1": "1. The Secretary of Defense is required to provide a plan for the implementation of the acquisition authority granted to the Director of the Joint Artificial Intelligence Center to the congressional defense committees at least 30 days prior to using the authority (SEC. 808(e)(1)(A)).\n2. The Secretary of Defense shall provide a demonstration of operational capability delivered under the authority to the congressional defense committees by March 15, 2022 (SEC. 808(e)(1)(B)).\n\nCitations:\n- National Defense Authorization Act for Fiscal Year 2021, SEC. 808, 135 Stat. 2547.",
+    "answer_2": "1) The Secretary of Defense must provide a plan for implementation of the acquisition authority granted to the Director of the Joint Artificial Intelligence Center within 30 days of the plan's submission. 2) This plan must include a description of the types of activities to be undertaken, a plan for the negotiation and approval of memoranda of agreement, a plan for oversight of the acquisition executive, an assessment of the acquisition workforce, tools, and infrastructure needs, and other matters as appropriate. 3) By March 15, 2022, the Secretary of Defense shall provide a demonstration of operational capability delivered under the authority granted to the Director. (Source: Section 808 of the National Defense Authorization Act for Fiscal Year 2021)",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 17,
+    "global_index": 1658,
+    "document_id": 23,
+    "policy_name": "FY2021 NDAA, Division A, Title VII, Section 808 (\"Acquisition authority of the Director of the Joint Artificial Intelligence Center\")",
+    "question": "How does the operational capability demonstration, due by March 15, 2022, serve as a compliance benchmark for the effectiveness of the delegated acquisition authority?",
+    "answer_1": "The operational capability demonstration due by March 15, 2022, serves as a compliance benchmark for the effectiveness of the delegated acquisition authority by providing a description of how the acquisition authority enabled the capability, how requirements were established and agreed upon, how testing was conducted, and how the capability was transitioned to the user. This demonstration is required under subsection (e)(3) of the section 808 of the National Defense Authorization Act for Fiscal Year 2021 (Public Law 116-283; 134 Stat. 3386). The demonstration will provide evidence that the Center has successfully utilized the delegated acquisition authority to deliver operational capabilities, thus demonstrating the effectiveness of the authority.",
+    "answer_2": "The operational capability demonstration, due by March 15, 2022, serves as a compliance benchmark for the effectiveness of the delegated acquisition authority by providing a description of how the acquisition authority enabled the capability, how requirements were established and agreed upon, how testing was conducted, and how the capability was transitioned to the user. This demonstration is required by Section 808(e)(1)(B) of the National Defense Authorization Act for Fiscal Year 2021 (Public Law 116-283; 134 Stat. 1564).",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 18,
+    "global_index": 1659,
+    "document_id": 23,
+    "policy_name": "FY2021 NDAA, Division A, Title VII, Section 808 (\"Acquisition authority of the Director of the Joint Artificial Intelligence Center\")",
+    "question": "What are the defined limitations on the monetary obligation and expenditure for new contracts authorized under this section for fiscal years 2021 through 2025 to ensure adherence to the established funding cap?",
+    "answer_1": "The monetary obligation and expenditure for new contracts authorized under this section are limited to a maximum of $75,000,000 out of the funds made available in each of fiscal years 2021, 2022, 2023, 2024, and 2025. This limitation is established in section 808(d) of the National Defense Authorization Act for Fiscal Year 2021 (Public Law 116-283; 134 Stat. 1227).",
+    "answer_2": "The Director may not obligate or expend more than $75,000,000 out of the funds made available in each of fiscal years 2021, 2022, 2023, 2024, and 2025 to enter into new contracts to support appropriate acquisition activities carried out under this section (d). Effective October 1, 2025, the Director may not exercise the authority under subsection (a) and may not enter into any new contracts under this section (f).",
+    "preferred": 1
+  },
+  {
+    "file_index": 83,
+    "item_index": 19,
+    "global_index": 1660,
+    "document_id": 1743,
+    "policy_name": "FY2025 NDAA, Section 1514 (\"Management and cybersecurity of multi-cloud environments\")",
+    "question": "What specific metrics or indicators will be used to assess the Department of Defense's adherence to the \"DoD Zero Trust Strategy\" as a foundational element of its multi-cloud management and cybersecurity strategy?",
+    "answer_1": "The \"DoD Zero Trust Strategy\" does not specify explicit metrics or indicators for assessing adherence to the strategy. However, the Department of Defense's multi-cloud management and cybersecurity strategy, as outlined in Section 1514 of the National Defense Authorization Act for Fiscal Year 2023, requires alignment with the \"DoD Zero Trust Strategy.\" The strategy will be assessed based on its ability to provide network visibility and interoperability, rationalize user identities, maintain endpoint security, improve the identification and resolution of security concerns, increase the adoption of AI applications, increase transparency of reporting, improve data use and storage planning, streamline certification processes, and provide training for necessary personnel. (Source: National Defense Authorization Act for Fiscal Year 2023, Section 1514)",
+    "answer_2": "The strategy will align with the \"DoD Zero Trust Strategy\" (October 21, 2022) as a foundational element, but the document does not specify the metrics or indicators to assess adherence to this strategy in the provided context. The assessment may involve network visibility, interoperability, rationalized user identities, endpoint security, improved identification and resolution of security concerns, increased adoption of AI applications, transparency of reporting, improved data use and storage planning, streamlined certification processes, and personnel training. (Source: SEC. 1514 of the National Defense Authorization Act for Fiscal Year 2023)",
+    "preferred": 1
+  }
+]

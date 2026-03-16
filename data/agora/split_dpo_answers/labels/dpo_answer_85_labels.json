@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 85,
+    "item_index": 0,
+    "global_index": 1681,
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "How does the act define the threshold for 'dissemination' of a digitization to trigger criminal penalties, considering the various communication methods listed?",
+    "answer_1": "The act defines 'dissemination' as transmitting a digitization to another person through social media, electronic mail, electronic messaging, video-sharing services, or any other physical or electronic method (Mississippi Code of 1972, Title 97, Chapter 13, Section 1(1)(d)). This means that for a digitization to trigger criminal penalties, it must be transmitted or shared using any of the listed communication methods.",
+    "answer_2": "Dissemination of a digitization is triggered when the item is transmitted to another person through social media, electronic mail, electronic messaging, video-sharing services, or any other physical or electronic method (Mississippi Code of 1972, Title 97, Chapter 13, Section 1(1)(d)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 1,
+    "global_index": 1682,
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "What specific legal standards of knowledge or intent must be proven for a person to be convicted of disseminating a digitization under this act?",
+    "answer_1": "A person must be proven to know or have actual knowledge that the item being disseminated is a digitization and the dissemination must take place within 90 days of an election, be disseminated without the consent of the depicted individual, and be disseminated with the intent to injure the candidate, influence the results of an election, or deter any person from voting. (Mississippi Code of 1972, Title 97, Chapter 13, Section 1(2)(a), (b), (c))",
+    "answer_2": "A person can be convicted of disseminating a digitization under this act if they know or have actual knowledge that the item being disseminated is a digitization, and the dissemination takes place within 90 days of an election, is disseminated without the consent of the depicted individual, and is disseminated with the intent to injure the candidate, influence the results of an election, or deter any person from voting. (Section 1, subsection 2)",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 2,
+    "global_index": 1683,
+    "document_id": 1519,
+    "policy_name": "Mississippi SB 2577 (Wrongful Dissemination of Digitizations)",
+    "question": "Under what circumstances can a 'provider of an interactive computer service' or a 'radio or television broadcasting station' be held liable for disseminating a prohibited digitization, despite the exemptions provided?",
+    "answer_1": "A 'provider of an interactive computer service' or a 'radio or television broadcasting station' cannot be held liable for disseminating a prohibited digitization under the circumstances specified in the exemptions provided in the act. The exemptions include:\n\n1. A provider of an interactive computer service, as defined in 47 USC Section 230(f), or an information service or communications service, as defined in 47 USC Section 153 (Section 1, subsection 6(a)).\n\n2. A radio or television broadcasting station, including a cable or satellite television operator, programmer or producer that broadcasts any digitization prohibited by subsection (2) of this section as part of a bona fide newscast, news interview, news documentary, or on-the-spot coverage or a bona fide news event (Section 1, subsection 6(b)).\n\n3. A radio or television broadcasting station, including a cable or satellite television operator, programmer, producer, or internet website or online platform when the station or online platform is paid to broadcast any digitization prohibited by this section (Section 1, subsection 6(c)).\n\n4. An internet website or service provider, or a regularly published newspaper, magazine, or other periodical of general circulation, including an internet or electronic publication, that routinely carries news and commentary of general interest and that publishes any digitization prohibited by this section, if the publication clearly states that the election communication, including materially deceptive media, does not accurately represent a ballot issue or candidate (Section 1, subsection 6(d)).\n\nThese exemptions protect these entities from liability for disseminating prohibited digitizations, as long as they meet the specified conditions.",
+    "answer_2": "A 'provider of an interactive computer service' or a 'radio or television broadcasting station' will not be held liable for disseminating a prohibited digitization if they are acting as defined in 47 USC Section 230(f) or 47 USC Section 153, or if they are broadcasting any digitization as part of a bona fide newscast, news interview, news documentary, or on-the-spot coverage or a bona fide news event (Section 1(6)(b)). Additionally, they will not be held liable if they are paid to broadcast any digitization prohibited by this section (Section 1(6)(c)). Furthermore, they will not be held liable if they are an internet website or service provider, or a regularly published newspaper, magazine, or other periodical of general circulation, including an internet or electronic publication, that routinely carries news and commentary of general interest and that publishes any digitization prohibited by this section, if the publication clearly states that the election communication, including materially deceptive media, does not accurately represent a ballot issue or candidate (Section 1(6)(d)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 3,
+    "global_index": 1684,
+    "document_id": 235,
+    "policy_name": "FY2023 NDAA, Section 11504 (\"At-sea recovery operations pilot program\")",
+    "question": "To what extent does the interim authority granted to the Secretary under subsection (d) allow for modifications or waivers of existing navigation and manning laws and regulations within titles 33 and 46, United States Code, specifically for ensuring navigation safety during remotely controlled or autonomous vessel operations?",
+    "answer_1": "The interim authority granted to the Secretary under subsection (d) allows for modifications or waivers of existing navigation and manning laws and regulations within titles 33 and 46, United States Code, to the extent that the Secretary considers appropriate for ensuring navigation safety during remotely controlled or autonomous vessel operations. Specifically, the Secretary may modify or waive applicable regulations and guidance as necessary to allow remote and autonomous vessel at-sea operations and activities to occur while ensuring navigation safety (SEC. 11504(d)(2)(A)). Additionally, the Secretary may require each remotely operated or autonomous vessel to be at all times under the supervision of 1 or more individuals holding a merchant mariner credential which is suitable to the satisfaction of the Coast Guard, who shall practice due regard for the safety of navigation of the autonomous vessel, to include collision avoidance (SEC. 11504(d)(3)). However, the Secretary may not waive or modify applicable laws and regulations under titles 49 and 51 of the United States Code, or any regulations arising under international conventions (SEC. 11504(e)).",
+    "answer_2": "The interim authority granted to the Secretary under subsection (d) allows for modifications or waivers of existing navigation and manning laws and regulations within titles 33 and 46, United States Code, to the extent practicable, in order to ensure navigation safety during remotely controlled or autonomous vessel operations. This includes allowing remote and autonomous vessel at-sea operations and activities to occur while ensuring navigation safety and ensuring the reliable, safe, and secure operation of remotely-controlled or autonomous vessels. (citing document IDs: (d)(1) and (2))",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 4,
+    "global_index": 1685,
+    "document_id": 235,
+    "policy_name": "FY2023 NDAA, Section 11504 (\"At-sea recovery operations pilot program\")",
+    "question": "How will the pilot program ensure that all remotely operated or autonomous vessels are continuously supervised by individuals possessing suitable merchant mariner credentials, as defined in subsection (k), and what specific criteria will the Coast Guard use to determine suitability for collision avoidance responsibilities?",
+    "answer_1": "The pilot program established under this section requires each remotely operated or autonomous vessel to be at all times under the supervision of 1 or more individuals holding a merchant mariner credential which is suitable to the satisfaction of the Coast Guard (SEC. 11504(d)(3)(A)). The Coast Guard, as the agency responsible for the regulation of merchant mariners and the safety of navigation, will determine the suitability of individuals for collision avoidance responsibilities based on the requirements and qualifications outlined in the relevant merchant mariner credential regulations. These regulations can be found in Title 46 of the Code of Federal Regulations (CFR), specifically in Part 10, Credentialing and Licensing. The specific criteria for determining suitability for collision avoidance responsibilities may include, but are not limited to, the individual's experience, training, and knowledge of navigation rules, regulations, and procedures, as well as their ability to operate and monitor the vessel safely and effectively. (46 CFR Part 10)",
+    "answer_2": "The pilot program will require each remotely operated or autonomous vessel to be at all times under the supervision of 1 or more individuals holding a merchant mariner credential which is suitable to the satisfaction of the Coast Guard (SEC. 11504(d)(3)(A)). The Coast Guard will determine suitability for collision avoidance responsibilities based on the individual holding a merchant mariner credential that is suitable to the satisfaction of the Coast Guard (SEC. 11504(d)(3)(B)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 5,
+    "global_index": 1686,
+    "document_id": 235,
+    "policy_name": "FY2023 NDAA, Section 11504 (\"At-sea recovery operations pilot program\")",
+    "question": "What are the explicit limitations on the Secretary's authority to waive or modify regulations under this section, particularly concerning international conventions and laws found in titles 49 and 51 of the United States Code, to prevent potential compliance conflicts?",
+    "answer_1": "The Secretary's authority to waive or modify regulations under this section is limited in the following ways:\n\n1. The Secretary cannot waive or modify applicable laws and regulations under titles 49 and 51 of the United States Code (SEC. 11504(e)(3)).\n2. The Secretary cannot waive or modify any regulations arising under international conventions (SEC. 11504(e)(4)).\n\nThese limitations are intended to prevent potential compliance conflicts with existing laws and regulations, as well as international conventions.\n\nSource:\n- The text of the section can be found in the United States Code, specifically in Title 46, Subtitle II, Part B, Subpart II, Chapter 115, Subchapter IV, Section 11504. (https://www.govinfo.gov/content/pkg/USCODE-2018-title46/html/USCODE-2018-title46-subtitleII-partB-subpartII-chap115-subchapterIV-sec11504.htm)",
+    "answer_2": "The Secretary's authority to waive or modify regulations under this section is limited as follows: (1) No waiver or modification of applicable laws and regulations under titles 49 and 51 of the United States Code is authorized (SEC. 11504(e)(3)). (2) No waiver or modification of any regulations arising under international conventions is authorized (SEC. 11504(e)(4)).",
+    "preferred": 2
+  },
+  {
+    "file_index": 85,
+    "item_index": 6,
+    "global_index": 1687,
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "How will the proposed standard compliance assessment system be implemented, particularly in relation to national AI innovation application pilot zones and test zones?",
+    "answer_1": "The proposed standard compliance assessment system will be implemented by focusing on selecting national AI innovation application pilot zones and national new generation AI innovation development test zones to carry out standard application demonstrations (China National Information Technology Standardization Technical Committee, 2021). This means that these specific zones will serve as test beds for the implementation and evaluation of AI standards. The details of the assessment system, such as the criteria for selection, the evaluation process, and the consequences for non-compliance, may vary and are likely to be determined by the relevant government departments and standardization bodies.\n\nCitation: China National Information Technology Standardization Technical Committee. (2021). Key recommendations for AI standardization work. Retrieved from <https://www.sac.gov.cn/articles/2021/1/26/20210126104922.html>",
+    "answer_2": "The standard compliance assessment system will be implemented by promoting its construction, focusing on selecting national AI innovation application pilot zones and national new generation AI innovation development test zones to carry out standard application demonstrations (3). This will help strengthen the promotion of AI standardization and improve industrial service capabilities. (Document ID: N/A)",
+    "preferred": 2
+  },
+  {
+    "file_index": 85,
+    "item_index": 7,
+    "global_index": 1688,
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "What specific criteria will be used to evaluate and certify products and applications to ensure they adhere to newly developed de facto AI standards?",
+    "answer_1": "4) Create de facto standards (事实标准) and enhance industry competitiveness\nTo evaluate and certify products and applications to ensure they adhere to newly developed de facto AI standards, the following criteria will be used:\n\na) Large-scale promotion and applications: Products and applications will be evaluated based on their widespread use and adoption in the industry. This will ensure that the standards have been tested and proven effective in real-world scenarios (Source: Not explicitly stated in the context, but this is a common practice in creating de facto standards).\n\nb) Consulting on training, testing, and evaluation: Organizations and enterprises will be consulted to provide training, testing, and evaluation services for products and applications. This will help ensure that the standards are being implemented correctly and consistently (Source: Not explicitly stated in the context, but this is a common practice in creating de facto standards).\n\nc) Product certification: Products will be certified based on their compliance with the de facto AI standards. This will provide a clear indication to consumers and businesses that the products meet the required standards (Source: Not explicitly stated in the context, but this is a common practice in creating de facto standards).\n\nd) Open-source community and new infrastructure construction: The open-source community and new infrastructure construction will play a role in the development and promotion of the de facto AI standards. This will help ensure that the standards are accessible, flexible, and adaptable to the needs of the industry (Source: Not explicitly stated in the context, but this is a common practice in creating de facto standards).\n\ne) Third-party evaluations: Third-party organizations will be responsible for evaluating the compliance of products and applications with the de facto AI standards. This will help ensure objectivity and impartiality in the evaluation process (Source: Not explicitly stated in the context, but this is a common practice in creating de facto standards).\n\nIt's important to note that the specific criteria for evaluating and certifying products and applications may vary depending on the nature of the standard and the industry it is intended for. The above criteria are general guidelines and may not cover all aspects of the evaluation process.\n\nSource: The context provided in the question.",
+    "answer_2": "The document does not specify the criteria for evaluating and certifying products and applications to ensure they adhere to newly developed de facto AI standards. However, it suggests that standards should be promoted with large-scale promotion and applications to create a batch of de facto AI standards (4). Additionally, it mentions the need to build an AI standardization public technology service platform, which may include services for product certification (3).",
+    "preferred": 2
+  },
+  {
+    "file_index": 85,
+    "item_index": 8,
+    "global_index": 1689,
+    "document_id": 1390,
+    "policy_name": "White Paper on Artificial Intelligence Standardization 2021",
+    "question": "Beyond the designated pilot zones, what strategies will be employed to encourage widespread adoption and compliance with AI standards across various industries?",
+    "answer_1": "3) Carry out propaganda and promotion activities around key standards such as machine learning models and machine translation capability evaluations, combining the application of standards with the development of the AI industry. (Source: China's AI Standardization Work Recommendations, 2021, Document ID: AI-STD-2021-001)\n\nThe strategy outlined in the document suggests that beyond the designated pilot zones, propaganda and promotion activities will be employed to encourage widespread adoption and compliance with AI standards across various industries. This will involve focusing on key standards such as machine learning models and machine translation capability evaluations, and combining the application of these standards with the development of the AI industry. This approach aims to create a broader understanding and acceptance of the importance of AI standards, and to encourage their adoption in various industries.",
+    "answer_2": "3) Carry out propaganda and promotion activities around key standards such as machine learning models and machine translation capability evaluations, combining the application of standards with the development of the AI industry (1c). The second is to promote the construction of a standard compliance assessment system, focusing on third-party evaluations (1c). The third is to build an AI standardization public technology service platform, improving the service capability of standardization for industry (1c).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 9,
+    "global_index": 1690,
+    "document_id": 1550,
+    "policy_name": "California AB 2876 (Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials) (2024)",
+    "question": "What specific criteria will the commission use when considering the incorporation of AI literacy content into mathematics, science, and history-social science curriculum frameworks as mandated by Section 33548(d)(1)?",
+    "answer_1": "The commission will consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025 (Section 33548(d)(1)). However, the specific criteria for evaluating the incorporation of AI literacy content are not explicitly stated in the provided context. It is recommended to refer to the commission's guidelines or policies for further information on the criteria for evaluating instructional materials, as they may be developed or updated in the future.\n\nSources:\n- California Education Code, Section 33548: https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=EDC&division=3.&title=&part=1.&chapter=3.&article=6.&number=548.",
+    "answer_2": "The commission will consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025, as mandated by Section 33548(d)(1) of the Education Code. The criteria for evaluating instructional materials that include AI literacy will be determined when the instructional materials are next adopted by the state board after January 1, 2025.",
+    "preferred": 2
+  },
+  {
+    "file_index": 85,
+    "item_index": 10,
+    "global_index": 1691,
+    "document_id": 1550,
+    "policy_name": "California AB 2876 (Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials) (2024)",
+    "question": "To what extent will the Model Library Standards, including media literacy content, be integrated into the evaluation criteria for ELA/ELD instructional materials adopted after January 1, 2025, as outlined in Section 33548(c)(2)?",
+    "answer_1": "The Model Library Standards, including media literacy content, will be integrated into the evaluation criteria for ELA/ELD instructional materials adopted after January 1, 2025, to the extent that the commission considers including the Model Library Standards in its criteria for evaluating instructional materials (Section 33548(c)(2)). The specific details of how extensively the Model Library Standards will be integrated into the evaluation criteria will depend on the commission's decision-making process.\n\nCitation: California Education Code, Section 33548(c)(2)",
+    "answer_2": "The Model Library Standards, including media literacy content, will be integrated into the evaluation criteria for ELA/ELD instructional materials adopted after January 1, 2025, as outlined in Section 33548(c)(2) of the Education Code.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 11,
+    "global_index": 1692,
+    "document_id": 1550,
+    "policy_name": "California AB 2876 (Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials) (2024)",
+    "question": "How will the commission ensure that media literacy content is incorporated at each grade level within the ELA/ELD curriculum framework, as directed in Section 33548(b)?",
+    "answer_1": "The commission will ensure that media literacy content is incorporated at each grade level within the ELA/ELD curriculum framework by considering the incorporation of media literacy content when the next revision of the ELA/ELD curriculum framework is made after January 1, 2024, as directed in Section 33548(b) of the Education Code. (California Education Code, Section 33548(b))",
+    "answer_2": "The commission will ensure that media literacy content is incorporated at each grade level within the ELA/ELD curriculum framework by considering its inclusion when the framework is next revised after January 1, 2024, as directed in Section 33548(b) of the Education Code.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 12,
+    "global_index": 1693,
+    "document_id": 52,
+    "policy_name": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
+    "question": "What specific measures will be implemented to ensure the intelligence community adheres to the community standards for AI and data usage as outlined in the plan?",
+    "answer_1": "The plan will implement a governance structure, together with associated policies and guidance, to drive the implementation of the community standards for AI and data usage throughout the intelligence community on a federated basis (Sec. 834(b)(4)). This governance structure will be responsible for ensuring that the use of AI and associated data by the Federal Government related to United States persons complies with rights relating to freedom of expression, equal protection, privacy, and due process (Sec. 834(b)(6)).\n\nCitation: Title VIII, Subtitle A, Sec. 834 of the National Defense Authorization Act for Fiscal Year 2021 (NDAA 2021), Public Law 116-283.",
+    "answer_2": "The plan will implement a governance structure (subsection b(4)) to drive the implementation of the community standards for AI and data usage throughout the intelligence community on a federated basis. This structure will be accompanied by associated policies and guidance to ensure compliance with the standards.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 13,
+    "global_index": 1694,
+    "document_id": 52,
+    "policy_name": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
+    "question": "How will the effectiveness of the federated governance structure in driving the implementation of the reference architecture across the intelligence community be monitored and evaluated?",
+    "answer_1": "The effectiveness of the federated governance structure in driving the implementation of the reference architecture across the intelligence community will be monitored and evaluated through the governance structure itself, as outlined in section 834(b)(4) of the Act. The governance structure is expected to include policies and guidance to drive implementation, and it is reasonable to assume that these policies would include mechanisms for monitoring and evaluation. However, the Act does not provide specific details on how this monitoring and evaluation will be carried out. For more information on the implementation and oversight of the plan, it would be advisable to refer to subsequent guidance or regulations issued by the Director of National Intelligence or the heads of other elements of the intelligence community. (Source: Title VIII, Subtitle A, Section 834 of the National Defense Authorization Act for Fiscal Year 2021, Public Law 116-283)",
+    "answer_2": "The document does not provide specific details on how the effectiveness of the federated governance structure will be monitored and evaluated. However, it does state that a governance structure, along with associated policies and guidance, will be established (Sec. 834(b)(4)). It is reasonable to assume that this governance structure would include mechanisms for monitoring and evaluation, but the document does not provide further details on this.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 14,
+    "global_index": 1695,
+    "document_id": 52,
+    "policy_name": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
+    "question": "What processes will be in place to verify that the policies for enabling trusted small- and medium-sized AI companies to access classified facilities are consistently applied and managed?",
+    "answer_1": "The plan for the Artificial Intelligence Digital Ecosystem, as outlined in the provided context (SEC. 834), does not explicitly detail the processes for verifying that the policies for enabling trusted small- and medium-sized AI companies to access classified facilities are consistently applied and managed. However, it does mention the need for a governance structure under subsection (b)(4) to drive the implementation of the reference throughout the intelligence community on a federated basis. This governance structure could potentially oversee the consistent application and management of these policies. (Source: U.S. Code, Title 50, Appendix, Section 834)\n\nFor a more detailed understanding of the governance structure and its potential role, further research into the specifics of the governance structure as it may be defined in subsequent legislation, regulations, or guidance documents would be necessary.",
+    "answer_2": "The plan will include a governance structure (subsection b(4)) to drive the implementation of the reference design throughout the intelligence community on a federated basis. This governance structure will provide policies and guidance to ensure consistent application and management of the policies for enabling trusted small- and medium-sized AI companies to access classified facilities.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 15,
+    "global_index": 1696,
+    "document_id": 2044,
+    "policy_name": "Kendall County Generative AI Chatbot Usage Policy",
+    "question": "Given the policy's emphasis on responsible use, what specific criteria will be used to determine if an employee's use of generative AI chatbots has led to 'harm to others or to the Employer'?",
+    "answer_1": "The policy does not explicitly state specific criteria for determining if an employee's use of generative AI chatbots has led to harm to others or the employer. However, it is reasonable to infer that the harm could be related to the following:\n\n1. Violation of the Employer's conduct and antidiscrimination policies (Section 9.6.F). This could include creating content that is inappropriate, discriminatory, or otherwise harmful to others or the employer.\n\n2. Misuse or unauthorized use of proprietary data and/or confidential data (Section 9.6.D). This could lead to data breaches or unauthorized disclosure of sensitive information.\n\n3. Inaccurate or fabricated information being used for work purposes (Section 9.6.D). This could lead to incorrect decisions, misrepresentation, or harm to the employer's reputation.\n\n4. Non-compliance with the policy's requirements for citing AI-generated content and reviewing it for accuracy (Section 9.6.D and E). This could lead to plagiarism, misinformation, or legal issues.\n\n5. Any other actions that violate this policy or other policies set forth in the Employee Handbook, or that are deemed detrimental to the employer's interests or operations.\n\nFor more information, please refer to the Kendall County Employee Handbook.\n\nSource: Kendall County Employee Handbook, Section 9.6. Generative Artificial Intelligence (AI) Chatbot Usage Policy. Document ID: KC-EH-009.6.",
+    "answer_2": "The policy does not explicitly list specific criteria for determining harm to others or the Employer. However, it does state that employees must use generative AI chatbots in accordance with all conduct and antidiscrimination policies (Section 9.6.F). Violations of these policies could potentially lead to harm to others or the Employer. Employees should refer to the relevant sections of the Employee Handbook for guidance on conduct and antidiscrimination policies.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 16,
+    "global_index": 1697,
+    "document_id": 2044,
+    "policy_name": "Kendall County Generative AI Chatbot Usage Policy",
+    "question": "How will the county ensure that all employees receive standardized and comprehensive training on the proper use of AI chatbots, and what is the process for addressing any discrepancies or further questions that arise during this training?",
+    "answer_1": "1. To ensure that all employees receive standardized and comprehensive training on the proper use of AI chatbots, the county will provide training sessions for all employees who wish to use AI chatbots for work purposes. These training sessions will cover topics such as the risks and limitations of generative AI chatbots, the proper citation of AI-generated content, and the ethical use of these technologies.\n\n2. The process for addressing any discrepancies or further questions that arise during this training will involve employees contacting their applicable Human Resources Representative and/or the Director of Kendall County’s Information, Communication and Technology Department. These individuals will be responsible for addressing any questions or concerns related to the training and the proper use of AI chatbots.\n\nCitations:\n- Section 9.6.E of the proposed policy states that all employees using AI chatbots for work purposes must be trained on the proper use of these technologies before using them.\n- Section 9.6.E of the proposed policy also states that all questions related to this training should be addressed with the applicable Human Resources Representative and/or the Director of Kendall County’s Information, Communication and Technology Department.",
+    "answer_2": "All employees using AI chatbots for work purposes must be trained on the proper use of these technologies before using them. All questions related to this training should be addressed with the applicable Human Resources Representative and/or the Director of Kendall County’s Information, Communication and Technology Department (Section 9.6.D.E, Employee Handbook). Any discrepancies or further questions that arise during this training should be addressed through the established channels of communication with the HR representative or the ICT department director.",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 17,
+    "global_index": 1698,
+    "document_id": 2044,
+    "policy_name": "Kendall County Generative AI Chatbot Usage Policy",
+    "question": "What procedures are in place to verify that Kendall County's proprietary and confidential data is not inadvertently submitted into generative AI platforms by employees, and what are the recourse mechanisms if such a breach occurs?",
+    "answer_1": "1. Procedures for Verifying Data Submission: The policy states that no proprietary data and/or any other confidential data may be submitted (copied, typed, etc.) into generative AI platforms (Section 9.6.D). Employees are also required to discuss the parameters of their use with their applicable Executive before using generative AI chatbots (Section 9.6.D). This discussion should include guidelines on what data can and cannot be used.\n\n2. Recourse Mechanisms: In case of a breach, the policy states that any violation of this policy will result in disciplinary action, up to and including termination of employment (Section 9.6.D). Additionally, employees are encouraged to address any questions related to this policy with the applicable Human Resources Representative and/or the Director of Kendall County’s Information, Communication and Technology Department (Section 9.6.E). This would allow for a thorough investigation and appropriate action to be taken if a breach is confirmed.\n\nSources:\n- Kendall County Employee Handbook, Section 9.6. (Policy ID: KC-EH-9.6)\n- Kendall County Technology and Record Retention Policies (Policy ID: KC-TRR-XX)",
+    "answer_2": "1) Employees are prohibited from submitting any proprietary data and/or confidential data into generative AI platforms (Section 9.6.D). 2) Employees are encouraged to discuss the parameters of their use with their applicable Executive (Section 9.6.D). 3) Executives may approve, deny, or modify those parameters as best meets the Employer’s policies, legal requirements, and other operational needs. 4) Any violation of this policy will result in disciplinary action, up to and including termination of employment (Section 9.6.D). 5) The Employer’s Technology and Record Retention Policies set forth in this Employee Handbook still apply when using generative AI chatbots with the Employer’s equipment (Section 9.6.G).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 18,
+    "global_index": 1699,
+    "document_id": 1378,
+    "policy_name": "Ensuring Likeness, Voice, and Image Security Act of 2024",
+    "question": "Under the Ensuring Likeness, Voice, and Image Security Act of 2024, what specific criteria must be met to demonstrate 'non-use' of an individual's likeness, voice, or image, thereby terminating the exclusive right of commercial exploitation for their estate?",
+    "answer_1": "Under the Ensuring Likeness, Voice, and Image Security Act of 2024, the exclusive right to commercial exploitation of an individual's likeness, voice, or image is terminated by proof of non-use of the name, photograph, voice, or likeness of an individual for commercial purposes by an executor, assignee, heir, or devisee to the use for a period of two (2) years subsequent to the initial period of ten (10) years following the individual's death. (Tennessee Code Annotated, Section 47-25-1104(b)(2)(A)) Additionally, \"use\" includes the commercial availability of a sound recording or audiovisual work in which the individual's name, photograph, voice, or likeness is readily identifiable. (Tennessee Code Annotated, Section 47-25-1104(b)(2)(A)(8))",
+    "answer_2": "To demonstrate 'non-use' of an individual's likeness, voice, or image, thereby terminating the exclusive right of commercial exploitation for their estate, the non-use must be proven for a period of two (2) years subsequent to the initial period of ten (10) years following the individual's death. This applies to the commercial availability of a sound recording or audiovisual work in which the individual's name, photograph, voice, or likeness is readily identifiable (Section 47-25-1104, subdivision (b)(2)(A), document ID 10).",
+    "preferred": 1
+  },
+  {
+    "file_index": 85,
+    "item_index": 19,
+    "global_index": 1700,
+    "document_id": 1378,
+    "policy_name": "Ensuring Likeness, Voice, and Image Security Act of 2024",
+    "question": "How does the Act address liability for distributing algorithms or software whose primary function is to generate identifiable individual likenesses, voices, or images, particularly when such distribution is done with knowledge of unauthorized use?",
+    "answer_1": "The Act addresses liability for distributing algorithms or software whose primary function is to generate identifiable individual likenesses, voices, or images by including it in the definition of \"use\" in Section 6(a)(3). This section states that a person is liable to a civil action if they distribute, transmit, or otherwise make available an algorithm, software, tool, or other technology, service, or device, the primary purpose or function of such algorithm, software, tool, or other technology, service, or device is the production of a particular, identifiable individual's photograph, voice, or likeness, with knowledge that distributing, transmitting, or otherwise making available the photograph, voice, or likeness was not authorized by the individual. (Tennessee Code Annotated, Section 47-25-1105(a)(3))",
+    "answer_2": "The Act addresses liability for distributing algorithms or software whose primary function is to generate identifiable individual likenesses, voices, or images by including it in Section 6(a)(3) of the Tennessee Code Annotated, Section 47-25-1105. This section states that a person is liable to a civil action if they distribute, transmit, or otherwise make available an algorithm, software, tool, or other technology, service, or device, the primary purpose or function of such algorithm, software, tool, or other technology, service, or device is the production of a particular, identifiable individual's photograph, voice, or likeness, with knowledge that distributing, transmitting, or otherwise making available the photograph, voice, or likeness was not authorized by the individual.",
+    "preferred": 1
+  }
+]
