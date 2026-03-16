@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 94,
+    "item_index": 0,
+    "global_index": 1861,
+    "document_id": 1761,
+    "policy_name": "New Mexico S 192 (Appropriations and Legislative Confidentiality), Section 9.",
+    "question": "How will the unexpended or unencumbered balances of appropriations for statewide projects, as outlined in Section 9.A, be managed and accounted for at the end of fiscal year 2024, given the reversion clause?",
+    "answer_1": "The unexpended or unencumbered balance of an appropriation for statewide projects, as outlined in Section 9.A, at the end of fiscal year 2024 shall revert to the general fund (Section 9, paragraph A). This means that any funds that have not been spent or committed for expenditure by the end of fiscal year 2024 will be returned to the general fund for future use.\n\nSource: The information is derived from the provided context, specifically Section 9, paragraph A of the appropriations for public education in fiscal years 2023 and 2024.",
+    "answer_2": "The unexpended or unencumbered balance of an appropriation for statewide projects, as specified in Section 9.A, at the end of fiscal year 2024 shall revert to the general fund, as per the reversion clause provided in the context.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 1,
+    "global_index": 1862,
+    "document_id": 1761,
+    "policy_name": "New Mexico S 192 (Appropriations and Legislative Confidentiality), Section 9.",
+    "question": "What oversight procedures are in place to ensure that the purchased artificial intelligence equipment and contracted consultants for the ASK Academy Charter School (Section 9.Q) are utilized for their intended educational purposes?",
+    "answer_1": "The provided text does not specify any oversight procedures for ensuring that the purchased artificial intelligence equipment and contracted consultants for the ASK Academy Charter School are utilized for their intended educational purposes. However, it is common for educational institutions to have policies and procedures in place for monitoring the use of resources, including technology and contracted services. These may include regular audits, progress reports, and evaluations of the impact of the resources on student learning outcomes. Additionally, state education departments often have regulations and guidelines for the use of technology in education, which may include provisions for oversight and accountability. For more specific information on the oversight procedures for the ASK Academy Charter School, it would be necessary to consult the school's policies and procedures, as well as any applicable state regulations. (Sources: [1] National Education Association. (2021). Technology in Education: Policies and Guidelines. Retrieved from https://www.nea.org/tools/16344.htm [2] U.S. Department of Education. (n.d.). Using Technology Effectively in Education. Retrieved from https://www2.ed.gov/policy/gen/guid/tech/edtech.html)",
+    "answer_2": "A report to the legislative education study committee by October 1, 2024 shall include the effect of the programs on academic achievement and student and family engagement (Section 9.C.1). However, the document does not specify any additional oversight procedures for the artificial intelligence equipment and contracted consultants at the ASK Academy Charter School.",
+    "preferred": 2
+  },
+  {
+    "file_index": 94,
+    "item_index": 2,
+    "global_index": 1863,
+    "document_id": 187,
+    "policy_name": "FY2024 NDAA, Section 350 (\"Strategy and assessment on use of automation and artificial intelligence for shipyard optimization\")",
+    "question": "What specific reporting requirements and deadlines are established to ensure accountability for the development and implementation of the AI strategy and assessment outlined in Section 350?",
+    "answer_1": "1. The strategy for leveraging AI for shipyard optimization, as outlined in Section 350(a), requires the Secretary of the Navy to develop and implement the strategy in coordination with the Shipyard Infrastructure Optimization Program of the Department of the Navy. There are no specific reporting requirements or deadlines mentioned for this strategy.\n\n2. The assessment of costs and potential savings of adopting AI predictive maintenance technologies, as outlined in Section 350(b), requires the Secretary of the Navy to conduct the assessment and include the following:\n   - An analysis of maintenance delays and costs due to unplanned and unpredicted maintenance issues (Section 350(b)(1)).\n   - An evaluation of opportunities to demonstrate commercial best practices at shipyards, including the demonstration of AI technologies (Section 350(b)(2)).\n   - An identification of shipyard assets with sufficient data available for near-term demonstrations of AI predictive maintenance technologies and an estimate of resources needed to accelerate such demonstrations (Section 350(b)(3)).\n   - An identification of any policy or technical challenges to implementing AI or machine learning for purposes of carrying out the Shipyard Infrastructure Optimization Program (Section 350(b)(4)).\n\n3. The Secretary of the Navy is required to provide a briefing to the congressional defense committees not later than 180 days after the date of the enactment of this Act, as outlined in Section 350(c). The briefing should include:\n   - The strategy under Section 350(a) (Section 350(c)(1)).\n   - The results of the assessment under Section 350(b) (Section 350(c)(2)).\n   - A plan to execute any measures pursuant to such assessment (Section 350(c)(3)).\n\nCitations:\n- National Defense Authorization Act for Fiscal Year 2021, Section 350 (https://www.congress.gov/bill/116th-congress/house-bill/6395/text)",
+    "answer_2": "180 days after the date of enactment, the Secretary of the Navy is required to provide a briefing to the congressional defense committees on the strategy under Section 350(a), the results of the assessment under Section 350(b), and a plan to execute any measures pursuant to such assessment (Section 350(c)).",
+    "preferred": 2
+  },
+  {
+    "file_index": 94,
+    "item_index": 3,
+    "global_index": 1864,
+    "document_id": 187,
+    "policy_name": "FY2024 NDAA, Section 350 (\"Strategy and assessment on use of automation and artificial intelligence for shipyard optimization\")",
+    "question": "How will the Secretary of the Navy monitor and verify the successful adoption of commercial best practices and the effectiveness of AI predictive maintenance technologies as mandated by Section 350?",
+    "answer_1": "The Secretary of the Navy will monitor and verify the successful adoption of commercial best practices and the effectiveness of AI predictive maintenance technologies as mandated by Section 350 through the following means:\n\n1. Implementation of a strategy (Section 350(a)): The strategy will leverage commercial best practices used in shipyards to improve efficiency and demonstrate a digital platform that uses AI to analyze data on the maintenance and condition of shipboard assets. The success of this strategy can be verified by assessing the improvements in efficiency and the readiness of the Armed Forces.\n\n2. Assessment (Section 350(b)): The assessment will evaluate opportunities to demonstrate commercial best practices at shipyards, including the demonstration of AI technologies. The effectiveness of these technologies can be measured by comparing the costs of maintenance delays before and after the implementation of AI predictive maintenance technologies. Additionally, the assessment will identify shipyard assets with sufficient data available for near-term demonstrations of AI predictive maintenance technologies, and an estimate of resources needed to accelerate these demonstrations.\n\n3. Briefing (Section 350(c)): The Secretary of the Navy will provide a briefing to the congressional defense committees 180 days after the date of enactment, which will include the strategy, the results of the assessment, and a plan to execute any measures pursuant to the assessment. This briefing will provide a transparent account of the progress made in adopting commercial best practices and the effectiveness of AI predictive maintenance technologies.\n\nSources:\n- Public Law 116-283, National Defense Authorization Act for Fiscal Year 2021, Section 350. (https://www.congress.gov/bill/116th-congress/house-bill/6395/text)",
+    "answer_2": "The Secretary of the Navy will monitor and verify the successful adoption of commercial best practices and the effectiveness of AI predictive maintenance technologies through the implementation of the strategy outlined in Section 350(a). This strategy involves demonstrating a digital platform that uses AI to analyze data on the maintenance and condition of shipboard assets, with the aim of improving readiness, predicting and diagnosing issues, and lowering maintenance costs. The Secretary will also conduct an assessment as specified in Section 350(b), which includes evaluating opportunities for demonstrating commercial best practices, identifying shipyard assets with sufficient data for near-term demonstrations, and identifying any policy or technical challenges. The results of this assessment will be provided to the congressional defense committees in a briefing, as required by Section 350(c).",
+    "preferred": 2
+  },
+  {
+    "file_index": 94,
+    "item_index": 4,
+    "global_index": 1865,
+    "document_id": 187,
+    "policy_name": "FY2024 NDAA, Section 350 (\"Strategy and assessment on use of automation and artificial intelligence for shipyard optimization\")",
+    "question": "What are the defined steps for the Secretary of the Navy to address identified policy or technical challenges hindering the implementation of AI/ML for shipyard optimization as per Section 350(b)(4)?",
+    "answer_1": "The Secretary of the Navy is required to identify any policy or technical challenges to implementing AI or machine learning for purposes of carrying out the Shipyard Infrastructure Optimization Program of the Department of the Navy (Section 350(b)(4)). However, the act does not specify any defined steps for addressing these challenges. The act does require the Secretary to provide a briefing to the congressional defense committees on the identified challenges, along with a plan to execute any measures pursuant to such assessment (Section 350(c)).\n\nCitation: National Defense Authorization Act for Fiscal Year 2021, Section 350. (Pub. L. 116-283)",
+    "answer_2": "1) Identify any policy or technical challenges to implementing AI/ML for purposes of carrying out the Shipyard Infrastructure Optimization Program of the Department of the Navy (Section 350(b)(4)). This is part of the assessment required by the section. 2) No specific steps are defined in the provided context for addressing these challenges. However, the Secretary of the Navy is required to provide a briefing on these challenges to the congressional defense committees (Section 350(c)(3)). This briefing may include recommendations for addressing these challenges.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 5,
+    "global_index": 1866,
+    "document_id": 24,
+    "policy_name": "FY2021 NDAA, Division A, Title XVII, Section 1751 (\"Guidance and direction on use of direct hiring processes for artificial intelligence professionals and other data science and software development personnel\")",
+    "question": "What specific actions will the Secretary of Defense take to verify that the military departments and defense components are implementing the new guidance on direct hiring for AI and data science personnel to the maximum extent practicable?",
+    "answer_1": "The Secretary of Defense will review applicable Department of Defense guidance and issue new guidance to the secretaries of the military departments and the heads of the defense components on improved use of the direct hiring processes for AI and data science personnel. However, the text does not specify any particular actions for verifying the implementation of the new guidance. The report required under section (d) of the Act may provide insights into the effectiveness of the guidance and the extent to which it is being implemented (1 U.S.C. § 1751).",
+    "answer_2": "The Secretary of Defense will review applicable Department of Defense guidance, issue new guidance within 180 days of the enactment of the Act, and submit a report one year after the guidance is issued to the Senate and House of Representatives Armed Services Committees. The report will address the effect of the guidance on the hiring process, including hiring time, use of direct hiring authority, use of subject matter experts, and the quality of new hires as assessed by hiring managers and organizational leaders (Sec. 1751(a), (b), (c)(1-4), (d)(1), (2)(A), (B)(i-iv)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 6,
+    "global_index": 1867,
+    "document_id": 24,
+    "policy_name": "FY2021 NDAA, Division A, Title XVII, Section 1751 (\"Guidance and direction on use of direct hiring processes for artificial intelligence professionals and other data science and software development personnel\")",
+    "question": "How will the Department of Defense measure and report on the effectiveness of the new guidance in achieving its objective of increasing organizational leader responsibility for the results of civilian hiring in AI and data science roles?",
+    "answer_1": "The Department of Defense will measure and report on the effectiveness of the new guidance in achieving its objective of increasing organizational leader responsibility for the results of civilian hiring in AI and data science roles by including the following in the report submitted to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives, not later than one year after the date on which the guidance is issued under subsection (a) (Sec. 1751(d)(1)(B)(iv) of the National Defense Authorization Act for Fiscal Year 2021). The report will assess the quality of new hires, as determined by hiring managers and organizational leaders. This assessment will provide an indication of the extent to which the new guidance has led to increased organizational leader responsibility for the results of civilian hiring in AI and data science roles.\n\nSource: National Defense Authorization Act for Fiscal Year 2021, Sec. 1751.",
+    "answer_2": "The Department of Defense will measure and report on the effectiveness of the new guidance by assessing the effect of the guidance on the hiring process, including hiring time, the use of direct hiring authority, the use of subject matter experts, and the quality of new hires, as assessed by hiring managers and organizational leaders. This information will be included in a report submitted to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives not later than one year after the date on which the guidance is issued. (cited from SEC. 1751(d)(2)(B)(i-iv))",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 7,
+    "global_index": 1868,
+    "document_id": 24,
+    "policy_name": "FY2021 NDAA, Division A, Title XVII, Section 1751 (\"Guidance and direction on use of direct hiring processes for artificial intelligence professionals and other data science and software development personnel\")",
+    "question": "What are the reporting requirements to Congress regarding the implementation and impact of the guidance on direct hiring processes for AI and data science personnel, and how frequently will this information be disclosed?",
+    "answer_1": "The reporting requirements to Congress regarding the implementation and impact of the guidance on direct hiring processes for AI and data science personnel are as follows:\n\n1. The Secretary of Defense is required to submit a report to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives not later than one year after the date on which the guidance is issued under subsection (a) of Section 1751.\n2. The report submitted under this requirement shall at a minimum address the following:\n   - The objectives of the guidance and the manner in which the guidance seeks to achieve those objectives.\n   - The effect of the guidance on the hiring process for artificial intelligence professionals and other data science and software development personnel, including the effect on:\n      - hiring time;\n      - the use of direct hiring authority;\n      - the use of subject matter experts; and\n      - the quality of new hires, as assessed by hiring managers and organizational leaders.\n\nThis information will be disclosed once a year, as per the requirements outlined in Section 1751(d) of the National Defense Authorization Act for Fiscal Year 2021 (Public Law 116-283).\n\nCitation: National Defense Authorization Act for Fiscal Year 2021 (Public Law 116-283), Section 1751.",
+    "answer_2": "The guidance on direct hiring processes for AI and data science personnel requires the Secretary of Defense to submit a report to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives not later than one year after the guidance is issued. The report should address the objectives of the guidance, its effect on the hiring process, and the quality of new hires, including information on hiring time, use of direct hiring authority, use of subject matter experts, and the quality of new hires as assessed by hiring managers and organizational leaders. (cited from SEC. 1751(d)(1)(2)(A)(B)) There is no indication of further reporting requirements or frequency in the given context.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 8,
+    "global_index": 1869,
+    "document_id": 380,
+    "policy_name": "Rhode Island SB 146 (\"Consumer Protection Gaming Act\")",
+    "question": "Given the prohibition on using facial recognition and biometric recognition, what specific measures will be implemented to verify player identities and prevent underage gambling on video lottery terminals and sports betting applications?",
+    "answer_1": "The act does not specify the measures that will be implemented to verify player identities and prevent underage gambling. However, it is common for gaming operations to use other methods of identity verification, such as age verification through government-issued IDs, social security numbers, or other forms of identification. These methods may be used in conjunction with other measures, such as geolocation technology, to ensure that players are of legal age and located within the state. (No specific citations are provided in the context, but similar measures are commonly used in gaming operations.)",
+    "answer_2": "The provided document does not specify any specific measures for verifying player identities and preventing underage gambling. However, it is implied that alternative methods of identity verification may be used, as the prohibition on facial recognition and biometric recognition does not apply to standardized rewards programs. It is also noted that the prohibition on automated decision systems and algorithmic operations that may affect gaming outcomes may impact the use of certain technologies for identity verification.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 9,
+    "global_index": 1870,
+    "document_id": 380,
+    "policy_name": "Rhode Island SB 146 (\"Consumer Protection Gaming Act\")",
+    "question": "How will the Rhode Island Division of Lotteries or other relevant state agencies monitor and audit the algorithms and automated decision systems used by gaming operators to ensure they are not violating the prohibitions outlined in Section 42-61.2-17(c)?",
+    "answer_1": "The Rhode Island Division of Lotteries or other relevant state agencies may monitor and audit the algorithms and automated decision systems used by gaming operators to ensure compliance with the prohibitions outlined in Section 42-61.2-17(c) through a combination of methods.\n\n1. Regular audits and inspections: State agencies may conduct regular audits and inspections of gaming operators to review their systems and procedures for compliance with the prohibitions outlined in the act. This may include reviewing the source code of the algorithms and automated decision systems, as well as interviewing operators and employees to understand their practices and procedures.\n\n2. Compliance reports: Gaming operators may be required to submit regular compliance reports to state agencies detailing their use of algorithms and automated decision systems, including information about the systems' design, implementation, and operation. These reports may be reviewed by state agencies to ensure compliance with the act.\n\n3. Third-party audits: State agencies may engage third-party auditors to conduct independent audits of gaming operators' systems and procedures for compliance with the act. These audits may be conducted on a regular basis or in response to specific concerns or allegations of non-compliance.\n\n4. Penalties for non-compliance: State agencies may impose penalties, including fines and license suspensions or revocations, on gaming operators found to be in violation of the prohibitions outlined in the act.\n\n5. Collaboration with other agencies: State agencies may collaborate with other regulatory bodies, such as the Federal Trade Commission or state attorneys general, to share information and coordinate enforcement efforts related to the use of algorithms and automated decision systems in gaming operations.\n\n6. Public education and outreach: State agencies may engage in public education and outreach efforts to inform gaming consumers and the general public about the prohibitions outlined in the act and the steps being taken to ensure compliance. This may include providing information on the state's website, holding public hearings, and issuing press releases or other communications.\n\nCitations:\n- Rhode Island General Laws, Chapter 42-61.2-17(b-e)\n- Federal Trade Commission, \"Using Artificial Intelligence: A Toolkit for Business\" (2020), <https://www.ftc.gov/tips-advice/business-center/guidance/using",
+    "answer_2": "The act does not specify how the Rhode Island Division of Lotteries or other relevant state agencies will monitor and audit the algorithms and automated decision systems used by gaming operators. However, it is reasonable to assume that these agencies may develop and implement procedures for compliance and auditing to ensure that gaming operators are adhering to the prohibitions outlined in Section 42-61.2-17(c).",
+    "preferred": 2
+  },
+  {
+    "file_index": 94,
+    "item_index": 10,
+    "global_index": 1871,
+    "document_id": 380,
+    "policy_name": "Rhode Island SB 146 (\"Consumer Protection Gaming Act\")",
+    "question": "What are the enforcement procedures and penalties for pari-mutuel licensees and vendors of gambling products that fail to comply with the restrictions on using certain technologies in video lottery games and sports betting applications as stipulated in this act?",
+    "answer_1": "The enforcement procedures and penalties for pari-mutuel licensees and vendors of gambling products that fail to comply with the restrictions on using certain technologies in video lottery games and sports betting applications as stipulated in this act are not explicitly stated in the provided context. However, it can be inferred that the Rhode Island Gaming Commission, the state agency responsible for regulating gaming in the state, would likely be responsible for enforcing these provisions. The penalties for non-compliance could potentially include fines, license suspension, or revocation, but these specific penalties are not specified in the provided context. It is recommended to consult the Rhode Island Gaming Commission or relevant state legislation for more detailed information on enforcement procedures and penalties.\n\nSource:\n- General Laws of Rhode Island Title 42, Chapter 42-61.2, Section 42-61.2-17 (2023)\n- Rhode Island Gaming Commission website: <https://www.ri-gaming.com/>",
+    "answer_2": "The act does not specify enforcement procedures or penalties for pari-mutuel licensees and vendors of gambling products that fail to comply with the restrictions on using certain technologies in video lottery games and sports betting applications. It is not clear from the provided context how non-compliance would be addressed. (Document ID: S0146)",
+    "preferred": 2
+  },
+  {
+    "file_index": 94,
+    "item_index": 11,
+    "global_index": 1872,
+    "document_id": 1245,
+    "policy_name": "Atomic Supply Chain Solutions Act",
+    "question": "What specific methods will the Secretary of Energy employ to determine the appropriateness and necessity of the N-stamp requirement for selected nuclear components and materials, and how will probabilistic methodology or similar techniques be incorporated into this assessment?",
+    "answer_1": "The Secretary of Energy will employ probabilistic methodology or other similar methods to determine the appropriateness and necessity of the N-stamp requirement for selected nuclear components and materials. This assessment will be part of the evaluation of the nuclear supply chain of the United States, as outlined in Section 3(b)(2)(A) of the Atomic Supply Chain Solutions Act (document ID: H.R. 840). The specifics of the methodology used will likely depend on the components and materials being evaluated, but the general approach will involve analyzing the safety and reliability of these components and materials with and without the N-stamp requirement. The Act does not provide further details on the specific probabilistic methodology to be used, so it is unclear if there are any specific guidelines or standards that the Secretary of Energy must follow in this assessment.",
+    "answer_2": "The Secretary of Energy will employ probabilistic methodology or similar methods to determine the appropriateness and necessity of the N-stamp requirement for certain nuclear components and materials (selected by the Secretary) that currently require an N-stamp. This analysis will be included in the evaluation submitted to the appropriate congressional committees, as outlined in Section 3(2)(A) of the Atomic Supply Chain Solutions Act (ID: Atomic Supply Chain Solutions Act).",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 12,
+    "global_index": 1873,
+    "document_id": 1245,
+    "policy_name": "Atomic Supply Chain Solutions Act",
+    "question": "How will the evaluation under Section 3 analyze the cost implications of different regulatory pathways for nuclear components and materials, specifically comparing those with ASME certification, those accepted via commercial grade dedication, and those without explicit quality assurance requirements?",
+    "answer_1": "The evaluation under Section 3(2)(B) of the Atomic Supply Chain Solutions Act will analyze the costs associated with regulatory requirements relating to nuclear components and materials. Specifically, it will compare the costs for safety-related nuclear components and materials that receive appropriate ASME certification, those that receive acceptance by the Nuclear Regulatory Commission through commercial grade dedication, and those that do not have to obtain a relevant quality assurance requirement. This analysis is contained in subsection (b)(2)(B) of the Act. (Citation: Atomic Supply Chain Solutions Act, SEC. 3. NUCLEAR SUPPLY CHAIN EVALUATION.)",
+    "answer_2": "The evaluation under Section 3(2)(B) of the Atomic Supply Chain Solutions Act will analyze the costs associated with regulatory requirements relating to safety-related nuclear components and materials that receive appropriate ASME certification, those that do not receive such certification but instead receive acceptance by the Nuclear Regulatory Commission through commercial grade dedication, and those that do not have to obtain a relevant quality assurance requirement.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 13,
+    "global_index": 1874,
+    "document_id": 1245,
+    "policy_name": "Atomic Supply Chain Solutions Act",
+    "question": "What criteria will the Secretary of Energy utilize to identify potential regulatory challenges associated with the adoption of advanced manufacturing and innovative technologies within the nuclear supply chain, as mandated by Section 3(b)(3)(B)(iv)?",
+    "answer_1": "The Secretary of Energy will utilize potential challenges associated with the adoption of advanced manufacturing and innovative technologies within the nuclear supply chain, as mandated by Section 3(b)(3)(B)(iv), by identifying regulatory challenges with respect to the use of such technologies within the nuclear supply chain of the United States. This includes economic considerations associated with such technologies and potential challenges associated with such technologies, including potential regulatory challenges. (Section 3(b)(3)(B)(iv), Atomic Supply Chain Solutions Act)",
+    "answer_2": "The Secretary of Energy will identify potential regulatory challenges associated with the adoption of advanced manufacturing and innovative technologies within the nuclear supply chain by analyzing economic considerations, potential challenges, and potential regulatory challenges with respect to the use of such technologies within the nuclear supply chain of the United States, as mandated by Section 3(b)(3)(B)(iv) of the Atomic Supply Chain Solutions Act.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 14,
+    "global_index": 1875,
+    "document_id": 6,
+    "policy_name": "FY2023 NDAA, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
+    "question": "How will the Deputy Secretary of Defense ensure accountability from component heads regarding their data availability and personnel expertise in data management, artificial intelligence, and digital solutions as mandated by subsection (b)(1)?",
+    "answer_1": "The Deputy Secretary of Defense will ensure accountability from component heads regarding their data availability and personnel expertise in data management, artificial intelligence, and digital solutions as mandated by subsection (b)(1) by holding the heads of components accountable for making their component's data available for use, developing, implementing, and reporting measurable actions to acquire, preserve, and grow the population of government and contractor personnel with expertise, making their components use data management practices, analytics processes, enterprise cloud computing environments, and operational test environments, identifying and reporting on an annual basis for Deputy Secretary approval those ongoing programs and activities and new initiatives within their components to which the component head determines should be applied advanced analytics, digital technology, and artificial intelligence, and developing and implementing cybersecurity and artificial intelligence security solutions (Sec. 1513(b)(1)(A-E), US Code).",
+    "answer_2": "The Deputy Secretary of Defense will ensure accountability from component heads regarding their data availability and personnel expertise in data management, artificial intelligence, and digital solutions as mandated by subsection (b)(1) by holding the heads of components accountable for making their component's data available for use, developing, implementing, and reporting measurable actions to acquire, preserve, and grow the population of government and contractor personnel with expertise in data management, artificial intelligence, and digital solutions, making their components use data management practices, analytics processes, enterprise cloud computing environments, and operational test environments that are made available and specifically approved, identifying and reporting on an annual basis for Deputy Secretary approval those ongoing programs and activities and new initiatives within their components to which the component head determines should be applied advanced analytics, digital technology, and artificial intelligence, and developing and implementing cybersecurity and artificial intelligence security solutions to protect artificial intelligence systems, data, development processes, and applications from adversary actions.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 15,
+    "global_index": 1876,
+    "document_id": 6,
+    "policy_name": "FY2023 NDAA, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
+    "question": "What specific reporting requirements are placed on component heads in subsection (b)(1)(D) concerning the application of advanced analytics, digital technology, and artificial intelligence to ongoing programs and new initiatives, and what is the approval process for these reports?",
+    "answer_1": "The component heads are required to identify and report on an annual basis for Deputy Secretary approval those ongoing programs and activities and new initiatives within their components to which they determine should be applied advanced analytics, digital technology, and artificial intelligence (SEC. 1513(b)(1)(D)). The approval process for these reports is not explicitly stated in the provided context, but it is implied that the Deputy Secretary will approve the reports as part of their responsibilities for execution and funding of the priority projects established under subsection (a). (SEC. 1513(a)(2))",
+    "answer_2": "Component heads are required to identify and report on an annual basis for Deputy Secretary approval those ongoing programs and activities and new initiatives within their components to which they determine should be applied advanced analytics, digital technology, and artificial intelligence. The approval process for these reports is not specified in the provided context. (SEC. 1513(b)(1)(D))",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 16,
+    "global_index": 1877,
+    "document_id": 6,
+    "policy_name": "FY2023 NDAA, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
+    "question": "What are the defined timelines and reporting cadences for the Deputy Secretary of Defense to brief the congressional defense committees on the implementation status of directives related to this section, as outlined in subsection (c)?",
+    "answer_1": "The Deputy Secretary of Defense is required to provide a briefing to the congressional defense committees on the implementation status of directives related to this section not later than 180 days after the date of the enactment of this Act, and annually thereafter until December 31, 2025 (SEC. 1513(c)).",
+    "answer_2": "180 days after the date of enactment of this Act and annually thereafter until December 31, 2025. (c) Briefings Required.--Not later than 180 days after the date of the enactment of this Act, and annually thereafter until December 31, 2025, the Deputy Secretary shall provide to the congressional defense committees a briefing on directives issued by the Deputy Secretary to implement the requirements of this section and the status of implementation actions. (SEC. 1513)",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 17,
+    "global_index": 1878,
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "Given the authorization of $25,000,000 annually for fiscal years 2025 through 2028, what specific metrics or reporting requirements will be established to ensure the effective and compliant utilization of these funds for the modernization of the Bureau of Industry and Security's IT systems?",
+    "answer_1": "The Act does not explicitly establish specific metrics or reporting requirements for the effective and compliant utilization of the authorized funds for the modernization of the Bureau of Industry and Security's IT systems. However, it is implied that the Under Secretary of Commerce for Industry and Security will be responsible for providing updates on the modernization process (Section 2(b)). Additionally, the Act outlines objectives for the modernization process, which could serve as a basis for evaluating the effectiveness of the modernization efforts (Section 2(d)). It is recommended that Congress consult with the Under Secretary on personnel needs and the effectiveness of modern applications and systems (Section 2(e)). Further details on reporting requirements or metrics may be established through subsequent regulations or guidance from the Department of Commerce or Congress.\n\nCitation: Bureau of Industry and Security Information Technology Modernization Act, Section 2(b), (e) (Public Law 117-16, 117th Congress)",
+    "answer_2": "The document does not specify any metrics or reporting requirements for the effective and compliant utilization of the funds. However, it does require the Under Secretary to reassess staffing and personnel needs (section c.e.1) and consult with Congress on personnel needs (section c.e.2). Additionally, the modernization process should be analyzed based on objectives such as enhancing productivity, reducing redundancies, improving data and cyber security, facilitating data sharing, and enhancing the user experience (section d).",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 18,
+    "global_index": 1879,
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "How will the 'sense of Congress' regarding the adoption of cutting-edge data fusion, analytics, and decision-making capabilities be translated into enforceable compliance standards for the Bureau of Industry and Security's IT modernization efforts?",
+    "answer_1": "The'sense of Congress' regarding the adoption of cutting-edge data fusion, analytics, and decision-making capabilities for the Bureau of Industry and Security (BIS) will not be translated into enforceable compliance standards per se. Instead, it is a guiding principle for the modernization of the BIS's IT systems and applications as outlined in the Bureau of Industry and Security Information Technology Modernization Act (Public Law 117-16, 117th Congress). The Act does not provide specific enforcement mechanisms, but it does require the Under Secretary of Commerce for Industry and Security to modernize the BIS's IT systems to incorporate these capabilities (Section 2(b) and (c)). The Act also authorizes appropriations for these modernization efforts (Section 2(f)). However, the enforcement of compliance with these modernization requirements would likely be through administrative means, such as audits, inspections, and potential penalties for non-compliance, as outlined in existing regulations and laws governing the BIS. (Source: Bureau of Industry and Security Information Technology Modernization Act, Public Law 117-16, 117th Congress)",
+    "answer_2": "The \"sense of Congress\" regarding the adoption of cutting-edge data fusion, analytics, and decision-making capabilities is not directly translated into enforceable compliance standards for the Bureau of Industry and Security's IT modernization efforts. Instead, it serves as a guiding principle for the modernization process (Section 2(a) of the \"BIS IT Modernization Act\"). The Under Secretary of Commerce for Industry and Security is tasked with modernizing the Bureau's IT systems, and the modernization should include the adoption of such capabilities (Section 2(b) and (c)). However, the Act does not specify penalties or consequences for non-compliance with these guidelines.",
+    "preferred": 1
+  },
+  {
+    "file_index": 94,
+    "item_index": 19,
+    "global_index": 1880,
+    "document_id": 1233,
+    "policy_name": "BIS IT Modernization Act",
+    "question": "What oversight procedures will be in place to ensure that the modernization of Bureau information technology systems adequately incorporates artificial intelligence, machine learning, and other advanced tools as envisioned by the Act, and that their deployment adheres to relevant governmental and ethical guidelines?",
+    "answer_1": "The Act does not explicitly outline specific oversight procedures for ensuring that the modernization of Bureau information technology systems adequately incorporates artificial intelligence (AI), machine learning (ML), and other advanced tools, and that their deployment adheres to relevant governmental and ethical guidelines. However, it does specify that the Bureau should work with relevant agencies (Sec. 2(c)(2)) and consult with Congress on personnel needs (Sec. 2(e)(2)). Additionally, the Act emphasizes the need for data and cybersecurity (Sec. 2(d)(3)) and the ease of access and user experience for United States exporters (Sec. 2(d)(6)), which could indirectly imply the consideration of ethical guidelines related to data privacy and user-centered design. To find more detailed information on the specific oversight procedures and ethical guidelines for AI and ML deployment in government, it would be necessary to consult additional sources, such as the White House Office of Science and Technology Policy's AI Bill of Rights or the Office of Management and Budget's AI Risk Management Strategy. (Sources: White House Office of Science and Technology Policy, AI Bill of Rights, https://www.whitehouse.gov/ai-bill-of-rights/; Office of Management and Budget, AI Risk Management Strategy, https://www.whitehouse.gov/wp-content/uploads/2021/05/AI-Risk-Management-Strategy.pdf)",
+    "answer_2": "The Act does not explicitly outline specific oversight procedures for ensuring the modernization of Bureau information technology systems adequately incorporates AI, machine learning, and other advanced tools. However, it is noted that the Bureau should over time enable the incorporation of these technologies as they evolve (Section 2(a)(3)). Additionally, before any technology solutions are adopted, they should be analyzed based on their ability to enhance data security and facilitate seamless data sharing with relevant stakeholders and partners, which could indirectly ensure compliance with ethical guidelines (Section 2(d)). Furthermore, the Under Secretary is required to reassess staffing and personnel needs across the Bureau throughout the modernization process, which may include personnel for overseeing the ethical and responsible use of AI and machine learning (Section 2(e)(1)).",
+    "preferred": 2
+  }
+]

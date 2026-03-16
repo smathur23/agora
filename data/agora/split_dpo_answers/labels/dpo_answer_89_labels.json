@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 89,
+    "item_index": 0,
+    "global_index": 1761,
+    "document_id": 153,
+    "policy_name": "FY2021 NDAA, Division A, Title I, Section 164 (\"Acceleration of development and fielding of counter unmanned aircraft systems across the joint force\")",
+    "question": "What specific oversight responsibilities are assigned to the Executive Agent to ensure the military departments' counter unmanned aircraft system development aligns with the prioritized plan?",
+    "answer_1": "The Executive Agent is assigned the following specific oversight responsibilities to ensure the military departments' counter unmanned aircraft system development aligns with the prioritized plan:\n\n1. Oversee the execution of all counter unmanned aircraft systems being developed by the military departments as of the day before the date of the enactment of this Act (Sec. 164(d)(1)).\n2. Ensure that the plan prioritized by subsection (a) guides future programmatic and funding decisions for activities relating to counter unmanned aircraft systems, including any cancellation of such activities (Sec. 164(d)(2)).\n\nSource: Sec. 164 of the National Defense Authorization Act for Fiscal Year 2021 (NDAA 2021), Public Law 116-283.",
+    "answer_2": "The Executive Agent is assigned the responsibility to oversee the execution of all counter unmanned aircraft systems being developed by the military departments (Sec. 164(d)(1)). Additionally, the Executive Agent is tasked with ensuring that the plan prioritized by Sec. 164(a) guides future programmatic and funding decisions for activities relating to counter unmanned aircraft systems, including any cancellation of such activities (Sec. 164(d)(2)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 1,
+    "global_index": 1762,
+    "document_id": 153,
+    "policy_name": "FY2021 NDAA, Division A, Title I, Section 164 (\"Acceleration of development and fielding of counter unmanned aircraft systems across the joint force\")",
+    "question": "How will the Executive Agent ensure that programmatic and funding decisions for counter unmanned aircraft systems, including potential cancellations, are guided by the plan prioritized under subsection (a)?",
+    "answer_1": "The Executive Agent will ensure that programmatic and funding decisions for counter unmanned aircraft systems, including potential cancellations, are guided by the plan prioritized under subsection (a) by overseeing the execution of all counter unmanned aircraft systems being developed by the military departments as of the day before the enactment of this Act (SEC. 164(d)(1)). Additionally, the Executive Agent will ensure that the plan prioritized by subsection (a) guides future programmatic and funding decisions for activities relating to counter unmanned aircraft systems, including any cancellation of such activities (SEC. 164(d)(2)).\n\nCitation: Title: National Defense Authorization Act for Fiscal Year 2021, Public Law 116-283, 116th Congress, 2nd Session. Document ID: H.R. 6395.",
+    "answer_2": "The Executive Agent will ensure that programmatic and funding decisions for counter unmanned aircraft systems, including potential cancellations, are guided by the plan prioritized under subsection (a) by overseeing the execution of all counter unmanned aircraft systems being developed by the military departments as of the day before the enactment of this Act (Sec. 164(d)(1)) and by ensuring that the plan prioritized by subsection (a) guides future programmatic and funding decisions for activities relating to counter unmanned aircraft systems (Sec. 164(d)(2)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 2,
+    "global_index": 1763,
+    "document_id": 153,
+    "policy_name": "FY2021 NDAA, Division A, Title I, Section 164 (\"Acceleration of development and fielding of counter unmanned aircraft systems across the joint force\")",
+    "question": "What are the mandated reporting requirements and timelines for the Executive Agent to brief congressional defense committees on the selection process and plan for counter unmanned aircraft system capabilities?",
+    "answer_1": "The Executive Agent is mandated to brief the congressional defense committees on the selection process for counter unmanned aircraft system capabilities and the plan prioritized by Section 164(a) not later than 90 days after the date of the enactment of this Act. (c) of the provided context.",
+    "answer_2": "90 days after the date of enactment of this Act, the Executive Agent shall brief the congressional defense committees on the selection process for counter unmanned aircraft system capabilities prioritized by this section and the plan prioritized by subsection (a) of Section 164.",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 3,
+    "global_index": 1764,
+    "document_id": 1745,
+    "policy_name": "FY2025 NDAA, Section 1078 (\"Study and report on Department of Defense use of unmanned ground vehicle systems manufactured by certain foreign entities\")",
+    "question": "Under what specific conditions can the Secretary of Defense or a military department Secretary grant an exception to the prohibition on procuring or operating unmanned ground vehicle systems manufactured by covered foreign entities, even if the Secretary's report recommends such a prohibition?",
+    "answer_1": "The Secretary of Defense or a military department Secretary can grant an exception to the prohibition on procuring or operating unmanned ground vehicle systems manufactured by covered foreign entities if they determine that the procurement or operation of such a system is in the national interest of the United States (SEC. 1078(b)(2)). This exception applies even if the Secretary's report recommends a prohibition on the procurement and operation of covered unmanned ground vehicle systems (SEC. 1078(b)(3)).\n\nSource:\n- Public Law 117-81, Section 1078: https://www.congress.gov/117/plaws/publ81/PLAW-117publ81.pdf",
+    "answer_2": "The Secretary of Defense or a military department Secretary can grant an exception to the prohibition on procuring or operating unmanned ground vehicle systems manufactured by covered foreign entities if they determine that the procurement or operation of such system is in the national interest of the United States (SEC. 1078(b)(2)). This exception applies regardless of whether the report submitted to the congressional defense committees recommends a prohibition on the procurement and operation of covered unmanned ground vehicle systems (SEC. 1078(b)(3)).",
+    "preferred": 2
+  },
+  {
+    "file_index": 89,
+    "item_index": 4,
+    "global_index": 1765,
+    "document_id": 1745,
+    "policy_name": "FY2025 NDAA, Section 1078 (\"Study and report on Department of Defense use of unmanned ground vehicle systems manufactured by certain foreign entities\")",
+    "question": "How does the applicability of the prohibition on procuring and operating covered unmanned ground vehicle systems manufactured by covered foreign entities hinge on the Secretary of Defense's specific recommendation in the submitted report?",
+    "answer_1": "The applicability of the prohibition on procuring and operating covered unmanned ground vehicle systems manufactured by covered foreign entities hinges on the Secretary of Defense's specific recommendation in the submitted report. According to Section 1078(b)(3) of the National Defense Authorization Act for Fiscal Year 2022 (Public Law 117-263), the prohibition will not apply unless the Secretary includes in the report required under subsection (a)(2) a recommendation that a prohibition on the procurement and operation of covered unmanned ground vehicle systems is in the best interest of the national security of the United States. (Public Law 117-263, Sec. 1078)",
+    "answer_2": "The prohibition on procuring and operating covered unmanned ground vehicle systems manufactured by covered foreign entities does not apply unless the Secretary of Defense includes in the report required under subsection (a)(2) a recommendation pursuant to subparagraph (E) of that paragraph that a prohibition on the procurement and operation of covered unmanned ground vehicle systems is in the best interest of the national security of the United States (Sec. 1078(b)(3)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 5,
+    "global_index": 1766,
+    "document_id": 1745,
+    "policy_name": "FY2025 NDAA, Section 1078 (\"Study and report on Department of Defense use of unmanned ground vehicle systems manufactured by certain foreign entities\")",
+    "question": "What are the procedural requirements for the Secretary of Defense to determine if an entity is considered a 'covered foreign entity' subject to the restrictions outlined in this section?",
+    "answer_1": "The Secretary of Defense determines if an entity is considered a 'covered foreign entity' by assessing whether the entity is domiciled in a covered foreign country or subject to influence or control by the government of a covered foreign country. This determination is made under the definition provided in subsection (c)(2) of the section. (SEC. 1078)\n\nSource:\nhttps://www.congress.gov/117/bills/hr4350/text.html#toc-H2886608043",
+    "answer_2": "The Secretary of Defense determines if an entity is a \"covered foreign entity\" by assessing whether the entity is domiciled in a covered foreign country or subject to influence or control by the government of a covered foreign country, as defined in section 1078(c)(2) of the National Defense Authorization Act for Fiscal Year 2023 (Public Law 117-263). This determination is not explicitly outlined in the procedural requirements for the study and report on the use of unmanned ground vehicle systems by the Department of Defense, but it is an essential step in identifying entities subject to the restrictions outlined in this section.",
+    "preferred": 2
+  },
+  {
+    "file_index": 89,
+    "item_index": 6,
+    "global_index": 1767,
+    "document_id": 1742,
+    "policy_name": "FY2025 NDAA, Section 1515 (\"Protective measures for mobile devices within the Department of Defense\")",
+    "question": "What specific criteria will the Secretary of Defense use to determine the efficacy, value, and feasibility of scaling cybersecurity technologies for mobile devices within the Department of Defense, as mandated by Section 1515(c)?",
+    "answer_1": "1. Efficacy and value of the cybersecurity provided by the technology for mobile devices: The Secretary of Defense will assess the ability of each technology to effectively protect mobile devices from cyber attacks, considering factors such as its capacity to detect and prevent threats, its resistance to bypassing, and its impact on the overall security posture of the Department of Defense.\n\n2. Feasibility of scaling the technology across the entirety or components of the Department of Defense: The Secretary will evaluate the practicality of implementing the technology across the Department of Defense, taking into account factors such as the technology's compatibility with existing infrastructure, its ease of deployment, and the potential for minimal disruption to operations.\n\n3. Ability of the Department of Defense to integrate the technology with the existing cybersecurity architecture: The Secretary will assess the compatibility of each technology with the Department of Defense's existing cybersecurity systems, including its ability to seamlessly integrate with existing tools and processes, and its potential impact on the overall performance and efficiency of the cybersecurity architecture.\n\nCitation: Title V, Subtitle A, Section 1515, National Defense Authorization Act for Fiscal Year 2023 (NDAA 2023), H.R. 4350, 117th Congress (2021-2022).",
+    "answer_2": "1) The Secretary of Defense will assess the efficacy of the cybersecurity provided by each technology by evaluating its ability to protect mobile devices from cyber attacks. 2) To determine the value of the technology, the Secretary will consider its potential benefits to the Department of Defense in terms of improved security and risk reduction. 3) The feasibility of scaling the technology will be evaluated based on factors such as its compatibility with the existing cybersecurity architecture, the timeline for deployment, and the ability to integrate it across the Department of Defense or its components. (Source: Section 1515(c) of the given context)",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 7,
+    "global_index": 1768,
+    "document_id": 1742,
+    "policy_name": "FY2025 NDAA, Section 1515 (\"Protective measures for mobile devices within the Department of Defense\")",
+    "question": "Beyond the listed technologies, what process will the Secretary of Defense follow to identify and evaluate any other 'emerging or established technologies' deemed appropriate for enhancing mobile device cybersecurity for the Department, as outlined in Section 1515(b)(8)?",
+    "answer_1": "The Secretary of Defense will follow an unspecified process to identify and evaluate any other 'emerging or established technologies' deemed appropriate for enhancing mobile device cybersecurity for the Department of Defense, as outlined in Section 1515(b)(8) of the National Defense Authorization Act for Fiscal Year 2023 (NDAA 2023). The NDAA 2023 does not provide specific details about this process, so it is not possible to cite a relevant source for this information. However, it is reasonable to assume that the process will involve consultation with cybersecurity experts, research, and evaluation of available technologies to determine their suitability for the Department's needs.",
+    "answer_2": "The Secretary of Defense will determine any other 'emerging or established technologies' deemed appropriate for enhancing mobile device cybersecurity by evaluating their efficacy, feasibility of scaling, and ability to integrate with the existing cybersecurity architecture of the Department of Defense, as outlined in Section 1515(c) of the given context. However, the document does not specify the process for identifying these additional technologies.",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 8,
+    "global_index": 1769,
+    "document_id": 1742,
+    "policy_name": "FY2025 NDAA, Section 1515 (\"Protective measures for mobile devices within the Department of Defense\")",
+    "question": "What is the anticipated timeline for the Department of Defense to complete its detailed evaluation of cybersecurity products and services for mobile devices and submit its findings and procurement recommendations to the congressional defense committees, as specified in Section 1515(d)?",
+    "answer_1": "270 days after the date of the enactment of this Act, as specified in Section 1515(d) of the National Defense Authorization Act for Fiscal Year 2023 (Public Law 117-280, H.R. 4350).",
+    "answer_2": "270 days after the date of the enactment of this Act, the Secretary of Defense shall submit to the congressional defense committees a report of the findings of the evaluation carried out under Section 1515(a), including a determination whether the Department of Defense or any component thereof should procure or incorporate any of the technologies evaluated pursuant to Section 1515(b). (Section 1515(d))",
+    "preferred": 2
+  },
+  {
+    "file_index": 89,
+    "item_index": 9,
+    "global_index": 1770,
+    "document_id": 1247,
+    "policy_name": "Nucleic Acid Standards for Biosecurity Act",
+    "question": "What specific requirements are being amended or introduced within Section 10221 of the Research and Development, Competition, and Innovation Act by this Act concerning risk management in engineering biology and biomanufacturing, particularly regarding artificial intelligence?",
+    "answer_1": "This Act introduces a requirement for best practices, guidelines, and technical standards for risk management associated with engineering biology and biomanufacturing, including risks associated with the use of artificial intelligence, within Section 10221 of the Research and Development, Competition, and Innovation Act. This is achieved by amending subparagraph (C) in subsection (a)(1) to include \"risks associated with the use of artificial intelligence\" (42 U.S.C. 18931). The specific requirements are not detailed further in the provided context, but the Act does outline the process for developing and updating best practices, guidelines, and technical standards. (Citation: 42 U.S.C. 18931)",
+    "answer_2": "This Act amends Section 10221 of the Research and Development, Competition, and Innovation Act to include a requirement for best practices, guidelines, and technical standards for risk management associated with engineering biology and biomanufacturing, specifically addressing risks associated with the use of artificial intelligence (subsection (a)(1)(D)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 10,
+    "global_index": 1771,
+    "document_id": 1247,
+    "policy_name": "Nucleic Acid Standards for Biosecurity Act",
+    "question": "How will the Director, in consultation with other Federal agencies, operationalize the measurement research to develop and enhance best practices and technical standards for nucleic acid synthesis biosecurity measures as outlined in the new subsection (b)?",
+    "answer_1": "The Director, in consultation with other Federal agencies, will operationalize the measurement research to develop and enhance best practices and technical standards for nucleic acid synthesis biosecurity measures as outlined in the new subsection (b) by carrying out the following activities:\n\n1. Testing to improve the accuracy, efficacy, and reliability of screening for nucleic acid synthesis (b(1)(A)).\n2. Developing best practices, including security and access controls, for operational security and managing sequence-of-concern databases to support such screening (b(1)(B)).\n3. Providing technical implementation guidance to ensure such screening is effective and secure (b(1)(C)).\n4. Developing conformity-assessment best practices and technical standards (b(1)(D)).\n5. Establishing methods to evaluate the impact and effectiveness of the implementation of the above activities (b(1)(E)).\n\nThe Director is also required to convene a consortium of stakeholders, including industry, institutions of higher education, nonprofit organizations, and customers. This consortium will develop and periodically update consensus priorities and best practices for synthetic nucleic acid procurement screening mechanisms, develop roadmaps to inform the activities carried out under paragraph (1), and submit a report to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Science, Space, and Technology of the House of Representatives summarizing the findings of the consortium not later than 18 months after the first meeting of the consortium (b(2) and (3)).\n\nCitation: This information is based on the text of the Nucleic Acid Standards for Biosecurity Act as amended by section 2 of the Research and Development, Competition, and Innovation Act (42 U.S.C. 18931; enacted as part of title II of division B of Public Law 117–167).",
+    "answer_2": "The Director, in consultation with other Federal agencies, will operationalize the measurement research to develop and enhance best practices and technical standards for nucleic acid synthesis biosecurity measures by carrying out research in the areas of testing to improve the accuracy, efficacy, and reliability of screening for nucleic acid synthesis (subsection (b)(1)(A)); best practices, including security and access controls, for operational security and managing sequence-of-concern databases to support such screening (subsection (b)(1)(B)); technical implementation guidance to ensure such screening is effective and secure (subsection (b)(1)(C)); conformity-assessment best practices and technical standards (subsection (b)(1)(D)); methods to evaluate the impact and effectiveness of the implementation of these subparagraphs (subsection (b)(1)(E)). The Director will also convene a consortium of stakeholders to develop and periodically update consensus priorities and best practices for synthetic nucleic acid procurement screening mechanisms, develop roadmaps to inform the activities carried out under paragraph (1), and submit a report summarizing the findings of the consortium to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Science, Space, and Technology of the House of Representatives not later than 18 months after the first meeting of the consortium (subsection (b)(2) and (3)). Funds for this research are authorized to be appropriated for the National Institute of Standards and Technology pursuant to this section for scientific and technical research and services laboratory activities, with $5,000,000 authorized for each of fiscal years 2025 through 2029 to carry out this subsection (subsection (b)(4)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 11,
+    "global_index": 1772,
+    "document_id": 1247,
+    "policy_name": "Nucleic Acid Standards for Biosecurity Act",
+    "question": "What is the expected timeline and process for the consortium of stakeholders to develop consensus priorities and best practices for synthetic nucleic acid procurement screening, and how will these be communicated?",
+    "answer_1": "1. The consortium of stakeholders, including industry, institutions of higher education, nonprofit organizations, and customers, is expected to develop consensus priorities and best practices for synthetic nucleic acid procurement screening mechanisms. This process is to be carried out under the Nucleic Acid Synthesis Screening Tools and Standards section of the amended Research and Development, Competition, and Innovation Act (42 U.S.C. 18931).\n\n2. The consortium is to be convened by the Director, in consultation with heads of Federal agencies the Director considers appropriate, and is expected to carry out this task periodically, as appropriate.\n\n3. The consortium is also expected to develop roadmaps to inform the activities carried out under the subsection for synthetic nucleic acid procurement screening mechanisms.\n\n4. Not later than 18 months after the first meeting of the consortium, the Director is required to submit a report summarizing the findings of the consortium to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Science, Space, and Technology of the House of Representatives.\n\nCitation: The information is derived from the text of the amended Research and Development, Competition, and Innovation Act (42 U.S.C. 18931) as outlined in the provided context. Specific sections referenced include subsection (b)(2), (3), and (4).",
+    "answer_2": "18 months after the first meeting of the consortium, the Director is expected to submit a report summarizing the findings of the consortium to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Science, Space, and Technology of the House of Representatives (SEC. 2(b)(3)). The consortium, comprising of industry, institutions of higher education, nonprofit organizations, and customers, will develop and periodically update consensus priorities and best practices for synthetic nucleic acid procurement screening mechanisms (SEC. 2(b)(2)(A)). These priorities and best practices will be developed through roadmaps informed by the activities carried out under the subsection (SEC. 2(b)(2)(B)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 12,
+    "global_index": 1773,
+    "document_id": 182,
+    "policy_name": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
+    "question": "How will the detailed performance testing protocols and dataset characteristics, including sufficient numbers of cases from important cohorts, be verified to ensure the software effectively improves reader performance across diverse patient populations and imaging equipment?",
+    "answer_1": "The detailed performance testing protocols and dataset characteristics, including sufficient numbers of cases from important cohorts, will be verified to ensure the software effectively improves reader performance across diverse patient populations and imaging equipment through the following methods:\n\n1. The performance testing protocols must be pre-specified and detailed, including a description of the diagnostic accuracy measures used, such as receiver operator characteristic plot, sensitivity, specificity, predictive value, and diagnostic likelihood ratio (FDA, 2021).\n\n2. The test dataset must contain sufficient numbers of cases from important cohorts, such as subsets defined by clinically relevant confounders, effect modifiers, concomitant diseases, and subsets defined by image acquisition characteristics (FDA, 2021).\n\n3. The performance estimates and confidence intervals of the device for these individual subsets can be characterized for the intended use population and imaging equipment (FDA, 2021).\n\n4. The performance testing results must demonstrate that the device improves reader performance in the intended use population when used in accordance with the instructions for use (FDA, 2021).\n\nCitations:\n- FDA (2021). Radiological Computer-Assisted Diagnostic Software for Lesions Suspicious of Cancer. Retrieved from https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?fr=892.2060",
+    "answer_2": "The detailed performance testing protocols and dataset characteristics, including sufficient numbers of cases from important cohorts, will be verified through results from performance testing protocols that demonstrate the device improves reader performance in the intended use population when used in accordance with the instructions for use (§892.2060(b)(1)(iii)). The performance assessment must be based on appropriate diagnostic accuracy measures, and the test dataset must contain sufficient numbers of cases from important cohorts such that the performance estimates and confidence intervals of the device for these individual subsets can be characterized for the intended use population and imaging equipment (§892.2060(b)(1)(iii)(B)).",
+    "preferred": 2
+  },
+  {
+    "file_index": 89,
+    "item_index": 13,
+    "global_index": 1774,
+    "document_id": 182,
+    "policy_name": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
+    "question": "What specific software documentation, such as device hazard analysis and traceability analysis, is mandated to ensure the safety and reliability of this diagnostic software, and how will its adherence be monitored?",
+    "answer_1": "The specific software documentation mandated to ensure the safety and reliability of this diagnostic software includes a device hazard analysis and a traceability analysis. The device hazard analysis is a systematic evaluation of potential hazards associated with the device, including the identification, analysis, and evaluation of risks, and the development of strategies to control these risks (FDA, 2021). The traceability analysis is a process that demonstrates the relationship between the software requirements, design, and implementation to ensure that the final product meets the intended requirements (FDA, 2018).\n\nAdherence to these requirements will be monitored through the FDA's premarket approval process, where the manufacturer must submit a Premarket Approval Application (PMA) that includes the required software documentation. The FDA will review this documentation to ensure that the software meets the necessary safety and performance standards (FDA, 2021).\n\nCitations:\n- FDA (2018). Software Quality Assurance (SQA) Guidance for Industry and Food and Drug Administration Staff. Retrieved from https://www.fda.gov/media/106110/download\n- FDA (2021). Premarket Approval (PMA) for Medical Devices. Retrieved from https://www.fda.gov/medical-devices/premarket-submissions/premarket-approval-pma-medical-devices",
+    "answer_2": "The software documentation mandated to ensure the safety and reliability of this diagnostic software includes a device hazard analysis, software requirements specification document, software design specification document, traceability analysis, and a description of verification and validation activities. These documents are meant to demonstrate the system level test protocol, pass/fail criteria, results, and cybersecurity. Adherence to these requirements will be monitored through appropriate regulatory oversight during the premarket approval process and postmarket surveillance. (Source: §892.2060(b)(1)(iv) and (v))",
+    "preferred": 2
+  },
+  {
+    "file_index": 89,
+    "item_index": 14,
+    "global_index": 1775,
+    "document_id": 182,
+    "policy_name": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
+    "question": "How will the labeling requirements, particularly detailed descriptions of the patient population, intended reading protocol, user training, and specific warnings/precautions, be enforced to guarantee that users understand the software's limitations and operate it appropriately?",
+    "answer_1": "The enforcement of labeling requirements for radiological computer-assisted diagnostic software for lesions suspicious of cancer, as specified in § 892.2060, is primarily the responsibility of the Food and Drug Administration (FDA) through post-market surveillance and inspections. The FDA may take enforcement actions, such as issuing warning letters or recalling the device, if the labeling does not comply with the requirements or if the device is found to be misbranded or adulterated (21 CFR § 801.1).\n\nThe detailed descriptions of the patient population, intended reading protocol, user training, and specific warnings/precautions in the labeling are intended to ensure that users understand the software's limitations and operate it appropriately. The FDA may verify compliance with these requirements through review of labeling submissions, post-market surveillance, and inspections. During inspections, FDA investigators may review the labeling and ask questions about the software's intended use, user training, and performance in various patient populations and imaging conditions (21 CFR Part 820.20).\n\nIn addition, the FDA may rely on third-party organizations, such as accredited testing laboratories and quality system registrars, to help ensure compliance with labeling requirements. These organizations may conduct audits and inspections, and issue certifications or accreditations to manufacturers that meet certain standards (21 CFR Part 820.3).\n\nLastly, healthcare providers and users are also responsible for understanding and following the labeling instructions for the safe and effective use of the software. Non-compliance with labeling requirements may result in adverse events or misuse of the software, which could potentially lead to enforcement actions by the FDA.\n\nCitations:\n- 21 CFR § 801.1: Misbranded and Adulterated Devices\n- 21 CFR Part 820: Quality System Regulation\n- 21 CFR Part 820.20: Design Controls\n- 21 CFR Part 820.3: Third-Party Organizations",
+    "answer_2": "The labeling requirements for radiological computer-assisted diagnostic software for lesions suspicious of cancer, as outlined in § 892.2060(b)(2), will be enforced through the FDA's premarket approval process. Manufacturers are required to provide detailed descriptions of the patient population, intended reading protocol, user training, and specific warnings/precautions. Compliance with these requirements will be assessed during premarket review and postmarket surveillance to ensure that users understand the software's limitations and operate it appropriately. [Citation: 21 CFR Part 892.2060]",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 15,
+    "global_index": 1776,
+    "document_id": 504,
+    "policy_name": "Medicare Transaction Fraud Prevention Act",
+    "question": "How will the pilot program ensure that the predictive risk-scoring algorithm is adequately tested and reviewed, considering the 'Blueprint for an AI Bill of Rights', before it is implemented to assess the risk of Medicare transactions?",
+    "answer_1": "The pilot program will ensure that the predictive risk-scoring algorithm is adequately tested and reviewed by requiring sufficient testing, evaluation, and review of the algorithm before its implementation, taking into consideration the Blueprint for an AI Bill of Rights issued by the White House Office of Science and Technology Policy in October, 2022 (S. 3630, Sec. 2(d)(6)(B)(i)).",
+    "answer_2": "The pilot program will require sufficient testing, evaluation, and review of the predictive risk-scoring algorithm before implementation, taking into consideration the Blueprint for an AI Bill of Rights issued by the White House Office of Science and Technology Policy in October, 2022. This is stated in section 2(d)(6)(B)(i) of S. 3630.",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 16,
+    "global_index": 1777,
+    "document_id": 504,
+    "policy_name": "Medicare Transaction Fraud Prevention Act",
+    "question": "What specific processes are in place for notifying applicable beneficiaries and providers about the usage of the predictive risk-scoring algorithm, including how their data is processed and the potential consequences?",
+    "answer_1": "The Medicare Transaction Fraud Prevention Act, as outlined in S. 3630, requires the Secretary to establish methods for notifying applicable beneficiaries and providers of services and suppliers impacted by the use of the predictive risk-scoring algorithm. This includes information regarding how beneficiary data is collected and processed under the pilot program to produce a risk score for relevant transactions and the possible implications associated with the use of the algorithm (Section 2(d)(6)(B)(ii)). The bill does not specify the exact methods for notification, but it does require that these methods be established before the implementation of any predictive risk-scoring algorithm. Additionally, the bill references the Blueprint for an AI Bill of Rights issued by the White House Office of Science and Technology Policy in October, 2022, which may provide guidance on how to ensure transparency and fairness in the use of AI systems like the predictive risk-scoring algorithm (Section 2(d)(6)(B)(i)).",
+    "answer_2": "The Medicare Transaction Fraud Prevention Act requires the Secretary to establish methods for notifying applicable beneficiaries and providers of services and suppliers impacted by the use of the predictive risk-scoring algorithm. This includes information regarding how beneficiary data is collected and processed under the pilot program to produce a risk score for relevant transactions, and the possible implications associated with the use of the algorithm (S. 3630, Sec. 2(d)(6)(B)(ii)). The Secretary is also required to establish methods of communication with the Office of the Inspector General of the Department of Health and Human Services, and the ability to waive or forgo notice to an applicable beneficiary or a provider of services or supplier if appropriate (S. 3630, Sec. 2(d)(6)(B)(iii)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 17,
+    "global_index": 1778,
+    "document_id": 504,
+    "policy_name": "Medicare Transaction Fraud Prevention Act",
+    "question": "Under what conditions can the Secretary waive or forgo notification to applicable beneficiaries or providers regarding the predictive risk-scoring algorithm's application, and what safeguards are in place to ensure this authority is used appropriately?",
+    "answer_1": "The Secretary can waive or forgo notification to applicable beneficiaries or providers if appropriate, as specified in Section 2(d)(6)(B)(iii) of S. 3630. However, the bill does not provide specific conditions for when this authority can be exercised. It is important to note that before implementing any predictive risk-scoring algorithm, the Secretary is required to establish methods for notifying applicable beneficiaries and providers regarding the usage of the algorithm (Section 2(d)(6)(B)(ii)). Additionally, the Secretary is required to work with the Office of the Inspector General of the Department of Health and Human Services to ensure the appropriate use of this authority (Section 2(d)(6)(B)(ii)).\n\nCitations: S. 3630, Section 2(d)(6)(B)(iii), Section 2(d)(6)(B)(ii)",
+    "answer_2": "The Secretary may waive or forgo notification to applicable beneficiaries or providers if appropriate, as specified in Section 2(d)(6)(B)(iii) of the Medicare Transaction Fraud Prevention Act (S. 3630). However, before implementing any predictive risk-scoring algorithm, the Secretary must establish methods of communication with the Office of the Inspector General of the Department of Health and Human Services, ensuring that the use of this authority is subject to oversight.",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 18,
+    "global_index": 1779,
+    "document_id": 61,
+    "policy_name": "AI in Government Act of 2020",
+    "question": "What are the reporting requirements for agencies to demonstrate their adherence to the guidance on AI acquisition and use as mandated by the Director?",
+    "answer_1": "Agencies are required to submit a plan to the Director and post it on a publicly available page on their website, not later than 180 days after the date on which the Director issues the memorandum required under Section 104(a) or an update to the memorandum required under Section 104(d). The plan should achieve consistency with the memorandum or provide a written determination that the agency does not use and does not anticipate using artificial intelligence (SEC. 104(c)).",
+    "answer_2": "180 days after the Director issues the memorandum required under SEC. 104(a) or an update to the memorandum required under SEC. 104(d), the head of each agency shall submit to the Director and post on a publicly available page on the agency's website a plan to achieve consistency with the memorandum or a written determination that the agency does not use and does not anticipate using artificial intelligence (SEC. 104(c)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 89,
+    "item_index": 19,
+    "global_index": 1780,
+    "document_id": 61,
+    "policy_name": "AI in Government Act of 2020",
+    "question": "How will the AI Center of Excellence (AI CoE) monitor and ensure that agencies are effectively and consistently adopting and using artificial intelligence technologies?",
+    "answer_1": "The AI Center of Excellence (AI CoE) will monitor and ensure that agencies are effectively and consistently adopting and using artificial intelligence technologies through several means.\n\nFirst, the AI CoE will regularly convene individuals from agencies, industry, Federal laboratories, nonprofit organizations, institutions of higher education, and other entities to discuss recent developments in artificial intelligence, including the dissemination of information regarding programs, pilots, and other initiatives at agencies (SEC. 103(b)(1)).\n\nSecond, the AI CoE will collect, aggregate, and publish on a publicly available website information regarding programs, pilots, and other initiatives led by other agencies and any other information determined appropriate by the Administrator (SEC. 103(b)(2)).\n\nThird, the AI CoE will advise the Administrator, the Director, and agencies on the acquisition and use of artificial intelligence through technical insight and expertise, as needed (SEC. 103(b)(3)).\n\nFourth, the AI CoE will consult with agencies on the development of policies regarding the management and use of data in applications of artificial intelligence (SEC. 103(b)(4)).\n\nLastly, the Director, in coordination with the Director of the Office of Science and Technology Policy, will issue a memorandum to the head of each agency that shall inform the development of policies regarding Federal acquisition and use by agencies regarding technologies that are empowered or enabled by artificial intelligence, including an identification of the responsibilities of agency officials managing the use of such technology (SEC. 104(a)). The memorandum will also identify best practices for identifying, assessing, and mitigating any discriminatory impact or bias on the basis of any classification protected under Federal nondiscrimination laws, or any unintended consequence of the use of artificial intelligence (SEC. 104(a)(3)). Each agency will then submit a plan to achieve consistency with the memorandum to the Director and post on a publicly available page on the agency's website (SEC. 104(c)).\n\nSources:\n- AI in Government Act of 2020 (Pub. L. 116-283)\n- 44 U.S.C. § 3502 (definition of agency)\n- 10 U.S.C. 235",
+    "answer_2": "The AI CoE will monitor and ensure that agencies are effectively and consistently adopting and using artificial intelligence technologies by regularly convening individuals from agencies, industry, Federal laboratories, nonprofit organizations, institutions of higher education, and other entities to discuss recent developments (Sec. 103(b)(1)). The AI CoE will also collect, aggregate, and publish on a publicly available website information regarding programs, pilots, and other initiatives led by other agencies (Sec. 103(b)(2)). Furthermore, the AI CoE will advise the Administrator, the Director, and agencies on the acquisition and use of artificial intelligence through technical insight and expertise as needed (Sec. 103(b)(3)).",
+    "preferred": 1
+  }
+]

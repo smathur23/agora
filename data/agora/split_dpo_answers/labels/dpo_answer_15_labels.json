@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 15,
+    "item_index": 0,
+    "global_index": 281,
+    "document_id": 316,
+    "policy_name": "SUPERSAFE Act",
+    "question": "Who are the main stakeholders and participants expected to be involved in the Supercomputing for Safer Chemicals (SUPERSAFE) Consortium, and what role will each play?",
+    "answer_1": "The main stakeholders and participants expected to be involved in the Supercomputing for Safer Chemicals (SUPERSAFE) Consortium include the Administrator of the Environmental Protection Agency (EPA), the heads of relevant Federal agencies (such as the Secretary of Health and Human Services and the Secretary of Energy), National Laboratories of the Department of Energy, academic and other research institutions, and other entities, as determined by the Administrator. The role of the EPA Administrator is to form the consortium and oversee its activities. The heads of relevant Federal agencies will consult with the EPA Administrator in the formation of the consortium. The National Laboratories of the Department of Energy, academic and other research institutions, and other entities will carry out the activities described in Section 2(b), such as developing and validating computational toxicology methods, identifying safe chemicals, and making recommendations on how the information produced can be applied in risk assessments and other characterizations. The head of a relevant State agency may also join the Consortium on request. (Source: Supercomputing for Safer Chemicals (SUPERSAFE) Act, Section 2)",
+    "answer_2": "The main stakeholders and participants expected to be involved in the Supercomputing for Safer Chemicals (SUPERSAFE) Consortium include the Administrator of the Environmental Protection Agency, heads of relevant Federal agencies (such as the Secretary of Health and Human Services and the Secretary of Energy), National Laboratories of the Department of Energy, academic and other research institutions, and other entities, as determined by the Administrator. The Consortium will use supercomputing, machine learning, and other similar capabilities to identify toxic substances, develop safer alternatives, and make recommendations on how the information produced can be applied in risk assessments and other characterizations for use by the Environmental Protection Agency and other agencies in regulatory decisions, and by industry in identifying toxic and safer chemicals. (Citations: SECTION 2.a.1, SECTION 2.b.1)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 1,
+    "global_index": 282,
+    "document_id": 316,
+    "policy_name": "SUPERSAFE Act",
+    "question": "How will the SUPERSAFE Act ensure that the findings and models produced by the Consortium are accessible and usable by the public, regulatory agencies, and industry?",
+    "answer_1": "The SUPERSAFE Act ensures that the findings and models produced by the Consortium are accessible and usable by the public, regulatory agencies, and industry by mandating that the Consortium makes model predictions, along with supporting documentation, available to the public in an accessible format (SEC. 2(c)). This provision aims to promote transparency and facilitate the application of the information produced by the Consortium in risk assessments and other characterizations for use by regulatory agencies and industry in identifying toxic and safer chemicals.\n\nCitation: SUPERSAFE Act, SEC. 2(c) (2021).",
+    "answer_2": "The SUPERSAFE Act will ensure that the findings and models produced by the Consortium are accessible and usable by the public, regulatory agencies, and industry by making model predictions, along with supporting documentation, available to the public in an accessible format (Section 2(c)). The Consortium will also make recommendations on how the information produced can be applied in risk assessments and other characterizations for use by the Environmental Protection Agency and other agencies in regulatory decisions, and by industry in identifying toxic and safer chemicals (Section 2(b)(1)(C)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 2,
+    "global_index": 283,
+    "document_id": 878,
+    "policy_name": "Export Controls Enforcement Improvement Act",
+    "question": "What are the primary functions that the Export Enforcement Coordination Center will perform?",
+    "answer_1": "The primary functions of the Export Enforcement Coordination Center, as established by S. 4085, are:\n\n1. To coordinate and enhance the export control enforcement efforts of the participating executive departments and agencies (Sec. 2(c)(1)).\n2. To identify and resolve conflicts that have not been otherwise resolved in criminal and administrative investigations and actions involving violations of the export control laws of the United States (Sec. 2(c)(1)(B)).\n3. To serve as a conduit between Federal law enforcement agencies and the intelligence community for the exchange of information related to potential violations of United States export controls (Sec. 2(c)(2)).\n4. To serve as a primary point of contact between enforcement authorities and agencies engaged in export licensing (Sec. 2(c)(3)).\n5. To coordinate law enforcement public outreach activities related to United States export controls (Sec. 2(c)(4)).\n6. To establish governmentwide statistical tracking capabilities for United States criminal and administrative export control enforcement activities (Sec. 2(c)(5)).\n7. To serve as a primary forum for the coordination of export control enforcement efforts focused on unlawful transshipment and diversion of exports (Sec. 3(a)).\n8. To develop best practices for executive departments and agencies to improve efforts to combat the unlawful transshipment and diversion of exports (Sec. 3(a)).\n9. To focus its efforts on sensitive technologies, including technologies relating to semiconductors, the development of advanced artificial intelligence capabilities, and the development of quantum technology components and capabilities (Sec. 3(b)(1)).\n10. To focus its efforts on the unlawful transshipment and diversion of exports to specific countries, regions, and shipping routes that pose a heightened risk (Sec. 3(b)(2)).\n11. To develop best practices for and support the dissemination of specific and actionable information about transshipment and diversion risks to relevant private sector entities on a timely basis (Sec. 3(c)).\n\nSource: S. 4085, Export Controls Enforcement Improvement Act of 2024.",
+    "answer_2": "The Export Enforcement Coordination Center will coordinate on matters relating to export enforcement among various executive departments and agencies, serve as a conduit for the exchange of information related to potential violations of United States export controls, serve as a primary point of contact between enforcement authorities and agencies engaged in export licensing, coordinate law enforcement public outreach activities related to United States export controls, and establish governmentwide statistical tracking capabilities for United States criminal and administrative export control enforcement activities. (Section 2, subsections c and d of S. 4085)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 3,
+    "global_index": 284,
+    "document_id": 878,
+    "policy_name": "Export Controls Enforcement Improvement Act",
+    "question": "Which departments and agencies will participate in the Export Enforcement Coordination Center, and what is the intended purpose of their collaboration?",
+    "answer_1": "The Export Enforcement Coordination Center will participate in collaboration with the following departments and agencies:\n\n1. The Department of State.\n2. The Department of the Treasury.\n3. The Department of Defense.\n4. The Department of Justice.\n5. The Department of Commerce.\n6. The Department of Energy.\n7. The Department of Homeland Security.\n8. The Office of the Director of National Intelligence.\n9. Such other executive branch departments, agencies, or offices as the President, from time to time, may designate.\n\nThe intended purpose of their collaboration is to coordinate and enhance the export control enforcement efforts of these departments and agencies, identify and resolve conflicts in criminal and administrative investigations and actions involving violations of the export control laws of the United States, serve as a conduit between Federal law enforcement agencies and the intelligence community for the exchange of information related to potential violations of United States export controls, serve as a primary point of contact between enforcement authorities and agencies engaged in export licensing, coordinate law enforcement public outreach activities related to United States export controls, and establish governmentwide statistical tracking capabilities for United States criminal and administrative export control enforcement activities.\n\nSource: S. 4085, the \"Export Controls Enforcement Improvement Act of 2024\" (Sec. 2)",
+    "answer_2": "The Export Enforcement Coordination Center will include the Department of State, the Department of the Treasury, the Department of Defense, the Department of Justice, the Department of Commerce, the Department of Energy, the Department of Homeland Security, the Office of the Director of National Intelligence, and such other executive branch departments, agencies, or offices as the President may designate. The intended purpose of their collaboration is to coordinate and enhance export control enforcement efforts, identify and resolve conflicts in criminal and administrative investigations and actions involving violations of export control laws, exchange information related to potential violations of United States export controls, and establish governmentwide statistical tracking capabilities for United States criminal and administrative export control enforcement activities. (Source: S. 4085)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 4,
+    "global_index": 285,
+    "document_id": 878,
+    "policy_name": "Export Controls Enforcement Improvement Act",
+    "question": "What specific technologies and countries are identified as primary areas of focus for combating unlawful transshipment and diversion of exports under this Act?",
+    "answer_1": "The Act identifies sensitive technologies, including those relating to semiconductors, the development of advanced artificial intelligence capabilities, and the development of quantum technology components and capabilities, as primary areas of focus for combating unlawful transshipment and diversion of exports (Section 3(b)(1)). The Act also focuses on the unlawful transshipment and diversion of exports to specific countries, including the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People’s Republic of Korea (Section 3(b)(2)).\n\nCitation: S. 4085, Section 3(b)(1), (2)",
+    "answer_2": "The Act identifies sensitive technologies, including those relating to semiconductors, the development of advanced artificial intelligence capabilities, and the development of quantum technology components and capabilities, as primary areas of focus. It also focuses on the unlawful transshipment and diversion of exports to the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, and the Democratic People's Republic of Korea (Section 3(b) of the Act).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 5,
+    "global_index": 286,
+    "document_id": 2025,
+    "policy_name": "Indianapolis City Council Proposal No.362, 2023 (Commission on AI Development) ",
+    "question": "What are the specific areas of AI usage within Indianapolis city and county services that the Commission on Artificial Intelligence Development will review?",
+    "answer_1": "The Commission on Artificial Intelligence Development will review the current use of AI and its associated technologies within Indianapolis city and county services. However, the resolution does not specify the specific areas of AI usage within these services. The Commission is tasked with gathering information from AI experts, industry leaders, and community members to identify these areas and recommend policies for trustworthy and transparent usage of AI in the provision of services by departments and agencies (Section 1). The Commission will present its findings and recommendations in a final report to the City-County Council (Section 8). (Citation: City-County Council of Indianapolis, Resolution R24-2023-001)",
+    "answer_2": "The Commission on Artificial Intelligence Development will review the current use of AI and its associated technologies within Indianapolis city and county services, focusing on how AI can be used in the future to provide better services to citizens. This includes gathering information from experts, industry leaders, and community members to recommend policies for trustworthy and transparent usage of AI as a part of the provision of services by departments and agencies (Section 1). The Commission will also recommend modifications of existing ordinances or the provision of new ordinances to establish trustworthy and transparent usage of AI (Section 8).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 6,
+    "global_index": 287,
+    "document_id": 2025,
+    "policy_name": "Indianapolis City Council Proposal No.362, 2023 (Commission on AI Development) ",
+    "question": "What is the intended process for the Commission on Artificial Intelligence Development to gather information and formulate policy recommendations regarding AI?",
+    "answer_1": "1. The Commission on Artificial Intelligence Development (Commission) is established to review and analyze information gathered from AI experts, industry leaders, community members, and other stakeholders. (Section 1)\n2. The Commission will hold public meetings to gather information and allow public comment. (Section 1)\n3. The Commission will be composed of nine (9) members, including Councillors, city officials, and citizen members. (Section 3)\n4. The Commission shall meet regularly and gather all needed research within 6 months of being fully constituted. (Section 7)\n5. The Commission shall present its final report to the Council by the July 2024 meeting, which shall be posted on the City’s website. (Section 8)\n\nCitations:\n- Section 1: \"BE IT RESOLVED BY THE CITY-COUNTY COUNCIL OF THE CITY OF INDIANAPOLIS AND OF MARION COUNTY, INDIANA: SECTION 1. Purpose: A study commission is hereby established under the authority of the council to review and analyze information gathered from AI experts, industry leaders, community members, and other stakeholders with the end goal being to recommend city policy changes.\"\n- Section 3: \"SECTION 3. Members: The Commission shall be composed of nine (9) members, as follows: three (3) Councillors, appointed by the Council President, one of whom shall be designated as the chair of the commission; one (1) Councillor appointed by the Council Minority Leader; one (1) Director of the City's Information Technology; three (3) citizen members referred by the Commission chair and appointed by the Council President; and one (1) citizen member, recommended by the minority leader and appointed by the Council President. All citizen members shall be residents of Marion County.\"\n- Section 7: \"SECTION 7. Timeline. The Commission shall meet within two weeks of the appointment of all members and thereafter shall meet upon a regular schedule established by the Commission. The Commission shall gather all needed research within 6 months of being fully constituted and shall have and review an initial draft of the below-described Report within the next 2 months.\"\n- Section 8: \"SECTION 8. Report: The Commission shall present its final report to the Council by the July",
+    "answer_2": "The Commission on Artificial Intelligence Development will gather information from AI experts, industry leaders, community members, and other stakeholders through public meetings (Section 1). The Commission will be composed of nine members, including city officials, citizen members, and Councillors (Section 3). The Commission will report its findings and recommendations to the full council (Section 1). The Commission will have six months to gather all needed research and two months to review an initial draft of the report (Section 7). The final report will be presented to the Council by July 2024 and posted on the City’s website (Section 8). City and County departments and agencies will share information and cooperate with the Commission (Section 6).",
+    "preferred": 2
+  },
+  {
+    "file_index": 15,
+    "item_index": 7,
+    "global_index": 288,
+    "document_id": 2025,
+    "policy_name": "Indianapolis City Council Proposal No.362, 2023 (Commission on AI Development) ",
+    "question": "Beyond city departments and agencies, what other stakeholders will the Commission engage with to inform their recommendations?",
+    "answer_1": "The Commission will engage with AI experts, industry leaders, and community members as stakeholders to inform their recommendations. This is stated explicitly in the resolution under Section 1, Purpose: \"A study commission is hereby established under the authority of the council to review and analyze information gathered from AI experts, industry leaders, community members, and other stakeholders with the end goal being to recommend city policy changes.\" No specific citation is provided in the context, but the resolution itself serves as the source for this information.",
+    "answer_2": "The Commission will engage with AI experts, industry leaders, and community members as stakeholders to inform their recommendations, as stated in Section 1 of the resolution (WHEREAS, the Council acknowledges the need to stay ahead of these technological shifts by monitoring its implications, developing strategic proposals, and educating our constituents on AI's role in the future of the city).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 8,
+    "global_index": 289,
+    "document_id": 2025,
+    "policy_name": "Indianapolis City Council Proposal No.362, 2023 (Commission on AI Development) ",
+    "question": "In what specific ways does the resolution aim to ensure trustworthy and transparent usage of AI within Indianapolis city and county services?",
+    "answer_1": "The resolution aims to ensure trustworthy and transparent usage of AI within Indianapolis city and county services in several specific ways:\n\n1. Establishing a study commission to review the current use of AI and associated technologies, gather information from experts, industry leaders, and community members, and recommend policies for trustworthy and transparent usage of AI as part of the provision of services by departments and agencies (Section 1).\n\n2. Requiring the Commission to hold public meetings and report its findings and recommendations to the full council, allowing for public comment under any rules devised by the Commission (Section 1).\n\n3. Composing the Commission of various stakeholders, including city councillors, a city IT director, citizen members, and appointing these members in a manner that ensures representation from different perspectives (Section 3).\n\n4. Establishing a quorum and voting requirements to ensure decisions are made with a majority of informed members (Section 4).\n\n5. Providing staff support from the Council Chief Administrative Officer, Clerk of the Council, the Legislative Officer for the Council, and other Council staff as needed (Section 5).\n\n6. Requiring city and county departments and agencies to share information and cooperate with the Commission (Section 6).\n\n7. Setting a timeline for the Commission to gather all needed research, review an initial draft of the report, and present its final report to the Council (Section 7 and Section 8).\n\nCitations:\n- Section 1: Resolution text\n- Section 3: Resolution text\n- Section 4: Resolution text\n- Section 5: Resolution text\n- Section 6: Resolution text\n- Section 7 and Section 8: Resolution text\n\nDocument ID: City-County Council of Indianapolis Resolution (Date of adoption not provided)",
+    "answer_2": "The resolution aims to ensure trustworthy and transparent usage of AI within Indianapolis city and county services by establishing a study commission (Section 1) to review current AI usage, gather information from experts, industry leaders, and community members (Section 1), and recommend policies for trustworthy and transparent AI usage (Section 8). The commission will hold public meetings and report its findings and recommendations to the full council (Section 1). The commission will be composed of city officials, citizen members, and AI experts (Section 3). The commission will present its final report to the council by July 2024, which will be posted on the city's website (Section 8). City and County departments and agencies are required to share information and cooperate with the commission (Section 6).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 9,
+    "global_index": 290,
+    "document_id": 579,
+    "policy_name": "Oversee Emerging Technology Act",
+    "question": "What are the key responsibilities outlined for the emerging technology leads within the covered agencies, as defined by this act?",
+    "answer_1": "The key responsibilities outlined for the emerging technology leads within the covered agencies, as defined by this act, are as follows:\n\n1. Advise the covered agency on the responsible use of emerging technologies, including artificial intelligence (Sec. 2(b)(1)).\n2. Provide expertise on responsible policies and practices (Sec. 2(b)(2)).\n3. Collaborate with interagency coordinating bodies (Sec. 2(b)(3)).\n4. Provide input for procurement policies (Sec. 2(b)(4)).\n\nCitation: S. 1577, Sec. 2(b) (May 11, 2023)",
+    "answer_2": "The key responsibilities outlined for the emerging technology leads within the covered agencies, as defined by this act, are to advise the covered agency on the responsible use of emerging technologies, including artificial intelligence, provide expertise on responsible policies and practices, collaborate with interagency coordinating bodies, and provide input for procurement policies. (Source: S. 1577)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 10,
+    "global_index": 291,
+    "document_id": 579,
+    "policy_name": "Oversee Emerging Technology Act",
+    "question": "Which specific types of federal agencies are considered 'covered agencies' and therefore required to appoint or designate emerging technology leads?",
+    "answer_1": "The 'covered agencies' under S. 1577 are those listed in section 901(b) of title 31, United States Code, and elements of the intelligence community, as defined in section 3 of the National Security Act of 1947 (50 U.S.C. 3003).",
+    "answer_2": "The covered agencies are those listed in section 901(b) of title 31, United States Code, and elements of the intelligence community, as defined in section 3 of the National Security Act of 1947 (50 U.S.C. 3003).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 11,
+    "global_index": 292,
+    "document_id": 579,
+    "policy_name": "Oversee Emerging Technology Act",
+    "question": "What is the process and timeline by which the President must inform Congress about the appointment or designation of emerging technology leads within covered agencies?",
+    "answer_1": "The President must inform Congress about the appointment or designation of emerging technology leads within covered agencies not later than 180 days after the date of enactment of the Oversee Emerging Technology Act (S. 1577). The President is required to provide a list of the covered agencies for which a covered individual has been appointed or designated as an emerging technology lead, as well as a description of the authorities and responsibilities of the covered individuals described (Section 2(c) of S. 1577).",
+    "answer_2": "The President must inform Congress about the appointment or designation of emerging technology leads within covered agencies not later than 180 days after the date of enactment of the Oversee Emerging Technology Act. The President should provide to Congress a description of the authorities and responsibilities of the covered individuals described in the Act. (Reference: S. 1577)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 12,
+    "global_index": 293,
+    "document_id": 579,
+    "policy_name": "Oversee Emerging Technology Act",
+    "question": "How does the 'Oversee Emerging Technology Act' define a 'covered individual' eligible for appointment or designation as an emerging technology lead, and what qualifications must they possess?",
+    "answer_1": "The 'Oversee Emerging Technology Act' defines a 'covered individual' as an individual serving in a Senior Executive Service position, as that term is defined in section 3132 of title 5, United States Code; an individual who is serving in a position to which section 5376 of title 5, United States Code, applies and has a significant amount of seniority and experience, as determined by the head of the applicable covered agency; or another individual who is the equivalent of an individual described in subparagraph (A) or (B), as determined by the head of the applicable covered agency (S. 1577, Sec. 2(a)(2)). The qualifications for a covered individual to be appointed or designated as an emerging technology lead include holding a Senior Executive Service position, having a significant amount of seniority and experience, or being the equivalent of an individual with such qualifications, as determined by the head of the applicable covered agency.\n\nSources:\n- S. 1577, Section 2(a)(2)\n- Title 5, United States Code, Sections 3132 and 5376",
+    "answer_2": "A 'covered individual' eligible for appointment or designation as an emerging technology lead under the 'Oversee Emerging Technology Act' can be an individual serving in a Senior Executive Service position, an individual with significant seniority and experience in a position to which section 5376 of title 5, United States Code, applies, or another individual who is the equivalent of the former, as determined by the head of the applicable covered agency. The Act does not specify any specific qualifications for these individuals beyond their position and seniority. (Source: S. 1577)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 13,
+    "global_index": 294,
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "What are the key reporting requirements mandated by the AWARE Act of 2024, and who is the intended audience for these reports?",
+    "answer_1": "1. The AWARE Act of 2024 mandates the following key reporting requirements:\n\n   a. The Secretary of Defense shall submit to Congress a report on the progress of the Secretary in carrying out this Act not later than one year after the date of the enactment of this Act and not less frequently once each year thereafter until the date that is three years after the date of the enactment of this Act (SEC. 2(d)).\n\n   b. The Secretary shall submit to Congress an annual submission that includes the ledger required by subsection (a), an annual report on the findings of the Secretary with respect to the risk assessments conducted, in the year covered by the annual submission, pursuant to the risk assessment process established under subsection (b), and the annotations made under subsection (c) during the year covered by the annual submission (SEC. 2(e)(1)).\n\n   c. The Secretary shall make available to the public the unclassified portion of each annual submission under SEC. 2(e)(1) (SEC. 2(e)(3)).\n\n2. The intended audience for these reports is Congress.",
+    "answer_2": "1) The AWARE Act of 2024 mandates the Secretary of Defense to submit an annual report on the progress of the Secretary in carrying out this Act to Congress, one year after the enactment and not less frequently once each year thereafter until the date that is three years after the enactment (SEC. 1.d). 2) The Secretary is also required to submit an annual submission to Congress, not later than three years after the enactment and not less frequently than once each year thereafter, which includes the ledger required by subsection (a), an annual report on the findings of the risk assessments conducted, and the annotations made under subsection (c) (SEC. 1.e). 3) The Secretary shall make available to the public the unclassified portion of each annual submission under SEC. 1.e.3.",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 14,
+    "global_index": 295,
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "Explain the risk assessment process outlined in the AWARE Act, including the specific elements that must be covered and the frequency of re-evaluation.",
+    "answer_1": "The risk assessment process outlined in the AWARE Act (Artificial Intelligence Weapon Accountability and Risk Evaluation Act of 2024) requires the Secretary of Defense to establish a process that holistically evaluates each unique implementation by the Department of Defense of a covered system included in the ledger required by Section 2(a) of the Act. The process must, at a minimum, cover matters relating to the following elements:\n\n1. Dependability (Section 2(b)(2)(A)(i))\n2. Cybersecurity (Section 2(b)(2)(A)(ii))\n3. Privacy (Section 2(b)(2)(A)(iii))\n4. Bias (Section 2(b)(2)(A)(iv))\n5. Bias towards escalation (Section 2(b)(2)(A)(v))\n6. Deployment span (Section 2(b)(2)(A)(vi))\n7. Risk of civilian harm (Section 2(b)(2)(A)(vii))\n\nThe risk assessment process must re-evaluate each covered system included in the ledger required by Section 2(a) not less frequently than annually (Section 2(b)(3)(A)). The re-evaluation must occur whenever:\n\n1. the underlying foundation artificial intelligence model receives an update (Section 2(b)(3)(B)(i));\n2. the Department procures any covered system that has not previously been evaluated by the process (Section 2(b)(3)(B)(ii));\n3. a new weapons review of a covered system is conducted by the Department (Section 2(b)(3)(B)(iii)).\n\nSources:\n\n* National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9401)\n* AWARE Act of 2024 (Text not yet available as it is a proposed bill)",
+    "answer_2": "The AWARE Act outlines a risk assessment process for artificial intelligence systems used by the Department of Defense. This process, established three years after the Act's enactment, must evaluate each unique implementation of a covered system (weapon, targeting, or decision support system) based on factors such as dependability, cybersecurity, privacy, bias, bias towards escalation, deployment span, and risk of civilian harm (SEC. 2(b)(2)(A)). The risk assessment process requires re-evaluation annually and whenever the underlying model receives an update, a new covered system is procured, or a new weapons review is conducted (SEC. 2(b)(3)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 15,
+    "global_index": 296,
+    "document_id": 1198,
+    "policy_name": "AWARE Act of 2024",
+    "question": "In what ways does the AWARE Act of 2024 aim to promote transparency regarding the Department of Defense's use of AI-enabled systems, both domestically and internationally?",
+    "answer_1": "The AWARE Act of 2024 aims to promote transparency regarding the Department of Defense's use of AI-enabled systems in several ways. First, it requires the creation of a ledger of all uses by the Department of Defense of covered systems (Section 2(a)). This ledger is to be a structured, indexed database that is maintained and updated regularly to ensure accuracy (Section 2(a)(2)). Second, it establishes a risk assessment process that holistically evaluates each unique implementation by the Department of a covered system included in the ledger (Section 2(b)). This process covers matters relating to dependability, cybersecurity, privacy, bias, bias towards escalation, deployment span, and risk of civilian harm. The process requires reevaluation of each covered system annually or whenever certain conditions are met (Section 2(b)(3)). Third, the Act requires the Secretary to annotate in the ledger when a covered system developed or owned by the Department is shared with a foreign country, exported to a foreign country, or used by any foreign person or government (Section 2(c)). Lastly, the Act requires the Secretary to submit annual reports to Congress on the progress of the Secretary in carrying out this Act, and to make available to the public the unclassified portion of each annual submission (Section 2(e)(3)). These requirements are intended to ensure transparency both domestically and internationally regarding the Department of Defense's use of AI-enabled systems.\n\nCitations:\n- National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9401)\n- AWARE Act of 2024 (Section 2)",
+    "answer_2": "1) The AWARE Act of 2024 requires the Secretary of Defense to create a ledger of all uses by the Department of Defense of covered systems, which includes AI-enabled weapon systems, targeting systems, and decision support systems (SEC. 2(a)(1)). 2) The Act mandates a risk assessment process to evaluate each unique implementation of a covered system, covering matters such as dependability, cybersecurity, privacy, bias, bias towards escalation, deployment span, and risk of civilian harm (SEC. 2(b)). 3) The Act also requires the Secretary to annotate in the ledger when a covered system is shared with, exported to, or used by a foreign country, and when such sharing, exporting, or use presents additional risk (SEC. 2(c)). 4) The Secretary is required to submit annual progress reports and annual submissions to Congress, which include the ledger, findings of the risk assessments, and annotations made under SEC. 2(c) (SEC. 2(d) and (e)). 5) The Act states that the ledger created under the Act will reflect the Department of Defense's commitment to being a transparent global leader in establishing responsible policies regarding military uses of AI-enabled weapons, targeting, and decision support systems (SEC. 2(f)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 16,
+    "global_index": 297,
+    "document_id": 1208,
+    "policy_name": "AI Ads Act ",
+    "question": "What specific changes does the AI Ads Act make to existing regulations regarding fraudulent misrepresentation and solicitation of funds in political campaigns?",
+    "answer_1": "The AI Ads Act makes specific changes to the Federal Election Campaign Act of 1971 by amending sections 322(a)(1) and 322(b)(1). These amendments extend the prohibition against fraudulent misrepresentation and solicitation of funds to include misrepresentation through the use of content generated in whole or in part with the use of artificial intelligence (generative AI). Additionally, the Act extends the prohibition against fraudulent misrepresentation by candidates to fraudulent misrepresentation of candidates and committees by any person for any purpose, and it extends the prohibition against fraudulent solicitation of funds by candidates to fraudulent solicitation of funds by any candidate, political party, or political committee or organization, or their employees or agents.\n\nCitations:\n- Federal Election Campaign Act of 1971 (52 U.S.C. 30124(a)(1))\n- Federal Election Campaign Act of 1971 (52 U.S.C. 30124(b)(1))",
+    "answer_2": "1) The AI Ads Act amends Section 322(a)(1) and (b)(1) of the Federal Election Campaign Act of 1971 to include misrepresentation through the use of content generated in whole or in part with the use of artificial intelligence (generative AI) as fraudulent misrepresentation and solicitation of funds. 2) The Act extends the prohibition against fraudulent misrepresentation by candidates to fraudulent misrepresentation of candidates and committees by any person for any purpose. 3) The Act also extends the prohibition against fraudulent solicitation of funds by candidates to fraudulent solicitation of funds by any candidate, political party, or political committee or organization, or their employees or agents.",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 17,
+    "global_index": 298,
+    "document_id": 1208,
+    "policy_name": "AI Ads Act ",
+    "question": "Summarize the expanded scope of fraudulent misrepresentation prohibitions introduced by Section 3 of the AI Ads Act, particularly concerning who is covered and what conduct is prohibited.",
+    "answer_1": "The expanded scope of fraudulent misrepresentation prohibitions introduced by Section 3 of the AI Ads Act includes the following:\n\n1. The prohibition against fraudulent misrepresentation is extended to cover any candidate, political party, or other real or fictitious political committee or organization, or employee or agent of such a candidate, political party, or political committee or organization (Section 3(a)(1)). This broadens the scope beyond just candidates and their employees or agents.\n\n2. The prohibited conduct is expanded to include any misrepresentation, not just those that are damaging to another candidate or political party (Section 3(a)(2)). This means that any misrepresentation, including those that are not damaging but are still false or deceptive, would be prohibited.\n\n3. The prohibition against fraudulent solicitation of funds is also extended to cover any candidate, political party, or other real or fictitious political committee or organization, or employee or agent of such a candidate, political party, or political committee or organization (Section 3(b)). This broadens the scope beyond just candidates and their employees or agents.\n\nThe changes are made in relation to the Federal Election Campaign Act of 1971 (52 U.S.C. § 30124(a) and (b)).",
+    "answer_2": "Section 3 of the AI Ads Act expands the scope of fraudulent misrepresentation prohibitions in the Federal Election Campaign Act of 1971 (52 U.S.C. 30124(a)(1)) to cover any candidate, political party, or other real or fictitious political committee or organization, or employee or agent of such entities. It also broadens the prohibition to include misrepresentation through the use of content generated in whole or in part with the use of artificial intelligence (generative AI). This prohibition applies to both fraudulent misrepresentation and fraudulent solicitation of funds (52 U.S.C. 30124(b)(1)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 18,
+    "global_index": 299,
+    "document_id": 1208,
+    "policy_name": "AI Ads Act ",
+    "question": "What are the key components of the 'AI Ads Act' that directly address the use of generative AI in political advertising, and how do they modify the Federal Election Campaign Act of 1971?",
+    "answer_1": "1. The 'AI Ads Act' amends the Federal Election Campaign Act of 1971 to clarify that the prohibition against the fraudulent misrepresentation of campaign authority and the fraudulent solicitation of funds includes misrepresentation through the use of content generated in whole or in part with the use of artificial intelligence (generative AI). This is achieved by adding the phrase \"including through the use of content generated in whole or in part with the use of artificial intelligence (generative AI)\" to sections 322(a)(1) and 322(b)(1) of the Federal Election Campaign Act of 1971.\n\n2. The 'AI Ads Act' extends the prohibition against fraudulent misrepresentation by candidates for purposes of damaging other candidates to fraudulent misrepresentation of candidates and committees by any person for any purpose. This is achieved by amending section 322(a) of the Federal Election Campaign Act of 1971 to remove the requirement that the misrepresentation must be damaging to another candidate or political party, and instead broadening it to include any candidate, political party, or other real or fictitious political committee or organization, or employee or agent of such a candidate, political party, or political committee or organization. Similarly, the fraudulent solicitation of funds prohibition is extended to include any candidate, political party, or other real or fictitious political committee or organization, or employee or agent of such a candidate, political party, or political committee or organization.\n\nSources:\n- The text of the 'AI Ads Act' as provided in the context.\n- Federal Election Campaign Act of 1971 (52 U.S.C. 30124) as amended by the 'AI Ads Act'.",
+    "answer_2": "1) The 'AI Ads Act' clarifies that the prohibition against fraudulent misrepresentation and solicitation of funds in the Federal Election Campaign Act of 1971 also applies to misrepresentation through the use of content generated in whole or in part with generative AI. 2) It extends the prohibition against fraudulent misrepresentation by candidates to fraudulent misrepresentation of candidates and committees by any person for any purpose, not just damaging other candidates or political parties. 3) The Act also extends the prohibition against fraudulent solicitation of funds to any candidate, political party, or political committee or organization, not just candidates or political parties. (Reference: SECTIONS 2 and 3 of the AI Ads Act)",
+    "preferred": 1
+  },
+  {
+    "file_index": 15,
+    "item_index": 19,
+    "global_index": 300,
+    "document_id": 401,
+    "policy_name": "CLOUD AI Act",
+    "question": "How might US-based cloud computing providers be impacted by the restrictions on supporting remote access to advanced integrated circuits for entities in China and Macau?",
+    "answer_1": "US-based cloud computing providers might be impacted by the restrictions on supporting remote access to advanced integrated circuits for entities in China and Macau by being prohibited from providing support for such activities. This is due to the provisions in Section 3 of the CLOUD AI Act, which states that United States persons and United States subsidiaries are prohibited from providing support for the remote use or cloud use of any integrated circuit listed under Export Control Classification Number 3A090 and 4A090 of the Export Administration Regulations by an entity located in the People’s Republic of China or Macau (Sec. 3.a). The Secretary of Commerce is also tasked with issuing regulations necessary to carry out this section (Sec. 3.b). The terms \"United States person\" and \"United States subsidiary\" are defined in the Export Administration Regulations (Sec. 3.c).\n\nCitation: CLOUD AI Act, SEC. 3.",
+    "answer_2": "US-based cloud computing providers might be impacted by the restrictions as they would be prohibited from providing support for the remote use or cloud use of any integrated circuit listed under Export Control Classification Number 3A090 and 4A090 by entities located in China or Macau, as stated in Section 3 of the CLOUD AI Act (SEC. 3). This includes support as defined in section 744.6 of title 15, Code of Federal Regulations. The Secretary of Commerce is tasked with issuing regulations to carry out this section (SEC. 3(b)).",
+    "preferred": 1
+  }
+]

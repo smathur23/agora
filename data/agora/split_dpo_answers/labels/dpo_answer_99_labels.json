@@ -1,0 +1,222 @@
+[
+  {
+    "file_index": 99,
+    "item_index": 0,
+    "global_index": 1961,
+    "document_id": 328,
+    "policy_name": "Sec. 2501 of 2023 Consumer Protection Act",
+    "question": "What independent verification processes will be in place to confirm that back-end data, algorithms, or information about U.S. users is truly sequestered and inaccessible to foreign-based entities when ownership thresholds are met under section 2501(c)?",
+    "answer_1": "The text of the Sec. 2501 does not explicitly specify any independent verification processes for confirming that back-end data, algorithms, or information about U.S. users is sequestered and inaccessible to foreign-based entities when ownership thresholds are met under section 2501(c). However, it is reasonable to assume that the Committee on Foreign Investment in the United States (CFIUS) may play a role in verifying compliance with the sequestration requirement. CFIUS is tasked with reviewing and investigating applications for licenses under Title VI, as defined in section 721 of the Defense Production Act of 1950 (50 U.S.C. 4565), and has the authority to deny a license if it determines that providing the license threatens to impair the national security of the United States (Sec. 2501(d)(2)). Additionally, CFIUS may consult with the National Security Division of the Department of Justice in making a determination (Sec. 2501(d)(3)). Further guidance on the verification process may be provided through regulations or additional legislation.\n\nSources:\n- Sec. 2501 of the Corporate citizenship and ownership section of the National Defense Authorization Act for Fiscal Year 2021 (NDAA 2021)\n- 50 U.S.C. 4565 (Defense Production Act of 1950)\n- 31 CFR 800.224 (Code of Federal Regulations, definition of foreign person)",
+    "answer_2": "The document does not specify any independent verification processes for confirming that back-end data, algorithms, or information about U.S. users is sequestered and inaccessible to foreign-based entities when ownership thresholds are met under section 2501(c). It is left to the interpretation and enforcement of the Committee on Foreign Investment in the United States (CFIUS) as outlined in section 2501(d).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 1,
+    "global_index": 1962,
+    "document_id": 379,
+    "policy_name": "Pennsylvania HB 1380 (\"Administration of Assistance Programs\")",
+    "question": "How will the department ensure that the rules, regulations, procedures, and standards established for administration of assistance programs remain consistent with existing law, particularly when modifying benefits or introducing new ones as outlined in Section 403.1(a)?",
+    "answer_1": "The department will ensure that the rules, regulations, procedures, and standards established for administration of assistance programs remain consistent with existing law by promulgating regulations under Section 403.1(d) of the act of June 13, 1967 (P.L.31, No.21), known as the Human Services Code. These regulations will be exempt from several provisions, including Section 205 of the \"Commonwealth Documents Law,\" Section 204(b) of the act of October 15, 1980 (P.L.950, No.164), known as the \"Commonwealth Attorneys Act,\" and the act of June 25, 1982 (P.L.633, No.181), known as the \"Regulatory Review Act.\" This exemption allows the department to modify benefits or introduce new ones while ensuring compliance with applicable Federal law. The regulations promulgated under Section 403.1(d) may be retroactive to July 1, 2011, and shall be promulgated no later than June 30, 2012. (House Bill No. 1380, Section 1, Section 403.1(d))",
+    "answer_2": "The department is authorized to establish rules, regulations, procedures, and standards consistent with law as to the administration of programs providing assistance. This includes modifying existing benefits, establishing benefit limits and exceptions, and establishing various benefit packages (Section 403.1(a)(1)-(3)). The department is also authorized to promulgate regulations to ensure that actions taken comply with applicable Federal law (Section 403.1(d)). These regulations may be retroactive to July 1, 2011, and shall be promulgated no later than June 30, 2012 (Section 403.1(e)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 2,
+    "global_index": 1963,
+    "document_id": 379,
+    "policy_name": "Pennsylvania HB 1380 (\"Administration of Assistance Programs\")",
+    "question": "What oversight mechanisms are in place to verify that the department's actions under Section 403.1(c), which aim to limit expenditures to the aggregate amount appropriated for State fiscal year 2011-2012, comply with applicable Federal law and the conditions for waivers or Federal approvals?",
+    "answer_1": "The bill does not explicitly outline specific oversight mechanisms to verify that the department's actions under Section 403.1(c) comply with applicable Federal law and the conditions for waivers or Federal approvals. However, it does state that the department shall seek such waivers or Federal approvals as may be necessary to ensure compliance with applicable Federal law (Section 403.1(c)). Additionally, the department is authorized to develop and submit State plans, waivers, or other proposals to the Federal Government (Section 403.1(b)). It is recommended to consult the relevant federal agencies and the Pennsylvania Office of the Inspector General for potential oversight mechanisms.\n\nCitations:\n- Pennsylvania General Assembly, House Bill No. 1380, Session of 2023, Section 403.1(b), (c)\n- Pennsylvania Office of the Inspector General, <https://www.oig.pa.gov/>",
+    "answer_2": "The department is authorized to seek waivers or Federal approvals as necessary to ensure actions taken under Section 403.1(c) comply with applicable Federal law (Section 403.1(b)). The regulations promulgated under Section 403.1(d) may be retroactive to July 1, 2011, and shall be exempt from several provisions of the Commonwealth Documents Law, the Commonwealth Attorneys Act, and the Regulatory Review Act, which may provide some oversight mechanisms (Section 403.1(d)). However, the specific oversight mechanisms for verifying compliance with Federal law and waiver conditions are not explicitly stated in the provided context.",
+    "preferred": 2
+  },
+  {
+    "file_index": 99,
+    "item_index": 3,
+    "global_index": 1964,
+    "document_id": 379,
+    "policy_name": "Pennsylvania HB 1380 (\"Administration of Assistance Programs\")",
+    "question": "Given the exemptions from the Commonwealth Documents Law and the Regulatory Review Act for regulations promulgated under Section 403.1(d), what processes will be utilized to ensure transparency and public awareness of these regulations, especially those that can be retroactive?",
+    "answer_1": "The regulations promulgated under Section 403.1(d) of the Human Services Code in Pennsylvania are exempt from the Commonwealth Documents Law, the Commonwealth Attorneys Act, and the Regulatory Review Act. However, the regulations may still be subject to public scrutiny and transparency through other means.\n\nWhile the Regulatory Review Act typically requires agencies to submit proposed regulations for review and approval by the Office of the Attorney General, the Office of General Counsel, and the Joint State Government Commission, the regulations in question are exempt from this process.\n\nThe Commonwealth Documents Law, which requires that all documents of state agencies be available for public inspection and copying, is also exempted for these regulations. This means that the public may not have immediate access to the regulations once they are promulgated.\n\nHowever, the regulations must still be promulgated no later than June 30, 2012, as stated in Section 403.1(e). This provides a specific timeline for the public to become aware of the regulations once they are finalized. Additionally, the regulations may be retroactive to July 1, 2011, which could potentially allow for public review of the regulations prior to their effective date if they are made available by the department.\n\nIn the absence of specific requirements for public notice or comment, it is not clear whether there will be additional opportunities for public input or awareness of these regulations. It is recommended to monitor the Pennsylvania Department of Human Services for updates on the promulgation and implementation of these regulations.\n\nSources:\n- Pennsylvania Consolidated Statutes, Title 62, Human Services Code, Section 403.1\n- Pennsylvania Consolidated Statutes, Title 5, Commonwealth Documents Law\n- Pennsylvania Consolidated Statutes, Title 7, Administrative Code, Chapter 3, Regulatory Review Act\n- Pennsylvania Consolidated Statutes, Title 10, Judiciary and Judicial Procedure, Chapter 164, Commonwealth Attorneys Act\n- Pennsylvania General Assembly, House Bill No. 1380, Session of 2023 (accessed June 15, 2023)",
+    "answer_2": "The regulations promulgated under Section 403.1(d) will not be subject to sections 205 of the \"Commonwealth Documents Law\" or the \"Regulatory Review Act,\" but the act does not specify alternative processes for ensuring transparency and public awareness. It is unclear how the regulations will be made available to the public or how public comments will be solicited and considered.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 4,
+    "global_index": 1965,
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "What specific metrics and key performance parameters will be used to evaluate the effectiveness of identifying, integrating, and deploying new technologies under the \"Emerging Innovative Border Technologies Act\"?",
+    "answer_1": "The \"Emerging Innovative Border Technologies Act\" specifies that the metrics and key performance parameters for evaluating the effectiveness of identifying, integrating, and deploying new technologies will include the rate at which technologies described in the act are transitioned to existing or new programs of record, as well as other metrics and key performance parameters that the Secretary of Homeland Security determines relevant (H.R. 7832, Sec. 2(b)(11)). The act does not provide a specific list of these metrics and key performance parameters, but they are expected to be included in the plan submitted by the Secretary of Homeland Security to the relevant committees of Congress.",
+    "answer_2": "The metrics and key performance parameters for evaluating the effectiveness of efforts to identify, integrate, and deploy new technologies under the \"Emerging Innovative Border Technologies Act\" include the rate at which technologies described in the Act are transitioned to existing or new programs of record, as well as metrics and key performance parameters established by the Commissioner of U.S. Customs and Border Protection for each planned security-related technology program, as specified in section 2(b)(11) of the Act.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 5,
+    "global_index": 1966,
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "Beyond the mandated reporting to Congressional committees, what other compliance mechanisms are in place to ensure the Secretary of Homeland Security and the Commissioner of CBP adhere to the requirements of the \"Emerging Innovative Border Technologies Act\"?",
+    "answer_1": "The \"Emerging Innovative Border Technologies Act\" does not explicitly outline any additional compliance mechanisms beyond the mandated reporting to the Congressional committees specified in the bill. However, it is important to note that non-compliance with federal laws can potentially lead to administrative or legal consequences, such as investigations, fines, or even criminal charges in some cases. Additionally, the act mentions that the plan submitted by the Secretary of Homeland Security shall be made available to the public (Section 2(b)(11)), which could potentially allow for public scrutiny and oversight. (H.R. 7832, Section 2)",
+    "answer_2": "There are no explicit compliance mechanisms mentioned in the provided context to ensure the Secretary of Homeland Security and the Commissioner of CBP adhere to the requirements of the \"Emerging Innovative Border Technologies Act.\" The Act mandates the submission of a plan and annual reports to specific Congressional committees, but it does not outline any penalties or enforcement measures for non-compliance.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 6,
+    "global_index": 1967,
+    "document_id": 879,
+    "policy_name": "Emerging Innovative Border Technologies Act",
+    "question": "How will the plan developed under the \"Emerging Innovative Border Technologies Act\" assess and address potential negative consequences, including privacy and security impacts on border communities, stemming from the deployment of new technologies?",
+    "answer_1": "The plan developed under the \"Emerging Innovative Border Technologies Act\" will assess and address potential negative consequences, including privacy and security impacts on border communities, by including an assessment of these impacts in the plan's contents (SEC. 2(b)(8)). Specifically, the plan will require an assessment of the privacy and security impact on border communities of security-related technology. (Citation: H. R. 7832, SEC. 2(b)(8))",
+    "answer_2": "The plan developed under the \"Emerging Innovative Border Technologies Act\" will assess potential negative consequences, including privacy and security impacts on border communities, by including an assessment of these impacts in the required contents of the plan (Section 2(b)(8)). The plan will also identify recent technological advancements in communication equipment, such as radios and long-term evolution broadband, which may be relevant to addressing these concerns (Section 2(b)(12)(F)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 7,
+    "global_index": 1968,
+    "document_id": 806,
+    "policy_name": "TORPEDO Act of 2023,  Sec. 12 (Expedited release of advanced technologies to Australia, Canada, and the United Kingdom through the foreign military sales program)",
+    "question": "How does the \"fast track\" decision-making process with a presumption of approval for certain advanced technologies maintain existing congressional notification requirements under the Arms Export Control Act?",
+    "answer_1": "The \"fast track\" decision-making process with a presumption of approval for certain advanced technologies under the Foreign Military Sales program maintains existing congressional notification requirements under the Arms Export Control Act (22 U.S.C. 2751 et. seq.) by not being construed to supersede these requirements (Sec. 12(b)(2)(B)). This means that while the decision-making process for certain technologies may be expedited, the necessary notifications to Congress regarding these sales still need to be made in accordance with the Arms Export Control Act. (Sec. 12)\n\nSources:\n- Arms Export Control Act (22 U.S.C. 2751 et. seq.)\n- Section 12 of the National Defense Authorization Act for Fiscal Year 2022 (Pub. L. 116-283)",
+    "answer_2": "The \"fast track\" decision-making process with a presumption of approval for certain advanced technologies does not limit the existing congressional notification requirements under the Arms Export Control Act (22 U.S.C. 2751 et. seq.), as stated in section 12(b) of the given context. The notification requirements are not superseded by this Act, ensuring that Congress remains informed about Foreign Military Sales activities.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 8,
+    "global_index": 1969,
+    "document_id": 806,
+    "policy_name": "TORPEDO Act of 2023,  Sec. 12 (Expedited release of advanced technologies to Australia, Canada, and the United Kingdom through the foreign military sales program)",
+    "question": "What specific interagency policies and implementation guidance are being reviewed and updated to incorporate the anticipatory release provisions for Australia, Canada, and the United Kingdom, and who is responsible for this joint review?",
+    "answer_1": "The interagency policies and implementation guidance being reviewed and updated to incorporate the anticipatory release provisions for Australia, Canada, and the United Kingdom are those related to Foreign Military Sales requests. The Secretary of State and the Secretary of Defense are jointly responsible for this review, as stated in Section 12(d) of the provided context (Document ID: Not provided).\n\nSource:\n[Context provided]\nSection 12(d): https://www.congress.gov/bill/116th-congress/house-bill/6395/text#toc-H01296823",
+    "answer_2": "The Secretary of State and the Secretary of Defense are jointly reviewing and updating interagency policies and implementation guidance related to Foreign Military Sales requests, including the National Disclosure Policy Committee, the Arms Transfer and Technology Release Senior Steering Group, and other appropriate entities. This review is to incorporate the anticipatory release provisions for Australia, Canada, and the United Kingdom as outlined in Section 12(d) of the given context.",
+    "preferred": 2
+  },
+  {
+    "file_index": 99,
+    "item_index": 9,
+    "global_index": 1970,
+    "document_id": 806,
+    "policy_name": "TORPEDO Act of 2023,  Sec. 12 (Expedited release of advanced technologies to Australia, Canada, and the United Kingdom through the foreign military sales program)",
+    "question": "In what manner will the Secretary of State and Secretary of Defense coordinate with entities like the National Disclosure Policy Committee and the Arms Transfer and Technology Release Senior Steering Group to compile the pre-cleared and prioritized list of military sales items?",
+    "answer_1": "The Secretary of State, in coordination with the Secretary of Defense, and in conjunction with coordinating entities such as the National Disclosure Policy Committee and the Arms Transfer and Technology Release Senior Steering Group, will compile a list of available and emerging military platforms, technologies, and equipment that are pre-cleared and prioritized for sale and release to Australia, Canada, and the United Kingdom through the Foreign Military Sales program. (Sec. 12(a)(1))",
+    "answer_2": "The Secretary of State and Secretary of Defense will coordinate with entities like the National Disclosure Policy Committee and the Arms Transfer and Technology Release Senior Steering Group by compiling a list of available and emerging military platforms, technologies, and equipment that are pre-cleared and prioritized for sale and release to Australia, Canada, and the United Kingdom through the Foreign Military Sales program. This list is to be compiled not later than 90 days after the date of enactment of the Act, and annually thereafter (Sec. 12(a)(1)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 10,
+    "global_index": 1971,
+    "document_id": 515,
+    "policy_name": "DOE and NASA Research Coordination Act",
+    "question": "How will the \"DOE and NASA Interagency Research Coordination Act\" ensure that competitive awards for collaborative research and development activities are selected through merit-review-based processes and consider applications from a diverse range of entities?",
+    "answer_1": "The \"DOE and NASA Interagency Research Coordination Act\" ensures that competitive awards for collaborative research and development activities are selected through merit-review-based processes by requiring the Secretary of Energy and the Administrator of the National Aeronautics and Space Administration to follow this process (Sec. 2(e)(1)). Additionally, the Act considers applications from a diverse range of entities, including Federal agencies, National Laboratories, institutions of higher education, non-profit institutions, and other appropriate entities (Sec. 2(e)(2)). The Act is enacted as division B Public Law 117–167; 42 U.S.C. 19231 et seq. (Sec. 2(g)).",
+    "answer_2": "The \"DOE and NASA Interagency Research Coordination Act\" ensures that competitive awards for collaborative research and development activities are selected through merit-review-based processes by requiring that the Secretary and the Administrator follow this process (Section 2(e)(1)). Additionally, they are required to consider applications from Federal agencies, National Laboratories, institutions of higher education, non-profit institutions, and other appropriate entities (Section 2(e)(2)).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 11,
+    "global_index": 1972,
+    "document_id": 515,
+    "policy_name": "DOE and NASA Research Coordination Act",
+    "question": "What specific reporting requirements are mandated by the \"DOE and NASA Interagency Research Coordination Act\" to assess the effectiveness and outcomes of interagency research and development coordination?",
+    "answer_1": "The \"DOE and NASA Interagency Research Coordination Act\" mandates the following reporting requirements to assess the effectiveness and outcomes of interagency research and development coordination:\n\n1. A report detailing interagency research and development coordination activities between the Department of Energy and the National Aeronautics and Space Administration carried out under this section (Section 2(f)(1)).\n2. How such coordination activities expand the technical capabilities of the Department and the Administration (Section 2(f)(2)).\n3. Collaborative research and development achievements (Section 2(f)(3)).\n4. Areas of future mutually beneficial activities, including potential applications of clean energy technologies, such as marine energy (Section 2(f)(4)).\n5. Continuation of coordination activities between the Department of Energy and the National Aeronautics and Space Administration (Section 2(f)(5)).\n\nThe report is to be submitted to the Committee on Science, Space, and Technology of the House of Representatives and the Committee on Energy and Natural Resources and the Committee on Commerce, Science, and Transportation of the Senate, not later than two years after the date of the enactment of this section (Section 2(f)).\n\nCitation: H. R. 2988, Section 2(f)",
+    "answer_2": "The \"DOE and NASA Interagency Research Coordination Act\" mandates the submission of a report to the Committee on Science, Space, and Technology of the House of Representatives and the Committee on Energy and Natural Resources and the Committee on Commerce, Science, and Transportation of the Senate, not later than two years after the date of the enactment of this section. The report should detail interagency research and development coordination activities between the Department of Energy and the National Aeronautics and Space Administration, how such coordination expands the technical capabilities of the Department and the Administration, collaborative research and development achievements, areas of future mutually beneficial activities, including potential applications of clean energy technologies, such as marine energy, and the continuation of coordination activities between the Department of Energy and the National Aeronautics and Space Administration.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 12,
+    "global_index": 1973,
+    "document_id": 515,
+    "policy_name": "DOE and NASA Research Coordination Act",
+    "question": "In what ways does the \"DOE and NASA Interagency Research Coordination Act\" ensure that its authorized research activities align with existing security protocols, specifically referencing subtitle D of title VI of the Research and Development, Competition, and Innovation Act?",
+    "answer_1": "The \"DOE and NASA Interagency Research Coordination Act\" ensures that its authorized research activities align with existing security protocols, specifically referencing subtitle D of title VI of the Research and Development, Competition, and Innovation Act, by including section (g) in the act. Section (g) states that the activities authorized under this section shall be applied in a manner consistent with subtitle D of title VI of the Research and Development, Competition, and Innovation Act (enacted as division B Public Law 117–167; 42 U.S.C. 19231 et seq.). This subtitle includes provisions related to research security, such as the establishment of a research security program, the development of a research security strategy, and the implementation of research security training and awareness programs. (Citation: H. R. 2988, Section g)",
+    "answer_2": "The \"DOE and NASA Interagency Research Coordination Act\" ensures that its authorized research activities align with existing security protocols by applying the activities authorized under this section in a manner consistent with subtitle D of title VI of the Research and Development, Competition, and Innovation Act (42 U.S.C. 19231 et seq.).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 13,
+    "global_index": 1974,
+    "document_id": 224,
+    "policy_name": "FY2023 NDAA, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
+    "question": "How will the Defense Acquisition University ensure that \"covered individuals,\" as defined, are identified and enrolled in the newly developed curricula on software and cybersecurity acquisitions?",
+    "answer_1": "The Defense Acquisition University will ensure that \"covered individuals,\" as defined in the provided context, are identified and enrolled in the newly developed curricula on software and cybersecurity acquisitions through the following means:\n\n1. Identification: Covered individuals are defined as individuals serving in a position designated under section 1721(b) of title 10, United States Code, who are regularly consulted for software acquisitions or cybersecurity software or hardware acquisitions. The Defense Acquisition University will likely rely on existing records and designations to identify these individuals.\n\n2. Enrollment: The Defense Acquisition University will offer the curricula developed under subsection (a) to covered individuals not later than one year after the plan is submitted to the Committees on Armed Services of the Senate and House of Representatives (Sec. 835(d)). It is not explicitly stated in the provided context how the enrollment process will be carried out, but it can be inferred that the Defense Acquisition University will likely communicate the availability of the curricula to the identified covered individuals and facilitate their enrollment.\n\nCitation: The answer is based on the provided context of the section 835 of the National Defense Authorization Act for Fiscal Year 2023 (H.R. 4350).",
+    "answer_2": "The Defense Acquisition University will offer the curricula developed under section 835(a) to \"covered individuals,\" as defined in section 835(f), not later than one year after the plan is submitted to the Committees on Armed Services of the Senate and House of Representatives (section 835(d)). The specific process for identifying and enrolling these individuals is not detailed in the provided context.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 14,
+    "global_index": 1975,
+    "document_id": 224,
+    "policy_name": "FY2023 NDAA, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
+    "question": "What are the specific reporting requirements for the Secretary of Defense and the President of the Defense Acquisition University to Congress regarding the implementation and effectiveness of these curricula?",
+    "answer_1": "1. The President of the Defense Acquisition University is required to submit a plan to the Committees on Armed Services of the Senate and House of Representatives, detailing the implementation of the curricula developed under Section 835(a) (SEC. 835(d)).\n2. Not later than one year after the plan is submitted, the Secretary of Defense, in consultation with the President of the Defense Acquisition University, shall submit a report to Congress assessing the costs and benefits of requiring all covered individuals to complete the curricula developed under Section 835(a) (SEC. 835(e)).\n\nSources:\n- Title 10, United States Code, Section 2372 (SEC. 835)\n- Title 10, United States Code, Section 1721(b) (Defines \"covered individuals\")",
+    "answer_2": "1) The President of the Defense Acquisition University shall offer the curricula developed under subsection (a) to covered individuals not later than one year after the plan is submitted to the Committees on Armed Services of the Senate and House of Representatives (d). 2) Not later than one year after the plan is submitted, the Secretary of Defense, in consultation with the President of the Defense Acquisition University, shall submit a report to Congress assessing the costs and benefits of requiring all covered individuals to complete the curricula developed under subsection (a) (e).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 15,
+    "global_index": 1976,
+    "document_id": 224,
+    "policy_name": "FY2023 NDAA, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
+    "question": "What timelines are established for the development and offering of the required curricula, and what are the consequences if these deadlines are not met?",
+    "answer_1": "1. The timeline for the development of the curricula is not explicitly stated in the provided context. However, the curricula are to be developed pursuant to subsection (a), and the plan for this implementation is to be submitted to the Committees on Armed Services of the Senate and House of Representatives not later than one year after the date of the enactment of the legislation.\n\n2. The curricula developed under subsection (a) are to be offered to covered individuals not later than one year after the plan described in subsection (d) is submitted to the Committees on Armed Services of the Senate and House of Representatives.\n\n3. There are no explicit consequences stated in the provided context for missing the deadlines. However, subsection (e) requires the Secretary of Defense, in consultation with the President of the Defense Acquisition University, to submit a report to Congress assessing the costs and benefits of requiring all covered individuals to complete the curricula developed under subsection (a) not later than one year after the plan described in subsection (d) is submitted to the Committees on Armed Services of the Senate and House of Representatives. This report could potentially be used to evaluate the effectiveness and compliance with the timelines established for the development and offering of the curricula.\n\nSources:\n- Title 10, United States Code, Section 1721(b) (https://www.law.cornell.edu/uscode/text/10/1721)\n- The provided context (SEC. 835)\n- The report submission requirement in subsection (e) of the provided context.",
+    "answer_2": "1) The Defense Acquisition University is required to develop the curricula within one year after the plan is submitted to the Committees on Armed Services of the Senate and House of Representatives (subsection d). 2) The curricula must be offered to covered individuals within one year after the development (subsection d). 3) If the deadlines are not met, there are no explicit consequences mentioned in the provided context. However, the report assessing the costs and benefits of requiring all covered individuals to complete the curricula is due one year after the development of the curricula (subsection e).",
+    "preferred": 2
+  },
+  {
+    "file_index": 99,
+    "item_index": 16,
+    "global_index": 1977,
+    "document_id": 302,
+    "policy_name": "Alabama Commission on Artificial Intelligence and Associated Technologies",
+    "question": "What specific reporting requirements and timelines are mandated for the Alabama Commission on Artificial Intelligence and Associated Technologies to ensure accountability and progress in its advisement role?",
+    "answer_1": "1. The Alabama Commission on Artificial Intelligence and Associated Technologies is mandated to submit a report on its findings and recommendations to the Governor and Legislature not later than May 1, 2020 (Section g).\n2. The report must be made available electronically and posted on the website of the office of the Governor (Section g).\n\nSource: ENROLLED, SJR71, ESTABLISHING THE ALABAMA COMMISSION ON ARTIFICIAL INTELLIGENCE AND ASSOCIATED TECHNOLOGIES.",
+    "answer_2": "1) The Alabama Commission on Artificial Intelligence is required to submit a report on its findings and recommendations to the Governor and Legislature by May 1, 2020 (Section g). 2) The report must be available electronically and posted on the website of the office of the Governor (Section g).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 17,
+    "global_index": 1978,
+    "document_id": 302,
+    "policy_name": "Alabama Commission on Artificial Intelligence and Associated Technologies",
+    "question": "How will the commission's recommendations on the use of artificial intelligence in various sectors be evaluated for adherence to Alabama's values and the benefit of its citizens?",
+    "answer_1": "The commission's recommendations on the use of artificial intelligence in various sectors will be evaluated for adherence to Alabama's values and the benefit of its citizens based on the commission's review and advice to the Governor and the Legislature. The commission's report, due not later than May 1, 2020, will include findings and recommendations for administrative or policy action relating to artificial intelligence. The report will be available electronically and posted on the website of the office of the Governor, allowing for public access and evaluation of the commission's recommendations. (SJR71, Section (g))\n\nCitation: ENROLLED, SJR71, ESTABLISHING THE ALABAMA COMMISSION ON ARTIFICIAL INTELLIGENCE AND ASSOCIATED TECHNOLOGIES.",
+    "answer_2": "The commission's recommendations on the use of artificial intelligence will be evaluated for adherence to Alabama's values and the benefit of its citizens based on the review and advice provided to the Governor and the Legislature as outlined in section (a) of SJR71. The commission's report, which includes findings and recommendations, will be submitted to the Governor and Legislature by May 1, 2020, as stated in section (g) of SJR71.",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 18,
+    "global_index": 1979,
+    "document_id": 302,
+    "policy_name": "Alabama Commission on Artificial Intelligence and Associated Technologies",
+    "question": "What process is in place to ensure that appointments to the commission, particularly for non-legislative members, meet the stated qualifications regarding expertise in AI, ethics, and related fields?",
+    "answer_1": "The process to ensure that appointments to the commission meet the stated qualifications regarding expertise in AI, ethics, and related fields is outlined in section (c) of the resolution. Specifically, all persons appointed to the commission other than legislators shall have one or more of the following qualifications: Expertise in matters relating to artificial intelligence, workforce development, technology, ethics, privacy, or computer science. The appointing authorities are expected to coordinate their appointments to assure that commission membership is inclusive and reflects the racial, gender, geographic, urban, rural, and economic diversity of the state. (ENROLLED, SJR71)",
+    "answer_2": "The appointing authorities are required to coordinate their appointments to assure that commission membership is inclusive and reflects the racial, gender, geographic, urban, rural, and economic diversity of the state (d). All persons appointed to the commission other than legislators shall have one or more of the qualifications: expertise in matters relating to artificial intelligence, workforce development, technology, ethics, privacy, or computer science (c).",
+    "preferred": 1
+  },
+  {
+    "file_index": 99,
+    "item_index": 19,
+    "global_index": 1980,
+    "document_id": 1560,
+    "policy_name": "California Assembly Bill 2905 (Telecommunications: automatic dialing-announcing devices: artificial voices) (2024)",
+    "question": "How will the state enforce the requirement for unrecorded, natural voice announcements and consent inquiries when automatic dialing-announcing devices utilize artificial voices as defined in Section 2874(a)?",
+    "answer_1": "The state of California will enforce the requirement for unrecorded, natural voice announcements and consent inquiries when automatic dialing-announcing devices utilize artificial voices as defined in Section 2874(a) by considering the use of artificial voices as a violation of the law. The law requires that the announcement must inform the person called if the prerecorded message uses an artificial voice (Section 2874(a)(3)). If the announcement does not comply with this requirement, it may be considered a violation of the law. The enforcement of this law would likely be carried out by the California Public Utilities Commission, which is responsible for regulating utilities in the state, including telephone services (California Public Utilities Code Section 1). However, the specifics of how the enforcement would be carried out, such as penalties for violations, are not specified in the provided context.\n\nCitations:\n- California Public Utilities Code Section 1: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PUC&sectionNum=1\n- California Public Utilities Code Section 2874: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PUC&sectionNum=2874",
+    "answer_2": "The state will enforce the requirement for unrecorded, natural voice announcements and consent inquiries by automatic dialing-announcing devices, even if they utilize artificial voices, through Section 2874(a) of the Public Utilities Code. This section requires the announcement to inform the person called if the prerecorded message uses an artificial voice. Violations of this section may result in penalties, but the specific enforcement mechanisms are not specified in the provided context.",
+    "preferred": 2
+  }
+]

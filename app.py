@@ -14,7 +14,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📄 Policy Document Q&A System")
+st.title("Policy Document Q&A System")
 st.write("Ask questions about your policy documents and get AI-powered answers.")
 
 # Initialize session state
@@ -32,7 +32,7 @@ if 'chat_history' not in st.session_state:
 
 
 # Main chat interface
-st.header("💬 Ask a Question")
+st.header("Ask a Question")
 
 # Get question from sidebar example or text input
 current_question = getattr(st.session_state, 'current_question', '')
@@ -50,19 +50,19 @@ if hasattr(st.session_state, 'current_question'):
 col1, col2 = st.columns([1, 4])
 with col1:
     ask_button = st.button(
-        "🚀 Ask", type="primary",
+        "Ask", type="primary",
         use_container_width=True,
         disabled=st.session_state.get("loading", False) or not question.strip()
         )
 with col2:
-    if st.button("🗑️ Clear History", use_container_width=True):
+    if st.button("Clear History", use_container_width=True):
         st.session_state.chat_history = []
         st.rerun()
 
 if ask_button and not st.session_state.get("loading", False):
     if question.strip():
         st.session_state.loading = True
-        with st.spinner("🔍 Searching documents and generating answer..."):
+        with st.spinner("Searching documents and generating answer..."):
             try:
                 result = st.session_state.agent.invoke({"question": question})
                 answer = result.get("answer", "No answer generated")
@@ -80,7 +80,7 @@ if ask_button and not st.session_state.get("loading", False):
                 
             except Exception as e:
                 if "cannot be modified after the widget" not in str(e):
-                    st.error(f"❌ Error: {str(e)}")
+                    st.error(f"Error: {str(e)}")
             finally:
                 st.session_state.loading = False
         
@@ -94,11 +94,11 @@ if st.session_state.chat_history:
             st.markdown("---")
             
             # Question
-            st.markdown(f"**🙋 Question {len(st.session_state.chat_history) - i}:**")
+            st.markdown(f"**Question {len(st.session_state.chat_history) - i}:**")
             st.info(chat['question'])
             
             # Answer
-            st.markdown("**🤖 Answer:**")
+            st.markdown("**Answer:**")
             st.success(chat['answer'])
             
             # Sources
@@ -107,7 +107,7 @@ if st.session_state.chat_history:
                     for j, doc in enumerate(chat['context'][:3]):  # Show top 3 sources
                         # ColBERT doesn't use just cosine similarity for score
                         # score = doc.metadata.get('score', 0)
-                        # st.markdown(f"**📄 Source {j+1}** (Relevance: {score:.1%})")
+                        # st.markdown(f"**Source {j+1}** (Relevance: {score:.1%})")
                         
                         # Show metadata if available
                         metadata = doc.metadata
@@ -131,7 +131,7 @@ if st.session_state.chat_history:
                             st.markdown("---")
 
 else:
-    st.info("👋 Welcome! Ask your first question about the policy documents to get started.")
+    st.info("Welcome! Ask your first question about the policy documents to get started.")
 
 # Footer
 st.markdown("---")
