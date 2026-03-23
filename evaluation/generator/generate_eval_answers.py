@@ -7,6 +7,18 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from transformers import BitsAndBytesConfig
 
 
+def resolve_fulltext_dir(script_dir: Path, input_jsonl: Path) -> Path:
+    """Resolve fulltext directory in repo data layout with backward-compatible fallback."""
+    for root in [script_dir, *script_dir.parents]:
+        candidate = root / "data" / "agora" / "fulltext"
+        if candidate.exists():
+            return candidate
+    fallback = input_jsonl.parent / "fulltext"
+    if fallback.exists():
+        return fallback
+    return script_dir / "fulltext"
+
+
 def build_prompt(question: str, policy_name: Optional[str], context: str) -> str:
     return (
         "You are an expert policy analyst tasked with answering questions about AI policy and regulations. "
@@ -112,7 +124,8 @@ def answer_questions(
     tokenizer, model = build_model_and_tokenizer(model_id=model_id, load_in_8bit=load_in_8bit, int8_cpu_offload=int8_cpu_offload)
     gen = make_pipeline(tokenizer, model, temperature=temperature, max_new_tokens=max_new_tokens)
 
-    fulltext_dir = input_jsonl.parent / "fulltext"
+    script_dir = Path(__file__).resolve().parent
+    fulltext_dir = resolve_fulltext_dir(script_dir, input_jsonl)
     results: List[Dict[str, Any]] = []
 
     for i, item in enumerate(items, 1):

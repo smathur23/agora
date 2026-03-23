@@ -13,6 +13,16 @@ from transformers import (
 from trl import DPOTrainer, DPOConfig
 
 
+def resolve_fulltext_dir() -> Path:
+    """Resolve fulltext directory after repo refactors."""
+    script_dir = Path(__file__).resolve().parent
+    for root in [script_dir, *script_dir.parents]:
+        candidate = root / "data" / "agora" / "fulltext"
+        if candidate.exists():
+            return candidate
+    return script_dir / "fulltext"
+
+
 def load_preferences(path: Path) -> List[Dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -128,7 +138,7 @@ def main():
 
     prefs_path = Path(args.prefs)
     rows = load_preferences(prefs_path)
-    fulltext_dir = Path(__file__).parent / "fulltext"
+    fulltext_dir = resolve_fulltext_dir()
     dset = make_dpo_dataset(rows, fulltext_dir)
 
     tokenizer = AutoTokenizer.from_pretrained(args.model)

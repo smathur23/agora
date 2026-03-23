@@ -13,6 +13,20 @@ from transformers import (
 )
 
 
+def resolve_fulltext_dir() -> Path:
+	"""Resolve fulltext directory after repo refactors.
+
+	Prefers <repo>/data/agora/fulltext and falls back to legacy local folder.
+	"""
+	script_dir = Path(__file__).resolve().parent
+	for root in [script_dir, *script_dir.parents]:
+		candidate = root / "data" / "agora" / "fulltext"
+		if candidate.exists():
+			return candidate
+	legacy = script_dir / "fulltext"
+	return legacy
+
+
 def load_questions(input_path: Path) -> List[Dict[str, Any]]:
 	"""Load questions from a JSON file that contains a list of dicts.
 
@@ -175,8 +189,8 @@ def process_questions(
 	results: List[Dict[str, Any]] = []
 	start_time = time.time()
 
-	# Resolve fulltext directory (same folder as this script)/fulltext
-	fulltext_dir = Path(__file__).parent / "fulltext"
+	# Resolve fulltext directory in current repo layout with legacy fallback.
+	fulltext_dir = resolve_fulltext_dir()
 
 	for i, item in enumerate(items, 1):
 		question = item.get("question", "").strip()

@@ -21,6 +21,15 @@ CATEGORY_FILES = {
 }
 
 
+def resolve_data_dir(script_dir: Path) -> Path:
+    """Resolve AGORA data directory after repo refactors."""
+    for root in [script_dir, *script_dir.parents]:
+        candidate = root / "data" / "agora"
+        if candidate.exists():
+            return candidate
+    return script_dir
+
+
 def load_text(path: Path) -> str:
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
@@ -35,6 +44,7 @@ class QuestionGeneratorAny:
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(model_name)
         self.base_dir = Path(__file__).parent
+        self.data_dir = resolve_data_dir(self.base_dir)
         self.categories = categories or list(CATEGORY_FILES.keys())
         self.templates = self._load_templates(self.categories)
         self.generation_count = 0
@@ -51,13 +61,18 @@ class QuestionGeneratorAny:
         return templates
 
     def _load_document(self, doc_id: int) -> str:
-        p = self.base_dir / "fulltext" / f"{doc_id}.txt"
+        p = self.data_dir / "fulltext" / f"{doc_id}.txt"
+        if not p.exists():
+            p = self.base_dir / "fulltext" / f"{doc_id}.txt"
         if not p.exists():
             raise FileNotFoundError(f"Fulltext not found for document_id={doc_id}")
         return load_text(p)
 
     def _load_metadata(self) -> pd.DataFrame:
-        return pd.read_csv(self.base_dir / "documents.csv")
+        metadata_path = self.data_dir / "documents.csv"
+        if not metadata_path.exists():
+            metadata_path = self.base_dir / "documents.csv"
+        return pd.read_csv(metadata_path)
 
     def _truncate_text(self, text: str, max_chars: int = 15000) -> str:
         if len(text) <= max_chars:
@@ -139,7 +154,9 @@ class QuestionGeneratorAny:
 
     def process_all_documents(self, output_file: str = "generated_questions_any.jsonl", max_docs: Optional[int] = None, min_words: int = 300, max_words: int = 1200, sample_seed: Optional[int] = None) -> None:
         # collect document ids from fulltext
-        fulltext_dir = self.base_dir / "fulltext"
+        fulltext_dir = self.data_dir / "fulltext"
+        if not fulltext_dir.exists():
+            fulltext_dir = self.base_dir / "fulltext"
         doc_ids = sorted([int(p.stem) for p in fulltext_dir.glob("*.txt") if p.stem.isdigit()])
 
         # filter by length

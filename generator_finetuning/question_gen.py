@@ -12,6 +12,15 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
+def resolve_data_dir(script_dir: Path) -> Path:
+    """Resolve AGORA data directory after repo refactors."""
+    for root in [script_dir, *script_dir.parents]:
+        candidate = root / "data" / "agora"
+        if candidate.exists():
+            return candidate
+    return script_dir
+
 class QuestionGenerator:
     """Generate training questions from policy documents for DPO fine-tuning."""
     
@@ -23,18 +32,22 @@ class QuestionGenerator:
 
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(model_name)
+        self.base_dir = Path(__file__).resolve().parent
+        self.data_dir = resolve_data_dir(self.base_dir)
         self.prompt_template = self._load_prompt_template()
         self.generation_count = 0  # Track number of generations
         
     def _load_prompt_template(self) -> str:
         """Load the question generation prompt template."""
-        prompt_path = Path(__file__).parent / "prompt_compl.txt"
+        prompt_path = self.base_dir / "prompt_compl.txt"
         with open(prompt_path, 'r') as f:
             return f.read()
     
     def _load_document(self, doc_id: int) -> str:
         """Load document text from fulltext folder."""
-        doc_path = Path(__file__).parent / "fulltext" / f"{doc_id}.txt"
+        doc_path = self.data_dir / "fulltext" / f"{doc_id}.txt"
+        if not doc_path.exists():
+            doc_path = self.base_dir / "fulltext" / f"{doc_id}.txt"
         if not doc_path.exists():
             raise FileNotFoundError(f"Document {doc_id} not found at {doc_path}")
         
@@ -43,7 +56,9 @@ class QuestionGenerator:
     
     def _load_metadata(self) -> pd.DataFrame:
         """Load document metadata from CSV."""
-        csv_path = Path(__file__).parent / "documents.csv"
+        csv_path = self.data_dir / "documents.csv"
+        if not csv_path.exists():
+            csv_path = self.base_dir / "documents.csv"
         return pd.read_csv(csv_path)
     
     def _count_words(self, text: str) -> int:
@@ -191,7 +206,9 @@ class QuestionGenerator:
         
         # Get all document IDs
         doc_ids = []
-        fulltext_dir = Path(__file__).parent / "fulltext"
+        fulltext_dir = self.data_dir / "fulltext"
+        if not fulltext_dir.exists():
+            fulltext_dir = self.base_dir / "fulltext"
         for file in fulltext_dir.glob("*.txt"):
             doc_ids.append(int(file.stem))
         
@@ -239,7 +256,7 @@ class QuestionGenerator:
         print(f"Rate limiting: Will pause for 60 seconds after every 15 generations\n")
         
         results = []
-        output_path = Path(__file__).parent / output_file
+        output_path = self.base_dir / output_file
         
         # Clear the output file if it exists
         if output_path.exists():
