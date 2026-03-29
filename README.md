@@ -1,3 +1,8 @@
+# AI Governance and Grounded Question Answering
+
+This repository contains code and data for the paper titled "[Retrieval Improvements Do Not Guarantee Better Answers: A Study of
+RAG for AI Policy QA](https://arxiv.org/pdf/2603.24580)".
+
 # Retriever Finetuning & RAG Pipeline
 
 This repository provides tools for:
@@ -222,3 +227,17 @@ Some files in the evaluation directory are related to:
 - **Deprecated approaches to automatic question labeling**
 
 These are retained for reference but are **not part of the current workflow**.
+
+## Citation:
+
+If you find the paper/code/data useful in your work, please cite:
+
+```
+@article{mathur2026retrieval,
+  title={Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA},
+  author={Mathur, Saahil and Rittner, Ryan David and Thakur, Vedant Ajit and Schiff, Daniel Stuart and Islam, Tunazzina},
+  journal={arXiv preprint arXiv:2603.24580},
+  year={2026}
+}
+
+```
